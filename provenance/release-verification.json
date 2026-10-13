@@ -59,5 +59,70 @@
     }
   },
   "environment_unchanged": true,
-  "note": "Basic replay uses original decoder; no reduced shot count or altered protocol."
+  "note": "Basic replay uses original decoder; no reduced shot count or altered protocol.",
+  "independent_public_reproduction": {
+    "passed": true,
+    "tested_code_commit": "0802738d85e0bdb0c86dd557b6fdfa9cff5abed8",
+    "repository": "https://github.com/XiaohanEating/qec-bridge-fault-attribution",
+    "data_release": "https://github.com/XiaohanEating/qec-bridge-fault-attribution/releases/tag/v1.0.0",
+    "core_download": {
+      "passed": true,
+      "anonymous_public_url": "https://github.com/XiaohanEating/qec-bridge-fault-attribution/releases/download/v1.0.0/core-data.tar.gz",
+      "sha256": "54ddfb2df54a06a3c3ada4930e72344bf521d71be14f5acca24367a7df98cf5a",
+      "bytes": 272557162,
+      "restored_files": 24279,
+      "restored_bytes": 639227525,
+      "archive_and_each_member_verified_by_fetch": true
+    },
+    "audit_counts": {
+      "historical_risks": 6,
+      "bb_risks": 6,
+      "decision_arrays": 19273,
+      "sample_records": 6428
+    },
+    "tables_match_manuscript": true,
+    "figure2_regenerated": [
+      "PDF",
+      "PNG",
+      "SVG"
+    ],
+    "replay": {
+      "passed": true,
+      "task": "batch1-0148-direct",
+      "seed": 520409012,
+      "shots": 32768,
+      "eps": 1e-06,
+      "each_array_equal": {
+        "physical.npz": {
+          "detectors": true,
+          "observables": true,
+          "seed": true
+        },
+        "decoded.npz": {
+          "original_prediction": true,
+          "original_residual": true,
+          "strong_prediction": true,
+          "strong_residual": true,
+          "single_fault_lookup_prediction": true,
+          "single_fault_lookup_residual": true
+        }
+      },
+      "decoder_statistics_equal": true
+    },
+    "pinned_upstreams": [
+      {
+        "name": "hirai",
+        "commit": "32cef750e67548838513191eaed8b58673fe00ec",
+        "files": 939,
+        "clean": true
+      },
+      {
+        "name": "zhao",
+        "commit": "295adf67633f223e1cc543d972cd34012c10a4e8",
+        "files": 83,
+        "clean": true
+      }
+    ],
+    "all_seven_remote_asset_digests_match": true
+  }
 }

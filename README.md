@@ -67,3 +67,5 @@ The paper uses four noisy extraction blocks and ideal final data readout. A logi
 The authors' source is MIT licensed. Generated data are CC BY 4.0, with upstream code and circuit sources retaining their original terms. See `LICENSE`, `LICENSE-DATA.md`, and `docs/upstream.md`.
 
 Please cite the paper title and this repository, release v1.0.0.
+
+Independent download and replay evidence is documented in [docs/verification.md](docs/verification.md). Use code v1.0.1 with data release v1.0.0.
