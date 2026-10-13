@@ -43,6 +43,8 @@ Official Hirai and Zhao controls use their original repositories at fixed commit
 qec-bridge fetch-upstream
 ```
 
+Version 1.0.1 enables Git long-path checkout for upstream repositories on Windows. Scientific source and data remain the v1.0.0 artifacts.
+
 See `docs/upstream.md` for sources and conditions. BB enumeration and full finite-noise decoding are substantial computations; the original protocol and complete saved results allow their scope to be inspected before replay. Validated execution accelerators and their equality evidence are retained under `reproduction/ISCAS/research/review-completion-2026-10-12/src/iscas_revision/execution` and `provenance`. The basic replay uses the original decoder implementation.
 
 ## Layout

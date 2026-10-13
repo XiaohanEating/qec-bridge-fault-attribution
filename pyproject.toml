@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "qec-bridge-fault-attribution"
-version = "1.0.0"
+version = "1.0.1"
 description = "Reproduction artifact for physical fault ambiguity and decoder decision loss in QEC bridges"
 requires-python = ">=3.11"
 license = {file = "LICENSE"}

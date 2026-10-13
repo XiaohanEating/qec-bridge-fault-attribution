@@ -220,8 +220,8 @@ def upstream(args):
     for entry in read(ROOT / "provenance/upstream.json"):
         folder = target / entry["name"]
         if not folder.exists():
-            subprocess.run(["git", "clone", entry["repository"], str(folder)], check=True)
-        subprocess.run(["git", "-c", f"safe.directory={folder.as_posix()}", "-C", str(folder), "checkout", "--detach", entry["commit"]], check=True)
+            subprocess.run(["git", "clone", "--no-checkout", "--config", "core.longpaths=true", entry["repository"], str(folder)], check=True)
+        subprocess.run(["git", "-c", "core.longpaths=true", "-c", f"safe.directory={folder.as_posix()}", "-C", str(folder), "checkout", "--detach", entry["commit"]], check=True)
         commit = subprocess.check_output(["git", "-c", f"safe.directory={folder.as_posix()}", "-C", str(folder), "rev-parse", "HEAD"], text=True).strip()
         if commit != entry["commit"]:
             raise ValueError("Wrong upstream source revision")
