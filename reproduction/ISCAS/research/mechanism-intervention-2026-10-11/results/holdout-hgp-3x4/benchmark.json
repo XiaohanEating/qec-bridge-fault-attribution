@@ -1,0 +1,16 @@
+{
+  "sample_seconds": 0.000901999999769032,
+  "decoders": {
+    "original": {
+      "wall_seconds": 0.41686850000405684,
+      "shots": 64,
+      "original_recursion_parity": true
+    },
+    "strong": {
+      "wall_seconds": 15.882820200000424,
+      "shots": 64,
+      "original_recursion_parity": true
+    }
+  },
+  "decision": "single process; routing patches are global; sample/decoder benchmark recorded before full runs"
+}

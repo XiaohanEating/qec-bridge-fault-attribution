@@ -1,0 +1,14 @@
+{
+  "author": {
+    "physical_branch_count": 36288,
+    "signatures": 1512,
+    "total_locations": 9000.0,
+    "detectors": 180
+  },
+  "common": {
+    "physical_branch_count": 27540,
+    "signatures": 1152,
+    "total_locations": 6480.0,
+    "detectors": 180
+  }
+}

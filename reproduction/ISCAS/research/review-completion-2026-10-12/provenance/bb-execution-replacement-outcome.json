@@ -1,0 +1,74 @@
+{
+  "Stopped": [
+    125008,
+    123656,
+    94340,
+    120024,
+    103848,
+    122828,
+    121028,
+    121248,
+    126248,
+    95144,
+    126740,
+    127604,
+    125708,
+    127360,
+    33652,
+    120784,
+    94268,
+    65692
+  ],
+  "RemovedDeadLocks": [
+    {
+      "Path": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\locks\\batch2-0054-bb.lock",
+      "Owner": 123656
+    },
+    {
+      "Path": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\locks\\batch2-0055-bb.lock",
+      "Owner": 125008
+    },
+    {
+      "Path": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\locks\\batch2-0056-bb.lock",
+      "Owner": 120024
+    },
+    {
+      "Path": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\locks\\batch2-0057-bb.lock",
+      "Owner": 94340
+    },
+    {
+      "Path": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\bb-parallel\\bb-108\\macro_reverse\\000512\\worker.lock",
+      "Owner": 126248
+    },
+    {
+      "Path": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\bb-parallel\\bb-108\\macro_reverse\\000768\\worker.lock",
+      "Owner": 95144
+    },
+    {
+      "Path": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\bb-parallel\\bb-108\\macro_reverse\\001024\\worker.lock",
+      "Owner": 121248
+    },
+    {
+      "Path": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\bb-parallel\\bb-108\\macro_reverse\\001280\\worker.lock",
+      "Owner": 127604
+    },
+    {
+      "Path": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\bb-parallel\\bb-108\\check_reverse\\000512\\worker.lock",
+      "Owner": 126740
+    },
+    {
+      "Path": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\bb-parallel\\bb-108\\check_reverse\\000768\\worker.lock",
+      "Owner": 121028
+    },
+    {
+      "Path": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\bb-finite-parallel\\bb-108\\check_reverse\\eps1e-09\\024192\\worker.lock",
+      "Owner": 122828
+    },
+    {
+      "Path": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\bb-finite-parallel\\bb-108\\check_reverse\\eps1e-09\\024704\\worker.lock",
+      "Owner": 103848
+    }
+  ],
+  "AllCommittedResultsRetained": true,
+  "RecheckUtc": "2026-10-12T09:01:17.4511877Z"
+}

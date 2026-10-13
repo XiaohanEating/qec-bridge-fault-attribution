@@ -1,0 +1,16 @@
+{
+  "3": {
+    "R_star": 0.0,
+    "detectors": 48,
+    "observables": 1,
+    "noise_locations": 428.0,
+    "graphlike_distance": 3
+  },
+  "5": {
+    "R_star": 0.0,
+    "detectors": 160,
+    "observables": 1,
+    "noise_locations": 1348.0,
+    "graphlike_distance": 5
+  }
+}

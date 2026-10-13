@@ -1,0 +1,66 @@
+{
+  "task": {
+    "kind": "native",
+    "distance": 3,
+    "eps": 0.0001,
+    "shots": 32768,
+    "z_only": true,
+    "id": "batch2-0004-native",
+    "seed": 720301012
+  },
+  "R_star": 0.0,
+  "decoder": {
+    "full_joint_original": {
+      "R_delta": 0.0,
+      "E": 0.0,
+      "failures": 1,
+      "shots": 32768,
+      "interval": [
+        7.72637884629511e-07,
+        0.00017002120181939268
+      ]
+    },
+    "full_joint_strong": {
+      "R_delta": 0.0,
+      "E": 0.0,
+      "failures": 1,
+      "shots": 32768,
+      "interval": [
+        7.72637884629511e-07,
+        0.00017002120181939268
+      ]
+    },
+    "single_fault_lookup": {
+      "R_delta": 0.0,
+      "E": 0.0,
+      "failures": 1,
+      "shots": 32768,
+      "interval": [
+        7.72637884629511e-07,
+        0.00017002120181939268
+      ]
+    }
+  },
+  "resources": {
+    "CX": 160,
+    "TICK": 28
+  },
+  "noise_channels": {
+    "total_physical_branches": 2580,
+    "total_physical_coefficient": 428.0,
+    "invisible_branches": 854,
+    "invisible_coefficient": 178.26666666666821
+  },
+  "source": {
+    "generator": "Stim unrotated_memory_z",
+    "distance": 3,
+    "total_extraction_rounds": 4,
+    "noisy_rounds": 3,
+    "initial_extraction_and_terminal_readout_noiseless": true,
+    "detector_projection": "Z-check history, matching manuscript logical-Z task",
+    "noise": "SD6 active gates, correct-basis preparation/readout flips and every idle qubit per TICK"
+  },
+  "sample_sha256": "7ad688d21e19177fd6ab8ff69ca9df8dc68d3dfb083c9936b63f598331975423",
+  "decoded_sha256": "bdb816d73c24b82062e4058143596fea3f9d3f011b75e7ead58e7b5f2d711245",
+  "detector_columns": "separate complete (D,L) signatures; no first-logical-label merging"
+}

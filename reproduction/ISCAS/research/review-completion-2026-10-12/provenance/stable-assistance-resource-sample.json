@@ -1,0 +1,360 @@
+{
+  "time": "2026-10-12T18:20:37.6486125+08:00",
+  "elapsed": 10.1018529,
+  "status": {
+    "status": "running",
+    "kind": "finite",
+    "workers": 4,
+    "pid": 43540,
+    "committed_blocks": 3505,
+    "target_blocks": 12288,
+    "active": [
+      [
+        "bb-108",
+        "check_reverse",
+        0.0001,
+        13952,
+        720851712
+      ],
+      [
+        "bb-108",
+        "check_reverse",
+        0.0001,
+        13696,
+        720851712
+      ],
+      [
+        "bb-108",
+        "check_reverse",
+        0.0001,
+        13568,
+        720851712
+      ],
+      [
+        "bb-108",
+        "check_reverse",
+        0.0001,
+        13440,
+        720851712
+      ]
+    ],
+    "failed": [],
+    "lock_contention": [
+      {
+        "job": [
+          "bb-108",
+          "check_reverse",
+          0.0001,
+          13824,
+          720851712
+        ],
+        "time": "2026-10-12T18:20:05.122559+08:00"
+      }
+    ],
+    "elapsed_seconds": 42.01449060003506,
+    "updated_utc": "2026-10-12T18:20:30.331609+08:00"
+  },
+  "memory": {
+    "FreePhysicalMemory": 31753116,
+    "TotalVisibleMemorySize": 66826256
+  },
+  "disk": [
+    {
+      "Name": "0 D: E:",
+      "CurrentDiskQueueLength": 0,
+      "DiskBytesPersec": 0
+    },
+    {
+      "Name": "1 C: F:",
+      "CurrentDiskQueueLength": 0,
+      "DiskBytesPersec": 16043
+    },
+    {
+      "Name": "2 G:",
+      "CurrentDiskQueueLength": 0,
+      "DiskBytesPersec": 3690064
+    },
+    {
+      "Name": "_Total",
+      "CurrentDiskQueueLength": 0,
+      "DiskBytesPersec": 3706107
+    }
+  ],
+  "processes": [
+    {
+      "pid": 3032,
+      "cpu_percent": 23.4,
+      "memory_mib": 243.2
+    },
+    {
+      "pid": 7320,
+      "cpu_percent": 51.8,
+      "memory_mib": 270.7
+    },
+    {
+      "pid": 11552,
+      "cpu_percent": 13.1,
+      "memory_mib": 252.4
+    },
+    {
+      "pid": 16040,
+      "cpu_percent": 0.0,
+      "memory_mib": 1.1
+    },
+    {
+      "pid": 16048,
+      "cpu_percent": 0.0,
+      "memory_mib": 1.1
+    },
+    {
+      "pid": 16056,
+      "cpu_percent": 0.0,
+      "memory_mib": 1.1
+    },
+    {
+      "pid": 16092,
+      "cpu_percent": 0.0,
+      "memory_mib": 7.5
+    },
+    {
+      "pid": 16100,
+      "cpu_percent": 0.0,
+      "memory_mib": 7.6
+    },
+    {
+      "pid": 17468,
+      "cpu_percent": 0.0,
+      "memory_mib": 7.7
+    },
+    {
+      "pid": 25988,
+      "cpu_percent": 44.7,
+      "memory_mib": 288.7
+    },
+    {
+      "pid": 26604,
+      "cpu_percent": 0.0,
+      "memory_mib": 4.4
+    },
+    {
+      "pid": 31188,
+      "cpu_percent": 0.3,
+      "memory_mib": 252.0
+    },
+    {
+      "pid": 32636,
+      "cpu_percent": 0.9,
+      "memory_mib": 177.9
+    },
+    {
+      "pid": 34832,
+      "cpu_percent": 43.0,
+      "memory_mib": 261.3
+    },
+    {
+      "pid": 37344,
+      "cpu_percent": 0.0,
+      "memory_mib": 4.5
+    },
+    {
+      "pid": 41256,
+      "cpu_percent": 0.0,
+      "memory_mib": 4.4
+    },
+    {
+      "pid": 43540,
+      "cpu_percent": 22.4,
+      "memory_mib": 184.4
+    },
+    {
+      "pid": 52440,
+      "cpu_percent": 48.3,
+      "memory_mib": 238.7
+    },
+    {
+      "pid": 54792,
+      "cpu_percent": 0.0,
+      "memory_mib": 4.5
+    },
+    {
+      "pid": 55276,
+      "cpu_percent": 12.8,
+      "memory_mib": 240.9
+    },
+    {
+      "pid": 60568,
+      "cpu_percent": 42.2,
+      "memory_mib": 261.8
+    },
+    {
+      "pid": 82952,
+      "cpu_percent": 43.0,
+      "memory_mib": 260.2
+    },
+    {
+      "pid": 86392,
+      "cpu_percent": 101.2,
+      "memory_mib": 115.1
+    },
+    {
+      "pid": 87132,
+      "cpu_percent": 53.7,
+      "memory_mib": 286.6
+    },
+    {
+      "pid": 89016,
+      "cpu_percent": 42.5,
+      "memory_mib": 276.6
+    },
+    {
+      "pid": 91348,
+      "cpu_percent": 42.2,
+      "memory_mib": 237.3
+    },
+    {
+      "pid": 91576,
+      "cpu_percent": 54.0,
+      "memory_mib": 285.7
+    },
+    {
+      "pid": 94532,
+      "cpu_percent": 0.5,
+      "memory_mib": 179.3
+    },
+    {
+      "pid": 95144,
+      "cpu_percent": 35.4,
+      "memory_mib": 184.4
+    },
+    {
+      "pid": 96380,
+      "cpu_percent": 42.7,
+      "memory_mib": 259.5
+    },
+    {
+      "pid": 103368,
+      "cpu_percent": 0.0,
+      "memory_mib": 4.5
+    },
+    {
+      "pid": 107184,
+      "cpu_percent": 37.7,
+      "memory_mib": 251.3
+    },
+    {
+      "pid": 108384,
+      "cpu_percent": 44.1,
+      "memory_mib": 259.9
+    },
+    {
+      "pid": 111132,
+      "cpu_percent": 45.5,
+      "memory_mib": 260.4
+    },
+    {
+      "pid": 111380,
+      "cpu_percent": 42.7,
+      "memory_mib": 260.1
+    },
+    {
+      "pid": 112868,
+      "cpu_percent": 43.9,
+      "memory_mib": 237.6
+    },
+    {
+      "pid": 115568,
+      "cpu_percent": 0.0,
+      "memory_mib": 4.4
+    },
+    {
+      "pid": 115948,
+      "cpu_percent": 0.0,
+      "memory_mib": 252.3
+    },
+    {
+      "pid": 116684,
+      "cpu_percent": 22.0,
+      "memory_mib": 260.2
+    },
+    {
+      "pid": 116976,
+      "cpu_percent": 47.2,
+      "memory_mib": 275.4
+    },
+    {
+      "pid": 119136,
+      "cpu_percent": 52.7,
+      "memory_mib": 261.1
+    },
+    {
+      "pid": 121780,
+      "cpu_percent": 46.4,
+      "memory_mib": 272.8
+    },
+    {
+      "pid": 121880,
+      "cpu_percent": 0.9,
+      "memory_mib": 118.9
+    },
+    {
+      "pid": 122752,
+      "cpu_percent": 47.5,
+      "memory_mib": 259.9
+    },
+    {
+      "pid": 123264,
+      "cpu_percent": 46.4,
+      "memory_mib": 273.4
+    },
+    {
+      "pid": 124428,
+      "cpu_percent": 48.6,
+      "memory_mib": 260.7
+    },
+    {
+      "pid": 124988,
+      "cpu_percent": 44.9,
+      "memory_mib": 258.8
+    },
+    {
+      "pid": 125492,
+      "cpu_percent": 46.2,
+      "memory_mib": 314.1
+    },
+    {
+      "pid": 125584,
+      "cpu_percent": 30.2,
+      "memory_mib": 183.0
+    },
+    {
+      "pid": 125764,
+      "cpu_percent": 43.0,
+      "memory_mib": 259.9
+    },
+    {
+      "pid": 126272,
+      "cpu_percent": 42.1,
+      "memory_mib": 259.6
+    },
+    {
+      "pid": 127180,
+      "cpu_percent": 43.6,
+      "memory_mib": 264.9
+    },
+    {
+      "pid": 127188,
+      "cpu_percent": 43.0,
+      "memory_mib": 248.2
+    },
+    {
+      "pid": 127268,
+      "cpu_percent": 14.1,
+      "memory_mib": 243.2
+    },
+    {
+      "pid": 127480,
+      "cpu_percent": 47.0,
+      "memory_mib": 258.8
+    }
+  ]
+}

@@ -1,0 +1,442 @@
+{
+  "registered_utc": "2026-10-12T06:56:18.035692+00:00",
+  "python": "G:\\1014gogogo\\.harness\\envs\\qldpc-submission-audit\\Scripts\\python.exe",
+  "python_version": "3.11.17 (main, Oct  9 2026, 15:19:27) [MSC v.1944 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "stim": "1.16.0",
+    "ldpc": "2.4.1",
+    "quits": "1.2.0",
+    "pymatching": "2.4.0",
+    "bposd": "2.1",
+    "pyscipopt": "5.4.1"
+  },
+  "source_sha256": {
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch7\\source\\src\\iscas_revision\\__init__.py": "eccf53e0ac7bfc3dc25e985bfb426bcb29f0c0da56545bf1b766cf4723dd11b9",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch7\\source\\src\\iscas_revision\\artifacts.py": "38b73ca09d581d436134dcc64d2fd83d1b2180f519ee659d5c470e5debdba29e",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch7\\source\\src\\iscas_revision\\audit.py": "b36cba0c99afe89f337df2eab5ab2578ea78d284416c663993ee6d672b67accc",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch7\\source\\src\\iscas_revision\\decoding.py": "0105c1ae64c051ca11144d6c89f26aa33dbe6c483d007759721f04997f4f474b",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch7\\source\\src\\iscas_revision\\stratification.py": "b002b95c2ef2d6dd514ad9df9f9fa4ed5aee23a781f7b9456b52912b7fcbb19f",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch7\\source\\src\\iscas_revision\\literature.py": "7d78db5b08a7bfeec606e269d93b6968140873ecffcd7e6fbf8f595e7dcd9360",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch7\\source\\src\\iscas_revision\\verification.py": "cb29cd6dc30b86b5831fb33cd5d2131a56ba10dd3f8c32ec02261f187e0ab49f",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch7\\source\\src\\iscas_revision\\experiments.py": "76d781a6226e96d1e1aadc8b80f9464a7e348f8e177ae2d2f837616238ab230c",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch7\\source\\src\\iscas_revision\\orchestration.py": "8f680698c16523ceda211a32a325d834f3db16ebfa6d20b6ddf499cad663be17",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch7\\source\\src\\iscas_revision\\baselines.py": "09ec2eb9e3400a67d9bb7b8c158872b62910909fcf3c7f4a614f4fb48488ad67",
+    "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\src\\support.py": "3c16ac099feeefe89bb44c53c13e51b88984f40e6ed7dd97220c2c8a11a25a47",
+    "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\src\\construction.py": "ad3aa6bffd9a5aa77b2c4a6c26ae18a8031d2dbc9d1209cb07fe3a2aa0c0cf0b",
+    "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\src\\physical_risk.py": "f9d740ef4741af4ad8247f406b0ece83f557cae5ad5be63f0c84c3c9a790509b",
+    "G:\\1014gogogo\\ISCAS\\research\\parallel-routing-2026-10-10\\src\\routing.py": "89dafb2f9a54e8fa732c4450d5cba7f2533af27b9299cb29b988a6b452d9e3f3",
+    "G:\\1014gogogo\\ISCAS\\research\\conflict-fault-routing-2026-10-11\\src\\joint_router.py": "cc960d117a95824a4a209e34c899a2188cc7ddb5c1c593f6a95303d2cd568fc9"
+  },
+  "protocol_sha256": "dc5dd5c3c0efe625ea832dbfa16ce96c90330a5ae7d285e9f5f0641cb0227d24",
+  "tasks": [
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "forward",
+      "rho": 0.0,
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0178-sensitivity",
+      "seed": 520439012
+    },
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "forward",
+      "rho": 0.0,
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0179-sensitivity",
+      "seed": 520440012
+    },
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "forward",
+      "rho": 0.1,
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0180-sensitivity",
+      "seed": 520441012
+    },
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "forward",
+      "rho": 0.1,
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0181-sensitivity",
+      "seed": 520442012
+    },
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "forward",
+      "rho": 1.0,
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0182-sensitivity",
+      "seed": 520443012
+    },
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "forward",
+      "rho": 1.0,
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0183-sensitivity",
+      "seed": 520444012
+    },
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "macro_reverse",
+      "rho": 0.0,
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0184-sensitivity",
+      "seed": 520445012
+    },
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "macro_reverse",
+      "rho": 0.0,
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0185-sensitivity",
+      "seed": 520446012
+    },
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "macro_reverse",
+      "rho": 0.1,
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0186-sensitivity",
+      "seed": 520447012
+    },
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "macro_reverse",
+      "rho": 0.1,
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0187-sensitivity",
+      "seed": 520448012
+    },
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "macro_reverse",
+      "rho": 1.0,
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0188-sensitivity",
+      "seed": 520449012
+    },
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "macro_reverse",
+      "rho": 1.0,
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0189-sensitivity",
+      "seed": 520450012
+    },
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "check_reverse",
+      "rho": 0.0,
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0190-sensitivity",
+      "seed": 520451012
+    },
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "check_reverse",
+      "rho": 0.0,
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0191-sensitivity",
+      "seed": 520452012
+    },
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "check_reverse",
+      "rho": 0.1,
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0192-sensitivity",
+      "seed": 520453012
+    },
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "check_reverse",
+      "rho": 0.1,
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0193-sensitivity",
+      "seed": 520454012
+    },
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "check_reverse",
+      "rho": 1.0,
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0194-sensitivity",
+      "seed": 520455012
+    },
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "check_reverse",
+      "rho": 1.0,
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0195-sensitivity",
+      "seed": 520456012
+    },
+    {
+      "kind": "deployment",
+      "order": "dynamic646",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch1-0196-deployment",
+      "seed": 520457012
+    },
+    {
+      "kind": "deployment",
+      "order": "dynamic646",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0197-deployment",
+      "seed": 520458012
+    },
+    {
+      "kind": "deployment",
+      "order": "dynamic646",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0198-deployment",
+      "seed": 520459012
+    },
+    {
+      "kind": "deployment",
+      "order": "dynamic646",
+      "eps": 0.001,
+      "shots": 32768,
+      "id": "batch1-0199-deployment",
+      "seed": 520460012
+    },
+    {
+      "kind": "deployment",
+      "order": "region1",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch1-0200-deployment",
+      "seed": 520461012
+    },
+    {
+      "kind": "deployment",
+      "order": "region1",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0201-deployment",
+      "seed": 520462012
+    },
+    {
+      "kind": "deployment",
+      "order": "region1",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0202-deployment",
+      "seed": 520463012
+    },
+    {
+      "kind": "deployment",
+      "order": "region1",
+      "eps": 0.001,
+      "shots": 32768,
+      "id": "batch1-0203-deployment",
+      "seed": 520464012
+    },
+    {
+      "kind": "deployment",
+      "order": "kutin",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch1-0204-deployment",
+      "seed": 520465012
+    },
+    {
+      "kind": "deployment",
+      "order": "kutin",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0205-deployment",
+      "seed": 520466012
+    },
+    {
+      "kind": "deployment",
+      "order": "kutin",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0206-deployment",
+      "seed": 520467012
+    },
+    {
+      "kind": "deployment",
+      "order": "kutin",
+      "eps": 0.001,
+      "shots": 32768,
+      "id": "batch1-0207-deployment",
+      "seed": 520468012
+    },
+    {
+      "kind": "deployment",
+      "order": "forward",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch1-0208-deployment",
+      "seed": 520469012
+    },
+    {
+      "kind": "deployment",
+      "order": "forward",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0209-deployment",
+      "seed": 520470012
+    },
+    {
+      "kind": "deployment",
+      "order": "forward",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0210-deployment",
+      "seed": 520471012
+    },
+    {
+      "kind": "deployment",
+      "order": "forward",
+      "eps": 0.001,
+      "shots": 32768,
+      "id": "batch1-0211-deployment",
+      "seed": 520472012
+    },
+    {
+      "kind": "deployment",
+      "order": "macro_reverse",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch1-0212-deployment",
+      "seed": 520473012
+    },
+    {
+      "kind": "deployment",
+      "order": "macro_reverse",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0213-deployment",
+      "seed": 520474012
+    },
+    {
+      "kind": "deployment",
+      "order": "macro_reverse",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0214-deployment",
+      "seed": 520475012
+    },
+    {
+      "kind": "deployment",
+      "order": "macro_reverse",
+      "eps": 0.001,
+      "shots": 32768,
+      "id": "batch1-0215-deployment",
+      "seed": 520476012
+    },
+    {
+      "kind": "deployment",
+      "order": "check_reverse",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch1-0216-deployment",
+      "seed": 520477012
+    },
+    {
+      "kind": "deployment",
+      "order": "check_reverse",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0217-deployment",
+      "seed": 520478012
+    },
+    {
+      "kind": "deployment",
+      "order": "check_reverse",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0218-deployment",
+      "seed": 520479012
+    },
+    {
+      "kind": "deployment",
+      "order": "check_reverse",
+      "eps": 0.001,
+      "shots": 32768,
+      "id": "batch1-0219-deployment",
+      "seed": 520480012
+    }
+  ],
+  "conditional_shots": 3145728,
+  "conditional_strata": 96,
+  "raw_confirmation_shots": 29622272,
+  "pending_full_scope": [
+    "BB-72 and BB-108 construction, risks and finite-noise",
+    "Zhao official routing, original and common-noise controls",
+    "standard nearest-neighbor surface-code SD6 d=3,5",
+    "source-specific sensitivity risk reweighting and completed paper revision"
+  ],
+  "stopping": "fixed registered samples; unfinished requirements retained explicitly",
+  "serial_benchmark": {
+    "2": {
+      "shots": 128,
+      "seconds": 11.122532500012312,
+      "unique_records": 101,
+      "failures": {
+        "original": 13,
+        "strong": 1,
+        "single_fault_lookup": 0
+      }
+    },
+    "7": {
+      "shots": 128,
+      "seconds": 14.851227600011043,
+      "unique_records": 128,
+      "failures": {
+        "original": 45,
+        "strong": 30,
+        "single_fault_lookup": 30
+      }
+    }
+  },
+  "execution_revision": "batch7",
+  "repair": "Supervisor JSON import and progress recording repair; same tasks, seeds and scientific settings",
+  "purpose": "advance the same registered sensitivity/deployment jobs and seeds during the long second-instance direct confirmation; exclusive task ids unchanged"
+}

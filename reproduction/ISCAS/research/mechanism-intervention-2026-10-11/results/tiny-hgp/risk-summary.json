@@ -1,0 +1,118 @@
+{
+  "forward": {
+    "total_physical_branches": 25717,
+    "total_physical_coefficient": 4813.0,
+    "invisible_branches": 7936,
+    "invisible_coefficient": 1827.7333333334636,
+    "explained_physical_branches": 17781,
+    "signature_count": 330,
+    "optimal_single_fault_coefficient": 115.19999999999996,
+    "ambiguous_syndromes": 32,
+    "decoder": {
+      "original": {
+        "coefficient": 601.7333333333331,
+        "per_logical_coefficient": [
+          601.7333333333331
+        ],
+        "single_signature_failures": 78
+      },
+      "strong": {
+        "coefficient": 501.9333333333331,
+        "per_logical_coefficient": [
+          501.9333333333331
+        ],
+        "single_signature_failures": 48
+      }
+    },
+    "merged_dem_total_probability": 2.9237194912252686,
+    "merged_dem_logical_probability": 0.5984483644826339,
+    "coefficient_semantics": "sum physical channel Pauli branch p/epsilon; invisible D=L=0 mass retained separately"
+  },
+  "macro_reverse": {
+    "total_physical_branches": 25717,
+    "total_physical_coefficient": 4813.0,
+    "invisible_branches": 8142,
+    "invisible_coefficient": 1870.800000000148,
+    "explained_physical_branches": 17575,
+    "signature_count": 342,
+    "optimal_single_fault_coefficient": 109.33333333333331,
+    "ambiguous_syndromes": 34,
+    "decoder": {
+      "original": {
+        "coefficient": 255.20000000000002,
+        "per_logical_coefficient": [
+          255.20000000000002
+        ],
+        "single_signature_failures": 87
+      },
+      "strong": {
+        "coefficient": 304.39999999999986,
+        "per_logical_coefficient": [
+          304.39999999999986
+        ],
+        "single_signature_failures": 62
+      }
+    },
+    "merged_dem_total_probability": 2.8840302177280708,
+    "merged_dem_logical_probability": 0.5571569193863095,
+    "coefficient_semantics": "sum physical channel Pauli branch p/epsilon; invisible D=L=0 mass retained separately"
+  },
+  "check_reverse": {
+    "total_physical_branches": 25717,
+    "total_physical_coefficient": 4813.0,
+    "invisible_branches": 7694,
+    "invisible_coefficient": 1721.466666666809,
+    "explained_physical_branches": 18023,
+    "signature_count": 342,
+    "optimal_single_fault_coefficient": 152.00000000000009,
+    "ambiguous_syndromes": 34,
+    "decoder": {
+      "original": {
+        "coefficient": 527.6000000000001,
+        "per_logical_coefficient": [
+          527.6000000000001
+        ],
+        "single_signature_failures": 96
+      },
+      "strong": {
+        "coefficient": 417.3333333333334,
+        "per_logical_coefficient": [
+          417.3333333333334
+        ],
+        "single_signature_failures": 64
+      }
+    },
+    "merged_dem_total_probability": 3.028203772891275,
+    "merged_dem_logical_probability": 0.6057318096711185,
+    "coefficient_semantics": "sum physical channel Pauli branch p/epsilon; invisible D=L=0 mass retained separately"
+  },
+  "kutin": {
+    "total_physical_branches": 22957,
+    "total_physical_coefficient": 3253.0,
+    "invisible_branches": 6472,
+    "invisible_coefficient": 1109.3333333336482,
+    "explained_physical_branches": 16485,
+    "signature_count": 350,
+    "optimal_single_fault_coefficient": 60.8,
+    "ambiguous_syndromes": 46,
+    "decoder": {
+      "original": {
+        "coefficient": 481.53333333333296,
+        "per_logical_coefficient": [
+          481.53333333333296
+        ],
+        "single_signature_failures": 107
+      },
+      "strong": {
+        "coefficient": 431.133333333333,
+        "per_logical_coefficient": [
+          431.133333333333
+        ],
+        "single_signature_failures": 66
+      }
+    },
+    "merged_dem_total_probability": 2.109774451682354,
+    "merged_dem_logical_probability": 0.4150938898471897,
+    "coefficient_semantics": "sum physical channel Pauli branch p/epsilon; invisible D=L=0 mass retained separately"
+  }
+}

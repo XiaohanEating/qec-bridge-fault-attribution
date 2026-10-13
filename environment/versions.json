@@ -1,0 +1,17 @@
+{
+  "python": "3.11.17",
+  "packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "stim": "1.16.0",
+    "ldpc": "2.4.1",
+    "quits": "1.2.0",
+    "pymatching": "2.4.0",
+    "bposd": "2.1",
+    "pyscipopt": "5.4.1",
+    "matplotlib": "3.11.2",
+    "numba": "0.68.0",
+    "networkx": "3.6.1",
+    "pandas": "3.0.6"
+  }
+}

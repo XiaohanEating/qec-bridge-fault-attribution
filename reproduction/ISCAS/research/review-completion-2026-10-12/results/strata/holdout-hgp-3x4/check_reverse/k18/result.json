@@ -1,0 +1,13 @@
+{
+  "instance": "holdout-hgp-3x4",
+  "order": "check_reverse",
+  "k": 18,
+  "shots": 32768,
+  "failures": {
+    "original": 16153,
+    "strong": 15998,
+    "single_fault_lookup": 15998
+  },
+  "shard_count": 64,
+  "noise_locations": 68056
+}

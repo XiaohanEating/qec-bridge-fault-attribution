@@ -1,0 +1,62 @@
+{
+  "task": {
+    "kind": "hirai_excess",
+    "distance": 3,
+    "order": "normal",
+    "eps": 0.0001,
+    "shots": 32768,
+    "id": "batch2-0010-hirai_excess",
+    "seed": 720361012
+  },
+  "R_star": 0.0,
+  "decoder": {
+    "full_joint_original": {
+      "R_delta": 0.13333333333333333,
+      "E": 0.13333333333333333,
+      "failures": 0,
+      "shots": 32768,
+      "interval": [
+        0.0,
+        0.00011256933053201362
+      ]
+    },
+    "full_joint_strong": {
+      "R_delta": 0.0,
+      "E": 0.0,
+      "failures": 0,
+      "shots": 32768,
+      "interval": [
+        0.0,
+        0.00011256933053201362
+      ]
+    },
+    "single_fault_lookup": {
+      "R_delta": 0.0,
+      "E": 0.0,
+      "failures": 0,
+      "shots": 32768,
+      "interval": [
+        0.0,
+        0.00011256933053201362
+      ]
+    }
+  },
+  "resources": {
+    "CX": 48,
+    "TICK": 15
+  },
+  "noise_channels": {
+    "total_physical_branches": 1566,
+    "total_physical_coefficient": 352.0,
+    "invisible_branches": 578,
+    "invisible_coefficient": 158.93333333333393
+  },
+  "source": {
+    "source": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\external\\hirai\\simulation\\circuit\\uniform_depolarizing\\circuit_z_normal_memory_d3_p0.0001_uniform_depolarizing.stim",
+    "sha256": "851d4dd56daf210ce57decebbfe84e4779ce0383c9aa4c49367dbc88d8bee9f3",
+    "purpose": "R_star=0 distance-preserving control; decision excess under two full-joint BP-OSD settings"
+  },
+  "sample_sha256": "985b773f544cd66891119686f37f292ca936a805c9a20940307bb82f78a10150",
+  "decoded_sha256": "ece831f386aead0ce55da7a18fe1e7cd912096846a12fff6699e2d31222e417a",
+  "detector_columns": "separate complete (D,L) signatures; no first-logical-label merging"
+}

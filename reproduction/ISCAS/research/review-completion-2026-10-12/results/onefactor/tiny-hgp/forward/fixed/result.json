@@ -1,0 +1,170 @@
+{
+  "instance": "tiny-hgp",
+  "order": "forward",
+  "prior": "fixed",
+  "prior_epsilon": 0.001,
+  "sample_sha256": "a63afbeb0160c9e239350d2587581b8620a6b6842d3fdaa526e0fab5e1763009",
+  "configurations": {
+    "original": {
+      "window": 1,
+      "max_iter": 2,
+      "osd_order": 0
+    },
+    "window2": {
+      "window": 2,
+      "max_iter": 2,
+      "osd_order": 0
+    },
+    "window4": {
+      "window": 4,
+      "max_iter": 2,
+      "osd_order": 0
+    },
+    "iterations10": {
+      "window": 1,
+      "max_iter": 10,
+      "osd_order": 0
+    },
+    "iterations50": {
+      "window": 1,
+      "max_iter": 50,
+      "osd_order": 0
+    },
+    "osd1": {
+      "window": 1,
+      "max_iter": 2,
+      "osd_order": 1
+    },
+    "osd2": {
+      "window": 1,
+      "max_iter": 2,
+      "osd_order": 2
+    },
+    "strong": {
+      "window": 4,
+      "max_iter": 50,
+      "osd_order": 2
+    }
+  },
+  "results": {
+    "original": {
+      "failures": 244,
+      "shots": 4096,
+      "single_fault_risk": 601.7333333333331
+    },
+    "window2": {
+      "failures": 214,
+      "shots": 4096,
+      "single_fault_risk": 553.7999999999997
+    },
+    "window4": {
+      "failures": 196,
+      "shots": 4096,
+      "single_fault_risk": 516.8666666666664
+    },
+    "iterations10": {
+      "failures": 247,
+      "shots": 4096,
+      "single_fault_risk": 618.9333333333332
+    },
+    "iterations50": {
+      "failures": 247,
+      "shots": 4096,
+      "single_fault_risk": 618.9333333333332
+    },
+    "osd1": {
+      "failures": 243,
+      "shots": 4096,
+      "single_fault_risk": 601.7333333333331
+    },
+    "osd2": {
+      "failures": 243,
+      "shots": 4096,
+      "single_fault_risk": 601.7333333333331
+    },
+    "strong": {
+      "failures": 190,
+      "shots": 4096,
+      "single_fault_risk": 501.9333333333331
+    },
+    "single_fault_lookup": {
+      "failures": 80,
+      "shots": 4096,
+      "single_fault_risk": null
+    }
+  },
+  "paired": {
+    "window2": {
+      "shots": 4096,
+      "first_failures": 244,
+      "second_failures": 214,
+      "first_only": 61,
+      "second_only": 31,
+      "paired_difference": -0.00732421875,
+      "mcnemar_exact_two_sided_p": 0.002314601521425493
+    },
+    "window4": {
+      "shots": 4096,
+      "first_failures": 244,
+      "second_failures": 196,
+      "first_only": 77,
+      "second_only": 29,
+      "paired_difference": -0.01171875,
+      "mcnemar_exact_two_sided_p": 3.4525612188472383e-06
+    },
+    "iterations10": {
+      "shots": 4096,
+      "first_failures": 244,
+      "second_failures": 247,
+      "first_only": 2,
+      "second_only": 5,
+      "paired_difference": 0.000732421875,
+      "mcnemar_exact_two_sided_p": 0.453125
+    },
+    "iterations50": {
+      "shots": 4096,
+      "first_failures": 244,
+      "second_failures": 247,
+      "first_only": 2,
+      "second_only": 5,
+      "paired_difference": 0.000732421875,
+      "mcnemar_exact_two_sided_p": 0.453125
+    },
+    "osd1": {
+      "shots": 4096,
+      "first_failures": 244,
+      "second_failures": 243,
+      "first_only": 2,
+      "second_only": 1,
+      "paired_difference": -0.000244140625,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "osd2": {
+      "shots": 4096,
+      "first_failures": 244,
+      "second_failures": 243,
+      "first_only": 2,
+      "second_only": 1,
+      "paired_difference": -0.000244140625,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "strong": {
+      "shots": 4096,
+      "first_failures": 244,
+      "second_failures": 190,
+      "first_only": 79,
+      "second_only": 25,
+      "paired_difference": -0.01318359375,
+      "mcnemar_exact_two_sided_p": 1.0540017368882998e-07
+    },
+    "single_fault_lookup": {
+      "shots": 4096,
+      "first_failures": 244,
+      "second_failures": 80,
+      "first_only": 178,
+      "second_only": 14,
+      "paired_difference": -0.0400390625,
+      "mcnemar_exact_two_sided_p": 2.256182406315571e-37
+    }
+  }
+}

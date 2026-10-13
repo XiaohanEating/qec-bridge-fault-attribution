@@ -1,0 +1,534 @@
+{
+  "proof": "Matched circuits have the same N independent equal-rate fault locations. With delta(0)=0, exact one-fault contribution to candidate-minus-forward failure is Pr(K=1)*delta_R/N. The remaining contribution is Pr(K>=2)*(q_candidate-q_forward), bounded by +/-Pr(K>=2). This is a finite-noise sign certificate, without an unknown big-O constant.",
+  "formula": "Delta P belongs to [epsilon*(1-epsilon)^(N-1)*Delta R - Pr(K>=2), epsilon*(1-epsilon)^(N-1)*Delta R + Pr(K>=2)]",
+  "rows": [
+    {
+      "instance": "tiny-hgp",
+      "candidate": "macro_reverse",
+      "decoder": "original",
+      "delta_R": -346.5333333333331,
+      "certified_noise_radius": 2.856894366938517e-05,
+      "exact_deterministic_bounds": {
+        "1e-06": {
+          "difference_interval": [
+            -0.00035641282346264114,
+            -0.00033332681598786636
+          ],
+          "ordering_certified": "candidate improves"
+        },
+        "3e-06": {
+          "difference_interval": [
+            -0.0011279234142112073,
+            -0.0009214768221002388
+          ],
+          "ordering_certified": "candidate improves"
+        },
+        "1e-05": {
+          "difference_interval": [
+            -0.004424057219322599,
+            -0.0021810011037136073
+          ],
+          "ordering_certified": "candidate improves"
+        },
+        "3e-05": {
+          "difference_interval": [
+            -0.018470006283464666,
+            0.0004729873045956779
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        },
+        "0.0001": {
+          "difference_interval": [
+            -0.10599593327462742,
+            0.06316258176308748
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        }
+      }
+    },
+    {
+      "instance": "tiny-hgp",
+      "candidate": "macro_reverse",
+      "decoder": "strong",
+      "delta_R": -197.53333333333325,
+      "certified_noise_radius": 1.6606512748825976e-05,
+      "exact_deterministic_bounds": {
+        "1e-06": {
+          "difference_interval": [
+            -0.0002081280895099782,
+            -0.00018504208203520348
+          ],
+          "ordering_certified": "candidate improves"
+        },
+        "3e-06": {
+          "difference_interval": [
+            -0.0006873299620992333,
+            -0.00048088336998826484
+          ],
+          "ordering_certified": "candidate improves"
+        },
+        "1e-05": {
+          "difference_interval": [
+            -0.0030040586283274166,
+            -0.0007610025127184252
+          ],
+          "ordering_certified": "candidate improves"
+        },
+        "3e-05": {
+          "difference_interval": [
+            -0.014600889563786697,
+            0.004342104024273648
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        },
+        "0.0001": {
+          "difference_interval": [
+            -0.09678733952431079,
+            0.0723711755134041
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        }
+      }
+    },
+    {
+      "instance": "tiny-hgp",
+      "candidate": "macro_reverse",
+      "decoder": "single_fault_lookup",
+      "delta_R": -5.866666666666646,
+      "certified_noise_radius": 5.062057604809471e-07,
+      "exact_deterministic_bounds": {
+        "1e-06": {
+          "difference_interval": [
+            -1.738150780353247e-05,
+            5.7044996712422645e-06
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        },
+        "3e-06": {
+          "difference_interval": [
+            -0.00012057104719009434,
+            8.587554492087412e-05
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        },
+        "1e-05": {
+          "difference_interval": [
+            -0.001177438516868288,
+            0.0010656175987407033
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        },
+        "3e-05": {
+          "difference_interval": [
+            -0.009623837855028678,
+            0.009319155733031667
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        },
+        "0.0001": {
+          "difference_interval": [
+            -0.08494183302222562,
+            0.08421668201548928
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        }
+      }
+    },
+    {
+      "instance": "tiny-hgp",
+      "candidate": "check_reverse",
+      "decoder": "original",
+      "delta_R": -74.13333333333298,
+      "certified_noise_radius": 6.336867772784277e-06,
+      "exact_deterministic_bounds": {
+        "1e-06": {
+          "difference_interval": [
+            -8.532046420958448e-05,
+            -6.223445673480976e-05
+          ],
+          "ordering_certified": "candidate improves"
+        },
+        "3e-06": {
+          "difference_interval": [
+            -0.0003224357876655572,
+            -0.00011598919555458875
+          ],
+          "ordering_certified": "candidate improves"
+        },
+        "1e-05": {
+          "difference_interval": [
+            -0.0018280329496105972,
+            0.0004150231659983941
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        },
+        "3e-05": {
+          "difference_interval": [
+            -0.011396533837556745,
+            0.007546459750503601
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        },
+        "0.0001": {
+          "difference_interval": [
+            -0.08916089342505525,
+            0.07999762161265965
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        }
+      }
+    },
+    {
+      "instance": "tiny-hgp",
+      "candidate": "check_reverse",
+      "decoder": "strong",
+      "delta_R": -84.59999999999968,
+      "certified_noise_radius": 7.221240362910779e-06,
+      "exact_deterministic_bounds": {
+        "1e-06": {
+          "difference_interval": [
+            -9.573688623668435e-05,
+            -7.26508787619096e-05
+          ],
+          "ordering_certified": "candidate improves"
+        },
+        "3e-06": {
+          "difference_interval": [
+            -0.0003533857527579868,
+            -0.00014693916064701838
+          ],
+          "ordering_certified": "candidate improves"
+        },
+        "1e-05": {
+          "difference_interval": [
+            -0.001927782291349409,
+            0.0003152738242595823
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        },
+        "3e-05": {
+          "difference_interval": [
+            -0.011668324139565443,
+            0.007274669448494902
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        },
+        "0.0001": {
+          "difference_interval": [
+            -0.08980776108447346,
+            0.07935075395324144
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        }
+      }
+    },
+    {
+      "instance": "tiny-hgp",
+      "candidate": "check_reverse",
+      "decoder": "single_fault_lookup",
+      "delta_R": 36.800000000000125,
+      "certified_noise_radius": 3.1617687709779063e-06,
+      "exact_deterministic_bounds": {
+        "1e-06": {
+          "difference_interval": [
+            2.5080339950250354e-05,
+            4.816634742502509e-05
+          ],
+          "ordering_certified": "candidate worsens"
+        },
+        "3e-06": {
+          "difference_interval": [
+            5.594415607070881e-06,
+            0.00021204100771803934
+          ],
+          "ordering_certified": "candidate worsens"
+        },
+        "1e-05": {
+          "difference_interval": [
+            -0.0007708169964043418,
+            0.0014722391192046496
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        },
+        "3e-05": {
+          "difference_interval": [
+            -0.00851590286594863,
+            0.010427090722111716
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        },
+        "0.0001": {
+          "difference_interval": [
+            -0.08230492027045709,
+            0.0868535947672578
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "macro_reverse",
+      "decoder": "original",
+      "delta_R": 1911.3333333333403,
+      "certified_noise_radius": 8.10252498246702e-07,
+      "exact_deterministic_bounds": {
+        "1e-06": {
+          "difference_interval": [
+            -0.00042775870831550486,
+            0.003998928537376509
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        },
+        "3e-06": {
+          "difference_interval": [
+            -0.0135359747086621,
+            0.022886151411048918
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        },
+        "1e-05": {
+          "difference_interval": [
+            -0.13939806533539162,
+            0.1587536298427426
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        },
+        "3e-05": {
+          "difference_interval": [
+            -0.5977189774040256,
+            0.6126056300461006
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        },
+        "0.0001": {
+          "difference_interval": [
+            -0.9911454132546796,
+            0.9915686930549087
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "macro_reverse",
+      "decoder": "strong",
+      "delta_R": -255.60000000000008,
+      "certified_noise_radius": 1.1009789008394841e-07,
+      "exact_deterministic_bounds": {
+        "1e-06": {
+          "difference_interval": [
+            -0.002452127458294557,
+            0.001974559787397457
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        },
+        "3e-06": {
+          "difference_interval": [
+            -0.018836256249198914,
+            0.017585869870512104
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        },
+        "1e-05": {
+          "difference_interval": [
+            -0.15037004421134098,
+            0.14778165096679324
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        },
+        "3e-05": {
+          "difference_interval": [
+            -0.6061576896028049,
+            0.6041669178473212
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        },
+        "0.0001": {
+          "difference_interval": [
+            -0.9913853554700031,
+            0.9913287508395853
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "macro_reverse",
+      "decoder": "single_fault_lookup",
+      "delta_R": 0.0,
+      "certified_noise_radius": 0.0,
+      "exact_deterministic_bounds": {
+        "1e-06": {
+          "difference_interval": [
+            -0.002213343622846007,
+            0.002213343622846007
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        },
+        "3e-06": {
+          "difference_interval": [
+            -0.01821106305985551,
+            0.01821106305985551
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        },
+        "1e-05": {
+          "difference_interval": [
+            -0.1490758475890671,
+            0.1490758475890671
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        },
+        "3e-05": {
+          "difference_interval": [
+            -0.6051623037250631,
+            0.6051623037250631
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        },
+        "0.0001": {
+          "difference_interval": [
+            -0.9913570531547942,
+            0.9913570531547942
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "check_reverse",
+      "decoder": "original",
+      "delta_R": 4721.333333333342,
+      "certified_noise_radius": 1.949604660367947e-06,
+      "exact_deterministic_bounds": {
+        "1e-06": {
+          "difference_interval": [
+            0.002197368747124343,
+            0.006624055992816357
+          ],
+          "ordering_certified": "candidate worsens"
+        },
+        "3e-06": {
+          "difference_interval": [
+            -0.006662763198274883,
+            0.029759362921436133
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        },
+        "1e-05": {
+          "difference_interval": [
+            -0.12517000387768595,
+            0.17298169130044827
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        },
+        "3e-05": {
+          "difference_interval": [
+            -0.5867759636463789,
+            0.6235486438037473
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        },
+        "0.0001": {
+          "difference_interval": [
+            -0.9908342649536741,
+            0.9918798413559142
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "check_reverse",
+      "decoder": "strong",
+      "delta_R": -95.73333333333358,
+      "certified_noise_radius": 4.130091902776345e-08,
+      "exact_deterministic_bounds": {
+        "1e-06": {
+          "difference_interval": [
+            -0.0023027785700823447,
+            0.002123908675609669
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        },
+        "3e-06": {
+          "difference_interval": [
+            -0.01844522514120583,
+            0.017976900978505187
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        },
+        "1e-05": {
+          "difference_interval": [
+            -0.149560580596262,
+            0.1485911145818722
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        },
+        "3e-05": {
+          "difference_interval": [
+            -0.6055351190929392,
+            0.6047894883571869
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        },
+        "0.0001": {
+          "difference_interval": [
+            -0.991367653604622,
+            0.9913464527049664
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "check_reverse",
+      "decoder": "single_fault_lookup",
+      "delta_R": 0.0,
+      "certified_noise_radius": 0.0,
+      "exact_deterministic_bounds": {
+        "1e-06": {
+          "difference_interval": [
+            -0.002213343622846007,
+            0.002213343622846007
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        },
+        "3e-06": {
+          "difference_interval": [
+            -0.01821106305985551,
+            0.01821106305985551
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        },
+        "1e-05": {
+          "difference_interval": [
+            -0.1490758475890671,
+            0.1490758475890671
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        },
+        "3e-05": {
+          "difference_interval": [
+            -0.6051623037250631,
+            0.6051623037250631
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        },
+        "0.0001": {
+          "difference_interval": [
+            -0.9913570531547942,
+            0.9913570531547942
+          ],
+          "ordering_certified": "multiple-fault sampling needed"
+        }
+      }
+    }
+  ]
+}

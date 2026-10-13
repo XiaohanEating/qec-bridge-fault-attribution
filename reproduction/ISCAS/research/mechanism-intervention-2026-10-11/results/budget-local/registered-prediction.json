@@ -1,0 +1,20 @@
+{
+  "selected": "baseline",
+  "tested": "region-1",
+  "baseline": "baseline",
+  "shots": 32768,
+  "seeds": {
+    "baseline": 20261104,
+    "candidate": 20261204
+  },
+  "primary_eps": 0.001,
+  "primary_source": "all",
+  "baseline_risk": 560.4666666666667,
+  "tested_risk": 560.4666666666667,
+  "prediction": "unknown",
+  "rule": "single-move exact risk descent, choose baseline when no risk improvement; rejected candidate tested as direction check",
+  "search_sha256": "e06d6c9337bbbf227fd0162b07cc0547fc4fb82e86ecccc49da030717487ad97",
+  "source_sha256": "1c65e8d69c3d8b4e1e84e1754c35595602e465a347cc605d5885d296a10c3ae8",
+  "before_sampling": true,
+  "primary_ci": "Newcombe-Wilson95 independent; direction agreement/pass, opposite/failure, overlap/unknown"
+}

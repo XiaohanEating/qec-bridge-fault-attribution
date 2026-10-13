@@ -1,0 +1,29 @@
+{
+  "rule": "min physical first-order original decoder risk among same-budget variants; no shot outcomes used",
+  "training_sha256": "c9775139f774bc0717182c33b67e2e1a66bccbf81f07d612a252e594152c6829",
+  "original_sha256": "cb4c8840aed0c7aa3330bee19191af8c9382dda6076e8c363265bfd448e9d82d",
+  "selected": "forward",
+  "baseline": "forward",
+  "risk_selected": 2437.066666666665,
+  "risk_baseline": 2437.066666666665,
+  "prediction": "unknown",
+  "seed_base": 20261101,
+  "seed_offsets": {
+    "forward": 0,
+    "macro_reverse": 100,
+    "check_reverse": 200,
+    "kutin": 300
+  },
+  "shots": 4096,
+  "allowed_noise": [
+    1e-05,
+    0.0001,
+    0.001
+  ],
+  "decision": "95% difference CI; opposite significant result=failure, otherwise unknown",
+  "primary_source": "all",
+  "primary_eps": 0.0001,
+  "primary_decoder": "original",
+  "primary_registration_sha256": "2ed0ca333f2743ecd1cbc14d987656bd8d9b6e0e1610a54ac6c5ac60ea6d157f",
+  "registered_before_sampling": true
+}

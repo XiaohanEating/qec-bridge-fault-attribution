@@ -1,0 +1,22 @@
+{
+  "2": {
+    "shots": 128,
+    "seconds": 11.122532500012312,
+    "unique_records": 101,
+    "failures": {
+      "original": 13,
+      "strong": 1,
+      "single_fault_lookup": 0
+    }
+  },
+  "7": {
+    "shots": 128,
+    "seconds": 14.851227600011043,
+    "unique_records": 128,
+    "failures": {
+      "original": 45,
+      "strong": 30,
+      "single_fault_lookup": 30
+    }
+  }
+}

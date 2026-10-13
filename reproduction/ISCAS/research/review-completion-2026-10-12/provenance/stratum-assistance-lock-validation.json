@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "lock_count": 12,
+  "tasks": [
+    {
+      "task": "batch1-0080-stratum",
+      "owner": 123524,
+      "batch": "batch1-v2"
+    },
+    {
+      "task": "batch1-0081-stratum",
+      "owner": 115608,
+      "batch": "batch1-v2"
+    },
+    {
+      "task": "batch1-0085-stratum",
+      "owner": 125096,
+      "batch": "batch1-v2"
+    },
+    {
+      "task": "batch1-0086-stratum",
+      "owner": 124328,
+      "batch": "batch1-v2"
+    },
+    {
+      "task": "batch1-0087-stratum",
+      "owner": 121876,
+      "batch": "batch1-v2"
+    },
+    {
+      "task": "batch1-0091-stratum",
+      "owner": 121220,
+      "batch": "batch1-v2"
+    },
+    {
+      "task": "batch1-0092-stratum",
+      "owner": 123704,
+      "batch": "batch1-v2"
+    },
+    {
+      "task": "batch1-0093-stratum",
+      "owner": 125692,
+      "batch": "batch1-v2"
+    },
+    {
+      "task": "batch1-0095-stratum",
+      "owner": 94500,
+      "batch": "batch8"
+    },
+    {
+      "task": "batch1-0094-stratum",
+      "owner": 30456,
+      "batch": "batch8"
+    },
+    {
+      "task": "batch1-0096-stratum",
+      "owner": 57804,
+      "batch": "batch8"
+    },
+    {
+      "task": "batch1-0097-stratum",
+      "owner": 103032,
+      "batch": "batch8"
+    }
+  ],
+  "process_groups_disjoint": true,
+  "exclusive_task_lock_retained": true
+}

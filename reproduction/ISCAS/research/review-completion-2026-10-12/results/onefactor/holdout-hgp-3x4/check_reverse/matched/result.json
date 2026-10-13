@@ -1,0 +1,170 @@
+{
+  "instance": "holdout-hgp-3x4",
+  "order": "check_reverse",
+  "prior": "matched",
+  "prior_epsilon": 0.0001,
+  "sample_sha256": "75b4ca6a5bc0e386206014353851803dfd472dd7e2e7a44dce7182e45b7b2373",
+  "configurations": {
+    "original": {
+      "window": 1,
+      "max_iter": 2,
+      "osd_order": 0
+    },
+    "window2": {
+      "window": 2,
+      "max_iter": 2,
+      "osd_order": 0
+    },
+    "window4": {
+      "window": 4,
+      "max_iter": 2,
+      "osd_order": 0
+    },
+    "iterations10": {
+      "window": 1,
+      "max_iter": 10,
+      "osd_order": 0
+    },
+    "iterations50": {
+      "window": 1,
+      "max_iter": 50,
+      "osd_order": 0
+    },
+    "osd1": {
+      "window": 1,
+      "max_iter": 2,
+      "osd_order": 1
+    },
+    "osd2": {
+      "window": 1,
+      "max_iter": 2,
+      "osd_order": 2
+    },
+    "strong": {
+      "window": 4,
+      "max_iter": 50,
+      "osd_order": 2
+    }
+  },
+  "results": {
+    "original": {
+      "failures": 1116,
+      "shots": 4096,
+      "single_fault_risk": 1565.466666666664
+    },
+    "window2": {
+      "failures": 1004,
+      "shots": 4096,
+      "single_fault_risk": 833.9999999999986
+    },
+    "window4": {
+      "failures": 903,
+      "shots": 4096,
+      "single_fault_risk": 457.7333333333328
+    },
+    "iterations10": {
+      "failures": 1126,
+      "shots": 4096,
+      "single_fault_risk": 1144.5333333333306
+    },
+    "iterations50": {
+      "failures": 1164,
+      "shots": 4096,
+      "single_fault_risk": 1642.266666666662
+    },
+    "osd1": {
+      "failures": 1086,
+      "shots": 4096,
+      "single_fault_risk": 417.5999999999998
+    },
+    "osd2": {
+      "failures": 1086,
+      "shots": 4096,
+      "single_fault_risk": 417.5999999999998
+    },
+    "strong": {
+      "failures": 835,
+      "shots": 4096,
+      "single_fault_risk": 163.9999999999999
+    },
+    "single_fault_lookup": {
+      "failures": 835,
+      "shots": 4096,
+      "single_fault_risk": null
+    }
+  },
+  "paired": {
+    "window2": {
+      "shots": 4096,
+      "first_failures": 1116,
+      "second_failures": 1004,
+      "first_only": 465,
+      "second_only": 353,
+      "paired_difference": -0.02734375,
+      "mcnemar_exact_two_sided_p": 0.00010164919624135494
+    },
+    "window4": {
+      "shots": 4096,
+      "first_failures": 1116,
+      "second_failures": 903,
+      "first_only": 545,
+      "second_only": 332,
+      "paired_difference": -0.052001953125,
+      "mcnemar_exact_two_sided_p": 6.30803439194788e-13
+    },
+    "iterations10": {
+      "shots": 4096,
+      "first_failures": 1116,
+      "second_failures": 1126,
+      "first_only": 261,
+      "second_only": 271,
+      "paired_difference": 0.00244140625,
+      "mcnemar_exact_two_sided_p": 0.6964274773283362
+    },
+    "iterations50": {
+      "shots": 4096,
+      "first_failures": 1116,
+      "second_failures": 1164,
+      "first_only": 269,
+      "second_only": 317,
+      "paired_difference": 0.01171875,
+      "mcnemar_exact_two_sided_p": 0.05209860076346712
+    },
+    "osd1": {
+      "shots": 4096,
+      "first_failures": 1116,
+      "second_failures": 1086,
+      "first_only": 382,
+      "second_only": 352,
+      "paired_difference": -0.00732421875,
+      "mcnemar_exact_two_sided_p": 0.2844271309612921
+    },
+    "osd2": {
+      "shots": 4096,
+      "first_failures": 1116,
+      "second_failures": 1086,
+      "first_only": 382,
+      "second_only": 352,
+      "paired_difference": -0.00732421875,
+      "mcnemar_exact_two_sided_p": 0.2844271309612921
+    },
+    "strong": {
+      "shots": 4096,
+      "first_failures": 1116,
+      "second_failures": 835,
+      "first_only": 647,
+      "second_only": 366,
+      "paired_difference": -0.068603515625,
+      "mcnemar_exact_two_sided_p": 8.424983213630219e-19
+    },
+    "single_fault_lookup": {
+      "shots": 4096,
+      "first_failures": 1116,
+      "second_failures": 835,
+      "first_only": 648,
+      "second_only": 367,
+      "paired_difference": -0.068603515625,
+      "mcnemar_exact_two_sided_p": 9.129190766959222e-19
+    }
+  }
+}

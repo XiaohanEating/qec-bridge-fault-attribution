@@ -1,0 +1,153 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "instance": "tiny-hgp",
+      "prior_sha256": "e15f409ab14957d84a86be65d6a51885224b05c9bc19537b454506d335d75c5c",
+      "noise_locations": 4813,
+      "conditional_sites_distinct": true,
+      "response_xor_equal": true,
+      "deterministic_two_fault_injections": [
+        {
+          "branch_indices": [
+            12450,
+            981
+          ],
+          "shots": 16,
+          "equal": true
+        },
+        {
+          "branch_indices": [
+            5527,
+            8161
+          ],
+          "shots": 16,
+          "equal": true
+        },
+        {
+          "branch_indices": [
+            178,
+            5593
+          ],
+          "shots": 16,
+          "equal": true
+        },
+        {
+          "branch_indices": [
+            14073,
+            12425
+          ],
+          "shots": 16,
+          "equal": true
+        },
+        {
+          "branch_indices": [
+            12999,
+            8432
+          ],
+          "shots": 16,
+          "equal": true
+        },
+        {
+          "branch_indices": [
+            14058,
+            12792
+          ],
+          "shots": 16,
+          "equal": true
+        },
+        {
+          "branch_indices": [
+            12643,
+            911
+          ],
+          "shots": 16,
+          "equal": true
+        },
+        {
+          "branch_indices": [
+            2792,
+            7228
+          ],
+          "shots": 16,
+          "equal": true
+        }
+      ],
+      "historical_decoder_predictions_equal": true
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "prior_sha256": "7c5fa6afcea063489362765f275348b7e3ed1b1580484df2ce4b35f424c90ae7",
+      "noise_locations": 68056,
+      "conditional_sites_distinct": true,
+      "response_xor_equal": true,
+      "deterministic_two_fault_injections": [
+        {
+          "branch_indices": [
+            107999,
+            8515
+          ],
+          "shots": 16,
+          "equal": true
+        },
+        {
+          "branch_indices": [
+            47944,
+            70797
+          ],
+          "shots": 16,
+          "equal": true
+        },
+        {
+          "branch_indices": [
+            1550,
+            48518
+          ],
+          "shots": 16,
+          "equal": true
+        },
+        {
+          "branch_indices": [
+            122076,
+            107780
+          ],
+          "shots": 16,
+          "equal": true
+        },
+        {
+          "branch_indices": [
+            112761,
+            73147
+          ],
+          "shots": 16,
+          "equal": true
+        },
+        {
+          "branch_indices": [
+            121950,
+            110960
+          ],
+          "shots": 16,
+          "equal": true
+        },
+        {
+          "branch_indices": [
+            109679,
+            7909
+          ],
+          "shots": 16,
+          "equal": true
+        },
+        {
+          "branch_indices": [
+            24225,
+            62704
+          ],
+          "shots": 16,
+          "equal": true
+        }
+      ],
+      "historical_decoder_predictions_equal": true
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "d3-normal": {
+    "num_qubits": 25,
+    "detectors": 16,
+    "observables": 1,
+    "R_star": 0.0,
+    "noise_locations": 352.0,
+    "graphlike_distance": 3,
+    "source": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\external\\hirai\\simulation\\circuit\\uniform_depolarizing\\circuit_z_normal_memory_d3_p0.0001_uniform_depolarizing.stim"
+  },
+  "d3-normal_hook_proned": {
+    "num_qubits": 25,
+    "detectors": 16,
+    "observables": 1,
+    "R_star": 1.2000000000000002,
+    "noise_locations": 352.0,
+    "graphlike_distance": 2,
+    "source": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\external\\hirai\\simulation\\circuit\\uniform_depolarizing\\circuit_z_normal_hook_proned_memory_d3_p0.0001_uniform_depolarizing.stim"
+  },
+  "d3-ZX_interleaved_Z2Z_X2X": {
+    "num_qubits": 25,
+    "detectors": 16,
+    "observables": 1,
+    "R_star": 0.0,
+    "noise_locations": 352.0,
+    "graphlike_distance": 3,
+    "source": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\external\\hirai\\simulation\\circuit\\uniform_depolarizing\\circuit_z_ZX_interleaved_Z2Z_X2X_memory_d3_p0.0001_uniform_depolarizing.stim"
+  },
+  "d3-alternating": {
+    "num_qubits": 25,
+    "detectors": 16,
+    "observables": 1,
+    "R_star": 1.2000000000000006,
+    "noise_locations": 352.0,
+    "graphlike_distance": 2,
+    "source": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\external\\hirai\\simulation\\circuit\\uniform_depolarizing\\circuit_z_alternating_memory_d3_p0.0001_uniform_depolarizing.stim"
+  },
+  "d5-normal": {
+    "num_qubits": 61,
+    "detectors": 96,
+    "observables": 1,
+    "R_star": 0.0,
+    "noise_locations": 1632.0,
+    "graphlike_distance": 5,
+    "source": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\external\\hirai\\simulation\\circuit\\uniform_depolarizing\\circuit_z_normal_memory_d5_p0.0001_uniform_depolarizing.stim"
+  },
+  "d5-normal_hook_proned": {
+    "num_qubits": 61,
+    "detectors": 96,
+    "observables": 1,
+    "R_star": 0.0,
+    "noise_locations": 1632.0,
+    "graphlike_distance": 3,
+    "source": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\external\\hirai\\simulation\\circuit\\uniform_depolarizing\\circuit_z_normal_hook_proned_memory_d5_p0.0001_uniform_depolarizing.stim"
+  },
+  "d5-ZX_interleaved_Z2Z_X2X": {
+    "num_qubits": 61,
+    "detectors": 96,
+    "observables": 1,
+    "R_star": 0.0,
+    "noise_locations": 1632.0,
+    "graphlike_distance": 5,
+    "source": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\external\\hirai\\simulation\\circuit\\uniform_depolarizing\\circuit_z_ZX_interleaved_Z2Z_X2X_memory_d5_p0.0001_uniform_depolarizing.stim"
+  },
+  "d5-alternating": {
+    "num_qubits": 61,
+    "detectors": 96,
+    "observables": 1,
+    "R_star": 0.0,
+    "noise_locations": 1632.0,
+    "graphlike_distance": 4,
+    "source": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\external\\hirai\\simulation\\circuit\\uniform_depolarizing\\circuit_z_alternating_memory_d5_p0.0001_uniform_depolarizing.stim"
+  }
+}

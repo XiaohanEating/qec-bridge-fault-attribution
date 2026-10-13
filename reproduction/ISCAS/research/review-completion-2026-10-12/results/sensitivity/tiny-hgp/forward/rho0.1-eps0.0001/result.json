@@ -1,0 +1,61 @@
+{
+  "task": {
+    "kind": "sensitivity",
+    "instance": "tiny-hgp",
+    "order": "forward",
+    "rho": 0.1,
+    "eps": 0.0001,
+    "shots": 32768,
+    "id": "batch1-0181-sensitivity",
+    "seed": 520442012
+  },
+  "decoder": {
+    "original": {
+      "shots": 32768,
+      "failures": 796,
+      "rate": 0.0242919921875,
+      "interval": [
+        0.022652085603523116,
+        0.026016946657689066
+      ],
+      "per_logical": [
+        796
+      ]
+    },
+    "strong": {
+      "shots": 32768,
+      "failures": 660,
+      "rate": 0.0201416015625,
+      "interval": [
+        0.018647913605447625,
+        0.021721177060695585
+      ],
+      "per_logical": [
+        660
+      ]
+    },
+    "single_fault_lookup": {
+      "shots": 32768,
+      "failures": 198,
+      "rate": 0.00604248046875,
+      "interval": [
+        0.005232147153764492,
+        0.0069421531141218625
+      ],
+      "per_logical": [
+        198
+      ]
+    }
+  },
+  "sample_sha256": "0729af933efb6acd5442f77a2bf850794f0d8237a48a18b426673924c13796ca",
+  "decoded_sha256": "25472a58992539a8805bed42a109d54c5b466fb49b62239d09a37f124cc1b8c4",
+  "paired": {
+    "shots": 32768,
+    "first_failures": 796,
+    "second_failures": 660,
+    "first_only": 245,
+    "second_only": 109,
+    "paired_difference": -0.004150390625,
+    "mcnemar_exact_two_sided_p": 3.72285253738258e-13
+  }
+}

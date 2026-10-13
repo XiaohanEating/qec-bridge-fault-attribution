@@ -1,0 +1,466 @@
+[
+  {
+    "source": "G:\\1014gogogo\\ISCAS\\research\\parallel-routing-2026-10-10\\data\\fixed-bb-108-baseline-eps0.001-n256-seed20261016.json",
+    "sha256": "12f40e5e446569a3702b35882872e2fa39f0e1fbf56758857d42e74f1e02032e",
+    "instance": "bb-108",
+    "label": "baseline",
+    "eps": 0.001,
+    "shots": 256,
+    "failures": 256,
+    "logical_observables": 8,
+    "sites": 225,
+    "geometry": "15x15",
+    "decoder": {
+      "bp_method": "product_sum",
+      "max_iter": 2,
+      "schedule": "serial",
+      "osd_method": "osd_cs",
+      "osd_order": 0
+    },
+    "metrics": {
+      "num_reset": 216,
+      "full_lifetime_idle_slots": 3967245,
+      "noisy_idle_locations": 3967128,
+      "noisy_slots": 18252,
+      "physical_slots": 18253,
+      "num_1q": 432,
+      "num_2q": 69246,
+      "num_measure": 540
+    }
+  },
+  {
+    "source": "G:\\1014gogogo\\ISCAS\\research\\parallel-routing-2026-10-10\\data\\fixed-bb-108-candidate-eps0.001-n256-seed20261016.json",
+    "sha256": "a0fc10edeb31c93d2e074b1f0cd808f26639c3a39504e3ea0e4f5ed45800e0db",
+    "instance": "bb-108",
+    "label": "candidate",
+    "eps": 0.001,
+    "shots": 256,
+    "failures": 256,
+    "logical_observables": 8,
+    "sites": 225,
+    "geometry": "15x15",
+    "decoder": {
+      "bp_method": "product_sum",
+      "max_iter": 2,
+      "schedule": "serial",
+      "osd_method": "osd_cs",
+      "osd_order": 0
+    },
+    "metrics": {
+      "num_reset": 216,
+      "full_lifetime_idle_slots": 3816723,
+      "noisy_idle_locations": 3816606,
+      "noisy_slots": 17570,
+      "physical_slots": 17571,
+      "num_1q": 432,
+      "num_2q": 67782,
+      "num_measure": 540
+    }
+  },
+  {
+    "source": "G:\\1014gogogo\\ISCAS\\research\\parallel-routing-2026-10-10\\data\\fixed-hgp-c1-a-baseline-eps0.001-n256-seed20261016.json",
+    "sha256": "d0cd2020065963c738e393ec612a68d90d2af17d69a13f699f6eea7fff200e84",
+    "instance": "hgp-c1-a",
+    "label": "baseline",
+    "eps": 0.001,
+    "shots": 256,
+    "failures": 256,
+    "logical_observables": 9,
+    "sites": 441,
+    "geometry": "21x21",
+    "decoder": {
+      "bp_method": "product_sum",
+      "max_iter": 2,
+      "schedule": "serial",
+      "osd_method": "osd_cs",
+      "osd_order": 0
+    },
+    "metrics": {
+      "num_reset": 441,
+      "full_lifetime_idle_slots": 5836068,
+      "noisy_idle_locations": 5835852,
+      "noisy_slots": 14829,
+      "physical_slots": 14830,
+      "num_1q": 864,
+      "num_2q": 350784,
+      "num_measure": 1089
+    }
+  },
+  {
+    "source": "G:\\1014gogogo\\ISCAS\\research\\parallel-routing-2026-10-10\\data\\fixed-hgp-c1-a-candidate-eps0.001-n256-seed20261016.json",
+    "sha256": "b96d1c8e1e5a11e428b1e8bf59b31d21c7cff180c39d46f06c934a1fc61ee1f4",
+    "instance": "hgp-c1-a",
+    "label": "candidate",
+    "eps": 0.001,
+    "shots": 256,
+    "failures": 256,
+    "logical_observables": 9,
+    "sites": 441,
+    "geometry": "21x21",
+    "decoder": {
+      "bp_method": "product_sum",
+      "max_iter": 2,
+      "schedule": "serial",
+      "osd_method": "osd_cs",
+      "osd_order": 0
+    },
+    "metrics": {
+      "num_reset": 441,
+      "full_lifetime_idle_slots": 5836068,
+      "noisy_idle_locations": 5835852,
+      "noisy_slots": 14829,
+      "physical_slots": 14830,
+      "num_1q": 864,
+      "num_2q": 350784,
+      "num_measure": 1089
+    }
+  },
+  {
+    "source": "G:\\1014gogogo\\ISCAS\\research\\parallel-routing-2026-10-10\\data\\fixed-tiny-hgp-baseline-eps0.001-n1000000-seed20261015.json",
+    "sha256": "5c6acbf4e82695967cc0bdbc4368f11905ba924f7c3537c38b62b46dfcb6bfdd",
+    "instance": "tiny-hgp",
+    "label": "baseline",
+    "eps": 0.001,
+    "shots": 1000000,
+    "failures": 391269,
+    "logical_observables": 1,
+    "sites": 25,
+    "geometry": "5x5",
+    "decoder": {
+      "bp_method": "product_sum",
+      "max_iter": 2,
+      "schedule": "serial",
+      "osd_method": "osd_cs",
+      "osd_order": 0
+    },
+    "metrics": {
+      "num_reset": 25,
+      "full_lifetime_idle_slots": 5949,
+      "noisy_idle_locations": 5937,
+      "noisy_slots": 294,
+      "physical_slots": 295,
+      "num_1q": 48,
+      "num_2q": 646,
+      "num_measure": 61
+    }
+  },
+  {
+    "source": "G:\\1014gogogo\\ISCAS\\research\\parallel-routing-2026-10-10\\data\\fixed-tiny-hgp-baseline-eps0.003-n1000000-seed20261015.json",
+    "sha256": "6dc28f4cf90257cfa015b02e99722add571b88527cdb8c0fd3d4c5ce9ee55100",
+    "instance": "tiny-hgp",
+    "label": "baseline",
+    "eps": 0.003,
+    "shots": 1000000,
+    "failures": 498015,
+    "logical_observables": 1,
+    "sites": 25,
+    "geometry": "5x5",
+    "decoder": {
+      "bp_method": "product_sum",
+      "max_iter": 2,
+      "schedule": "serial",
+      "osd_method": "osd_cs",
+      "osd_order": 0
+    },
+    "metrics": {
+      "num_reset": 25,
+      "full_lifetime_idle_slots": 5949,
+      "noisy_idle_locations": 5937,
+      "noisy_slots": 294,
+      "physical_slots": 295,
+      "num_1q": 48,
+      "num_2q": 646,
+      "num_measure": 61
+    }
+  },
+  {
+    "source": "G:\\1014gogogo\\ISCAS\\research\\parallel-routing-2026-10-10\\data\\fixed-tiny-hgp-baseline-eps0.01-n1000000-seed20261015.json",
+    "sha256": "140859d1c2d5f24b1b07a48712c36a2c179e4881bcec8320d3624da86774f297",
+    "instance": "tiny-hgp",
+    "label": "baseline",
+    "eps": 0.01,
+    "shots": 1000000,
+    "failures": 500093,
+    "logical_observables": 1,
+    "sites": 25,
+    "geometry": "5x5",
+    "decoder": {
+      "bp_method": "product_sum",
+      "max_iter": 2,
+      "schedule": "serial",
+      "osd_method": "osd_cs",
+      "osd_order": 0
+    },
+    "metrics": {
+      "num_reset": 25,
+      "full_lifetime_idle_slots": 5949,
+      "noisy_idle_locations": 5937,
+      "noisy_slots": 294,
+      "physical_slots": 295,
+      "num_1q": 48,
+      "num_2q": 646,
+      "num_measure": 61
+    }
+  },
+  {
+    "source": "G:\\1014gogogo\\ISCAS\\research\\parallel-routing-2026-10-10\\data\\fixed-tiny-hgp-candidate-eps0.001-n1000000-seed20261015.json",
+    "sha256": "9c39da5263b316c72da5d1216d5351d3792b9c440b50ed23e7124803a5ff446f",
+    "instance": "tiny-hgp",
+    "label": "candidate",
+    "eps": 0.001,
+    "shots": 1000000,
+    "failures": 310233,
+    "logical_observables": 1,
+    "sites": 25,
+    "geometry": "5x5",
+    "decoder": {
+      "bp_method": "product_sum",
+      "max_iter": 2,
+      "schedule": "serial",
+      "osd_method": "osd_cs",
+      "osd_order": 0
+    },
+    "metrics": {
+      "num_reset": 25,
+      "full_lifetime_idle_slots": 4905,
+      "noisy_idle_locations": 4893,
+      "noisy_slots": 240,
+      "physical_slots": 241,
+      "num_1q": 48,
+      "num_2q": 493,
+      "num_measure": 61
+    }
+  },
+  {
+    "source": "G:\\1014gogogo\\ISCAS\\research\\parallel-routing-2026-10-10\\data\\fixed-tiny-hgp-candidate-eps0.003-n1000000-seed20261015.json",
+    "sha256": "07dc4259e182c337be5d5b7ea2fd66a32e4aa29ebffaeaaf4b77b60a7cc9bf45",
+    "instance": "tiny-hgp",
+    "label": "candidate",
+    "eps": 0.003,
+    "shots": 1000000,
+    "failures": 493903,
+    "logical_observables": 1,
+    "sites": 25,
+    "geometry": "5x5",
+    "decoder": {
+      "bp_method": "product_sum",
+      "max_iter": 2,
+      "schedule": "serial",
+      "osd_method": "osd_cs",
+      "osd_order": 0
+    },
+    "metrics": {
+      "num_reset": 25,
+      "full_lifetime_idle_slots": 4905,
+      "noisy_idle_locations": 4893,
+      "noisy_slots": 240,
+      "physical_slots": 241,
+      "num_1q": 48,
+      "num_2q": 493,
+      "num_measure": 61
+    }
+  },
+  {
+    "source": "G:\\1014gogogo\\ISCAS\\research\\parallel-routing-2026-10-10\\data\\fixed-tiny-hgp-candidate-eps0.01-n1000000-seed20261015.json",
+    "sha256": "d04f1e3d11a7b85b6cb266cf77f42577608166887550e0ef7a68d0686c0b14ae",
+    "instance": "tiny-hgp",
+    "label": "candidate",
+    "eps": 0.01,
+    "shots": 1000000,
+    "failures": 499924,
+    "logical_observables": 1,
+    "sites": 25,
+    "geometry": "5x5",
+    "decoder": {
+      "bp_method": "product_sum",
+      "max_iter": 2,
+      "schedule": "serial",
+      "osd_method": "osd_cs",
+      "osd_order": 0
+    },
+    "metrics": {
+      "num_reset": 25,
+      "full_lifetime_idle_slots": 4905,
+      "noisy_idle_locations": 4893,
+      "noisy_slots": 240,
+      "physical_slots": 241,
+      "num_1q": 48,
+      "num_2q": 493,
+      "num_measure": 61
+    }
+  },
+  {
+    "source": "G:\\1014gogogo\\ISCAS\\research\\conflict-fault-routing-2026-10-11\\fixed-original\\data\\fixed-hgp-c1-a-bridge-eps0.001-n256-seed20261023.json",
+    "sha256": "be6b059dbb8be85922f8723a8538f6d5e06ea95fbdc5f193e0180ba6817a62a0",
+    "instance": "hgp-c1-a",
+    "label": "bridge",
+    "eps": 0.001,
+    "shots": 256,
+    "failures": 256,
+    "logical_observables": 9,
+    "sites": 441,
+    "geometry": "21x21",
+    "decoder": {
+      "bp_method": "product_sum",
+      "max_iter": 2,
+      "schedule": "serial",
+      "osd_method": "osd_cs",
+      "osd_order": 0
+    },
+    "metrics": {
+      "num_reset": 441,
+      "full_lifetime_idle_slots": 4088196,
+      "noisy_idle_locations": 4087980,
+      "noisy_slots": 10317,
+      "physical_slots": 10318,
+      "num_1q": 864,
+      "num_2q": 229824,
+      "num_measure": 1089
+    }
+  },
+  {
+    "source": "G:\\1014gogogo\\ISCAS\\research\\conflict-fault-routing-2026-10-11\\fixed-original\\data\\fixed-hgp-c1-a-bridge-eps0.003-n256-seed20261023.json",
+    "sha256": "e7428484bc66c3e95956033b52f0feee8a820cd3bfac2888e295b1205c2087e6",
+    "instance": "hgp-c1-a",
+    "label": "bridge",
+    "eps": 0.003,
+    "shots": 256,
+    "failures": 256,
+    "logical_observables": 9,
+    "sites": 441,
+    "geometry": "21x21",
+    "decoder": {
+      "bp_method": "product_sum",
+      "max_iter": 2,
+      "schedule": "serial",
+      "osd_method": "osd_cs",
+      "osd_order": 0
+    },
+    "metrics": {
+      "num_reset": 441,
+      "full_lifetime_idle_slots": 4088196,
+      "noisy_idle_locations": 4087980,
+      "noisy_slots": 10317,
+      "physical_slots": 10318,
+      "num_1q": 864,
+      "num_2q": 229824,
+      "num_measure": 1089
+    }
+  },
+  {
+    "source": "G:\\1014gogogo\\ISCAS\\research\\conflict-fault-routing-2026-10-11\\fixed-original\\data\\fixed-hgp-c1-a-bridge-eps0.01-n256-seed20261023.json",
+    "sha256": "dc465bfe92dd5a5415868ff3e0b34e69692841c05e31506e7277d2fe3ff92f53",
+    "instance": "hgp-c1-a",
+    "label": "bridge",
+    "eps": 0.01,
+    "shots": 256,
+    "failures": 256,
+    "logical_observables": 9,
+    "sites": 441,
+    "geometry": "21x21",
+    "decoder": {
+      "bp_method": "product_sum",
+      "max_iter": 2,
+      "schedule": "serial",
+      "osd_method": "osd_cs",
+      "osd_order": 0
+    },
+    "metrics": {
+      "num_reset": 441,
+      "full_lifetime_idle_slots": 4088196,
+      "noisy_idle_locations": 4087980,
+      "noisy_slots": 10317,
+      "physical_slots": 10318,
+      "num_1q": 864,
+      "num_2q": 229824,
+      "num_measure": 1089
+    }
+  },
+  {
+    "source": "G:\\1014gogogo\\ISCAS\\research\\conflict-fault-routing-2026-10-11\\fixed-original\\data\\fixed-hgp-c1-a-kutin-eps0.001-n256-seed20261024.json",
+    "sha256": "011793c84eb0d1ff65c2c4a973b17b93e8754ab328b1754161e997926aa05368",
+    "instance": "hgp-c1-a",
+    "label": "kutin",
+    "eps": 0.001,
+    "shots": 256,
+    "failures": 256,
+    "logical_observables": 9,
+    "sites": 441,
+    "geometry": "21x21",
+    "decoder": {
+      "bp_method": "product_sum",
+      "max_iter": 2,
+      "schedule": "serial",
+      "osd_method": "osd_cs",
+      "osd_order": 0
+    },
+    "metrics": {
+      "num_reset": 441,
+      "full_lifetime_idle_slots": 1209600,
+      "noisy_idle_locations": 1209384,
+      "noisy_slots": 3817,
+      "physical_slots": 3818,
+      "num_1q": 864,
+      "num_2q": 235872,
+      "num_measure": 1089
+    }
+  },
+  {
+    "source": "G:\\1014gogogo\\ISCAS\\research\\conflict-fault-routing-2026-10-11\\fixed-original\\data\\fixed-hgp-c1-a-kutin-eps0.003-n256-seed20261024.json",
+    "sha256": "4b46ac68cdb800407cad570cfba7765a7d0411682d5f8ff6e5f29fef046aa19f",
+    "instance": "hgp-c1-a",
+    "label": "kutin",
+    "eps": 0.003,
+    "shots": 256,
+    "failures": 254,
+    "logical_observables": 9,
+    "sites": 441,
+    "geometry": "21x21",
+    "decoder": {
+      "bp_method": "product_sum",
+      "max_iter": 2,
+      "schedule": "serial",
+      "osd_method": "osd_cs",
+      "osd_order": 0
+    },
+    "metrics": {
+      "num_reset": 441,
+      "full_lifetime_idle_slots": 1209600,
+      "noisy_idle_locations": 1209384,
+      "noisy_slots": 3817,
+      "physical_slots": 3818,
+      "num_1q": 864,
+      "num_2q": 235872,
+      "num_measure": 1089
+    }
+  },
+  {
+    "source": "G:\\1014gogogo\\ISCAS\\research\\conflict-fault-routing-2026-10-11\\fixed-original\\data\\fixed-hgp-c1-a-kutin-eps0.01-n256-seed20261024.json",
+    "sha256": "39d555f22bc4c6cfbdcf81db101c6407721a795c6f68797ab28aef448ff02234",
+    "instance": "hgp-c1-a",
+    "label": "kutin",
+    "eps": 0.01,
+    "shots": 256,
+    "failures": 254,
+    "logical_observables": 9,
+    "sites": 441,
+    "geometry": "21x21",
+    "decoder": {
+      "bp_method": "product_sum",
+      "max_iter": 2,
+      "schedule": "serial",
+      "osd_method": "osd_cs",
+      "osd_order": 0
+    },
+    "metrics": {
+      "num_reset": 441,
+      "full_lifetime_idle_slots": 1209600,
+      "noisy_idle_locations": 1209384,
+      "noisy_slots": 3817,
+      "physical_slots": 3818,
+      "num_1q": 864,
+      "num_2q": 235872,
+      "num_measure": 1089
+    }
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "branch": 0,
+    "injection_shots": 16,
+    "detectors": [
+      0
+    ],
+    "observables": [],
+    "equal": true
+  },
+  {
+    "branch": 6007,
+    "injection_shots": 16,
+    "detectors": [
+      9,
+      10,
+      11,
+      17
+    ],
+    "observables": [],
+    "equal": true
+  },
+  {
+    "branch": 12015,
+    "injection_shots": 16,
+    "detectors": [
+      17
+    ],
+    "observables": [
+      0
+    ],
+    "equal": true
+  },
+  {
+    "branch": 18022,
+    "injection_shots": 16,
+    "detectors": [
+      29
+    ],
+    "observables": [
+      0
+    ],
+    "equal": true
+  }
+]

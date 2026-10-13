@@ -1,0 +1,37 @@
+{
+  "registered_utc": "2026-10-12T07:07:44.239131+00:00",
+  "source_sha256": {
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-decoder-parallel-v2\\source\\src\\iscas_revision\\__init__.py": "eccf53e0ac7bfc3dc25e985bfb426bcb29f0c0da56545bf1b766cf4723dd11b9",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-decoder-parallel-v2\\source\\src\\iscas_revision\\artifacts.py": "38b73ca09d581d436134dcc64d2fd83d1b2180f519ee659d5c470e5debdba29e",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-decoder-parallel-v2\\source\\src\\iscas_revision\\audit.py": "b36cba0c99afe89f337df2eab5ab2578ea78d284416c663993ee6d672b67accc",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-decoder-parallel-v2\\source\\src\\iscas_revision\\decoding.py": "0105c1ae64c051ca11144d6c89f26aa33dbe6c483d007759721f04997f4f474b",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-decoder-parallel-v2\\source\\src\\iscas_revision\\stratification.py": "b002b95c2ef2d6dd514ad9df9f9fa4ed5aee23a781f7b9456b52912b7fcbb19f",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-decoder-parallel-v2\\source\\src\\iscas_revision\\literature.py": "7d78db5b08a7bfeec606e269d93b6968140873ecffcd7e6fbf8f595e7dcd9360",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-decoder-parallel-v2\\source\\src\\iscas_revision\\verification.py": "cb29cd6dc30b86b5831fb33cd5d2131a56ba10dd3f8c32ec02261f187e0ab49f",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-decoder-parallel-v2\\source\\src\\iscas_revision\\experiments.py": "5f40a38f093894a71723d60bc77c846d58348ca9d5fa0aff4804ee05cab472f1",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-decoder-parallel-v2\\source\\src\\iscas_revision\\orchestration.py": "ee63de4b3ccfb98a612637cb6a876e2e24d64223dcdd3a26f164581a69d99a73",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-decoder-parallel-v2\\source\\src\\iscas_revision\\baselines.py": "47f85e3c05116b3818e73073ca4a918aeaf9174d762b89cf5cf8deb1417d0504",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-decoder-parallel-v2\\source\\src\\iscas_revision\\parallel_decode.py": "73a93a6c71941d9d15b15f57127d38011ea90f40cc2085adb554a4670c9b47e1",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-decoder-parallel-v2\\source\\src\\iscas_revision\\publication.py": "84b89d0cccb8ee3ddae0cc4bf397f034d86326d3b06f6297322d016138ed038d",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-decoder-parallel-v2\\source\\src\\iscas_revision\\finite_parallel.py": "7d125d0d9ba6cd065908db96d92c319f9fab98c7f786a361c7ade44f34816312",
+    "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\src\\support.py": "3c16ac099feeefe89bb44c53c13e51b88984f40e6ed7dd97220c2c8a11a25a47",
+    "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\src\\construction.py": "ad3aa6bffd9a5aa77b2c4a6c26ae18a8031d2dbc9d1209cb07fe3a2aa0c0cf0b",
+    "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\src\\physical_risk.py": "f9d740ef4741af4ad8247f406b0ece83f557cae5ad5be63f0c84c3c9a790509b",
+    "G:\\1014gogogo\\ISCAS\\research\\parallel-routing-2026-10-10\\src\\routing.py": "89dafb2f9a54e8fa732c4450d5cba7f2533af27b9299cb29b988a6b452d9e3f3",
+    "G:\\1014gogogo\\ISCAS\\research\\conflict-fault-routing-2026-10-11\\src\\joint_router.py": "cc960d117a95824a4a209e34c899a2188cc7ddb5c1c593f6a95303d2cd568fc9"
+  },
+  "workers": 6,
+  "scientific_protocol": "unchanged batch2 matrices, priors, decoder configurations, all logical vectors and complete lookup",
+  "scheduling": "256-row jobs, 32-row immutable companion checkpoints, exclusive jobs, atomic no-replace hard links",
+  "duplicate_policy": "same deterministic predictions; never add duplicate sample counts; compare existing arrays",
+  "benchmark": {
+    "build_seconds": 3.899671200022567,
+    "decode_seconds": 92.92300230002729,
+    "records": 16,
+    "seconds_per_record": 5.807687643751706
+  },
+  "review": "reports/bb-decoder-sharding-review.md",
+  "supersedes_scheduler": "bb-decoder-parallel",
+  "scheduling_change": "replace unsupported os.link with validated Windows atomic rename; exact existing arrays checked; scientific modules byte-identical",
+  "core_versions_unchanged": true
+}

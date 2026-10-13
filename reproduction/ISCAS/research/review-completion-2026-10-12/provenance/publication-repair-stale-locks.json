@@ -1,0 +1,34 @@
+[
+  {
+    "FullName": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\bb-parallel\\bb-108\\forward\\000512\\worker.lock",
+    "Owner": "119632"
+  },
+  {
+    "FullName": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\bb-parallel\\bb-108\\forward\\000768\\worker.lock",
+    "Owner": "119120"
+  },
+  {
+    "FullName": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\bb-parallel\\bb-108\\forward\\001024\\worker.lock",
+    "Owner": "123088"
+  },
+  {
+    "FullName": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\bb-parallel\\bb-72\\check_reverse\\001024\\worker.lock",
+    "Owner": "102640"
+  },
+  {
+    "FullName": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\bb-parallel\\bb-72\\forward\\000768\\worker.lock",
+    "Owner": "52980"
+  },
+  {
+    "FullName": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\bb-parallel\\bb-72\\macro_reverse\\000768\\worker.lock",
+    "Owner": "115664"
+  },
+  {
+    "FullName": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\bb-finite-parallel\\bb-72\\check_reverse\\eps1e-09\\021504\\worker.lock",
+    "Owner": "57912"
+  },
+  {
+    "FullName": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\bb-finite-parallel\\bb-72\\check_reverse\\eps1e-09\\021760\\worker.lock",
+    "Owner": "121336"
+  }
+]

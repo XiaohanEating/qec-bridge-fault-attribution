@@ -1,0 +1,21 @@
+{
+  "order": "macro6-checks3",
+  "R_star": 122.93333333333331,
+  "R_delta": {
+    "original": 607.5333333333333,
+    "strong": 436.8666666666667,
+    "single_fault_lookup": 122.93333333333334
+  },
+  "metrics": {
+    "num_reset": 25,
+    "full_lifetime_idle_slots": 3696,
+    "noisy_idle_locations": 3684,
+    "noisy_slots": 229,
+    "physical_slots": 230,
+    "num_1q": 48,
+    "num_2q": 960,
+    "num_measure": 61
+  },
+  "matched": true,
+  "plan_sha256": "50ee7d5fa767048625a918fd4e08a1044ad5e8624bc40274ec5c54268c52e55c"
+}

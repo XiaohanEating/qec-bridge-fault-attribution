@@ -1,0 +1,39 @@
+{
+  "seed": 20265131,
+  "circuit_sha256": "028ff57a4ceb1a6f28d1157a2b82ffbf5b7e423bda0967f8323b95263466acaf",
+  "physical_samples_sha256": "500bbbb11c9e5727a8acf73b3c466b78f0134e3b1a045ee346458bc4c37f4da8",
+  "decoded_sha256": "1b3a70bac8f3f3d73e0e72ab8bdce8bc23f33ae06115f79d4e51aee1e5d805e8",
+  "decoder": {
+    "original": {
+      "shots": 4096,
+      "failures": 0,
+      "p_any": 0.0,
+      "per_logical_failures": [
+        0
+      ],
+      "decoder": {
+        "window": 1,
+        "max_iter": 2,
+        "osd_order": 0
+      },
+      "decode_seconds": 0.5861722999834456
+    },
+    "strong": {
+      "shots": 4096,
+      "failures": 1,
+      "p_any": 0.000244140625,
+      "per_logical_failures": [
+        1
+      ],
+      "decoder": {
+        "window": 4,
+        "max_iter": 50,
+        "osd_order": 2
+      },
+      "decode_seconds": 0.265488299948629
+    }
+  },
+  "original_only_failure": 0,
+  "strong_only_failure": 1,
+  "total_seconds": 0.8873041999759153
+}

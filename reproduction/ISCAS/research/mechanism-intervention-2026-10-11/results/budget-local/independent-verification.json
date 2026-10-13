@@ -1,0 +1,55 @@
+{
+  "registration": {
+    "selected": "baseline",
+    "tested": "region-1",
+    "baseline": "baseline",
+    "shots": 32768,
+    "seeds": {
+      "baseline": 20261104,
+      "candidate": 20261204
+    },
+    "primary_eps": 0.001,
+    "primary_source": "all",
+    "baseline_risk": 560.4666666666667,
+    "tested_risk": 560.4666666666667,
+    "prediction": "unknown",
+    "rule": "single-move exact risk descent, choose baseline when no risk improvement; rejected candidate tested as direction check",
+    "search_sha256": "e06d6c9337bbbf227fd0162b07cc0547fc4fb82e86ecccc49da030717487ad97",
+    "source_sha256": "1c65e8d69c3d8b4e1e84e1754c35595602e465a347cc605d5885d296a10c3ae8",
+    "before_sampling": true,
+    "primary_ci": "Newcombe-Wilson95 independent; direction agreement/pass, opposite/failure, overlap/unknown"
+  },
+  "registration_sha256": "0bcea9fb0c981c87c2ea478820543d23539f11f2414d3b1e6bf6de4d9c603e37",
+  "records": {
+    "baseline": {
+      "original": 12761,
+      "strong": 11635,
+      "shots": 32768,
+      "seed": 20261104,
+      "original_only": 4685,
+      "strong_only": 3559,
+      "decoder_paired_exact_p": 2.3186479268452857e-35,
+      "sample_sha256": "558205b003cfe4b767d905180f4e21cf7de30a09b35ebecdb47d26b0786e0ab2"
+    },
+    "region-1": {
+      "original": 12912,
+      "strong": 11588,
+      "shots": 32768,
+      "seed": 20261204,
+      "original_only": 4800,
+      "strong_only": 3476,
+      "decoder_paired_exact_p": 4.1132046239086306e-48,
+      "sample_sha256": "1aa4c182352262d99144084a708f24288035542495803ce72eeabc367e468fc5"
+    }
+  },
+  "verdict": "unknown",
+  "all_source_SHA_and_residual_counts_equal": true,
+  "contrast": {
+    "difference": 0.004608154296875,
+    "ci95": [
+      -0.002866219347899629,
+      0.012081801613628481
+    ],
+    "observed": "unknown"
+  }
+}

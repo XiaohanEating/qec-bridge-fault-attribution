@@ -1,0 +1,266 @@
+[
+  {
+    "Id": 16040,
+    "CPU": 0.015625,
+    "WorkingSet64": 1118208,
+    "Threads": 1
+  },
+  {
+    "Id": 16048,
+    "CPU": 0.015625,
+    "WorkingSet64": 1118208,
+    "Threads": 1
+  },
+  {
+    "Id": 16056,
+    "CPU": 0.015625,
+    "WorkingSet64": 1118208,
+    "Threads": 1
+  },
+  {
+    "Id": 16092,
+    "CPU": 457.03125,
+    "WorkingSet64": 7860224,
+    "Threads": 49
+  },
+  {
+    "Id": 16100,
+    "CPU": 450.53125,
+    "WorkingSet64": 7942144,
+    "Threads": 49
+  },
+  {
+    "Id": 17468,
+    "CPU": 455.53125,
+    "WorkingSet64": 8036352,
+    "Threads": 49
+  },
+  {
+    "Id": 52092,
+    "CPU": 679.1875,
+    "WorkingSet64": 191746048,
+    "Threads": 1
+  },
+  {
+    "Id": 55428,
+    "CPU": 1536.53125,
+    "WorkingSet64": 222527488,
+    "Threads": 1
+  },
+  {
+    "Id": 57328,
+    "CPU": 0.03125,
+    "WorkingSet64": 4673536,
+    "Threads": 1
+  },
+  {
+    "Id": 59388,
+    "CPU": 1548.796875,
+    "WorkingSet64": 143081472,
+    "Threads": 1
+  },
+  {
+    "Id": 61708,
+    "CPU": 0.03125,
+    "WorkingSet64": 4497408,
+    "Threads": 1
+  },
+  {
+    "Id": 66576,
+    "CPU": 4316.875,
+    "WorkingSet64": 36937728,
+    "Threads": 1
+  },
+  {
+    "Id": 84804,
+    "CPU": 1547.328125,
+    "WorkingSet64": 203702272,
+    "Threads": 1
+  },
+  {
+    "Id": 94032,
+    "CPU": 644.40625,
+    "WorkingSet64": 6333845504,
+    "Threads": 1
+  },
+  {
+    "Id": 94340,
+    "CPU": 2731.296875,
+    "WorkingSet64": 201781248,
+    "Threads": 1
+  },
+  {
+    "Id": 96052,
+    "CPU": 689.25,
+    "WorkingSet64": 188567552,
+    "Threads": 1
+  },
+  {
+    "Id": 99980,
+    "CPU": 0.03125,
+    "WorkingSet64": 4222976,
+    "Threads": 1
+  },
+  {
+    "Id": 103256,
+    "CPU": 3274.203125,
+    "WorkingSet64": 55951360,
+    "Threads": 1
+  },
+  {
+    "Id": 108628,
+    "CPU": 0.015625,
+    "WorkingSet64": 4227072,
+    "Threads": 1
+  },
+  {
+    "Id": 113900,
+    "CPU": 1545.90625,
+    "WorkingSet64": 223580160,
+    "Threads": 1
+  },
+  {
+    "Id": 115292,
+    "CPU": 2934.765625,
+    "WorkingSet64": 33923072,
+    "Threads": 1
+  },
+  {
+    "Id": 115608,
+    "CPU": 5173.1875,
+    "WorkingSet64": 58802176,
+    "Threads": 1
+  },
+  {
+    "Id": 116260,
+    "CPU": 973.53125,
+    "WorkingSet64": 119820288,
+    "Threads": 3
+  },
+  {
+    "Id": 120024,
+    "CPU": 2721.015625,
+    "WorkingSet64": 95809536,
+    "Threads": 1
+  },
+  {
+    "Id": 120420,
+    "CPU": 1539.390625,
+    "WorkingSet64": 150093824,
+    "Threads": 1
+  },
+  {
+    "Id": 120740,
+    "CPU": 40.296875,
+    "WorkingSet64": 40730624,
+    "Threads": 3
+  },
+  {
+    "Id": 120784,
+    "CPU": 0.015625,
+    "WorkingSet64": 4222976,
+    "Threads": 1
+  },
+  {
+    "Id": 121076,
+    "CPU": 0.03125,
+    "WorkingSet64": 4497408,
+    "Threads": 1
+  },
+  {
+    "Id": 121220,
+    "CPU": 5170.875,
+    "WorkingSet64": 102907904,
+    "Threads": 1
+  },
+  {
+    "Id": 121876,
+    "CPU": 5192.375,
+    "WorkingSet64": 59281408,
+    "Threads": 1
+  },
+  {
+    "Id": 123152,
+    "CPU": 34.4375,
+    "WorkingSet64": 41291776,
+    "Threads": 3
+  },
+  {
+    "Id": 123524,
+    "CPU": 5170.28125,
+    "WorkingSet64": 58527744,
+    "Threads": 1
+  },
+  {
+    "Id": 123656,
+    "CPU": 2728.890625,
+    "WorkingSet64": 104382464,
+    "Threads": 1
+  },
+  {
+    "Id": 123704,
+    "CPU": 5179.421875,
+    "WorkingSet64": 76959744,
+    "Threads": 1
+  },
+  {
+    "Id": 124328,
+    "CPU": 5160.984375,
+    "WorkingSet64": 66531328,
+    "Threads": 1
+  },
+  {
+    "Id": 124764,
+    "CPU": 2564.421875,
+    "WorkingSet64": 159514624,
+    "Threads": 1
+  },
+  {
+    "Id": 124896,
+    "CPU": 10.984375,
+    "WorkingSet64": 68120576,
+    "Threads": 3
+  },
+  {
+    "Id": 124900,
+    "CPU": 3642.59375,
+    "WorkingSet64": 56320000,
+    "Threads": 1
+  },
+  {
+    "Id": 125008,
+    "CPU": 2734.640625,
+    "WorkingSet64": 101208064,
+    "Threads": 1
+  },
+  {
+    "Id": 125096,
+    "CPU": 5172.625,
+    "WorkingSet64": 55599104,
+    "Threads": 1
+  },
+  {
+    "Id": 125108,
+    "CPU": 1543.15625,
+    "WorkingSet64": 113012736,
+    "Threads": 1
+  },
+  {
+    "Id": 125308,
+    "CPU": 0.015625,
+    "WorkingSet64": 4222976,
+    "Threads": 1
+  },
+  {
+    "Id": 125692,
+    "CPU": 5182.078125,
+    "WorkingSet64": 59138048,
+    "Threads": 1
+  },
+  {
+    "Id": 125708,
+    "CPU": 23.90625,
+    "WorkingSet64": 38223872,
+    "Threads": 3
+  }
+]

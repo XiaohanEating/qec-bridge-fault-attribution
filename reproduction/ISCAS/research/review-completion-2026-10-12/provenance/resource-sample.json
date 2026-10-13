@@ -1,0 +1,271 @@
+{
+  "Seconds": 166.027379,
+  "PythonCPUSeconds": 2407.407,
+  "PythonRAMGB": 8.871999999999995,
+  "Processes": [
+    {
+      "PID": 16040,
+      "CPUSecondsDelta": 0.0,
+      "PercentOneCore": 0.0,
+      "RAMGB": 0.001
+    },
+    {
+      "PID": 16048,
+      "CPUSecondsDelta": 0.0,
+      "PercentOneCore": 0.0,
+      "RAMGB": 0.001
+    },
+    {
+      "PID": 16056,
+      "CPUSecondsDelta": 0.0,
+      "PercentOneCore": 0.0,
+      "RAMGB": 0.001
+    },
+    {
+      "PID": 16092,
+      "CPUSecondsDelta": 0.312,
+      "PercentOneCore": 0.19,
+      "RAMGB": 0.007
+    },
+    {
+      "PID": 16100,
+      "CPUSecondsDelta": 0.234,
+      "PercentOneCore": 0.14,
+      "RAMGB": 0.007
+    },
+    {
+      "PID": 17468,
+      "CPUSecondsDelta": 0.203,
+      "PercentOneCore": 0.12,
+      "RAMGB": 0.007
+    },
+    {
+      "PID": 52092,
+      "CPUSecondsDelta": 28.672,
+      "PercentOneCore": 17.27,
+      "RAMGB": 0.179
+    },
+    {
+      "PID": 55428,
+      "CPUSecondsDelta": 113.734,
+      "PercentOneCore": 68.5,
+      "RAMGB": 0.207
+    },
+    {
+      "PID": 57328,
+      "CPUSecondsDelta": 0.0,
+      "PercentOneCore": 0.0,
+      "RAMGB": 0.004
+    },
+    {
+      "PID": 59388,
+      "CPUSecondsDelta": 110.594,
+      "PercentOneCore": 66.61,
+      "RAMGB": 0.133
+    },
+    {
+      "PID": 61708,
+      "CPUSecondsDelta": 0.0,
+      "PercentOneCore": 0.0,
+      "RAMGB": 0.004
+    },
+    {
+      "PID": 66576,
+      "CPUSecondsDelta": 111.828,
+      "PercentOneCore": 67.36,
+      "RAMGB": 0.034
+    },
+    {
+      "PID": 84804,
+      "CPUSecondsDelta": 113.062,
+      "PercentOneCore": 68.1,
+      "RAMGB": 0.19
+    },
+    {
+      "PID": 94032,
+      "CPUSecondsDelta": 19.797,
+      "PercentOneCore": 11.92,
+      "RAMGB": 5.899
+    },
+    {
+      "PID": 94340,
+      "CPUSecondsDelta": 113.719,
+      "PercentOneCore": 68.49,
+      "RAMGB": 0.188
+    },
+    {
+      "PID": 96052,
+      "CPUSecondsDelta": 32.516,
+      "PercentOneCore": 19.58,
+      "RAMGB": 0.176
+    },
+    {
+      "PID": 99980,
+      "CPUSecondsDelta": 0.0,
+      "PercentOneCore": 0.0,
+      "RAMGB": 0.004
+    },
+    {
+      "PID": 103256,
+      "CPUSecondsDelta": 0.0,
+      "PercentOneCore": 0.0,
+      "RAMGB": 0.052
+    },
+    {
+      "PID": 108628,
+      "CPUSecondsDelta": 0.0,
+      "PercentOneCore": 0.0,
+      "RAMGB": 0.004
+    },
+    {
+      "PID": 113900,
+      "CPUSecondsDelta": 111.297,
+      "PercentOneCore": 67.04,
+      "RAMGB": 0.208
+    },
+    {
+      "PID": 115292,
+      "CPUSecondsDelta": 0.0,
+      "PercentOneCore": 0.0,
+      "RAMGB": 0.032
+    },
+    {
+      "PID": 115608,
+      "CPUSecondsDelta": 111.125,
+      "PercentOneCore": 66.93,
+      "RAMGB": 0.055
+    },
+    {
+      "PID": 116260,
+      "CPUSecondsDelta": 87.391,
+      "PercentOneCore": 52.64,
+      "RAMGB": 0.112
+    },
+    {
+      "PID": 120024,
+      "CPUSecondsDelta": 111.797,
+      "PercentOneCore": 67.34,
+      "RAMGB": 0.097
+    },
+    {
+      "PID": 120420,
+      "CPUSecondsDelta": 112.016,
+      "PercentOneCore": 67.47,
+      "RAMGB": 0.14
+    },
+    {
+      "PID": 120740,
+      "CPUSecondsDelta": 1.094,
+      "PercentOneCore": 0.66,
+      "RAMGB": 0.038
+    },
+    {
+      "PID": 120784,
+      "CPUSecondsDelta": 0.0,
+      "PercentOneCore": 0.0,
+      "RAMGB": 0.004
+    },
+    {
+      "PID": 121076,
+      "CPUSecondsDelta": 0.0,
+      "PercentOneCore": 0.0,
+      "RAMGB": 0.004
+    },
+    {
+      "PID": 121220,
+      "CPUSecondsDelta": 110.156,
+      "PercentOneCore": 66.35,
+      "RAMGB": 0.101
+    },
+    {
+      "PID": 121876,
+      "CPUSecondsDelta": 112.031,
+      "PercentOneCore": 67.48,
+      "RAMGB": 0.055
+    },
+    {
+      "PID": 123152,
+      "CPUSecondsDelta": 1.266,
+      "PercentOneCore": 0.76,
+      "RAMGB": 0.038
+    },
+    {
+      "PID": 123524,
+      "CPUSecondsDelta": 111.453,
+      "PercentOneCore": 67.13,
+      "RAMGB": 0.055
+    },
+    {
+      "PID": 123656,
+      "CPUSecondsDelta": 111.266,
+      "PercentOneCore": 67.02,
+      "RAMGB": 0.097
+    },
+    {
+      "PID": 123704,
+      "CPUSecondsDelta": 112.406,
+      "PercentOneCore": 67.7,
+      "RAMGB": 0.075
+    },
+    {
+      "PID": 124328,
+      "CPUSecondsDelta": 111.719,
+      "PercentOneCore": 67.29,
+      "RAMGB": 0.063
+    },
+    {
+      "PID": 124764,
+      "CPUSecondsDelta": 111.578,
+      "PercentOneCore": 67.2,
+      "RAMGB": 0.138
+    },
+    {
+      "PID": 124896,
+      "CPUSecondsDelta": 0.641,
+      "PercentOneCore": 0.39,
+      "RAMGB": 0.063
+    },
+    {
+      "PID": 124900,
+      "CPUSecondsDelta": 0.0,
+      "PercentOneCore": 0.0,
+      "RAMGB": 0.052
+    },
+    {
+      "PID": 125008,
+      "CPUSecondsDelta": 112.844,
+      "PercentOneCore": 67.97,
+      "RAMGB": 0.094
+    },
+    {
+      "PID": 125096,
+      "CPUSecondsDelta": 112.281,
+      "PercentOneCore": 67.63,
+      "RAMGB": 0.052
+    },
+    {
+      "PID": 125108,
+      "CPUSecondsDelta": 110.125,
+      "PercentOneCore": 66.33,
+      "RAMGB": 0.105
+    },
+    {
+      "PID": 125308,
+      "CPUSecondsDelta": 0.0,
+      "PercentOneCore": 0.0,
+      "RAMGB": 0.004
+    },
+    {
+      "PID": 125692,
+      "CPUSecondsDelta": 108.984,
+      "PercentOneCore": 65.64,
+      "RAMGB": 0.056
+    },
+    {
+      "PID": 125708,
+      "CPUSecondsDelta": 1.266,
+      "PercentOneCore": 0.76,
+      "RAMGB": 0.036
+    }
+  ]
+}

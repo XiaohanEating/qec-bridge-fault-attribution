@@ -1,0 +1,65 @@
+{
+  "task": {
+    "kind": "joint_bridge",
+    "order": "check_reverse",
+    "eps": 3e-06,
+    "shots": 32768,
+    "id": "batch5-0039-joint_bridge",
+    "seed": 920300012
+  },
+  "R_star": 152.00000000000009,
+  "decoder": {
+    "full_joint_original": {
+      "R_delta": 252.4,
+      "E": 100.39999999999992,
+      "failures": 28,
+      "shots": 32768,
+      "interval": [
+        0.0005678766027855733,
+        0.0012347441598135724
+      ]
+    },
+    "full_joint_strong": {
+      "R_delta": 252.4,
+      "E": 100.39999999999992,
+      "failures": 28,
+      "shots": 32768,
+      "interval": [
+        0.0005678766027855733,
+        0.0012347441598135724
+      ]
+    },
+    "single_fault_lookup": {
+      "R_delta": 152.00000000000009,
+      "E": 0.0,
+      "failures": 13,
+      "shots": 32768,
+      "interval": [
+        0.00021125759645898579,
+        0.0006783222928272341
+      ]
+    }
+  },
+  "resources": {
+    "CX": 960,
+    "TICK": 230
+  },
+  "noise_channels": {
+    "total_physical_branches": 25717,
+    "total_physical_coefficient": 4813.0,
+    "invisible_branches": 7694,
+    "invisible_coefficient": 1721.466666666809
+  },
+  "source": {
+    "purpose": "shared complete-DEM decoding for the native-versus-bridge task control",
+    "source_sha256": "102e04beb0c0df734e5294de5aca0ec33c800648a050017fa25ecaad3ac823a1",
+    "total_extraction_rounds": 4,
+    "noisy_rounds": 4,
+    "terminal_readout_noiseless": true,
+    "prior_epsilon": 3e-06,
+    "detector_columns": "complete joint signatures, same full_joint_original/strong implementation as native"
+  },
+  "sample_sha256": "0c8150447ed530983175c1858d2d7fd300c03feea38317924914d3029c4e058f",
+  "decoded_sha256": "dc5942d82941e577b54fbda406c43c2a000270d16a69225d548dff3c0525d846",
+  "detector_columns": "separate complete (D,L) signatures; no first-logical-label merging"
+}

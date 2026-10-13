@@ -1,0 +1,73 @@
+{
+  "registered_utc": "2026-10-12T05:25:32.672315+00:00",
+  "python": "G:\\1014gogogo\\.harness\\envs\\qldpc-submission-audit\\Scripts\\python.exe",
+  "python_version": "3.11.17 (main, Oct  9 2026, 15:19:27) [MSC v.1944 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "stim": "1.16.0",
+    "ldpc": "2.4.1",
+    "quits": "1.2.0",
+    "pymatching": "2.4.0",
+    "bposd": "2.1",
+    "pyscipopt": "5.4.1"
+  },
+  "source_sha256": {
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch3\\source\\src\\iscas_revision\\__init__.py": "eccf53e0ac7bfc3dc25e985bfb426bcb29f0c0da56545bf1b766cf4723dd11b9",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch3\\source\\src\\iscas_revision\\artifacts.py": "38b73ca09d581d436134dcc64d2fd83d1b2180f519ee659d5c470e5debdba29e",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch3\\source\\src\\iscas_revision\\audit.py": "b36cba0c99afe89f337df2eab5ab2578ea78d284416c663993ee6d672b67accc",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch3\\source\\src\\iscas_revision\\decoding.py": "0105c1ae64c051ca11144d6c89f26aa33dbe6c483d007759721f04997f4f474b",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch3\\source\\src\\iscas_revision\\stratification.py": "b002b95c2ef2d6dd514ad9df9f9fa4ed5aee23a781f7b9456b52912b7fcbb19f",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch3\\source\\src\\iscas_revision\\literature.py": "7d78db5b08a7bfeec606e269d93b6968140873ecffcd7e6fbf8f595e7dcd9360",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch3\\source\\src\\iscas_revision\\verification.py": "cb29cd6dc30b86b5831fb33cd5d2131a56ba10dd3f8c32ec02261f187e0ab49f",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch3\\source\\src\\iscas_revision\\experiments.py": "04bb8c1e6e529b3208fd7057d9ce9a891a57d7e40828515dce691ecc25dc0344",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch3\\source\\src\\iscas_revision\\orchestration.py": "430ed86e2a6250ca67e7048351c6024d804b6cd17a3f0b12b01bc7a51d0c67f1",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch3\\source\\src\\iscas_revision\\baselines.py": "47f85e3c05116b3818e73073ca4a918aeaf9174d762b89cf5cf8deb1417d0504",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch3\\source\\src\\iscas_revision\\order_space.py": "4a53fed7a09ecda6ba35df2056aa7753aa748215d09347004fd969321478effc",
+    "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\src\\support.py": "3c16ac099feeefe89bb44c53c13e51b88984f40e6ed7dd97220c2c8a11a25a47",
+    "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\src\\construction.py": "ad3aa6bffd9a5aa77b2c4a6c26ae18a8031d2dbc9d1209cb07fe3a2aa0c0cf0b",
+    "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\src\\physical_risk.py": "f9d740ef4741af4ad8247f406b0ece83f557cae5ad5be63f0c84c3c9a790509b",
+    "G:\\1014gogogo\\ISCAS\\research\\parallel-routing-2026-10-10\\src\\routing.py": "89dafb2f9a54e8fa732c4450d5cba7f2533af27b9299cb29b988a6b452d9e3f3",
+    "G:\\1014gogogo\\ISCAS\\research\\conflict-fault-routing-2026-10-11\\src\\joint_router.py": "cc960d117a95824a4a209e34c899a2188cc7ddb5c1c593f6a95303d2cd568fc9"
+  },
+  "protocol_sha256": "0eb5f622e4c76d7b9c1b068dbae6e9aae34a5bac156f0528882aa61f214f04ca",
+  "tasks": [
+    {
+      "id": "batch3-0000-order-space",
+      "kind": "order_space",
+      "seed": 820261012,
+      "shots": 65536
+    }
+  ],
+  "conditional_shots": 0,
+  "conditional_strata": 0,
+  "raw_confirmation_shots": 65536,
+  "pending_full_scope": [
+    "joint synthesis and verified manuscript revision"
+  ],
+  "stopping": "fixed registered samples; unfinished requirements retained explicitly",
+  "serial_benchmark": {
+    "2": {
+      "shots": 128,
+      "seconds": 11.122532500012312,
+      "unique_records": 101,
+      "failures": {
+        "original": 13,
+        "strong": 1,
+        "single_fault_lookup": 0
+      }
+    },
+    "7": {
+      "shots": 128,
+      "seconds": 14.851227600011043,
+      "unique_records": 128,
+      "failures": {
+        "original": 45,
+        "strong": 30,
+        "single_fault_lookup": 30
+      }
+    }
+  },
+  "execution_revision": "batch3",
+  "purpose": "64 physically different noisy-round orderings, resource matching, coefficient-only selection and independent confirmation"
+}

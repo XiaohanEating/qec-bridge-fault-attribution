@@ -1,0 +1,70 @@
+{
+  "active_tasks": 16,
+  "owners": {
+    "batch1-0101-stratum": {
+      "batch": "batch9",
+      "pid": 127704
+    },
+    "batch1-0102-stratum": {
+      "batch": "batch9",
+      "pid": 126896
+    },
+    "batch1-0103-stratum": {
+      "batch": "batch9",
+      "pid": 121004
+    },
+    "batch1-0104-stratum": {
+      "batch": "batch9",
+      "pid": 29576
+    },
+    "batch1-0091-stratum": {
+      "batch": "batch10",
+      "pid": 92560
+    },
+    "batch1-0092-stratum": {
+      "batch": "batch10",
+      "pid": 114636
+    },
+    "batch1-0093-stratum": {
+      "batch": "batch10",
+      "pid": 106284
+    },
+    "batch1-0094-stratum": {
+      "batch": "batch10",
+      "pid": 124500
+    },
+    "batch1-0095-stratum": {
+      "batch": "batch10",
+      "pid": 123568
+    },
+    "batch1-0096-stratum": {
+      "batch": "batch10",
+      "pid": 116700
+    },
+    "batch1-0097-stratum": {
+      "batch": "batch10",
+      "pid": 25988
+    },
+    "batch1-0098-stratum": {
+      "batch": "batch10",
+      "pid": 28700
+    },
+    "batch1-0099-stratum": {
+      "batch": "batch10",
+      "pid": 48456
+    },
+    "batch1-0100-stratum": {
+      "batch": "batch10",
+      "pid": 54012
+    },
+    "batch1-0105-stratum": {
+      "batch": "batch10",
+      "pid": 127080
+    },
+    "batch1-0106-stratum": {
+      "batch": "batch10",
+      "pid": 126652
+    }
+  },
+  "exclusive": true
+}

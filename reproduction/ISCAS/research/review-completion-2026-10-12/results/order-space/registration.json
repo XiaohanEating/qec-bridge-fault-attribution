@@ -1,0 +1,27 @@
+{
+  "code": "tiny H3xH3",
+  "rounds": 3,
+  "candidates": 64,
+  "design": "independent binary macro and check reversal for each of three noisy extraction blocks; ideal initial block fixed",
+  "selectors": [
+    "minimum original R_delta",
+    "minimum R_star",
+    "minimum strong R_delta"
+  ],
+  "tie_break": "lexicographic policy name",
+  "source_sampling_not_used_for_selection": true,
+  "finite_confirmation": {
+    "eps": [
+      1e-06,
+      0.0001
+    ],
+    "shots": 65536,
+    "seed_base": 820261012
+  },
+  "historical_anchors": [
+    "forward",
+    "macro_reverse",
+    "check_reverse"
+  ],
+  "gate_resource_constraint": "same directed CX multiset, measurement boundaries, slot total and each site's cumulative idle"
+}

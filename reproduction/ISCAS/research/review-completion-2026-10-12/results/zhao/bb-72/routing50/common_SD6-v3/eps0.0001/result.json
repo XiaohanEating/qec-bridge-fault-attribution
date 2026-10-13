@@ -1,0 +1,79 @@
+{
+  "task": {
+    "kind": "zhao",
+    "instance": "bb-72",
+    "order": "routing50",
+    "noise": "common_SD6",
+    "eps": 0.0001,
+    "shots": 32768,
+    "id": "batch5-0015-zhao",
+    "seed": 920276012,
+    "initial_noisy": true,
+    "revision": "-v3"
+  },
+  "R_star": 0.0,
+  "decoder": {
+    "full_joint_original": {
+      "R_delta": 0.0,
+      "E": 0.0,
+      "failures": 1,
+      "shots": 32768,
+      "interval": [
+        7.72637884629511e-07,
+        0.00017002120181939268
+      ]
+    },
+    "full_joint_strong": {
+      "R_delta": 0.0,
+      "E": 0.0,
+      "failures": 1,
+      "shots": 32768,
+      "interval": [
+        7.72637884629511e-07,
+        0.00017002120181939268
+      ]
+    },
+    "single_fault_lookup": {
+      "R_delta": 0.0,
+      "E": 0.0,
+      "failures": 1,
+      "shots": 32768,
+      "interval": [
+        7.72637884629511e-07,
+        0.00017002120181939268
+      ]
+    }
+  },
+  "resources": {
+    "CX": 2592,
+    "TICK": 80
+  },
+  "noise_channels": {
+    "total_physical_branches": 55440,
+    "total_physical_coefficient": 8928.0,
+    "invisible_branches": 18216,
+    "invisible_coefficient": 3556.8000000014918
+  },
+  "source": {
+    "repository": "Guangqi-Phys/Routing-Circuit",
+    "commit": "295adf67633f223e1cc543d972cd34012c10a4e8",
+    "n": 72,
+    "k": 12,
+    "parameters": [
+      6,
+      6,
+      3,
+      -1,
+      -1,
+      3
+    ],
+    "rounds_parameter": 3,
+    "total_extraction_rounds": 4,
+    "noisy_rounds": 4,
+    "noise": "common SD6; all four extraction blocks and preparation noisy, final data readout noiseless; conflicting operations split into distinct TICK slots",
+    "geometry": "author periodic checkerboard and reduced long-range couplers; hardware difference separately reported"
+  },
+  "sample_sha256": "8debc40919988638ebb1bcbf0d41a80c52c440ea86d1c55254743b48f14a21c4",
+  "decoded_sha256": "0d68501c29f39d026824caf66f11fd3a93c1f0b844cb3f5fc077f5f0d24503d1",
+  "detector_columns": "separate complete (D,L) signatures; no first-logical-label merging"
+}

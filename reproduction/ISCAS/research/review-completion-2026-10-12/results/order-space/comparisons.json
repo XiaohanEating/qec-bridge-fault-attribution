@@ -1,0 +1,444 @@
+{
+  "family_size": 12,
+  "simultaneous_confidence_level": 0.95,
+  "comparisons": [
+    {
+      "order": "macro6-checks1",
+      "eps": 1e-06,
+      "decoder": "original",
+      "baseline": {
+        "shots": 65536,
+        "failures": 41,
+        "rate": 0.0006256103515625,
+        "interval": [
+          0.0004489850281150577,
+          0.0008486164023353283
+        ],
+        "per_logical": [
+          41
+        ]
+      },
+      "candidate": {
+        "shots": 65536,
+        "failures": 24,
+        "rate": 0.0003662109375,
+        "interval": [
+          0.0002346519053461079,
+          0.0005448441640331788
+        ],
+        "per_logical": [
+          24
+        ]
+      },
+      "difference": -0.0002593994140625,
+      "confidence_interval": [
+        -0.0008102522131963651,
+        0.00029239304991166183
+      ],
+      "confidence_level": 0.9958333333333333,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "order": "macro6-checks1",
+      "eps": 1e-06,
+      "decoder": "strong",
+      "baseline": {
+        "shots": 65536,
+        "failures": 37,
+        "rate": 0.0005645751953125,
+        "interval": [
+          0.0003975432175176601,
+          0.0007781094145988183
+        ],
+        "per_logical": [
+          37
+        ]
+      },
+      "candidate": {
+        "shots": 65536,
+        "failures": 17,
+        "rate": 0.0002593994140625,
+        "interval": [
+          0.00015111674749004953,
+          0.0004152912105563073
+        ],
+        "per_logical": [
+          17
+        ]
+      },
+      "difference": -0.00030517578125,
+      "confidence_interval": [
+        -0.0008050200687767119,
+        0.00019611801413645195
+      ],
+      "confidence_level": 0.9958333333333333,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "order": "macro6-checks1",
+      "eps": 1e-06,
+      "decoder": "single_fault_lookup",
+      "baseline": {
+        "shots": 65536,
+        "failures": 10,
+        "rate": 0.000152587890625,
+        "interval": [
+          7.317417198306338e-05,
+          0.00028059660069066256
+        ],
+        "per_logical": [
+          10
+        ]
+      },
+      "candidate": {
+        "shots": 65536,
+        "failures": 7,
+        "rate": 0.0001068115234375,
+        "interval": [
+          4.2944815920336876e-05,
+          0.00022006009840546748
+        ],
+        "per_logical": [
+          7
+        ]
+      },
+      "difference": -4.57763671875e-05,
+      "confidence_interval": [
+        -0.00034382754187454366,
+        0.0002530812298107329
+      ],
+      "confidence_level": 0.9958333333333333,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "order": "macro6-checks1",
+      "eps": 0.0001,
+      "decoder": "original",
+      "baseline": {
+        "shots": 65536,
+        "failures": 3670,
+        "rate": 0.055999755859375,
+        "interval": [
+          0.05425151279393251,
+          0.057787440418192164
+        ],
+        "per_logical": [
+          3670
+        ]
+      },
+      "candidate": {
+        "shots": 65536,
+        "failures": 2592,
+        "rate": 0.03955078125,
+        "interval": [
+          0.0380713838657661,
+          0.04107112313772047
+        ],
+        "per_logical": [
+          2592
+        ]
+      },
+      "difference": -0.016448974609375,
+      "confidence_interval": [
+        -0.021570748505650952,
+        -0.011323785050160462
+      ],
+      "confidence_level": 0.9958333333333333,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "order": "macro6-checks1",
+      "eps": 0.0001,
+      "decoder": "strong",
+      "baseline": {
+        "shots": 65536,
+        "failures": 3130,
+        "rate": 0.047760009765625,
+        "interval": [
+          0.046139706945940544,
+          0.04942050389608587
+        ],
+        "per_logical": [
+          3130
+        ]
+      },
+      "candidate": {
+        "shots": 65536,
+        "failures": 1805,
+        "rate": 0.0275421142578125,
+        "interval": [
+          0.026302463664084987,
+          0.028823830921985233
+        ],
+        "per_logical": [
+          1805
+        ]
+      },
+      "difference": -0.0202178955078125,
+      "confidence_interval": [
+        -0.024763336417974083,
+        -0.015668214179933648
+      ],
+      "confidence_level": 0.9958333333333333,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "order": "macro6-checks1",
+      "eps": 0.0001,
+      "decoder": "single_fault_lookup",
+      "baseline": {
+        "shots": 65536,
+        "failures": 1292,
+        "rate": 0.01971435546875,
+        "interval": [
+          0.01866370332013686,
+          0.020807830951334712
+        ],
+        "per_logical": [
+          1292
+        ]
+      },
+      "candidate": {
+        "shots": 65536,
+        "failures": 1092,
+        "rate": 0.01666259765625,
+        "interval": [
+          0.015696402809311907,
+          0.017671922584695313
+        ],
+        "per_logical": [
+          1092
+        ]
+      },
+      "difference": -0.0030517578125,
+      "confidence_interval": [
+        -0.006277961357745216,
+        0.0001751221654071669
+      ],
+      "confidence_level": 0.9958333333333333,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "order": "macro7-checks0",
+      "eps": 1e-06,
+      "decoder": "original",
+      "baseline": {
+        "shots": 65536,
+        "failures": 41,
+        "rate": 0.0006256103515625,
+        "interval": [
+          0.0004489850281150577,
+          0.0008486164023353283
+        ],
+        "per_logical": [
+          41
+        ]
+      },
+      "candidate": {
+        "shots": 65536,
+        "failures": 19,
+        "rate": 0.0002899169921875,
+        "interval": [
+          0.0001745577058965559,
+          0.00045270443680574425
+        ],
+        "per_logical": [
+          19
+        ]
+      },
+      "difference": -0.000335693359375,
+      "confidence_interval": [
+        -0.0008613467681394529,
+        0.00019135370374980556
+      ],
+      "confidence_level": 0.9958333333333333,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "order": "macro7-checks0",
+      "eps": 1e-06,
+      "decoder": "strong",
+      "baseline": {
+        "shots": 65536,
+        "failures": 37,
+        "rate": 0.0005645751953125,
+        "interval": [
+          0.0003975432175176601,
+          0.0007781094145988183
+        ],
+        "per_logical": [
+          37
+        ]
+      },
+      "candidate": {
+        "shots": 65536,
+        "failures": 18,
+        "rate": 0.000274658203125,
+        "interval": [
+          0.00016278772277520943,
+          0.0004340437724130767
+        ],
+        "per_logical": [
+          18
+        ]
+      },
+      "difference": -0.0002899169921875,
+      "confidence_interval": [
+        -0.0007953284435340578,
+        0.0002168273668285532
+      ],
+      "confidence_level": 0.9958333333333333,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "order": "macro7-checks0",
+      "eps": 1e-06,
+      "decoder": "single_fault_lookup",
+      "baseline": {
+        "shots": 65536,
+        "failures": 10,
+        "rate": 0.000152587890625,
+        "interval": [
+          7.317417198306338e-05,
+          0.00028059660069066256
+        ],
+        "per_logical": [
+          10
+        ]
+      },
+      "candidate": {
+        "shots": 65536,
+        "failures": 7,
+        "rate": 0.0001068115234375,
+        "interval": [
+          4.2944815920336876e-05,
+          0.00022006009840546748
+        ],
+        "per_logical": [
+          7
+        ]
+      },
+      "difference": -4.57763671875e-05,
+      "confidence_interval": [
+        -0.00034382754187454366,
+        0.0002530812298107329
+      ],
+      "confidence_level": 0.9958333333333333,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "order": "macro7-checks0",
+      "eps": 0.0001,
+      "decoder": "original",
+      "baseline": {
+        "shots": 65536,
+        "failures": 3670,
+        "rate": 0.055999755859375,
+        "interval": [
+          0.05425151279393251,
+          0.057787440418192164
+        ],
+        "per_logical": [
+          3670
+        ]
+      },
+      "candidate": {
+        "shots": 65536,
+        "failures": 1874,
+        "rate": 0.028594970703125,
+        "interval": [
+          0.027332240062478984,
+          0.029899667639026316
+        ],
+        "per_logical": [
+          1874
+        ]
+      },
+      "difference": -0.02740478515625,
+      "confidence_interval": [
+        -0.03218597224746695,
+        -0.02261787551961496
+      ],
+      "confidence_level": 0.9958333333333333,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "order": "macro7-checks0",
+      "eps": 0.0001,
+      "decoder": "strong",
+      "baseline": {
+        "shots": 65536,
+        "failures": 3130,
+        "rate": 0.047760009765625,
+        "interval": [
+          0.046139706945940544,
+          0.04942050389608587
+        ],
+        "per_logical": [
+          3130
+        ]
+      },
+      "candidate": {
+        "shots": 65536,
+        "failures": 2141,
+        "rate": 0.0326690673828125,
+        "interval": [
+          0.031321143444873974,
+          0.03405857459833206
+        ],
+        "per_logical": [
+          2141
+        ]
+      },
+      "difference": -0.0150909423828125,
+      "confidence_interval": [
+        -0.01980656965093362,
+        -0.010372161350980146
+      ],
+      "confidence_level": 0.9958333333333333,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "order": "macro7-checks0",
+      "eps": 0.0001,
+      "decoder": "single_fault_lookup",
+      "baseline": {
+        "shots": 65536,
+        "failures": 1292,
+        "rate": 0.01971435546875,
+        "interval": [
+          0.01866370332013686,
+          0.020807830951334712
+        ],
+        "per_logical": [
+          1292
+        ]
+      },
+      "candidate": {
+        "shots": 65536,
+        "failures": 1098,
+        "rate": 0.016754150390625,
+        "interval": [
+          0.015785308443352918,
+          0.017766113074222482
+        ],
+        "per_logical": [
+          1098
+        ]
+      },
+      "difference": -0.002960205078125,
+      "confidence_interval": [
+        -0.006190568031486182,
+        0.00027081379747266945
+      ],
+      "confidence_level": 0.9958333333333333,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    }
+  ],
+  "winners": {
+    "original": "macro7-checks0",
+    "optimal": "macro7-checks0",
+    "strong": "macro6-checks1"
+  },
+  "note": "All original/optimal winners coincide; configuration-specific strong winner differs"
+}

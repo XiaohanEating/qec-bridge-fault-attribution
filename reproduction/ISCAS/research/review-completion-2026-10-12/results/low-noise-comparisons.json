@@ -1,0 +1,4627 @@
+{
+  "family_size": 60,
+  "simultaneous_confidence_level": 0.95,
+  "method": "Bonferroni across 60 differences and two circuit intervals, then across conditional layers; explicit tail bounds",
+  "comparisons": [
+    {
+      "instance": "tiny-hgp",
+      "candidate": "macro_reverse",
+      "eps": 1e-06,
+      "decoder": "original",
+      "difference": -0.0003459984784024005,
+      "simultaneous_difference_interval": [
+        -0.00034619114456239193,
+        -0.00034580504569153977
+      ],
+      "sorting": "candidate lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.0006014550317294617,
+        "confidence_interval": [
+          0.0006013836011683134,
+          0.0006015274608038232
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 3.774433011647592e-27,
+        "exact_single_fault": 0.0005988447466025667,
+        "sampled_multiple_fault": 2.6102851268949715e-06,
+        "linear_prediction": 0.0006017333333333331,
+        "contributions": {
+          "single_fault": 0.0005988447466025667,
+          "2": 2.6046889381662625e-06,
+          "3": 5.588209667554287e-09,
+          "4": 7.970471193699952e-12,
+          "5": 8.5825095522833e-15,
+          "6": 7.341112583494327e-18,
+          "7": 5.300062993317633e-21,
+          "8": 3.2784690594179423e-24
+        }
+      },
+      "candidate_result": {
+        "probability": 0.0002554565533270612,
+        "confidence_interval": [
+          0.0002553996833428458,
+          0.0002555147794805576
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 3.774433011647592e-27,
+        "exact_single_fault": 0.0002539749268773129,
+        "sampled_multiple_fault": 1.4816264497483122e-06,
+        "linear_prediction": 0.0002552,
+        "contributions": {
+          "single_fault": 0.0002539749268773129,
+          "2": 1.477842684063548e-06,
+          "3": 3.777738025159327e-09,
+          "4": 6.02058141477829e-12,
+          "5": 7.071747819130749e-15,
+          "6": 6.3965533098988946e-18,
+          "7": 4.857822721880632e-21,
+          "8": 3.0792119778615273e-24
+        }
+      }
+    },
+    {
+      "instance": "tiny-hgp",
+      "candidate": "macro_reverse",
+      "eps": 1e-06,
+      "decoder": "strong",
+      "difference": -0.0001972947170530925,
+      "simultaneous_difference_interval": [
+        -0.0001974828506025654,
+        -0.00019710610137086505
+      ],
+      "sorting": "candidate lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.0005017635378129949,
+        "confidence_interval": [
+          0.0005016960896490113,
+          0.0005018321017617397
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 3.774433011647592e-27,
+        "exact_single_fault": 0.0004995238308409842,
+        "sampled_multiple_fault": 2.2397069720106813e-06,
+        "linear_prediction": 0.0005019333333333331,
+        "contributions": {
+          "single_fault": 0.0004995238308409842,
+          "2": 2.2347007174059455e-06,
+          "3": 4.998819366525398e-09,
+          "4": 7.427214945729081e-12,
+          "5": 8.016300059892793e-15,
+          "6": 7.020161064962177e-18,
+          "7": 5.11483898352746e-21,
+          "8": 3.2200289413424137e-24
+        }
+      },
+      "candidate_result": {
+        "probability": 0.0003044688207599024,
+        "confidence_interval": [
+          0.00030441115218982236,
+          0.0003045278301054499
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 3.774433011647592e-27,
+        "exact_single_fault": 0.0003029387450683935,
+        "sampled_multiple_fault": 1.5300756915089084e-06,
+        "linear_prediction": 0.00030439999999999986,
+        "contributions": {
+          "single_fault": 0.0003029387450683935,
+          "2": 1.526377260551118e-06,
+          "3": 3.6925725366852966e-09,
+          "4": 5.851704004360379e-12,
+          "5": 6.71101757801099e-15,
+          "6": 6.150351086399477e-18,
+          "7": 4.6542916878670115e-21,
+          "8": 2.990797039075672e-24
+        }
+      }
+    },
+    {
+      "instance": "tiny-hgp",
+      "candidate": "macro_reverse",
+      "eps": 1e-06,
+      "decoder": "single_fault_lookup",
+      "difference": -6.184877472110008e-06,
+      "simultaneous_difference_interval": [
+        -6.34865205865417e-06,
+        -6.0208669631686815e-06
+      ],
+      "sorting": "candidate lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.00011616009494450802,
+        "confidence_interval": [
+          0.00011610270737088597,
+          0.00011621882868549351
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 3.774433011647592e-27,
+        "exact_single_fault": 0.00011464698893521329,
+        "sampled_multiple_fault": 1.513106009294737e-06,
+        "linear_prediction": 0.00011519999999999995,
+        "contributions": {
+          "single_fault": 0.00011464698893521329,
+          "2": 1.5087922690701143e-06,
+          "3": 4.306779271441718e-09,
+          "4": 6.953137396001693e-12,
+          "5": 7.808863863371847e-15,
+          "6": 6.929730099642858e-18,
+          "7": 5.087557927821931e-21,
+          "8": 3.209462277926543e-24
+        }
+      },
+      "candidate_result": {
+        "probability": 0.00010997521747239802,
+        "confidence_interval": [
+          0.0001099240685686911,
+          0.00011002782277034755
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 3.774433011647592e-27,
+        "exact_single_fault": 0.00010880848486906819,
+        "sampled_multiple_fault": 1.1667326033298295e-06,
+        "linear_prediction": 0.00010933333333333331,
+        "contributions": {
+          "single_fault": 0.00010880848486906819,
+          "2": 1.1634230363832024e-06,
+          "3": 3.3039697449064406e-09,
+          "4": 5.590588329617826e-12,
+          "5": 6.6072994797505164e-15,
+          "6": 6.085533515881583e-18,
+          "7": 4.642804927569947e-21,
+          "8": 2.9843276533108532e-24
+        }
+      }
+    },
+    {
+      "instance": "tiny-hgp",
+      "candidate": "macro_reverse",
+      "eps": 3e-06,
+      "decoder": "original",
+      "difference": -0.0010347931911150914,
+      "simultaneous_difference_interval": [
+        -0.0010365169159790107,
+        -0.0010330626113745109
+      ],
+      "sorting": "candidate lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.0018026950919916242,
+        "confidence_interval": [
+          0.0018020561182592895,
+          0.0018033429869205864
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 7.36525698445061e-23,
+        "exact_single_fault": 0.0017793272925112657,
+        "sampled_multiple_fault": 2.3367799480358484e-05,
+        "linear_prediction": 0.0018051999999999994,
+        "contributions": {
+          "single_fault": 0.0017793272925112657,
+          "2": 2.3217720845132294e-05,
+          "3": 1.4943713586212435e-07,
+          "4": 6.394284608268569e-10,
+          "5": 2.0655912488163112e-12,
+          "6": 5.300466539850349e-15,
+          "7": 1.1480356317157459e-17,
+          "8": 2.1304313722625553e-20
+        }
+      },
+      "candidate_result": {
+        "probability": 0.0007679019008765327,
+        "confidence_interval": [
+          0.0007673929976596884,
+          0.000768422923619941
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 7.36525698445061e-23,
+        "exact_single_fault": 0.0007546271743555426,
+        "sampled_multiple_fault": 1.3274726520990147e-05,
+        "linear_prediction": 0.0007656000000000001,
+        "contributions": {
+          "single_fault": 0.0007546271743555426,
+          "2": 1.3173219415507142e-05,
+          "3": 1.0102239967748373e-07,
+          "4": 4.829991870966651e-10,
+          "5": 1.7019894146399356e-12,
+          "6": 4.61847116549051e-15,
+          "7": 1.0522428854730234e-17,
+          "8": 2.0009491261288577e-20
+        }
+      }
+    },
+    {
+      "instance": "tiny-hgp",
+      "candidate": "macro_reverse",
+      "eps": 3e-06,
+      "decoder": "strong",
+      "difference": -0.0005904555895143762,
+      "simultaneous_difference_interval": [
+        -0.0005921387790331397,
+        -0.0005887680864806239
+      ],
+      "sorting": "candidate lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.0015042723769291642,
+        "confidence_interval": [
+          0.0015036689772249122,
+          0.001504885746499879
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 7.36525698445061e-23,
+        "exact_single_fault": 0.001484218389687272,
+        "sampled_multiple_fault": 2.0053987241892097e-05,
+        "linear_prediction": 0.0015057999999999994,
+        "contributions": {
+          "single_fault": 0.001484218389687272,
+          "2": 1.99197135093128e-05,
+          "3": 1.3367595227553574e-07,
+          "4": 5.958459049110713e-10,
+          "5": 1.929319058805476e-12,
+          "6": 5.068731531628467e-15,
+          "7": 1.1079146438413589e-17,
+          "8": 2.092455518688711e-20
+        }
+      },
+      "candidate_result": {
+        "probability": 0.000913816787414788,
+        "confidence_interval": [
+          0.0009133007828227819,
+          0.000914344774800128
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 7.36525698445061e-23,
+        "exact_single_fault": 0.0009001117236435229,
+        "sampled_multiple_fault": 1.3705063771265102e-05,
+        "linear_prediction": 0.0009131999999999996,
+        "contributions": {
+          "single_fault": 0.0009001117236435229,
+          "2": 1.3605847754236315e-05,
+          "3": 9.874494635540251e-08,
+          "4": 4.694510517370764e-10,
+          "5": 1.6151708419717422e-12,
+          "6": 4.4407070142323556e-15,
+          "7": 1.0081564511226794e-17,
+          "8": 1.943494882714555e-20
+        }
+      }
+    },
+    {
+      "instance": "tiny-hgp",
+      "candidate": "macro_reverse",
+      "eps": 3e-06,
+      "decoder": "single_fault_lookup",
+      "difference": -2.0453235548761244e-05,
+      "simultaneous_difference_interval": [
+        -2.1919016490943124e-05,
+        -1.8985339439360363e-05
+      ],
+      "sorting": "candidate lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.0003542115773648122,
+        "confidence_interval": [
+          0.0003536979630517358,
+          0.00035473721904413053
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 7.36525698445061e-23,
+        "exact_single_fault": 0.0003406467495523451,
+        "sampled_multiple_fault": 1.3564827812467101e-05,
+        "linear_prediction": 0.0003455999999999999,
+        "contributions": {
+          "single_fault": 0.0003406467495523451,
+          "2": 1.3449098356146035e-05,
+          "3": 1.1516975872458432e-07,
+          "4": 5.57813187576322e-10,
+          "5": 1.8793944546309996e-12,
+          "6": 5.003438117259761e-15,
+          "7": 1.1020053510536585e-17,
+          "8": 2.085589035939197e-20
+        }
+      },
+      "candidate_result": {
+        "probability": 0.00033375834181605097,
+        "confidence_interval": [
+          0.00033330053528849547,
+          0.0003342291639412392
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 7.36525698445061e-23,
+        "exact_single_fault": 0.000323298998417735,
+        "sampled_multiple_fault": 1.0459343398315957e-05,
+        "linear_prediction": 0.00032799999999999995,
+        "contributions": {
+          "single_fault": 0.000323298998417735,
+          "2": 1.0370540177652934e-05,
+          "3": 8.835312291888619e-08,
+          "4": 4.485031316027724e-10,
+          "5": 1.590208539884504e-12,
+          "6": 4.39390711029178e-15,
+          "7": 1.0056683278436476e-17,
+          "8": 1.93929091368424e-20
+        }
+      }
+    },
+    {
+      "instance": "tiny-hgp",
+      "candidate": "macro_reverse",
+      "eps": 1e-05,
+      "decoder": "original",
+      "difference": -0.0034121913388664646,
+      "simultaneous_difference_interval": [
+        -0.0034309505260087035,
+        -0.0033933576741240062
+      ],
+      "sorting": "candidate lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.005989494214195611,
+        "confidence_interval": [
+          0.0059825438727482165,
+          0.005996541179250079
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 3.630414933011783e-18,
+        "exact_single_fault": 0.005734634130793076,
+        "sampled_multiple_fault": 0.00025486008340253486,
+        "linear_prediction": 0.006017333333333332,
+        "contributions": {
+          "single_fault": 0.005734634130793076,
+          "2": 0.00024943146956598,
+          "3": 5.351456268731265e-06,
+          "4": 7.632858188627409e-08,
+          "5": 8.219045814317737e-10,
+          "6": 7.030284478232621e-12,
+          "7": 5.0757001099891765e-14,
+          "8": 3.139712783167675e-16
+        }
+      },
+      "candidate_result": {
+        "probability": 0.002577302875329146,
+        "confidence_interval": [
+          0.0025717605092316536,
+          0.0025829766143129454
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 3.630414933011783e-18,
+        "exact_single_fault": 0.0024321049692749724,
+        "sampled_multiple_fault": 0.00014519790605417365,
+        "linear_prediction": 0.0025520000000000004,
+        "contributions": {
+          "single_fault": 0.0024321049692749724,
+          "2": 0.00014152187889768404,
+          "3": 3.6176881396812694e-06,
+          "4": 5.7655617886696314e-08,
+          "5": 6.772263865092239e-10,
+          "6": 6.125718538887254e-12,
+          "7": 4.652180805180056e-14,
+          "8": 2.948888958156366e-16
+        }
+      }
+    },
+    {
+      "instance": "tiny-hgp",
+      "candidate": "macro_reverse",
+      "eps": 1e-05,
+      "decoder": "strong",
+      "difference": -0.0019516274998333124,
+      "simultaneous_difference_interval": [
+        -0.0019699461929977573,
+        -0.0019332618626090124
+      ],
+      "sorting": "candidate lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.005002380397964697,
+        "confidence_interval": [
+          0.004995815095291364,
+          0.0050090537166276854
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 3.630414933011783e-18,
+        "exact_single_fault": 0.004783520980582878,
+        "sampled_multiple_fault": 0.0002188594173818184,
+        "linear_prediction": 0.005019333333333331,
+        "contributions": {
+          "single_fault": 0.004783520980582878,
+          "2": 0.00021400048037027237,
+          "3": 4.787036426096609e-06,
+          "4": 7.112613174239172e-08,
+          "5": 7.676814928338578e-10,
+          "6": 6.722922283015103e-12,
+          "7": 4.898317024533409e-14,
+          "8": 3.0837460552693367e-16
+        }
+      },
+      "candidate_result": {
+        "probability": 0.0030507528981313843,
+        "confidence_interval": [
+          0.003045134891175175,
+          0.003056500827574534
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 3.630414933011783e-18,
+        "exact_single_fault": 0.002900990410059958,
+        "sampled_multiple_fault": 0.00014976248807142606,
+        "linear_prediction": 0.003043999999999999,
+        "contributions": {
+          "single_fault": 0.002900990410059958,
+          "2": 0.00014616967025605636,
+          "3": 3.5361308227072663e-06,
+          "4": 5.6038376830732886e-08,
+          "5": 6.426810316766807e-10,
+          "6": 5.889940698581959e-12,
+          "7": 4.457265670580404e-14,
+          "8": 2.8642160487898764e-16
+        }
+      }
+    },
+    {
+      "instance": "tiny-hgp",
+      "candidate": "macro_reverse",
+      "eps": 1e-05,
+      "decoder": "single_fault_lookup",
+      "difference": -8.995736106041084e-05,
+      "simultaneous_difference_interval": [
+        -0.00010592993366220077,
+        -7.396160059087217e-05
+      ],
+      "sorting": "candidate lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.0012465554495114215,
+        "confidence_interval": [
+          0.0012409587695511102,
+          0.0012522823974739767
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 3.630414933011783e-18,
+        "exact_single_fault": 0.0010978781052526517,
+        "sampled_multiple_fault": 0.00014867734425876977,
+        "linear_prediction": 0.0011519999999999996,
+        "contributions": {
+          "single_fault": 0.0010978781052526517,
+          "2": 0.0001444856878798345,
+          "3": 4.124315711347592e-06,
+          "4": 6.658616588649439e-08,
+          "5": 7.478163520802434e-10,
+          "6": 6.636320231268147e-12,
+          "7": 4.872190833652326e-14,
+          "8": 3.0736266100035855e-16
+        }
+      },
+      "candidate_result": {
+        "probability": 0.0011565980884510106,
+        "confidence_interval": [
+          0.0011516084444131711,
+          0.0011617288337596055
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 3.630414933011783e-18,
+        "exact_single_fault": 0.0010419676461888596,
+        "sampled_multiple_fault": 0.00011463044226215106,
+        "linear_prediction": 0.0010933333333333333,
+        "contributions": {
+          "single_fault": 0.0010419676461888596,
+          "2": 0.00011141227401083741,
+          "3": 3.1639918068457563e-06,
+          "4": 5.353782339078943e-08,
+          "5": 6.327484612998736e-10,
+          "6": 5.827867551665065e-12,
+          "7": 4.4462651691567903e-14,
+          "8": 2.858020470055743e-16
+        }
+      }
+    },
+    {
+      "instance": "tiny-hgp",
+      "candidate": "macro_reverse",
+      "eps": 3e-05,
+      "decoder": "original",
+      "difference": -0.009924526077524441,
+      "simultaneous_difference_interval": [
+        -0.010083699141290372,
+        -0.009764724135685592
+      ],
+      "sorting": "candidate lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.01780132740849418,
+        "confidence_interval": [
+          0.017742440220038246,
+          0.01786102312578658
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 6.554289119738399e-14,
+        "exact_single_fault": 0.015625345642869524,
+        "sampled_multiple_fault": 0.002175981765624658,
+        "linear_prediction": 0.018051999999999995,
+        "contributions": {
+          "single_fault": 0.015625345642869524,
+          "2": 0.002038943089662477,
+          "3": 0.00013123684470034533,
+          "4": 5.615661658786325e-06,
+          "5": 1.814116119254497e-07,
+          "6": 4.655287644968152e-09,
+          "7": 1.0083226365511563e-10,
+          "8": 1.871213855252424e-12
+        }
+      },
+      "candidate_result": {
+        "probability": 0.00787680133096974,
+        "confidence_interval": [
+          0.007829676368153262,
+          0.00792502823379178
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 6.554289119738399e-14,
+        "exact_single_fault": 0.006626836153435027,
+        "sampled_multiple_fault": 0.001249965177534713,
+        "linear_prediction": 0.0076560000000000005,
+        "contributions": {
+          "single_fault": 0.006626836153435027,
+          "2": 0.0011568510481719861,
+          "3": 8.871865016177968e-05,
+          "4": 4.241850625003932e-06,
+          "5": 1.494780941615718e-07,
+          "6": 4.0563055334288855e-09,
+          "7": 9.241876221095021e-11,
+          "8": 1.7574861960895453e-12
+        }
+      }
+    },
+    {
+      "instance": "tiny-hgp",
+      "candidate": "macro_reverse",
+      "eps": 3e-05,
+      "decoder": "strong",
+      "difference": -0.005715681225079738,
+      "simultaneous_difference_interval": [
+        -0.00587113383101056,
+        -0.005559830322427918
+      ],
+      "sorting": "candidate lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.014905935972730737,
+        "confidence_interval": [
+          0.014850264242061121,
+          0.014962512384907442
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 6.554289119738399e-14,
+        "exact_single_fault": 0.013033816457474477,
+        "sampled_multiple_fault": 0.0018721195152562597,
+        "linear_prediction": 0.015057999999999993,
+        "contributions": {
+          "single_fault": 0.013033816457474477,
+          "2": 0.0017493173631805807,
+          "3": 0.00011739525177423907,
+          "4": 5.2329059585916476e-06,
+          "5": 1.6944343687404815e-07,
+          "6": 4.4517596889719655e-09,
+          "7": 9.730842701129311e-11,
+          "8": 1.837858665173268e-12
+        }
+      },
+      "candidate_result": {
+        "probability": 0.009190254747650999,
+        "confidence_interval": [
+          0.009142527265477408,
+          0.009239072771592981
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 6.554289119738399e-14,
+        "exact_single_fault": 0.007904423687717953,
+        "sampled_multiple_fault": 0.0012858310599330458,
+        "linear_prediction": 0.009131999999999996,
+        "contributions": {
+          "single_fault": 0.007904423687717953,
+          "2": 0.0011948437765507902,
+          "3": 8.6718573097816e-05,
+          "4": 4.122866643295474e-06,
+          "5": 1.4185320844334015e-07,
+          "6": 3.900179039496958e-09,
+          "7": 8.854663938721499e-11,
+          "8": 1.7070226243830733e-12
+        }
+      }
+    },
+    {
+      "instance": "tiny-hgp",
+      "candidate": "macro_reverse",
+      "eps": 3e-05,
+      "decoder": "single_fault_lookup",
+      "difference": -0.0004472316270421198,
+      "simultaneous_difference_interval": [
+        -0.0005832586725502569,
+        -0.0003110037855216423
+      ],
+      "sorting": "candidate lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.004278714178209468,
+        "confidence_interval": [
+          0.004231055959995338,
+          0.004327462494727745
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 6.554289119738399e-14,
+        "exact_single_fault": 0.002991424470516124,
+        "sampled_multiple_fault": 0.0012872897076933445,
+        "linear_prediction": 0.003455999999999999,
+        "contributions": {
+          "single_fault": 0.002991424470516124,
+          "2": 0.001181078295254122,
+          "3": 0.00010114296993660043,
+          "4": 4.898890684638989e-06,
+          "5": 1.6505878288056232e-07,
+          "6": 4.394413864236883e-09,
+          "7": 9.678941231181537e-11,
+          "8": 1.8318276529449336e-12
+        }
+      },
+      "candidate_result": {
+        "probability": 0.0038314825511673485,
+        "confidence_interval": [
+          0.0037889656333420048,
+          0.0038751833691795267
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 6.554289119738399e-14,
+        "exact_single_fault": 0.0028390834095176182,
+        "sampled_multiple_fault": 0.0009923991416497303,
+        "linear_prediction": 0.0032799999999999995,
+        "contributions": {
+          "single_fault": 0.0028390834095176182,
+          "2": 0.0009107242425875607,
+          "3": 7.759239364701483e-05,
+          "4": 3.938895426597658e-06,
+          "5": 1.3966088144659724e-07,
+          "6": 3.8590756737908875e-09,
+          "7": 8.832810688217173e-11,
+          "8": 1.7033301679167463e-12
+        }
+      }
+    },
+    {
+      "instance": "tiny-hgp",
+      "candidate": "macro_reverse",
+      "eps": 0.0001,
+      "decoder": "original",
+      "difference": -0.029670834810700313,
+      "simultaneous_difference_interval": [
+        -0.031116141141905612,
+        -0.028219923839912165
+      ],
+      "sorting": "candidate lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.05738998315687512,
+        "confidence_interval": [
+          0.05685808842213258,
+          0.05792885701627353
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.4624550741732986e-09,
+        "exact_single_fault": 0.037188710152285476,
+        "sampled_multiple_fault": 0.020201273004589647,
+        "linear_prediction": 0.060173333333333315,
+        "contributions": {
+          "single_fault": 0.037188710152285476,
+          "2": 0.01617691615467324,
+          "3": 0.0034710075516880953,
+          "4": 0.0004951193050148253,
+          "5": 5.331914250555244e-05,
+          "6": 4.561143570424881e-06,
+          "7": 3.2933348276121705e-07,
+          "8": 2.037365474275225e-08
+        }
+      },
+      "candidate_result": {
+        "probability": 0.02771914834617481,
+        "confidence_interval": [
+          0.02728810295310492,
+          0.028159787574499228
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.4624550741732986e-09,
+        "exact_single_fault": 0.015772034396515495,
+        "sampled_multiple_fault": 0.011947113949659315,
+        "linear_prediction": 0.025520000000000004,
+        "contributions": {
+          "single_fault": 0.015772034396515495,
+          "2": 0.009178423127455706,
+          "3": 0.002346468367097988,
+          "4": 0.0003739937092083564,
+          "5": 4.393348209338709e-05,
+          "6": 3.974274698895562e-06,
+          "7": 3.018537095975313e-07,
+          "8": 1.9135395387210377e-08
+        }
+      }
+    },
+    {
+      "instance": "tiny-hgp",
+      "candidate": "macro_reverse",
+      "eps": 0.0001,
+      "decoder": "strong",
+      "difference": -0.01752515841193404,
+      "simultaneous_difference_interval": [
+        -0.01893736436657037,
+        -0.016109341043976023
+      ],
+      "sorting": "candidate lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.04852063336680225,
+        "confidence_interval": [
+          0.04801625570138163,
+          0.04903284485841768
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.4624550741732986e-09,
+        "exact_single_fault": 0.031020806418851906,
+        "sampled_multiple_fault": 0.017499826947950343,
+        "linear_prediction": 0.05019333333333331,
+        "contributions": {
+          "single_fault": 0.031020806418851906,
+          "2": 0.013879033924762864,
+          "3": 0.003104919250162655,
+          "4": 0.0004613726607570926,
+          "5": 4.980154611619168e-05,
+          "6": 4.361731568698814e-06,
+          "7": 3.178240972478552e-07,
+          "8": 2.0010485602761074e-08
+        }
+      },
+      "candidate_result": {
+        "probability": 0.030995474954868207,
+        "confidence_interval": [
+          0.030560152764746065,
+          0.03144031602634689
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.4624550741732986e-09,
+        "exact_single_fault": 0.01881272441339857,
+        "sampled_multiple_fault": 0.012182750541469639,
+        "linear_prediction": 0.030439999999999988,
+        "contributions": {
+          "single_fault": 0.01881272441339857,
+          "2": 0.00947985634772912,
+          "3": 0.0022935694833368953,
+          "4": 0.0003635031793454657,
+          "5": 4.1692432780810477e-05,
+          "6": 3.821305557506348e-06,
+          "7": 2.8920676853924416e-07,
+          "8": 1.8585951300876862e-08
+        }
+      }
+    },
+    {
+      "instance": "tiny-hgp",
+      "candidate": "macro_reverse",
+      "eps": 0.0001,
+      "decoder": "single_fault_lookup",
+      "difference": -0.0032230911904611616,
+      "simultaneous_difference_interval": [
+        -0.004474010949704302,
+        -0.001970224919194293
+      ],
+      "sorting": "candidate lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.01965045567438084,
+        "confidence_interval": [
+          0.01921242488100278,
+          0.020097895400402115
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.4624550741732986e-09,
+        "exact_single_fault": 0.007119664429775017,
+        "sampled_multiple_fault": 0.012530791244605823,
+        "linear_prediction": 0.011519999999999997,
+        "contributions": {
+          "single_fault": 0.007119664429775017,
+          "2": 0.009370641412847448,
+          "3": 0.002675072029137091,
+          "4": 0.0004319233419853633,
+          "5": 4.8512841448200064e-05,
+          "6": 4.305545450948635e-06,
+          "7": 3.161289164358096e-07,
+          "8": 1.9944820333906578e-08
+        }
+      },
+      "candidate_result": {
+        "probability": 0.01642736448391968,
+        "confidence_interval": [
+          0.01603553015692774,
+          0.01682951677741012
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.4624550741732986e-09,
+        "exact_single_fault": 0.006757088926406847,
+        "sampled_multiple_fault": 0.009670275557512832,
+        "linear_prediction": 0.010933333333333331,
+        "contributions": {
+          "single_fault": 0.006757088926406847,
+          "2": 0.007225660091771412,
+          "3": 0.002052196430943567,
+          "4": 0.00034728288216790375,
+          "5": 4.1048080446814673e-05,
+          "6": 3.781033426864601e-06,
+          "7": 2.8849300819733027e-07,
+          "8": 1.854574807504758e-08
+        }
+      }
+    },
+    {
+      "instance": "tiny-hgp",
+      "candidate": "check_reverse",
+      "eps": 1e-06,
+      "decoder": "original",
+      "difference": -7.4056910532368e-05,
+      "simultaneous_difference_interval": [
+        -7.42670023960606e-05,
+        -7.384662906427509e-05
+      ],
+      "sorting": "candidate lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.0006014550317294617,
+        "confidence_interval": [
+          0.0006013836011683134,
+          0.0006015274608038232
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 3.774433011647592e-27,
+        "exact_single_fault": 0.0005988447466025667,
+        "sampled_multiple_fault": 2.6102851268949715e-06,
+        "linear_prediction": 0.0006017333333333331,
+        "contributions": {
+          "single_fault": 0.0005988447466025667,
+          "2": 2.6046889381662625e-06,
+          "3": 5.588209667554287e-09,
+          "4": 7.970471193699952e-12,
+          "5": 8.5825095522833e-15,
+          "6": 7.341112583494327e-18,
+          "7": 5.300062993317633e-21,
+          "8": 3.2784690594179423e-24
+        }
+      },
+      "candidate_result": {
+        "probability": 0.0005273981211970937,
+        "confidence_interval": [
+          0.0005273296317451474,
+          0.0005274676975857832
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 3.774433011647592e-27,
+        "exact_single_fault": 0.0005250672861303696,
+        "sampled_multiple_fault": 2.3308350667241434e-06,
+        "linear_prediction": 0.0005276000000000001,
+        "contributions": {
+          "single_fault": 0.0005250672861303696,
+          "2": 2.3257909732775443e-06,
+          "3": 5.03660802697414e-09,
+          "4": 7.477403413082196e-12,
+          "5": 8.009124593975402e-15,
+          "6": 7.033229123534333e-18,
+          "7": 5.138171465380874e-21,
+          "8": 3.1850942582123928e-24
+        }
+      }
+    },
+    {
+      "instance": "tiny-hgp",
+      "candidate": "check_reverse",
+      "eps": 1e-06,
+      "decoder": "strong",
+      "difference": -8.449375213993903e-05,
+      "simultaneous_difference_interval": [
+        -8.46909370779697e-05,
+        -8.429636359371902e-05
+      ],
+      "sorting": "candidate lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.0005017635378129949,
+        "confidence_interval": [
+          0.0005016960896490113,
+          0.0005018321017617397
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 3.774433011647592e-27,
+        "exact_single_fault": 0.0004995238308409842,
+        "sampled_multiple_fault": 2.2397069720106813e-06,
+        "linear_prediction": 0.0005019333333333331,
+        "contributions": {
+          "single_fault": 0.0004995238308409842,
+          "2": 2.2347007174059455e-06,
+          "3": 4.998819366525398e-09,
+          "4": 7.427214945729081e-12,
+          "5": 8.016300059892793e-15,
+          "6": 7.020161064962177e-18,
+          "7": 5.11483898352746e-21,
+          "8": 3.2200289413424137e-24
+        }
+      },
+      "candidate_result": {
+        "probability": 0.00041726978567305586,
+        "confidence_interval": [
+          0.0004172060794450118,
+          0.00041733470267296533
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 3.774433011647592e-27,
+        "exact_single_fault": 0.0004153299483416873,
+        "sampled_multiple_fault": 1.939837331368585e-06,
+        "linear_prediction": 0.0004173333333333334,
+        "contributions": {
+          "single_fault": 0.0004153299483416873,
+          "2": 1.935404162399263e-06,
+          "3": 4.4263493612198265e-09,
+          "4": 6.812067109387535e-12,
+          "5": 7.534239213260783e-15,
+          "6": 6.775527008491417e-18,
+          "7": 4.994228000408278e-21,
+          "8": 3.120400400564206e-24
+        }
+      }
+    },
+    {
+      "instance": "tiny-hgp",
+      "candidate": "check_reverse",
+      "eps": 1e-06,
+      "decoder": "single_fault_lookup",
+      "difference": 3.6596333783750856e-05,
+      "simultaneous_difference_interval": [
+        3.6423880757406826e-05,
+        3.676880518753923e-05
+      ],
+      "sorting": "forward lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.00011616009494450802,
+        "confidence_interval": [
+          0.00011610270737088597,
+          0.00011621882868549351
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 3.774433011647592e-27,
+        "exact_single_fault": 0.00011464698893521329,
+        "sampled_multiple_fault": 1.513106009294737e-06,
+        "linear_prediction": 0.00011519999999999995,
+        "contributions": {
+          "single_fault": 0.00011464698893521329,
+          "2": 1.5087922690701143e-06,
+          "3": 4.306779271441718e-09,
+          "4": 6.953137396001693e-12,
+          "5": 7.808863863371847e-15,
+          "6": 6.929730099642858e-18,
+          "7": 5.087557927821931e-21,
+          "8": 3.209462277926543e-24
+        }
+      },
+      "candidate_result": {
+        "probability": 0.00015275642872825888,
+        "confidence_interval": [
+          0.0001526994857647845,
+          0.00015281472644096256
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 3.774433011647592e-27,
+        "exact_single_fault": 0.000151270332622851,
+        "sampled_multiple_fault": 1.4860961054078716e-06,
+        "linear_prediction": 0.0001520000000000001,
+        "contributions": {
+          "single_fault": 0.000151270332622851,
+          "2": 1.4820630820189887e-06,
+          "3": 4.026466372292093e-09,
+          "4": 6.5495949895813845e-12,
+          "5": 7.414865552998728e-15,
+          "6": 6.738936444489381e-18,
+          "7": 4.975562014925547e-21,
+          "8": 3.1152248919523513e-24
+        }
+      }
+    },
+    {
+      "instance": "tiny-hgp",
+      "candidate": "check_reverse",
+      "eps": 3e-06,
+      "decoder": "original",
+      "difference": -0.00022171332741614943,
+      "simultaneous_difference_interval": [
+        -0.00022359269719612516,
+        -0.00021983226084716905
+      ],
+      "sorting": "candidate lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.0018026950919916242,
+        "confidence_interval": [
+          0.0018020561182592895,
+          0.0018033429869205864
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 7.36525698445061e-23,
+        "exact_single_fault": 0.0017793272925112657,
+        "sampled_multiple_fault": 2.3367799480358484e-05,
+        "linear_prediction": 0.0018051999999999994,
+        "contributions": {
+          "single_fault": 0.0017793272925112657,
+          "2": 2.3217720845132294e-05,
+          "3": 1.4943713586212435e-07,
+          "4": 6.394284608268569e-10,
+          "5": 2.0655912488163112e-12,
+          "6": 5.300466539850349e-15,
+          "7": 1.1480356317157459e-17,
+          "8": 2.1304313722625553e-20
+        }
+      },
+      "candidate_result": {
+        "probability": 0.0015809817645754747,
+        "confidence_interval": [
+          0.0015803690777519983,
+          0.0015816041639054015
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 7.36525698445061e-23,
+        "exact_single_fault": 0.0015601148009011926,
+        "sampled_multiple_fault": 2.086696367428211e-05,
+        "linear_prediction": 0.0015828000000000005,
+        "contributions": {
+          "single_fault": 0.0015601148009011926,
+          "2": 2.0731675391420452e-05,
+          "3": 1.346864779217572e-07,
+          "4": 5.99872258391431e-10,
+          "5": 1.927592107088749e-12,
+          "6": 5.078166996132615e-15,
+          "7": 1.1129686442518921e-17,
+          "8": 2.069754085925011e-20
+        }
+      }
+    },
+    {
+      "instance": "tiny-hgp",
+      "candidate": "check_reverse",
+      "eps": 3e-06,
+      "decoder": "strong",
+      "difference": -0.00025284568963364774,
+      "simultaneous_difference_interval": [
+        -0.00025460976349734395,
+        -0.00025107979389347177
+      ],
+      "sorting": "candidate lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.0015042723769291642,
+        "confidence_interval": [
+          0.0015036689772249122,
+          0.001504885746499879
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 7.36525698445061e-23,
+        "exact_single_fault": 0.001484218389687272,
+        "sampled_multiple_fault": 2.0053987241892097e-05,
+        "linear_prediction": 0.0015057999999999994,
+        "contributions": {
+          "single_fault": 0.001484218389687272,
+          "2": 1.99197135093128e-05,
+          "3": 1.3367595227553574e-07,
+          "4": 5.958459049110713e-10,
+          "5": 1.929319058805476e-12,
+          "6": 5.068731531628467e-15,
+          "7": 1.1079146438413589e-17,
+          "8": 2.092455518688711e-20
+        }
+      },
+      "candidate_result": {
+        "probability": 0.0012514266872955164,
+        "confidence_interval": [
+          0.00125085672971299,
+          0.0012520074646826269
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 7.36525698445061e-23,
+        "exact_single_fault": 0.0012340559329847695,
+        "sampled_multiple_fault": 1.7370754310746953e-05,
+        "linear_prediction": 0.0012520000000000003,
+        "contributions": {
+          "single_fault": 0.0012340559329847695,
+          "2": 1.7251838753816233e-05,
+          "3": 1.1836724285889704e-07,
+          "4": 5.464958696855812e-10,
+          "5": 1.8132993025635324e-12,
+          "6": 4.892099636110811e-15,
+          "7": 1.0817893494115254e-17,
+          "8": 2.0277143956218623e-20
+        }
+      }
+    },
+    {
+      "instance": "tiny-hgp",
+      "candidate": "check_reverse",
+      "eps": 3e-06,
+      "decoder": "single_fault_lookup",
+      "difference": 0.00010857192411968731,
+      "simultaneous_difference_interval": [
+        0.0001070285635012519,
+        0.00011011545196085382
+      ],
+      "sorting": "forward lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.0003542115773648122,
+        "confidence_interval": [
+          0.0003536979630517358,
+          0.00035473721904413053
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 7.36525698445061e-23,
+        "exact_single_fault": 0.0003406467495523451,
+        "sampled_multiple_fault": 1.3564827812467101e-05,
+        "linear_prediction": 0.0003455999999999999,
+        "contributions": {
+          "single_fault": 0.0003406467495523451,
+          "2": 1.3449098356146035e-05,
+          "3": 1.1516975872458432e-07,
+          "4": 5.57813187576322e-10,
+          "5": 1.8793944546309996e-12,
+          "6": 5.003438117259761e-15,
+          "7": 1.1020053510536585e-17,
+          "8": 2.085589035939197e-20
+        }
+      },
+      "candidate_result": {
+        "probability": 0.0004627835014844995,
+        "confidence_interval": [
+          0.0004622739001205751,
+          0.0004633052083017729
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 7.36525698445061e-23,
+        "exact_single_fault": 0.0004494644612149002,
+        "sampled_multiple_fault": 1.3319040269599313e-05,
+        "linear_prediction": 0.00045600000000000024,
+        "contributions": {
+          "single_fault": 0.0004494644612149002,
+          "2": 1.3210839271048809e-05,
+          "3": 1.0767376997574745e-07,
+          "4": 5.254391291869432e-10,
+          "5": 1.7845691058216168e-12,
+          "6": 4.865680335499196e-15,
+          "7": 1.0777461490830987e-17,
+          "8": 2.0243512203976106e-20
+        }
+      }
+    },
+    {
+      "instance": "tiny-hgp",
+      "candidate": "check_reverse",
+      "eps": 1e-05,
+      "decoder": "original",
+      "difference": -0.0007337458614828677,
+      "simultaneous_difference_interval": [
+        -0.0007541891111068465,
+        -0.0007132841293951871
+      ],
+      "sorting": "candidate lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.005989494214195611,
+        "confidence_interval": [
+          0.0059825438727482165,
+          0.005996541179250079
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 3.630414933011783e-18,
+        "exact_single_fault": 0.005734634130793076,
+        "sampled_multiple_fault": 0.00025486008340253486,
+        "linear_prediction": 0.006017333333333332,
+        "contributions": {
+          "single_fault": 0.005734634130793076,
+          "2": 0.00024943146956598,
+          "3": 5.351456268731265e-06,
+          "4": 7.632858188627409e-08,
+          "5": 8.219045814317737e-10,
+          "6": 7.030284478232621e-12,
+          "7": 5.0757001099891765e-14,
+          "8": 3.139712783167675e-16
+        }
+      },
+      "candidate_result": {
+        "probability": 0.005255748352712743,
+        "confidence_interval": [
+          0.005249083077392442,
+          0.005262518871020988
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 3.630414933011783e-18,
+        "exact_single_fault": 0.005028129238986974,
+        "sampled_multiple_fault": 0.00022761911372576847,
+        "linear_prediction": 0.005276000000000002,
+        "contributions": {
+          "single_fault": 0.005028129238986974,
+          "2": 0.00022272350907910152,
+          "3": 4.823224109787061e-06,
+          "4": 7.160675759838086e-08,
+          "5": 7.669943338769718e-10,
+          "6": 6.735437030377379e-12,
+          "7": 4.9206617930501237e-14,
+          "8": 3.050289930105016e-16
+        }
+      }
+    },
+    {
+      "instance": "tiny-hgp",
+      "candidate": "check_reverse",
+      "eps": 1e-05,
+      "decoder": "strong",
+      "difference": -0.0008354697673046219,
+      "simultaneous_difference_interval": [
+        -0.0008546650695686582,
+        -0.0008162546284630583
+      ],
+      "sorting": "candidate lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.005002380397964697,
+        "confidence_interval": [
+          0.004995815095291364,
+          0.0050090537166276854
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 3.630414933011783e-18,
+        "exact_single_fault": 0.004783520980582878,
+        "sampled_multiple_fault": 0.0002188594173818184,
+        "linear_prediction": 0.005019333333333331,
+        "contributions": {
+          "single_fault": 0.004783520980582878,
+          "2": 0.00021400048037027237,
+          "3": 4.787036426096609e-06,
+          "4": 7.112613174239172e-08,
+          "5": 7.676814928338578e-10,
+          "6": 6.722922283015103e-12,
+          "7": 4.898317024533409e-14,
+          "8": 3.0837460552693367e-16
+        }
+      },
+      "candidate_result": {
+        "probability": 0.004166910630660075,
+        "confidence_interval": [
+          0.004160707902168756,
+          0.0041732306291846445
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 3.630414933011783e-18,
+        "exact_single_fault": 0.0039772667470379655,
+        "sampled_multiple_fault": 0.00018964388362210927,
+        "linear_prediction": 0.0041733333333333344,
+        "contributions": {
+          "single_fault": 0.0039772667470379655,
+          "2": 0.0001853391003269765,
+          "3": 4.238820023920364e-06,
+          "4": 6.523521753452493e-08,
+          "5": 7.215169047303326e-10,
+          "6": 6.488646212393281e-12,
+          "7": 4.782811759585467e-14,
+          "8": 2.988334142763682e-16
+        }
+      }
+    },
+    {
+      "instance": "tiny-hgp",
+      "candidate": "check_reverse",
+      "eps": 1e-05,
+      "decoder": "single_fault_lookup",
+      "difference": 0.00034787906878461943,
+      "simultaneous_difference_interval": [
+        0.0003310646437060514,
+        0.00036469542023885733
+      ],
+      "sorting": "forward lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.0012465554495114215,
+        "confidence_interval": [
+          0.0012409587695511102,
+          0.0012522823974739767
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 3.630414933011783e-18,
+        "exact_single_fault": 0.0010978781052526517,
+        "sampled_multiple_fault": 0.00014867734425876977,
+        "linear_prediction": 0.0011519999999999996,
+        "contributions": {
+          "single_fault": 0.0010978781052526517,
+          "2": 0.0001444856878798345,
+          "3": 4.124315711347592e-06,
+          "4": 6.658616588649439e-08,
+          "5": 7.478163520802434e-10,
+          "6": 6.636320231268147e-12,
+          "7": 4.872190833652326e-14,
+          "8": 3.0736266100035855e-16
+        }
+      },
+      "candidate_result": {
+        "probability": 0.001594434518296041,
+        "confidence_interval": [
+          0.0015888828376603864,
+          0.0016001173663985646
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 3.630414933011783e-18,
+        "exact_single_fault": 0.0014485891666528058,
+        "sampled_multiple_fault": 0.00014584535164323506,
+        "linear_prediction": 0.001520000000000001,
+        "contributions": {
+          "single_fault": 0.0014485891666528058,
+          "2": 0.0001419260346679773,
+          "3": 3.8558787144199135e-06,
+          "4": 6.272167420658176e-08,
+          "5": 7.100850784475923e-10,
+          "6": 6.453604919778906e-12,
+          "7": 4.764935944772095e-14,
+          "8": 2.9833776797763757e-16
+        }
+      }
+    },
+    {
+      "instance": "tiny-hgp",
+      "candidate": "check_reverse",
+      "eps": 3e-05,
+      "decoder": "original",
+      "difference": -0.0021566714316238467,
+      "simultaneous_difference_interval": [
+        -0.0023298958155297655,
+        -0.001983289893773596
+      ],
+      "sorting": "candidate lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.01780132740849418,
+        "confidence_interval": [
+          0.017742440220038246,
+          0.01786102312578658
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 6.554289119738399e-14,
+        "exact_single_fault": 0.015625345642869524,
+        "sampled_multiple_fault": 0.002175981765624658,
+        "linear_prediction": 0.018051999999999995,
+        "contributions": {
+          "single_fault": 0.015625345642869524,
+          "2": 0.002038943089662477,
+          "3": 0.00013123684470034533,
+          "4": 5.615661658786325e-06,
+          "5": 1.814116119254497e-07,
+          "6": 4.655287644968152e-09,
+          "7": 1.0083226365511563e-10,
+          "8": 1.871213855252424e-12
+        }
+      },
+      "candidate_result": {
+        "probability": 0.015644655976870335,
+        "confidence_interval": [
+          0.015588162255970556,
+          0.015702031514875554
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 6.554289119738399e-14,
+        "exact_single_fault": 0.013700308599342953,
+        "sampled_multiple_fault": 0.0019443473775273817,
+        "linear_prediction": 0.015828000000000005,
+        "contributions": {
+          "single_fault": 0.013700308599342953,
+          "2": 0.0018206225562973214,
+          "3": 0.00011828270318672627,
+          "4": 5.268266659982916e-06,
+          "5": 1.6929176645288983e-07,
+          "6": 4.460046657864318e-09,
+          "7": 9.775232116216222e-11,
+          "8": 1.8179194002551009e-12
+        }
+      }
+    },
+    {
+      "instance": "tiny-hgp",
+      "candidate": "check_reverse",
+      "eps": 3e-05,
+      "decoder": "strong",
+      "difference": -0.0024450038183204403,
+      "simultaneous_difference_interval": [
+        -0.00260780552487346,
+        -0.0022820336148558096
+      ],
+      "sorting": "candidate lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.014905935972730737,
+        "confidence_interval": [
+          0.014850264242061121,
+          0.014962512384907442
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 6.554289119738399e-14,
+        "exact_single_fault": 0.013033816457474477,
+        "sampled_multiple_fault": 0.0018721195152562597,
+        "linear_prediction": 0.015057999999999993,
+        "contributions": {
+          "single_fault": 0.013033816457474477,
+          "2": 0.0017493173631805807,
+          "3": 0.00011739525177423907,
+          "4": 5.2329059585916476e-06,
+          "5": 1.6944343687404815e-07,
+          "6": 4.4517596889719655e-09,
+          "7": 9.730842701129311e-11,
+          "8": 1.837858665173268e-12
+        }
+      },
+      "candidate_result": {
+        "probability": 0.012460932154410296,
+        "confidence_interval": [
+          0.012408302889274048,
+          0.012514544705410144
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 6.554289119738399e-14,
+        "exact_single_fault": 0.010836989111939206,
+        "sampled_multiple_fault": 0.00162394304247109,
+        "linear_prediction": 0.012520000000000003,
+        "contributions": {
+          "single_fault": 0.010836989111939206,
+          "2": 0.0015150288715112899,
+          "3": 0.00010395102515223154,
+          "4": 4.799498442890559e-06,
+          "5": 1.5925394221623044e-07,
+          "6": 4.296627631307119e-09,
+          "7": 9.50138357083389e-11,
+          "8": 1.7809948355918287e-12
+        }
+      }
+    },
+    {
+      "instance": "tiny-hgp",
+      "candidate": "check_reverse",
+      "eps": 3e-05,
+      "decoder": "single_fault_lookup",
+      "difference": 0.0009277945909937938,
+      "simultaneous_difference_interval": [
+        0.0007846848463322325,
+        0.0010709232365014943
+      ],
+      "sorting": "forward lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.004278714178209468,
+        "confidence_interval": [
+          0.004231055959995338,
+          0.004327462494727745
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 6.554289119738399e-14,
+        "exact_single_fault": 0.002991424470516124,
+        "sampled_multiple_fault": 0.0012872897076933445,
+        "linear_prediction": 0.003455999999999999,
+        "contributions": {
+          "single_fault": 0.002991424470516124,
+          "2": 0.001181078295254122,
+          "3": 0.00010114296993660043,
+          "4": 4.898890684638989e-06,
+          "5": 1.6505878288056232e-07,
+          "6": 4.394413864236883e-09,
+          "7": 9.678941231181537e-11,
+          "8": 1.8318276529449336e-12
+        }
+      },
+      "candidate_result": {
+        "probability": 0.005206508769203262,
+        "confidence_interval": [
+          0.005159263620810214,
+          0.00525485283915525
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 6.554289119738399e-14,
+        "exact_single_fault": 0.003947018398597667,
+        "sampled_multiple_fault": 0.001259490370605595,
+        "linear_prediction": 0.004560000000000002,
+        "contributions": {
+          "single_fault": 0.003947018398597667,
+          "2": 0.0011601547636831864,
+          "3": 9.455993483203122e-05,
+          "4": 4.614571531560546e-06,
+          "5": 1.567306979369603e-07,
+          "6": 4.2734241184085315e-09,
+          "7": 9.46587203876436e-11,
+          "8": 1.7780408704187669e-12
+        }
+      }
+    },
+    {
+      "instance": "tiny-hgp",
+      "candidate": "check_reverse",
+      "eps": 0.0001,
+      "decoder": "original",
+      "difference": -0.006690794468219893,
+      "simultaneous_difference_interval": [
+        -0.00825610312268267,
+        -0.005124055005089473
+      ],
+      "sorting": "candidate lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.05738998315687512,
+        "confidence_interval": [
+          0.05685808842213258,
+          0.05792885701627353
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.4624550741732986e-09,
+        "exact_single_fault": 0.037188710152285476,
+        "sampled_multiple_fault": 0.020201273004589647,
+        "linear_prediction": 0.060173333333333315,
+        "contributions": {
+          "single_fault": 0.037188710152285476,
+          "2": 0.01617691615467324,
+          "3": 0.0034710075516880953,
+          "4": 0.0004951193050148253,
+          "5": 5.331914250555244e-05,
+          "6": 4.561143570424881e-06,
+          "7": 3.2933348276121705e-07,
+          "8": 2.037365474275225e-08
+        }
+      },
+      "candidate_result": {
+        "probability": 0.05069918868865523,
+        "confidence_interval": [
+          0.05018814633615093,
+          0.05121787738330208
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.4624550741732986e-09,
+        "exact_single_fault": 0.032607074246087685,
+        "sampled_multiple_fault": 0.018092114442567545,
+        "linear_prediction": 0.052760000000000015,
+        "contributions": {
+          "single_fault": 0.032607074246087685,
+          "2": 0.014444767287449924,
+          "3": 0.0031283909403083056,
+          "4": 0.000464490328266546,
+          "5": 4.9756968281764294e-05,
+          "6": 4.369850949876585e-06,
+          "7": 3.1927392294236784e-07,
+          "8": 1.9793388183282953e-08
+        }
+      }
+    },
+    {
+      "instance": "tiny-hgp",
+      "candidate": "check_reverse",
+      "eps": 0.0001,
+      "decoder": "strong",
+      "difference": -0.00748428776753015,
+      "simultaneous_difference_interval": [
+        -0.00896034369661071,
+        -0.006006700553350619
+      ],
+      "sorting": "candidate lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.04852063336680225,
+        "confidence_interval": [
+          0.04801625570138163,
+          0.04903284485841768
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.4624550741732986e-09,
+        "exact_single_fault": 0.031020806418851906,
+        "sampled_multiple_fault": 0.017499826947950343,
+        "linear_prediction": 0.05019333333333331,
+        "contributions": {
+          "single_fault": 0.031020806418851906,
+          "2": 0.013879033924762864,
+          "3": 0.003104919250162655,
+          "4": 0.0004613726607570926,
+          "5": 4.980154611619168e-05,
+          "6": 4.361731568698814e-06,
+          "7": 3.178240972478552e-07,
+          "8": 2.0010485602761074e-08
+        }
+      },
+      "candidate_result": {
+        "probability": 0.0410363455992721,
+        "confidence_interval": [
+          0.0405584446740204,
+          0.041522794643998946
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.4624550741732986e-09,
+        "exact_single_fault": 0.025792302853235898,
+        "sampled_multiple_fault": 0.015244042746036201,
+        "linear_prediction": 0.041733333333333344,
+        "contributions": {
+          "single_fault": 0.025792302853235898,
+          "2": 0.012020195733076808,
+          "3": 0.0027493406606427305,
+          "4": 0.00042316016844527786,
+          "5": 4.680672614875205e-05,
+          "6": 4.2097367530509324e-06,
+          "7": 3.1032961365775907e-07,
+          "8": 1.9391355924990136e-08
+        }
+      }
+    },
+    {
+      "instance": "tiny-hgp",
+      "candidate": "check_reverse",
+      "eps": 0.0001,
+      "decoder": "single_fault_lookup",
+      "difference": 0.0019065781037018795,
+      "simultaneous_difference_interval": [
+        0.0005934027719572375,
+        0.0032200032339716154
+      ],
+      "sorting": "forward lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.01965045567438084,
+        "confidence_interval": [
+          0.01921242488100278,
+          0.020097895400402115
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.4624550741732986e-09,
+        "exact_single_fault": 0.007119664429775017,
+        "sampled_multiple_fault": 0.012530791244605823,
+        "linear_prediction": 0.011519999999999997,
+        "contributions": {
+          "single_fault": 0.007119664429775017,
+          "2": 0.009370641412847448,
+          "3": 0.002675072029137091,
+          "4": 0.0004319233419853633,
+          "5": 4.8512841448200064e-05,
+          "6": 4.305545450948635e-06,
+          "7": 3.161289164358096e-07,
+          "8": 1.9944820333906578e-08
+        }
+      },
+      "candidate_result": {
+        "probability": 0.02155703377808272,
+        "confidence_interval": [
+          0.021123649351568363,
+          0.021999943694307498
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.4624550741732986e-09,
+        "exact_single_fault": 0.009394001678175378,
+        "sampled_multiple_fault": 0.012163032099907342,
+        "linear_prediction": 0.015200000000000009,
+        "contributions": {
+          "single_fault": 0.009394001678175378,
+          "2": 0.009204634711827307,
+          "3": 0.0025009611335790587,
+          "4": 0.00040685560998367665,
+          "5": 4.606511308509649e-05,
+          "6": 4.187002485753173e-06,
+          "7": 3.0916975310214896e-07,
+          "8": 1.9359193344326712e-08
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "macro_reverse",
+      "eps": 1e-06,
+      "decoder": "original",
+      "difference": 0.0018561109367967324,
+      "simultaneous_difference_interval": [
+        0.0018229171411397915,
+        0.0018892497136024726
+      ],
+      "sorting": "forward lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.0024899190113917167,
+        "confidence_interval": [
+          0.0024789325112413714,
+          0.0025012724051355056
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.628343352442846e-60,
+        "exact_single_fault": 0.002276729757083249,
+        "sampled_multiple_fault": 0.00021318925430846786,
+        "linear_prediction": 0.0024370666666666645,
+        "contributions": {
+          "single_fault": 0.002276729757083249,
+          "2": 0.00020552760275936575,
+          "3": 7.483990401272213e-06,
+          "4": 1.7459385118107e-07,
+          "5": 3.0265502553164827e-09,
+          "6": 4.0301476801531355e-11,
+          "7": 4.408096575333425e-13,
+          "8": 4.073218506722208e-15,
+          "9": 3.280639030940304e-17,
+          "10": 2.358054564616869e-19,
+          "11": 1.513455855566752e-21,
+          "12": 8.921806647612038e-24,
+          "13": 4.693166141602827e-26,
+          "14": 2.3283184948042847e-28,
+          "15": 1.0718723843828332e-30,
+          "16": 4.569443075243524e-33,
+          "17": 1.8369245615315386e-35,
+          "18": 7.028895038037392e-38,
+          "19": 2.5355833937943302e-40,
+          "20": 8.591176014873972e-43,
+          "21": 2.8145110989418264e-45,
+          "22": 8.658673438717792e-48,
+          "23": 2.5895582620577613e-50,
+          "24": 7.367409491450459e-53,
+          "25": 1.976480268647191e-55,
+          "26": 5.212901854694265e-58
+        }
+      },
+      "candidate_result": {
+        "probability": 0.004346029948188449,
+        "confidence_interval": [
+          0.004333543980051748,
+          0.00435885368092905
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.628343352442846e-60,
+        "exact_single_fault": 0.004062314671613751,
+        "sampled_multiple_fault": 0.0002837152765746984,
+        "linear_prediction": 0.004348400000000005,
+        "contributions": {
+          "single_fault": 0.004062314671613751,
+          "2": 0.000274190855849549,
+          "3": 9.32016655335541e-06,
+          "4": 2.0094090928399272e-07,
+          "5": 3.2703528025248576e-09,
+          "6": 4.244910576245622e-11,
+          "7": 4.56372593915722e-13,
+          "8": 4.195515892215105e-15,
+          "9": 3.338677322642097e-17,
+          "10": 2.371609487598486e-19,
+          "11": 1.5110749058623719e-21,
+          "12": 8.922980646776142e-24,
+          "13": 4.7475484923107613e-26,
+          "14": 2.3419073213196254e-28,
+          "15": 1.0718723843828332e-30,
+          "16": 4.612075463514094e-33,
+          "17": 1.8583686064976383e-35,
+          "18": 7.036739300588367e-38,
+          "19": 2.5009391598318524e-40,
+          "20": 8.543397120890245e-43,
+          "21": 2.7919798746713927e-45,
+          "22": 8.583144743570798e-48,
+          "23": 2.5708355308356413e-50,
+          "24": 7.32013390539236e-53,
+          "25": 1.9929863365953655e-55,
+          "26": 5.170665123248981e-58
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "macro_reverse",
+      "eps": 1e-06,
+      "decoder": "strong",
+      "difference": -0.00025603853485513375,
+      "simultaneous_difference_interval": [
+        -0.00027391057628583897,
+        -0.00023815252285536975
+      ],
+      "sorting": "candidate lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.00037915290827388997,
+        "confidence_interval": [
+          0.00037252943372233807,
+          0.00038620127649807717
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.628343352442846e-60,
+        "exact_single_fault": 0.00030442759198552713,
+        "sampled_multiple_fault": 7.472531628836284e-05,
+        "linear_prediction": 0.0003258666666666667,
+        "contributions": {
+          "single_fault": 0.00030442759198552713,
+          "2": 7.084199092862173e-05,
+          "3": 3.775693376347258e-06,
+          "4": 1.055411166946865e-07,
+          "5": 2.060703748950446e-09,
+          "6": 2.981113533855223e-11,
+          "7": 3.4838799356230775e-13,
+          "8": 3.3986313324874507e-15,
+          "9": 2.8052660739082497e-17,
+          "10": 2.1083762301900456e-19,
+          "11": 1.3816754654069383e-21,
+          "12": 8.276107107354572e-24,
+          "13": 4.458123778373618e-26,
+          "14": 2.2211011603206087e-28,
+          "15": 1.0336009045309435e-30,
+          "16": 4.46804712476217e-33,
+          "17": 1.812598252457092e-35,
+          "18": 6.949580827799758e-38,
+          "19": 2.4876744756570297e-40,
+          "20": 8.552952899686992e-43,
+          "21": 2.813479134471425e-45,
+          "22": 8.633674504408576e-48,
+          "23": 2.5736675406003314e-50,
+          "24": 7.255910467728526e-53,
+          "25": 1.9991761120759307e-55,
+          "26": 5.146212278728027e-58
+        }
+      },
+      "candidate_result": {
+        "probability": 0.00012311437341875622,
+        "confidence_interval": [
+          0.000117316866314434,
+          0.0001293442891095016
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.628343352442846e-60,
+        "exact_single_fault": 6.56437565369774e-05,
+        "sampled_multiple_fault": 5.747061688177882e-05,
+        "linear_prediction": 7.026666666666666e-05,
+        "contributions": {
+          "single_fault": 6.56437565369774e-05,
+          "2": 5.400628944977873e-05,
+          "3": 3.363826784322071e-06,
+          "4": 9.85339203907177e-08,
+          "5": 1.9382822707647326e-09,
+          "6": 2.810797903803856e-11,
+          "7": 3.336662969843812e-13,
+          "8": 3.3433373018124707e-15,
+          "9": 2.7651803046396388e-17,
+          "10": 2.0484668175058614e-19,
+          "11": 1.3458577002888742e-21,
+          "12": 8.145793200138973e-24,
+          "13": 4.4200254083861385e-26,
+          "14": 2.225730321001659e-28,
+          "15": 1.0314333162915446e-30,
+          "16": 4.4490353840469165e-33,
+          "17": 1.8144429014864342e-35,
+          "18": 6.861550770283263e-38,
+          "19": 2.4784672242886236e-40,
+          "20": 8.539150108091692e-43,
+          "21": 2.752937218874534e-45,
+          "22": 8.637929642163336e-48,
+          "23": 2.544875441325979e-50,
+          "24": 7.215324823093743e-53,
+          "25": 1.970654597606659e-55,
+          "26": 5.199246370091654e-58
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "macro_reverse",
+      "eps": 1e-06,
+      "decoder": "single_fault_lookup",
+      "difference": -1.0019888811720661e-05,
+      "simultaneous_difference_interval": [
+        -2.7164653830809948e-05,
+        7.13303266019905e-06
+      ],
+      "sorting": "unresolved",
+      "complete": true,
+      "forward": {
+        "probability": 7.204400504918918e-05,
+        "confidence_interval": [
+          6.584609782493096e-05,
+          7.867077462933766e-05
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.628343352442846e-60,
+        "exact_single_fault": 6.477182808202704e-06,
+        "sampled_multiple_fault": 6.556682224098648e-05,
+        "linear_prediction": 6.933333333333333e-06,
+        "contributions": {
+          "single_fault": 6.477182808202704e-06,
+          "2": 6.17969277811649e-05,
+          "3": 3.6633661239767526e-06,
+          "4": 1.0444544599988411e-07,
+          "5": 2.052727278700385e-09,
+          "6": 2.981113533855223e-11,
+          "7": 3.4800561183301095e-13,
+          "8": 3.3970050374675984e-15,
+          "9": 2.8050201489434115e-17,
+          "10": 2.1082088854618774e-19,
+          "11": 1.3816754654069383e-21,
+          "12": 8.276694106936623e-24,
+          "13": 4.458123778373618e-26,
+          "14": 2.2211011603206087e-28,
+          "15": 1.0335331673984624e-30,
+          "16": 4.46804712476217e-33,
+          "17": 1.812598252457092e-35,
+          "18": 6.949580827799758e-38,
+          "19": 2.4876744756570297e-40,
+          "20": 8.552952899686992e-43,
+          "21": 2.813479134471425e-45,
+          "22": 8.633674504408576e-48,
+          "23": 2.5736675406003314e-50,
+          "24": 7.255910467728526e-53,
+          "25": 1.9991761120759307e-55,
+          "26": 5.146212278728027e-58
+        }
+      },
+      "candidate_result": {
+        "probability": 6.202411623746852e-05,
+        "confidence_interval": [
+          5.6327736119722786e-05,
+          6.815375652959581e-05
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.628343352442846e-60,
+        "exact_single_fault": 6.477182808202704e-06,
+        "sampled_multiple_fault": 5.5546933429265813e-05,
+        "linear_prediction": 6.933333333333333e-06,
+        "contributions": {
+          "single_fault": 6.477182808202704e-06,
+          "2": 5.2091641046302466e-05,
+          "3": 3.3548406041324306e-06,
+          "4": 9.848295896305247e-08,
+          "5": 1.9403630890908355e-09,
+          "6": 2.811977919716452e-11,
+          "7": 3.3362805881145156e-13,
+          "8": 3.3436625608164414e-15,
+          "9": 2.7646884547099627e-17,
+          "10": 2.0482994727776932e-19,
+          "11": 1.3459612198412385e-21,
+          "12": 8.145793200138973e-24,
+          "13": 4.4200254083861385e-26,
+          "14": 2.225730321001659e-28,
+          "15": 1.0314333162915446e-30,
+          "16": 4.4490353840469165e-33,
+          "17": 1.8144429014864342e-35,
+          "18": 6.861550770283263e-38,
+          "19": 2.4784672242886236e-40,
+          "20": 8.539150108091692e-43,
+          "21": 2.752937218874534e-45,
+          "22": 8.637929642163336e-48,
+          "23": 2.544875441325979e-50,
+          "24": 7.215324823093743e-53,
+          "25": 1.970654597606659e-55,
+          "26": 5.199246370091654e-58
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "macro_reverse",
+      "eps": 3e-06,
+      "decoder": "original",
+      "difference": 0.005259603644216323,
+      "simultaneous_difference_interval": [
+        0.004983962947330755,
+        0.005534788420713279
+      ],
+      "sorting": "forward lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.007764753010008971,
+        "confidence_interval": [
+          0.007673388857339083,
+          0.007859115432580686
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 1.7578691655905153e-47,
+        "exact_single_fault": 0.005961023012425025,
+        "sampled_multiple_fault": 0.0018037299975839464,
+        "linear_prediction": 0.007311199999999994,
+        "contributions": {
+          "single_fault": 0.005961023012425025,
+          "2": 0.0016143644842902907,
+          "3": 0.00017635459626186645,
+          "4": 1.2342542439919023e-05,
+          "5": 6.418679597987307e-07,
+          "6": 2.5641350295746345e-08,
+          "7": 8.413818806839649e-10,
+          "8": 2.3323938416538625e-11,
+          "9": 5.635659538046101e-13,
+          "10": 1.2152406117937737e-14,
+          "11": 2.339916207890256e-16,
+          "12": 4.13814284459816e-18,
+          "13": 6.53041412907633e-20,
+          "14": 9.719396637507077e-22,
+          "15": 1.3423387360221688e-23,
+          "16": 1.7167396414444568e-25,
+          "17": 2.070401667068006e-27,
+          "18": 2.376689617175828e-29,
+          "19": 2.572085688658773e-31,
+          "20": 2.6144616412895527e-33,
+          "21": 2.569536235086178e-35,
+          "22": 2.3715116619662648e-37,
+          "23": 2.1277554617278597e-39,
+          "24": 1.8160715709034983e-41,
+          "25": 1.4616142116390751e-43,
+          "26": 1.1564901700431529e-45
+        }
+      },
+      "candidate_result": {
+        "probability": 0.013024356654225295,
+        "confidence_interval": [
+          0.012920758545092201,
+          0.013130711667684456
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 1.7578691655905153e-47,
+        "exact_single_fault": 0.010636111363618432,
+        "sampled_multiple_fault": 0.002388245290606862,
+        "linear_prediction": 0.013045200000000015,
+        "contributions": {
+          "single_fault": 0.010636111363618432,
+          "2": 0.002153696017750587,
+          "3": 0.000219622704129997,
+          "4": 1.4205091897431614e-05,
+          "5": 6.935733769797215e-07,
+          "6": 2.7007754478986392e-08,
+          "7": 8.710871570058224e-10,
+          "8": 2.4024233940344306e-11,
+          "9": 5.735360861207937e-13,
+          "10": 1.2222262401775149e-14,
+          "11": 2.336235081161017e-16,
+          "12": 4.138687372901943e-18,
+          "13": 6.606085703599833e-20,
+          "14": 9.776122207928647e-22,
+          "15": 1.3423387360221688e-23,
+          "16": 1.7327566285801675e-25,
+          "17": 2.094571296772057e-27,
+          "18": 2.379342008093378e-29,
+          "19": 2.5369427158078224e-31,
+          "20": 2.5999215963216197e-33,
+          "21": 2.548966127117693e-35,
+          "22": 2.3508252158701157e-37,
+          "23": 2.112371604874733e-39,
+          "24": 1.8044181060136279e-41,
+          "25": 1.473820507787857e-43,
+          "26": 1.1471198872155112e-45
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "macro_reverse",
+      "eps": 3e-06,
+      "decoder": "strong",
+      "difference": -0.0007676608926021156,
+      "simultaneous_difference_interval": [
+        -0.0009184446402499196,
+        -0.0006167619714354012
+      ],
+      "sorting": "candidate lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.0014503982413400294,
+        "confidence_interval": [
+          0.0013946102761548378,
+          0.001509665985708766
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 1.7578691655905153e-47,
+        "exact_single_fault": 0.000797064243482152,
+        "sampled_multiple_fault": 0.0006533339978578775,
+        "linear_prediction": 0.0009776000000000001,
+        "contributions": {
+          "single_fault": 0.000797064243482152,
+          "2": 0.0005564449378874019,
+          "3": 8.89713702573875e-05,
+          "4": 7.461005660558172e-06,
+          "5": 4.370321321329274e-07,
+          "6": 1.89669914006892e-08,
+          "7": 6.649748711755381e-10,
+          "8": 1.9461138107036022e-11,
+          "9": 4.819038107233275e-13,
+          "10": 1.0865670618117774e-14,
+          "11": 2.1361738458762825e-16,
+          "12": 3.838652277517564e-18,
+          "13": 6.20335901884763e-20,
+          "14": 9.27182565330171e-22,
+          "15": 1.2944101853489808e-23,
+          "16": 1.6786451855541177e-25,
+          "17": 2.042983431220937e-27,
+          "18": 2.3498709978983775e-29,
+          "19": 2.5234870730495754e-31,
+          "20": 2.602829605315206e-33,
+          "21": 2.5685940927364764e-35,
+          "22": 2.364664739666835e-37,
+          "23": 2.1146985748189036e-39,
+          "24": 1.7885869838990868e-41,
+          "25": 1.4783978688436503e-43,
+          "26": 1.141694986631087e-45
+        }
+      },
+      "candidate_result": {
+        "probability": 0.0006827373487379139,
+        "confidence_interval": [
+          0.000633629382661985,
+          0.0007353870068252457
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 1.7578691655905153e-47,
+        "exact_single_fault": 0.00017187105413874552,
+        "sampled_multiple_fault": 0.0005108662945991683,
+        "linear_prediction": 0.0002108,
+        "contributions": {
+          "single_fault": 0.00017187105413874552,
+          "2": 0.00042420499458704073,
+          "3": 7.926604426739084e-05,
+          "4": 6.965646762283547e-06,
+          "5": 4.110690990392008e-07,
+          "6": 1.7883377826801032e-08,
+          "7": 6.368752854656729e-10,
+          "8": 1.9144515130847284e-11,
+          "9": 4.750176600134211e-13,
+          "10": 1.0556923092021563e-14,
+          "11": 2.080796895949468e-16,
+          "12": 3.778209635797662e-18,
+          "13": 6.150346164379187e-20,
+          "14": 9.291149748720047e-22,
+          "15": 1.2916956479657206e-23,
+          "16": 1.671502475074679e-25,
+          "17": 2.045062539152468e-27,
+          "18": 2.320105277601427e-29,
+          "19": 2.514147273958557e-31,
+          "20": 2.5986291478800256e-33,
+          "21": 2.513321741553982e-35,
+          "22": 2.3658301732497167e-37,
+          "23": 2.0910410470531704e-39,
+          "24": 1.778582594229481e-41,
+          "25": 1.4573061071159756e-43,
+          "26": 1.1534606801063966e-45
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "macro_reverse",
+      "eps": 3e-06,
+      "decoder": "single_fault_lookup",
+      "difference": -8.394904871519534e-05,
+      "simultaneous_difference_interval": [
+        -0.0002289459587919732,
+        6.111604152935542e-05
+      ],
+      "sorting": "unresolved",
+      "complete": true,
+      "forward": {
+        "probability": 0.0005965201981874337,
+        "confidence_interval": [
+          0.0005441249546032454,
+          0.0006524271566429494
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 1.7578691655905153e-47,
+        "exact_single_fault": 1.695881369110961e-05,
+        "sampled_multiple_fault": 0.0005795613844963241,
+        "linear_prediction": 2.0799999999999997e-05,
+        "contributions": {
+          "single_fault": 1.695881369110961e-05,
+          "2": 0.00048539838011426667,
+          "3": 8.63244631692066e-05,
+          "4": 7.383549541918867e-06,
+          "5": 4.3534048975005e-07,
+          "6": 1.89669914006892e-08,
+          "7": 6.642450118064507e-10,
+          "8": 1.945182566655988e-11,
+          "9": 4.818615643999538e-13,
+          "10": 1.0864808194860522e-14,
+          "11": 2.1361738458762825e-16,
+          "12": 3.838924541669456e-18,
+          "13": 6.20335901884763e-20,
+          "14": 9.27182565330171e-22,
+          "15": 1.2943253560557538e-23,
+          "16": 1.6786451855541177e-25,
+          "17": 2.042983431220937e-27,
+          "18": 2.3498709978983775e-29,
+          "19": 2.5234870730495754e-31,
+          "20": 2.602829605315206e-33,
+          "21": 2.5685940927364764e-35,
+          "22": 2.364664739666835e-37,
+          "23": 2.1146985748189036e-39,
+          "24": 1.7885869838990868e-41,
+          "25": 1.4783978688436503e-43,
+          "26": 1.141694986631087e-45
+        }
+      },
+      "candidate_result": {
+        "probability": 0.0005125711494722384,
+        "confidence_interval": [
+          0.00046426171457785635,
+          0.0005644290253578005
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 1.7578691655905153e-47,
+        "exact_single_fault": 1.695881369110961e-05,
+        "sampled_multiple_fault": 0.0004956123357811288,
+        "linear_prediction": 2.0799999999999997e-05,
+        "contributions": {
+          "single_fault": 1.695881369110961e-05,
+          "2": 0.00040916594221170554,
+          "3": 7.905429170033638e-05,
+          "4": 6.962044152114277e-06,
+          "5": 4.115103970521253e-07,
+          "6": 1.789088554209356e-08,
+          "7": 6.368022995287641e-10,
+          "8": 1.914637761894251e-11,
+          "9": 4.749331673666737e-13,
+          "10": 1.0556060668764311e-14,
+          "11": 2.0809569449376957e-16,
+          "12": 3.778209635797662e-18,
+          "13": 6.150346164379187e-20,
+          "14": 9.291149748720047e-22,
+          "15": 1.2916956479657206e-23,
+          "16": 1.671502475074679e-25,
+          "17": 2.045062539152468e-27,
+          "18": 2.320105277601427e-29,
+          "19": 2.514147273958557e-31,
+          "20": 2.5986291478800256e-33,
+          "21": 2.513321741553982e-35,
+          "22": 2.3658301732497167e-37,
+          "23": 2.0910410470531704e-39,
+          "24": 1.778582594229481e-41,
+          "25": 1.4573061071159756e-43,
+          "26": 1.1534606801063966e-45
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "macro_reverse",
+      "eps": 1e-05,
+      "decoder": "original",
+      "difference": 0.014551820000884511,
+      "simultaneous_difference_interval": [
+        0.012219739939066533,
+        0.0168801003063747
+      ],
+      "sorting": "forward lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.028670549555822458,
+        "confidence_interval": [
+          0.027893369858266837,
+          0.0294716276927293
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 1.456785120315509e-33,
+        "exact_single_fault": 0.012339763099594003,
+        "sampled_multiple_fault": 0.016330786456228454,
+        "linear_prediction": 0.024370666666666648,
+        "contributions": {
+          "single_fault": 0.012339763099594003,
+          "2": 0.01113959505414817,
+          "3": 0.004056358935009793,
+          "4": 0.0009463156207648373,
+          "5": 0.00016404343802286993,
+          "6": 2.1844184816158528e-05,
+          "7": 2.3892956425247515e-06,
+          "8": 2.2078034482289812e-07,
+          "9": 1.778218217524654e-08,
+          "10": 1.2781574820545553e-09,
+          "11": 8.203594457343064e-11,
+          "12": 4.836053989891117e-12,
+          "13": 2.5439476566196445e-13,
+          "14": 1.2620848077019424e-14,
+          "15": 5.810227554392067e-16,
+          "16": 2.4769499987835855e-17,
+          "17": 9.95747439167002e-19,
+          "18": 3.8102093970216543e-20,
+          "19": 1.3744963571781233e-21,
+          "20": 4.657171380418984e-23,
+          "21": 1.5257257548087232e-24,
+          "22": 4.6938453967849185e-26,
+          "23": 1.4038057457720121e-27,
+          "24": 3.9939263038520315e-29,
+          "25": 1.0714739813383115e-30,
+          "26": 2.8260029017639365e-32
+        }
+      },
+      "candidate_result": {
+        "probability": 0.04322236955670697,
+        "confidence_interval": [
+          0.04234861714148711,
+          0.044118009228074344
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 1.456785120315509e-33,
+        "exact_single_fault": 0.022017545353269503,
+        "sampled_multiple_fault": 0.021204824203437465,
+        "linear_prediction": 0.04348400000000006,
+        "contributions": {
+          "single_fault": 0.022017545353269503,
+          "2": 0.01486114303240519,
+          "3": 0.005051575275678595,
+          "4": 0.0010891192331219362,
+          "5": 0.00017725789166445096,
+          "6": 2.3008241512393408e-05,
+          "7": 2.4736505459344995e-06,
+          "8": 2.274092204639913e-07,
+          "9": 1.8096769506082984e-08,
+          "10": 1.2855047786301297e-09,
+          "11": 8.190688665789103e-11,
+          "12": 4.836690354650626e-12,
+          "13": 2.5734258062249916e-13,
+          "14": 1.2694507464847079e-14,
+          "15": 5.810227554392067e-16,
+          "16": 2.5000596627702195e-17,
+          "17": 1.0073716796543592e-18,
+          "18": 3.814461599213135e-20,
+          "19": 1.3557163109389836e-21,
+          "20": 4.631271026699791e-23,
+          "21": 1.5135117439385237e-24,
+          "22": 4.6529014784641704e-26,
+          "23": 1.3936561082638482e-27,
+          "24": 3.96829786458765e-29,
+          "25": 1.0804221214342287e-30,
+          "26": 2.8031056501078534e-32
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "macro_reverse",
+      "eps": 1e-05,
+      "decoder": "strong",
+      "difference": -0.0024755465355965744,
+      "simultaneous_difference_interval": [
+        -0.003823092748575431,
+        -0.00112705028927254
+      ],
+      "sorting": "candidate lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.008238045600745331,
+        "confidence_interval": [
+          0.007742144540550621,
+          0.008761912442188085
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 1.456785120315509e-33,
+        "exact_single_fault": 0.0016499825481676208,
+        "sampled_multiple_fault": 0.00658806305257771,
+        "linear_prediction": 0.0032586666666666675,
+        "contributions": {
+          "single_fault": 0.0016499825481676208,
+          "2": 0.0038396355583363274,
+          "3": 0.0020464440414568116,
+          "4": 0.0005720430970823054,
+          "5": 0.00011169314870309305,
+          "6": 1.6158215569165088e-05,
+          "7": 1.888347727189713e-06,
+          "8": 1.8421574886644276e-07,
+          "9": 1.520549865614972e-08,
+          "10": 1.1428220932797773e-09,
+          "11": 7.489286950899991e-11,
+          "12": 4.486053372160988e-12,
+          "13": 2.416542094766026e-13,
+          "14": 1.2039667412621019e-14,
+          "15": 5.602771881475516e-16,
+          "16": 2.4219864736261864e-17,
+          "17": 9.825608007646774e-19,
+          "18": 3.767214908196684e-20,
+          "19": 1.3485257526942678e-21,
+          "20": 4.636451097443629e-23,
+          "21": 1.5251663344635233e-24,
+          "22": 4.6802935364956566e-26,
+          "23": 1.3951913475507974e-27,
+          "24": 3.9334818716247167e-29,
+          "25": 1.0837776739701976e-30,
+          "26": 2.78984934651749e-32
+        }
+      },
+      "candidate_result": {
+        "probability": 0.005762499065148757,
+        "confidence_interval": [
+          0.005317908192015846,
+          0.006235565293955821
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 1.456785120315509e-33,
+        "exact_single_fault": 0.00035578592589375447,
+        "sampled_multiple_fault": 0.005406713139255002,
+        "linear_prediction": 0.0007026666666666668,
+        "contributions": {
+          "single_fault": 0.00035578592589375447,
+          "2": 0.002927140621359847,
+          "3": 0.0018232103598222922,
+          "4": 0.000534063412944779,
+          "5": 0.00010505772603527215,
+          "6": 1.5235071705667465e-05,
+          "7": 1.8085525482886e-06,
+          "8": 1.812186508372251e-07,
+          "9": 1.4988220118326243e-08,
+          "10": 1.110348856563041e-09,
+          "11": 7.295138956218684e-11,
+          "12": 4.415416883855452e-12,
+          "13": 2.3958907357204717e-13,
+          "14": 1.2064760171111758e-14,
+          "15": 5.591022179646613e-16,
+          "16": 2.4116808126591742e-17,
+          "17": 9.835607354302566e-19,
+          "18": 3.719495750270069e-20,
+          "19": 1.3435346593244064e-21,
+          "20": 4.628968773035862e-23,
+          "21": 1.4923470075451248e-24,
+          "22": 4.682600236119361e-26,
+          "23": 1.3795830814668143e-27,
+          "24": 3.9114800982939743e-29,
+          "25": 1.0683158142456349e-30,
+          "26": 2.818600030927759e-32
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "macro_reverse",
+      "eps": 1e-05,
+      "decoder": "single_fault_lookup",
+      "difference": -0.0007326541982532915,
+      "simultaneous_difference_interval": [
+        -0.002038366573095622,
+        0.0005736487808565968
+      ],
+      "sorting": "unresolved",
+      "complete": true,
+      "forward": {
+        "probability": 0.006065671633146594,
+        "confidence_interval": [
+          0.005594467354564277,
+          0.00656508218044972
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 1.456785120315509e-33,
+        "exact_single_fault": 3.510601166314086e-05,
+        "sampled_multiple_fault": 0.006030565621483453,
+        "linear_prediction": 6.933333333333333e-05,
+        "contributions": {
+          "single_fault": 3.510601166314086e-05,
+          "2": 0.0033493931804313166,
+          "3": 0.001985562128283761,
+          "4": 0.0005661044555626194,
+          "5": 0.00011126081238196025,
+          "6": 1.6158215569165088e-05,
+          "7": 1.8862751251403334e-06,
+          "8": 1.8412759892440694e-07,
+          "9": 1.520416565898516e-08,
+          "10": 1.1427313859146468e-09,
+          "11": 7.489286950899991e-11,
+          "12": 4.486371554540742e-12,
+          "13": 2.416542094766026e-13,
+          "14": 1.2039667412621019e-14,
+          "15": 5.602404703293362e-16,
+          "16": 2.4219864736261864e-17,
+          "17": 9.825608007646774e-19,
+          "18": 3.767214908196684e-20,
+          "19": 1.3485257526942678e-21,
+          "20": 4.636451097443629e-23,
+          "21": 1.5251663344635233e-24,
+          "22": 4.6802935364956566e-26,
+          "23": 1.3951913475507974e-27,
+          "24": 3.9334818716247167e-29,
+          "25": 1.0837776739701976e-30,
+          "26": 2.78984934651749e-32
+        }
+      },
+      "candidate_result": {
+        "probability": 0.005333017434893303,
+        "confidence_interval": [
+          0.00489404021197751,
+          0.005800518060578985
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 1.456785120315509e-33,
+        "exact_single_fault": 3.510601166314086e-05,
+        "sampled_multiple_fault": 0.005297911423230162,
+        "linear_prediction": 6.933333333333333e-05,
+        "contributions": {
+          "single_fault": 3.510601166314086e-05,
+          "2": 0.0028233666873507574,
+          "3": 0.0018183398067684483,
+          "4": 0.0005337871970601425,
+          "5": 0.00010517050942339375,
+          "6": 1.5241467621580843e-05,
+          "7": 1.808345288083662e-06,
+          "8": 1.8123628082563227e-07,
+          "9": 1.498555412399712e-08,
+          "10": 1.1102581491979105e-09,
+          "11": 7.295700077590596e-11,
+          "12": 4.415416883855452e-12,
+          "13": 2.3958907357204717e-13,
+          "14": 1.2064760171111758e-14,
+          "15": 5.591022179646613e-16,
+          "16": 2.4116808126591742e-17,
+          "17": 9.835607354302566e-19,
+          "18": 3.719495750270069e-20,
+          "19": 1.3435346593244064e-21,
+          "20": 4.628968773035862e-23,
+          "21": 1.4923470075451248e-24,
+          "22": 4.682600236119361e-26,
+          "23": 1.3795830814668143e-27,
+          "24": 3.9114800982939743e-29,
+          "25": 1.0683158142456349e-30,
+          "26": 2.818600030927759e-32
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "macro_reverse",
+      "eps": 3e-05,
+      "decoder": "original",
+      "difference": 0.026986271243507262,
+      "simultaneous_difference_interval": [
+        0.01655415338917167,
+        0.037403172260553286
+      ],
+      "sorting": "forward lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.09905418364194134,
+        "confidence_interval": [
+          0.09551763224352726,
+          0.10267816727598511
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.9982627561732402e-21,
+        "exact_single_fault": 0.009490695395599807,
+        "sampled_multiple_fault": 0.08956348824634153,
+        "linear_prediction": 0.07311199999999994,
+        "contributions": {
+          "single_fault": 0.009490695395599807,
+          "2": 0.025703398958988294,
+          "3": 0.028079377255833222,
+          "4": 0.019652465572667307,
+          "5": 0.01022044577893215,
+          "6": 0.004082975359504776,
+          "7": 0.0013398023911163413,
+          "8": 0.00037141651061330767,
+          "9": 8.97461432420847e-05,
+          "10": 1.9352855167518786e-05,
+          "11": 3.726445754217607e-06,
+          "12": 6.590398899473596e-07,
+          "13": 1.0400606689383807e-07,
+          "14": 1.5479929623819848e-08,
+          "15": 2.1379794444173828e-09,
+          "16": 2.734371786241093e-10,
+          "17": 3.297763170502061e-11,
+          "18": 3.785724885061463e-12,
+          "19": 4.097073357926144e-13,
+          "20": 4.1646864278539845e-14,
+          "21": 4.093233367529816e-15,
+          "22": 3.7778851430954835e-16,
+          "23": 3.3896661440295656e-17,
+          "24": 2.893209602044303e-18,
+          "25": 2.328581383683773e-19,
+          "26": 1.84252053080214e-20
+        }
+      },
+      "candidate_result": {
+        "probability": 0.1260404548854486,
+        "confidence_interval": [
+          0.12217267703059292,
+          0.1299876147540629
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.9982627561732402e-21,
+        "exact_single_fault": 0.016934021716637326,
+        "sampled_multiple_fault": 0.10910643316881127,
+        "linear_prediction": 0.13045200000000015,
+        "contributions": {
+          "single_fault": 0.016934021716637326,
+          "2": 0.03429046446407914,
+          "3": 0.03496857407705626,
+          "4": 0.022618117849686863,
+          "5": 0.011043749707268267,
+          "6": 0.0043005533944735054,
+          "7": 0.0013871045747721664,
+          "8": 0.0003825682001438198,
+          "9": 9.133385612103014e-05,
+          "10": 1.9464102152727007e-05,
+          "11": 3.7205833566562525e-06,
+          "12": 6.591266114277132e-07,
+          "13": 1.052112435773215e-07,
+          "14": 1.5570275544533525e-08,
+          "15": 2.1379794444173828e-09,
+          "16": 2.759883166456921e-10,
+          "17": 3.336260876503026e-11,
+          "18": 3.789949762482947e-12,
+          "19": 4.041094142917552e-13,
+          "20": 4.1415249758051146e-14,
+          "21": 4.06046548857929e-15,
+          "22": 3.7449310494583097e-16,
+          "23": 3.365158563305371e-17,
+          "24": 2.874644300402757e-18,
+          "25": 2.348027933771645e-19,
+          "26": 1.8275917930259182e-20
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "macro_reverse",
+      "eps": 3e-05,
+      "decoder": "strong",
+      "difference": -0.006072329539176115,
+      "simultaneous_difference_interval": [
+        -0.013038921166306436,
+        0.0008982905265552468
+      ],
+      "sorting": "unresolved",
+      "complete": true,
+      "forward": {
+        "probability": 0.04762052008762693,
+        "confidence_interval": [
+          0.04508549283855962,
+          0.050260905706042185
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.9982627561732402e-21,
+        "exact_single_fault": 0.001269026126865409,
+        "sampled_multiple_fault": 0.046351493960761526,
+        "linear_prediction": 0.009776000000000002,
+        "contributions": {
+          "single_fault": 0.001269026126865409,
+          "2": 0.008859539699002389,
+          "3": 0.014166121685402351,
+          "4": 0.011879817922064797,
+          "5": 0.006958850557856632,
+          "6": 0.003020190342542133,
+          "7": 0.0010588948287179897,
+          "8": 0.0003099042657029827,
+          "9": 7.674169834801051e-05,
+          "10": 1.7303713168374792e-05,
+          "11": 3.401974793539152e-06,
+          "12": 6.113430757528669e-07,
+          "13": 9.87972524143758e-08,
+          "14": 1.4767090381265805e-08,
+          "15": 2.0616423371059684e-09,
+          "16": 2.6736960711331776e-10,
+          "17": 3.254091041651503e-11,
+          "18": 3.74300668002202e-12,
+          "19": 4.019660659693541e-13,
+          "20": 4.146157266214889e-14,
+          "21": 4.091732548646586e-15,
+          "22": 3.7669778022437427e-16,
+          "23": 3.368865592322476e-17,
+          "24": 2.849423513267072e-18,
+          "25": 2.355320390054597e-19,
+          "26": 1.8189488395765265e-20
+        }
+      },
+      "candidate_result": {
+        "probability": 0.04154819054845082,
+        "confidence_interval": [
+          0.039182921847344857,
+          0.04402096612235398
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.9982627561732402e-21,
+        "exact_single_fault": 0.00027364024912359677,
+        "sampled_multiple_fault": 0.04127455029932722,
+        "linear_prediction": 0.002108,
+        "contributions": {
+          "single_fault": 0.00027364024912359677,
+          "2": 0.0067540572915041515,
+          "3": 0.012620828760576628,
+          "4": 0.01109108061434683,
+          "5": 0.0065454418996736315,
+          "6": 0.0028476421939314,
+          "7": 0.0010141495198543716,
+          "8": 0.0003048622784152511,
+          "9": 7.564510004602702e-05,
+          "10": 1.681202896214587e-05,
+          "11": 3.3137839432683386e-06,
+          "12": 6.017169914336147e-07,
+          "13": 9.795294784515577e-08,
+          "14": 1.4797867563047387e-08,
+          "15": 2.057318819523729e-09,
+          "16": 2.662319374550443e-10,
+          "17": 3.257402672275242e-11,
+          "18": 3.695594166736483e-12,
+          "19": 4.0047833007498163e-13,
+          "20": 4.1394661800674376e-14,
+          "21": 4.003684507497081e-15,
+          "22": 3.7688343708993585e-16,
+          "23": 3.331177463981908e-17,
+          "24": 2.83348537695216e-18,
+          "25": 2.3217178954174655e-19,
+          "26": 1.837693946408324e-20
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "macro_reverse",
+      "eps": 3e-05,
+      "decoder": "single_fault_lookup",
+      "difference": -0.003643512665253666,
+      "simultaneous_difference_interval": [
+        -0.01049866043399364,
+        0.0032145228799217787
+      ],
+      "sorting": "unresolved",
+      "complete": true,
+      "forward": {
+        "probability": 0.04467428587146369,
+        "confidence_interval": [
+          0.04220650615508229,
+          0.04724815208739776
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.9982627561732402e-21,
+        "exact_single_fault": 2.7000555890753377e-05,
+        "sampled_multiple_fault": 0.04464728531557293,
+        "linear_prediction": 0.000208,
+        "contributions": {
+          "single_fault": 2.7000555890753377e-05,
+          "2": 0.007728358954581767,
+          "3": 0.013744678160449882,
+          "4": 0.011756488088494351,
+          "5": 0.006931914582960856,
+          "6": 0.003020190342542133,
+          "7": 0.0010577326129033503,
+          "8": 0.0003097559719592259,
+          "9": 7.673497075106582e-05,
+          "10": 1.730233974880432e-05,
+          "11": 3.401974793539152e-06,
+          "12": 6.113864364930437e-07,
+          "13": 9.87972524143758e-08,
+          "14": 1.4767090381265805e-08,
+          "15": 2.0615072271815236e-09,
+          "16": 2.6736960711331776e-10,
+          "17": 3.254091041651503e-11,
+          "18": 3.74300668002202e-12,
+          "19": 4.019660659693541e-13,
+          "20": 4.146157266214889e-14,
+          "21": 4.091732548646586e-15,
+          "22": 3.7669778022437427e-16,
+          "23": 3.368865592322476e-17,
+          "24": 2.849423513267072e-18,
+          "25": 2.355320390054597e-19,
+          "26": 1.8189488395765265e-20
+        }
+      },
+      "candidate_result": {
+        "probability": 0.04103077320621002,
+        "confidence_interval": [
+          0.038679106218050985,
+          0.043490066176873426
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.9982627561732402e-21,
+        "exact_single_fault": 2.7000555890753377e-05,
+        "sampled_multiple_fault": 0.041003772650319265,
+        "linear_prediction": 0.000208,
+        "contributions": {
+          "single_fault": 2.7000555890753377e-05,
+          "2": 0.006514610272612195,
+          "3": 0.012587113278580432,
+          "4": 0.011085344343017972,
+          "5": 0.006552468675733399,
+          "6": 0.0028488376776400195,
+          "7": 0.0010140332982729076,
+          "8": 0.0003048919371640025,
+          "9": 7.563164485213765e-05,
+          "10": 1.68106555425754e-05,
+          "11": 3.3140388301188324e-06,
+          "12": 6.017169914336147e-07,
+          "13": 9.795294784515577e-08,
+          "14": 1.4797867563047387e-08,
+          "15": 2.057318819523729e-09,
+          "16": 2.662319374550443e-10,
+          "17": 3.257402672275242e-11,
+          "18": 3.695594166736483e-12,
+          "19": 4.0047833007498163e-13,
+          "20": 4.1394661800674376e-14,
+          "21": 4.003684507497081e-15,
+          "22": 3.7688343708993585e-16,
+          "23": 3.331177463981908e-17,
+          "24": 2.83348537695216e-18,
+          "25": 2.3217178954174655e-19,
+          "26": 1.837693946408324e-20
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "macro_reverse",
+      "eps": 0.0001,
+      "decoder": "original",
+      "difference": 0.015970304363808585,
+      "simultaneous_difference_interval": [
+        -0.005819203937545758,
+        0.037747571595823426
+      ],
+      "sorting": "unresolved",
+      "complete": true,
+      "forward": {
+        "probability": 0.32247411328733766,
+        "confidence_interval": [
+          0.3147592607999636,
+          0.3302601105281218
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 4.10190730312314e-09,
+        "exact_single_fault": 0.00026985379102153746,
+        "sampled_multiple_fault": 0.32220425949631615,
+        "linear_prediction": 0.2437066666666665,
+        "contributions": {
+          "single_fault": 0.00026985379102153746,
+          "2": 0.0024362967944974944,
+          "3": 0.008872300775826647,
+          "4": 0.02070022073022847,
+          "5": 0.035886980502580657,
+          "6": 0.047791755894805235,
+          "7": 0.05227886189117952,
+          "8": 0.04831207928726386,
+          "9": 0.03891521784017775,
+          "10": 0.027974212267980726,
+          "11": 0.017956296623572152,
+          "12": 0.010586266367637105,
+          "13": 0.005569278506542738,
+          "14": 0.002763238637833098,
+          "15": 0.001272219606281405,
+          "16": 0.0005424069817032285,
+          "17": 0.00021807019809710489,
+          "18": 8.345167390583559e-05,
+          "19": 3.0107097596278794e-05,
+          "20": 1.0202030224001663e-05,
+          "21": 3.3425656965673626e-06,
+          "22": 1.0284219659951484e-06,
+          "23": 3.07601654785129e-07,
+          "24": 8.752271625641774e-08,
+          "25": 2.348234469089569e-08,
+          "26": 6.194004567127909e-09
+        }
+      },
+      "candidate_result": {
+        "probability": 0.33844441765114625,
+        "confidence_interval": [
+          0.3305825548141167,
+          0.34637095541147545
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 4.10190730312314e-09,
+        "exact_single_fault": 0.00048149369113608813,
+        "sampled_multiple_fault": 0.33796292396001015,
+        "linear_prediction": 0.4348400000000005,
+        "contributions": {
+          "single_fault": 0.00048149369113608813,
+          "2": 0.0032502218398805316,
+          "3": 0.011049095002595401,
+          "4": 0.023823984337212743,
+          "5": 0.038777841886024476,
+          "6": 0.05033853500065763,
+          "7": 0.05412458506863529,
+          "8": 0.049762637604920265,
+          "9": 0.03960367296838479,
+          "10": 0.02813501783136916,
+          "11": 0.01792804800371291,
+          "12": 0.010587659389068466,
+          "13": 0.005633812863050631,
+          "14": 0.0027793658002268134,
+          "15": 0.001272219606281405,
+          "16": 0.0005474675776366635,
+          "17": 0.0002206159243787883,
+          "18": 8.354480616017902e-05,
+          "19": 2.9695737695591085e-05,
+          "20": 1.0145292738976628e-05,
+          "21": 3.3158071958187484e-06,
+          "22": 1.0194511496568407e-06,
+          "23": 3.0537766809581437e-07,
+          "24": 8.696109582399567e-08,
+          "25": 2.3678451468787112e-08,
+          "26": 6.143818602618131e-09
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "macro_reverse",
+      "eps": 0.0001,
+      "decoder": "strong",
+      "difference": -0.009231395611444704,
+      "simultaneous_difference_interval": [
+        -0.028801300250805323,
+        0.010345669850359396
+      ],
+      "sorting": "unresolved",
+      "complete": true,
+      "forward": {
+        "probability": 0.25380726828196165,
+        "confidence_interval": [
+          0.24677239942280732,
+          0.26094139403442923
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 4.10190730312314e-09,
+        "exact_single_fault": 3.608286821625113e-05,
+        "sampled_multiple_fault": 0.2537711854137454,
+        "linear_prediction": 0.032586666666666673,
+        "contributions": {
+          "single_fault": 3.608286821625113e-05,
+          "2": 0.0008397515131692296,
+          "3": 0.004476099710998395,
+          "4": 0.012513180715791933,
+          "5": 0.02443456378438573,
+          "6": 0.0353517194931416,
+          "7": 0.04131789648599381,
+          "8": 0.040310861332956964,
+          "9": 0.0332763035909226,
+          "10": 0.02501221349544313,
+          "11": 0.016392796924406126,
+          "12": 0.00982010458038789,
+          "13": 0.005290358830110319,
+          "14": 0.002635993554331035,
+          "15": 0.0012267946772148608,
+          "16": 0.0005303709697534374,
+          "17": 0.00021518230430444255,
+          "18": 8.251000333414101e-05,
+          "19": 2.953823503091336e-05,
+          "20": 1.0156640235981636e-05,
+          "21": 3.3413401163804033e-06,
+          "22": 1.0254527521366945e-06,
+          "23": 3.057140694437779e-07,
+          "24": 8.619813976485624e-08,
+          "25": 2.3751991510496395e-08,
+          "26": 6.1147635705335225e-09
+        }
+      },
+      "candidate_result": {
+        "probability": 0.24457587267051695,
+        "confidence_interval": [
+          0.2376536790568767,
+          0.2516011105966851
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 4.10190730312314e-09,
+        "exact_single_fault": 7.780553007350385e-06,
+        "sampled_multiple_fault": 0.2445680921175096,
+        "linear_prediction": 0.007026666666666667,
+        "contributions": {
+          "single_fault": 7.780553007350385e-06,
+          "2": 0.0006401833530031965,
+          "3": 0.003987830206625305,
+          "4": 0.011682392522445052,
+          "5": 0.02298296482513158,
+          "6": 0.033332021044727524,
+          "7": 0.03957194212894106,
+          "8": 0.03965502379571869,
+          "9": 0.032800802803220286,
+          "10": 0.024301492610343627,
+          "11": 0.015967839425654006,
+          "12": 0.009665479201506684,
+          "13": 0.005245148320466372,
+          "14": 0.002641487422838784,
+          "15": 0.001224221937869499,
+          "16": 0.0005281142175128516,
+          "17": 0.00021540129151146906,
+          "18": 8.146485247984261e-05,
+          "19": 2.942890965190176e-05,
+          "20": 1.0140249406974402e-05,
+          "21": 3.269439412078783e-06,
+          "22": 1.0259581502402611e-06,
+          "23": 3.02293989072815e-07,
+          "24": 8.571599392192785e-08,
+          "25": 2.3413130533992835e-08,
+          "26": 6.177779029730011e-09
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "macro_reverse",
+      "eps": 0.0001,
+      "decoder": "single_fault_lookup",
+      "difference": -0.008677292992064378,
+      "simultaneous_difference_interval": [
+        -0.028227701124795612,
+        0.010879864005309381
+      ],
+      "sorting": "unresolved",
+      "complete": true,
+      "forward": {
+        "probability": 0.2532381594594623,
+        "confidence_interval": [
+          0.24621640359607078,
+          0.26035939480352793
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 4.10190730312314e-09,
+        "exact_single_fault": 7.677206003457685e-07,
+        "sampled_multiple_fault": 0.25323739173886195,
+        "linear_prediction": 0.0006933333333333333,
+        "contributions": {
+          "single_fault": 7.677206003457685e-07,
+          "2": 0.0007325325408447334,
+          "3": 0.004342935300714825,
+          "4": 0.012383275652832239,
+          "5": 0.024339983682224692,
+          "6": 0.0353517194931416,
+          "7": 0.04127254702217426,
+          "8": 0.04029157199362642,
+          "9": 0.03327338640817597,
+          "10": 0.025010228241574138,
+          "11": 0.016392796924406126,
+          "12": 0.009820801091103571,
+          "13": 0.005290358830110319,
+          "14": 0.002635993554331035,
+          "15": 0.0012267142791103183,
+          "16": 0.0005303709697534374,
+          "17": 0.00021518230430444255,
+          "18": 8.251000333414101e-05,
+          "19": 2.953823503091336e-05,
+          "20": 1.0156640235981636e-05,
+          "21": 3.3413401163804033e-06,
+          "22": 1.0254527521366945e-06,
+          "23": 3.057140694437779e-07,
+          "24": 8.619813976485624e-08,
+          "25": 2.3751991510496395e-08,
+          "26": 6.1147635705335225e-09
+        }
+      },
+      "candidate_result": {
+        "probability": 0.24456086646739794,
+        "confidence_interval": [
+          0.2376398184553049,
+          0.25158496286234777
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 4.10190730312314e-09,
+        "exact_single_fault": 7.677206003457685e-07,
+        "sampled_multiple_fault": 0.2445600987467976,
+        "linear_prediction": 0.0006933333333333333,
+        "contributions": {
+          "single_fault": 7.677206003457685e-07,
+          "2": 0.0006174873661607849,
+          "3": 0.00397717705380262,
+          "4": 0.011676350426493438,
+          "5": 0.023007637895260544,
+          "6": 0.03334601433651792,
+          "7": 0.039567407182559106,
+          "8": 0.0396588816635848,
+          "9": 0.032794968437727,
+          "10": 0.024299507356474633,
+          "11": 0.015969067626517452,
+          "12": 0.009665479201506684,
+          "13": 0.005245148320466372,
+          "14": 0.002641487422838784,
+          "15": 0.001224221937869499,
+          "16": 0.0005281142175128516,
+          "17": 0.00021540129151146906,
+          "18": 8.146485247984261e-05,
+          "19": 2.942890965190176e-05,
+          "20": 1.0140249406974402e-05,
+          "21": 3.269439412078783e-06,
+          "22": 1.0259581502402611e-06,
+          "23": 3.02293989072815e-07,
+          "24": 8.571599392192785e-08,
+          "25": 2.3413130533992835e-08,
+          "26": 6.177779029730011e-09
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "check_reverse",
+      "eps": 1e-06,
+      "decoder": "original",
+      "difference": 0.004618198848643006,
+      "simultaneous_difference_interval": [
+        0.004581892215633794,
+        0.004654343885348335
+      ],
+      "sorting": "forward lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.0024899190113917167,
+        "confidence_interval": [
+          0.0024789325112413714,
+          0.0025012724051355056
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.628343352442846e-60,
+        "exact_single_fault": 0.002276729757083249,
+        "sampled_multiple_fault": 0.00021318925430846786,
+        "linear_prediction": 0.0024370666666666645,
+        "contributions": {
+          "single_fault": 0.002276729757083249,
+          "2": 0.00020552760275936575,
+          "3": 7.483990401272213e-06,
+          "4": 1.7459385118107e-07,
+          "5": 3.0265502553164827e-09,
+          "6": 4.0301476801531355e-11,
+          "7": 4.408096575333425e-13,
+          "8": 4.073218506722208e-15,
+          "9": 3.280639030940304e-17,
+          "10": 2.358054564616869e-19,
+          "11": 1.513455855566752e-21,
+          "12": 8.921806647612038e-24,
+          "13": 4.693166141602827e-26,
+          "14": 2.3283184948042847e-28,
+          "15": 1.0718723843828332e-30,
+          "16": 4.569443075243524e-33,
+          "17": 1.8369245615315386e-35,
+          "18": 7.028895038037392e-38,
+          "19": 2.5355833937943302e-40,
+          "20": 8.591176014873972e-43,
+          "21": 2.8145110989418264e-45,
+          "22": 8.658673438717792e-48,
+          "23": 2.5895582620577613e-50,
+          "24": 7.367409491450459e-53,
+          "25": 1.976480268647191e-55,
+          "26": 5.212901854694265e-58
+        }
+      },
+      "candidate_result": {
+        "probability": 0.007108117860034723,
+        "confidence_interval": [
+          0.007093407360279819,
+          0.007123109755303311
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.628343352442846e-60,
+        "exact_single_fault": 0.006687442127053599,
+        "sampled_multiple_fault": 0.0004206757329811243,
+        "linear_prediction": 0.007158400000000007,
+        "contributions": {
+          "single_fault": 0.006687442127053599,
+          "2": 0.0004080181770166657,
+          "3": 1.2400928661703807e-05,
+          "4": 2.5271771979186404e-07,
+          "5": 3.8606116010293444e-09,
+          "6": 4.845932014394557e-11,
+          "7": 5.074970311227032e-13,
+          "8": 4.510691867062491e-15,
+          "9": 3.4985285497868644e-17,
+          "10": 2.4843998343837936e-19,
+          "11": 1.5838491511745078e-21,
+          "12": 9.073252539781517e-24,
+          "13": 4.7745860452051014e-26,
+          "14": 2.3531069036124883e-28,
+          "15": 1.0869777649261454e-30,
+          "16": 4.632527487616867e-33,
+          "17": 1.8502982669942674e-35,
+          "18": 7.039354054772025e-38,
+          "19": 2.534647063146696e-40,
+          "20": 8.636300525858605e-43,
+          "21": 2.7992036259642036e-45,
+          "22": 8.644844241014822e-48,
+          "23": 2.5673741855676864e-50,
+          "24": 7.279548260757576e-53,
+          "25": 2.0003897935427084e-55,
+          "26": 5.183050330214139e-58
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "check_reverse",
+      "eps": 1e-06,
+      "decoder": "strong",
+      "difference": -8.766140520989499e-05,
+      "simultaneous_difference_interval": [
+        -0.00010679312865246704,
+        -6.853110462666685e-05
+      ],
+      "sorting": "candidate lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.00037915290827388997,
+        "confidence_interval": [
+          0.00037252943372233807,
+          0.00038620127649807717
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.628343352442846e-60,
+        "exact_single_fault": 0.00030442759198552713,
+        "sampled_multiple_fault": 7.472531628836284e-05,
+        "linear_prediction": 0.0003258666666666667,
+        "contributions": {
+          "single_fault": 0.00030442759198552713,
+          "2": 7.084199092862173e-05,
+          "3": 3.775693376347258e-06,
+          "4": 1.055411166946865e-07,
+          "5": 2.060703748950446e-09,
+          "6": 2.981113533855223e-11,
+          "7": 3.4838799356230775e-13,
+          "8": 3.3986313324874507e-15,
+          "9": 2.8052660739082497e-17,
+          "10": 2.1083762301900456e-19,
+          "11": 1.3816754654069383e-21,
+          "12": 8.276107107354572e-24,
+          "13": 4.458123778373618e-26,
+          "14": 2.2211011603206087e-28,
+          "15": 1.0336009045309435e-30,
+          "16": 4.46804712476217e-33,
+          "17": 1.812598252457092e-35,
+          "18": 6.949580827799758e-38,
+          "19": 2.4876744756570297e-40,
+          "20": 8.552952899686992e-43,
+          "21": 2.813479134471425e-45,
+          "22": 8.633674504408576e-48,
+          "23": 2.5736675406003314e-50,
+          "24": 7.255910467728526e-53,
+          "25": 1.9991761120759307e-55,
+          "26": 5.146212278728027e-58
+        }
+      },
+      "candidate_result": {
+        "probability": 0.000291491503063995,
+        "confidence_interval": [
+          0.0002847909097988731,
+          0.00029861622769015756
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.628343352442846e-60,
+        "exact_single_fault": 0.0002149926447491896,
+        "sampled_multiple_fault": 7.649885831480539e-05,
+        "linear_prediction": 0.00023013333333333314,
+        "contributions": {
+          "single_fault": 0.0002149926447491896,
+          "2": 7.249254989713576e-05,
+          "3": 3.894011415510857e-06,
+          "4": 1.1012764518455699e-07,
+          "5": 2.1383876331249495e-09,
+          "6": 3.06017459999916e-11,
+          "7": 3.6406564446347624e-13,
+          "8": 3.4997868827222673e-15,
+          "9": 2.9368359300966356e-17,
+          "10": 2.1753141214572904e-19,
+          "11": 1.4288803812850805e-21,
+          "12": 8.397616020839386e-24,
+          "13": 4.540158171814401e-26,
+          "14": 2.267243439367205e-28,
+          "15": 1.0403068806465844e-30,
+          "16": 4.503478096095144e-33,
+          "17": 1.8132899958430954e-35,
+          "18": 6.971806238360853e-38,
+          "19": 2.5268443077497414e-40,
+          "20": 8.526409069696031e-43,
+          "21": 2.8053954127866126e-45,
+          "22": 8.750690792664483e-48,
+          "23": 2.5691048582016636e-50,
+          "24": 7.344217694516297e-53,
+          "25": 1.9841264618878894e-55,
+          "26": 5.191942273676304e-58
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "check_reverse",
+      "eps": 1e-06,
+      "decoder": "single_fault_lookup",
+      "difference": 4.961563160713086e-06,
+      "simultaneous_difference_interval": [
+        -1.3207524387650162e-05,
+        2.3126642427712273e-05
+      ],
+      "sorting": "unresolved",
+      "complete": true,
+      "forward": {
+        "probability": 7.204400504918918e-05,
+        "confidence_interval": [
+          6.584609782493096e-05,
+          7.867077462933766e-05
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.628343352442846e-60,
+        "exact_single_fault": 6.477182808202704e-06,
+        "sampled_multiple_fault": 6.556682224098648e-05,
+        "linear_prediction": 6.933333333333333e-06,
+        "contributions": {
+          "single_fault": 6.477182808202704e-06,
+          "2": 6.17969277811649e-05,
+          "3": 3.6633661239767526e-06,
+          "4": 1.0444544599988411e-07,
+          "5": 2.052727278700385e-09,
+          "6": 2.981113533855223e-11,
+          "7": 3.4800561183301095e-13,
+          "8": 3.3970050374675984e-15,
+          "9": 2.8050201489434115e-17,
+          "10": 2.1082088854618774e-19,
+          "11": 1.3816754654069383e-21,
+          "12": 8.276694106936623e-24,
+          "13": 4.458123778373618e-26,
+          "14": 2.2211011603206087e-28,
+          "15": 1.0335331673984624e-30,
+          "16": 4.46804712476217e-33,
+          "17": 1.812598252457092e-35,
+          "18": 6.949580827799758e-38,
+          "19": 2.4876744756570297e-40,
+          "20": 8.552952899686992e-43,
+          "21": 2.813479134471425e-45,
+          "22": 8.633674504408576e-48,
+          "23": 2.5736675406003314e-50,
+          "24": 7.255910467728526e-53,
+          "25": 1.9991761120759307e-55,
+          "26": 5.146212278728027e-58
+        }
+      },
+      "candidate_result": {
+        "probability": 7.700556820990226e-05,
+        "confidence_interval": [
+          7.057478608309068e-05,
+          8.386305871764733e-05
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.628343352442846e-60,
+        "exact_single_fault": 6.477182808202704e-06,
+        "sampled_multiple_fault": 7.052838540169955e-05,
+        "linear_prediction": 6.933333333333333e-06,
+        "contributions": {
+          "single_fault": 6.477182808202704e-06,
+          "2": 6.661655996922584e-05,
+          "3": 3.7996565235196324e-06,
+          "4": 1.1000024161539393e-07,
+          "5": 2.1376940270162485e-09,
+          "6": 3.0605679386366925e-11,
+          "7": 3.6410388263640595e-13,
+          "8": 3.4988111057103558e-15,
+          "9": 2.9365900051317974e-17,
+          "10": 2.1753141214572904e-19,
+          "11": 1.4288803812850805e-21,
+          "12": 8.397616020839386e-24,
+          "13": 4.540158171814401e-26,
+          "14": 2.267243439367205e-28,
+          "15": 1.0402391435141033e-30,
+          "16": 4.503478096095144e-33,
+          "17": 1.8132899958430954e-35,
+          "18": 6.971806238360853e-38,
+          "19": 2.5268443077497414e-40,
+          "20": 8.526409069696031e-43,
+          "21": 2.8053954127866126e-45,
+          "22": 8.750690792664483e-48,
+          "23": 2.5691048582016636e-50,
+          "24": 7.344217694516297e-53,
+          "25": 1.9841264618878894e-55,
+          "26": 5.191942273676304e-58
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "check_reverse",
+      "eps": 3e-06,
+      "decoder": "original",
+      "difference": 0.01326037825205632,
+      "simultaneous_difference_interval": [
+        0.012959450119453608,
+        0.013559973100009514
+      ],
+      "sorting": "forward lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.007764753010008971,
+        "confidence_interval": [
+          0.007673388857339083,
+          0.007859115432580686
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 1.7578691655905153e-47,
+        "exact_single_fault": 0.005961023012425025,
+        "sampled_multiple_fault": 0.0018037299975839464,
+        "linear_prediction": 0.007311199999999994,
+        "contributions": {
+          "single_fault": 0.005961023012425025,
+          "2": 0.0016143644842902907,
+          "3": 0.00017635459626186645,
+          "4": 1.2342542439919023e-05,
+          "5": 6.418679597987307e-07,
+          "6": 2.5641350295746345e-08,
+          "7": 8.413818806839649e-10,
+          "8": 2.3323938416538625e-11,
+          "9": 5.635659538046101e-13,
+          "10": 1.2152406117937737e-14,
+          "11": 2.339916207890256e-16,
+          "12": 4.13814284459816e-18,
+          "13": 6.53041412907633e-20,
+          "14": 9.719396637507077e-22,
+          "15": 1.3423387360221688e-23,
+          "16": 1.7167396414444568e-25,
+          "17": 2.070401667068006e-27,
+          "18": 2.376689617175828e-29,
+          "19": 2.572085688658773e-31,
+          "20": 2.6144616412895527e-33,
+          "21": 2.569536235086178e-35,
+          "22": 2.3715116619662648e-37,
+          "23": 2.1277554617278597e-39,
+          "24": 1.8160715709034983e-41,
+          "25": 1.4616142116390751e-43,
+          "26": 1.1564901700431529e-45
+        }
+      },
+      "candidate_result": {
+        "probability": 0.021025131262065292,
+        "confidence_interval": [
+          0.020903463062934634,
+          0.021149092338386077
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 1.7578691655905153e-47,
+        "exact_single_fault": 0.017509322874005653,
+        "sampled_multiple_fault": 0.0035158083880596387,
+        "linear_prediction": 0.02147520000000002,
+        "contributions": {
+          "single_fault": 0.017509322874005653,
+          "2": 0.003204873919985222,
+          "3": 0.00029221854253517197,
+          "4": 1.7865343829409936e-05,
+          "5": 8.187549133126469e-07,
+          "6": 3.0831684134647176e-08,
+          "7": 9.68669354652809e-10,
+          "8": 2.5828984904620112e-11,
+          "9": 6.00996196313672e-13,
+          "10": 1.2803535677162987e-14,
+          "11": 2.448749519885152e-16,
+          "12": 4.208386995786155e-18,
+          "13": 6.643707729351631e-20,
+          "14": 9.82287405168269e-22,
+          "15": 1.361255668411763e-23,
+          "16": 1.7404404534898667e-25,
+          "17": 2.0854751995716077e-27,
+          "18": 2.3802261383992282e-29,
+          "19": 2.5711358785817203e-31,
+          "20": 2.628193905981489e-33,
+          "21": 2.555561123565604e-35,
+          "22": 2.3677240028218994e-37,
+          "23": 2.1095275304985247e-39,
+          "24": 1.794413716344022e-41,
+          "25": 1.479295390619296e-43,
+          "26": 1.1498675641348949e-45
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "check_reverse",
+      "eps": 3e-06,
+      "decoder": "strong",
+      "difference": -0.00021806806197614305,
+      "simultaneous_difference_interval": [
+        -0.00037909296824176425,
+        -5.705602535747284e-05
+      ],
+      "sorting": "candidate lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.0014503982413400294,
+        "confidence_interval": [
+          0.0013946102761548378,
+          0.001509665985708766
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 1.7578691655905153e-47,
+        "exact_single_fault": 0.000797064243482152,
+        "sampled_multiple_fault": 0.0006533339978578775,
+        "linear_prediction": 0.0009776000000000001,
+        "contributions": {
+          "single_fault": 0.000797064243482152,
+          "2": 0.0005564449378874019,
+          "3": 8.89713702573875e-05,
+          "4": 7.461005660558172e-06,
+          "5": 4.370321321329274e-07,
+          "6": 1.89669914006892e-08,
+          "7": 6.649748711755381e-10,
+          "8": 1.9461138107036022e-11,
+          "9": 4.819038107233275e-13,
+          "10": 1.0865670618117774e-14,
+          "11": 2.1361738458762825e-16,
+          "12": 3.838652277517564e-18,
+          "13": 6.20335901884763e-20,
+          "14": 9.27182565330171e-22,
+          "15": 1.2944101853489808e-23,
+          "16": 1.6786451855541177e-25,
+          "17": 2.042983431220937e-27,
+          "18": 2.3498709978983775e-29,
+          "19": 2.5234870730495754e-31,
+          "20": 2.602829605315206e-33,
+          "21": 2.5685940927364764e-35,
+          "22": 2.364664739666835e-37,
+          "23": 2.1146985748189036e-39,
+          "24": 1.7885869838990868e-41,
+          "25": 1.4783978688436503e-43,
+          "26": 1.141694986631087e-45
+        }
+      },
+      "candidate_result": {
+        "probability": 0.0012323301793638864,
+        "confidence_interval": [
+          0.001175880489408594,
+          0.001292252762902486
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 1.7578691655905153e-47,
+        "exact_single_fault": 0.0005629021621318302,
+        "sampled_multiple_fault": 0.0006694280172320562,
+        "linear_prediction": 0.0006903999999999994,
+        "contributions": {
+          "single_fault": 0.0005629021621318302,
+          "2": 0.0005694096382109667,
+          "3": 9.175944572360473e-05,
+          "4": 7.785240575792473e-06,
+          "5": 4.535072579487766e-07,
+          "6": 1.947000832528856e-08,
+          "7": 6.948991053081219e-10,
+          "8": 2.004037190465189e-11,
+          "9": 5.04505593728235e-13,
+          "10": 1.1210639921018568e-14,
+          "11": 2.2091561845081535e-16,
+          "12": 3.895010956959095e-18,
+          "13": 6.317507665162745e-20,
+          "14": 9.464443249568364e-22,
+          "15": 1.302808285378442e-23,
+          "16": 1.6919566005385261e-25,
+          "17": 2.043763096695261e-27,
+          "18": 2.3573861054981027e-29,
+          "19": 2.563220794606281e-31,
+          "20": 2.5947518025552434e-33,
+          "21": 2.561213977663814e-35,
+          "22": 2.3967141631960803e-37,
+          "23": 2.1109495676866288e-39,
+          "24": 1.8103547768065808e-41,
+          "25": 1.4672685988256433e-43,
+          "26": 1.1518402552565036e-45
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "check_reverse",
+      "eps": 3e-06,
+      "decoder": "single_fault_lookup",
+      "difference": 4.147974657493672e-05,
+      "simultaneous_difference_interval": [
+        -0.00011185943722698505,
+        0.0001947854824456901
+      ],
+      "sorting": "unresolved",
+      "complete": true,
+      "forward": {
+        "probability": 0.0005965201981874337,
+        "confidence_interval": [
+          0.0005441249546032454,
+          0.0006524271566429494
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 1.7578691655905153e-47,
+        "exact_single_fault": 1.695881369110961e-05,
+        "sampled_multiple_fault": 0.0005795613844963241,
+        "linear_prediction": 2.0799999999999997e-05,
+        "contributions": {
+          "single_fault": 1.695881369110961e-05,
+          "2": 0.00048539838011426667,
+          "3": 8.63244631692066e-05,
+          "4": 7.383549541918867e-06,
+          "5": 4.3534048975005e-07,
+          "6": 1.89669914006892e-08,
+          "7": 6.642450118064507e-10,
+          "8": 1.945182566655988e-11,
+          "9": 4.818615643999538e-13,
+          "10": 1.0864808194860522e-14,
+          "11": 2.1361738458762825e-16,
+          "12": 3.838924541669456e-18,
+          "13": 6.20335901884763e-20,
+          "14": 9.27182565330171e-22,
+          "15": 1.2943253560557538e-23,
+          "16": 1.6786451855541177e-25,
+          "17": 2.042983431220937e-27,
+          "18": 2.3498709978983775e-29,
+          "19": 2.5234870730495754e-31,
+          "20": 2.602829605315206e-33,
+          "21": 2.5685940927364764e-35,
+          "22": 2.364664739666835e-37,
+          "23": 2.1146985748189036e-39,
+          "24": 1.7885869838990868e-41,
+          "25": 1.4783978688436503e-43,
+          "26": 1.141694986631087e-45
+        }
+      },
+      "candidate_result": {
+        "probability": 0.0006379999447623704,
+        "confidence_interval": [
+          0.0005837096938490037,
+          0.000695783950249009
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 1.7578691655905153e-47,
+        "exact_single_fault": 1.695881369110961e-05,
+        "sampled_multiple_fault": 0.0006210411310712609,
+        "linear_prediction": 2.0799999999999997e-05,
+        "contributions": {
+          "single_fault": 1.695881369110961e-05,
+          "2": 0.0005232553050590759,
+          "3": 8.953604376953276e-05,
+          "4": 7.776234050369297e-06,
+          "5": 4.5336015861113503e-07,
+          "6": 1.9472510897052735e-08,
+          "7": 6.949720912450306e-10,
+          "8": 2.0034784440366204e-11,
+          "9": 5.044633474048614e-13,
+          "10": 1.1210639921018568e-14,
+          "11": 2.2091561845081535e-16,
+          "12": 3.895010956959095e-18,
+          "13": 6.317507665162745e-20,
+          "14": 9.464443249568364e-22,
+          "15": 1.3027234560852152e-23,
+          "16": 1.6919566005385261e-25,
+          "17": 2.043763096695261e-27,
+          "18": 2.3573861054981027e-29,
+          "19": 2.563220794606281e-31,
+          "20": 2.5947518025552434e-33,
+          "21": 2.561213977663814e-35,
+          "22": 2.3967141631960803e-37,
+          "23": 2.1109495676866288e-39,
+          "24": 1.8103547768065808e-41,
+          "25": 1.4672685988256433e-43,
+          "26": 1.1518402552565036e-45
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "check_reverse",
+      "eps": 1e-05,
+      "decoder": "original",
+      "difference": 0.03801929054499181,
+      "simultaneous_difference_interval": [
+        0.03548996683143289,
+        0.040537627043416666
+      ],
+      "sorting": "forward lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.028670549555822458,
+        "confidence_interval": [
+          0.027893369858266837,
+          0.0294716276927293
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 1.456785120315509e-33,
+        "exact_single_fault": 0.012339763099594003,
+        "sampled_multiple_fault": 0.016330786456228454,
+        "linear_prediction": 0.024370666666666648,
+        "contributions": {
+          "single_fault": 0.012339763099594003,
+          "2": 0.01113959505414817,
+          "3": 0.004056358935009793,
+          "4": 0.0009463156207648373,
+          "5": 0.00016404343802286993,
+          "6": 2.1844184816158528e-05,
+          "7": 2.3892956425247515e-06,
+          "8": 2.2078034482289812e-07,
+          "9": 1.778218217524654e-08,
+          "10": 1.2781574820545553e-09,
+          "11": 8.203594457343064e-11,
+          "12": 4.836053989891117e-12,
+          "13": 2.5439476566196445e-13,
+          "14": 1.2620848077019424e-14,
+          "15": 5.810227554392067e-16,
+          "16": 2.4769499987835855e-17,
+          "17": 9.95747439167002e-19,
+          "18": 3.8102093970216543e-20,
+          "19": 1.3744963571781233e-21,
+          "20": 4.657171380418984e-23,
+          "21": 1.5257257548087232e-24,
+          "22": 4.6938453967849185e-26,
+          "23": 1.4038057457720121e-27,
+          "24": 3.9939263038520315e-29,
+          "25": 1.0714739813383115e-30,
+          "26": 2.8260029017639365e-32
+        }
+      },
+      "candidate_result": {
+        "probability": 0.06668984010081427,
+        "confidence_interval": [
+          0.06567517271411179,
+          0.06772259375772893
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 1.456785120315509e-33,
+        "exact_single_fault": 0.03624560681097516,
+        "sampled_multiple_fault": 0.030444233289839112,
+        "linear_prediction": 0.07158400000000008,
+        "contributions": {
+          "single_fault": 0.03624560681097516,
+          "2": 0.02211458317848882,
+          "3": 0.0067213632143048,
+          "4": 0.001369754571912676,
+          "5": 0.0002092507794282787,
+          "6": 2.6265894684274163e-05,
+          "7": 2.750757439936546e-06,
+          "8": 2.4449267923053195e-07,
+          "9": 1.8963217663047768e-08,
+          "10": 1.3466415427281193e-09,
+          "11": 8.585156990242741e-11,
+          "12": 4.91814504386782e-12,
+          "13": 2.5880816094186106e-13,
+          "14": 1.275521575151822e-14,
+          "15": 5.892108289012229e-16,
+          "16": 2.511146055628672e-17,
+          "17": 1.0029969654924506e-18,
+          "18": 3.8158789999436285e-20,
+          "19": 1.3739887883608494e-21,
+          "20": 4.6816328255982223e-23,
+          "21": 1.5174276863549235e-24,
+          "22": 4.68634862300788e-26,
+          "23": 1.3917797046909104e-27,
+          "24": 3.9462960912569077e-29,
+          "25": 1.0844356254478385e-30,
+          "26": 2.809819881796479e-32
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "check_reverse",
+      "eps": 1e-05,
+      "decoder": "strong",
+      "difference": -0.000301554023230937,
+      "simultaneous_difference_interval": [
+        -0.0017294404418326673,
+        0.0011261872109011289
+      ],
+      "sorting": "unresolved",
+      "complete": true,
+      "forward": {
+        "probability": 0.008238045600745331,
+        "confidence_interval": [
+          0.007742144540550621,
+          0.008761912442188085
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 1.456785120315509e-33,
+        "exact_single_fault": 0.0016499825481676208,
+        "sampled_multiple_fault": 0.00658806305257771,
+        "linear_prediction": 0.0032586666666666675,
+        "contributions": {
+          "single_fault": 0.0016499825481676208,
+          "2": 0.0038396355583363274,
+          "3": 0.0020464440414568116,
+          "4": 0.0005720430970823054,
+          "5": 0.00011169314870309305,
+          "6": 1.6158215569165088e-05,
+          "7": 1.888347727189713e-06,
+          "8": 1.8421574886644276e-07,
+          "9": 1.520549865614972e-08,
+          "10": 1.1428220932797773e-09,
+          "11": 7.489286950899991e-11,
+          "12": 4.486053372160988e-12,
+          "13": 2.416542094766026e-13,
+          "14": 1.2039667412621019e-14,
+          "15": 5.602771881475516e-16,
+          "16": 2.4219864736261864e-17,
+          "17": 9.825608007646774e-19,
+          "18": 3.767214908196684e-20,
+          "19": 1.3485257526942678e-21,
+          "20": 4.636451097443629e-23,
+          "21": 1.5251663344635233e-24,
+          "22": 4.6802935364956566e-26,
+          "23": 1.3951913475507974e-27,
+          "24": 3.9334818716247167e-29,
+          "25": 1.0837776739701976e-30,
+          "26": 2.78984934651749e-32
+        }
+      },
+      "candidate_result": {
+        "probability": 0.007936491577514394,
+        "confidence_interval": [
+          0.007434316140087247,
+          0.00846655540905494
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 1.456785120315509e-33,
+        "exact_single_fault": 0.0011652495409727132,
+        "sampled_multiple_fault": 0.006771242036541681,
+        "linear_prediction": 0.002301333333333332,
+        "contributions": {
+          "single_fault": 0.0011652495409727132,
+          "2": 0.003929095846275198,
+          "3": 0.0021105729899990916,
+          "4": 0.0005969025266995952,
+          "5": 0.00011590372852629953,
+          "6": 1.6586741935361445e-05,
+          "7": 1.9733244112142747e-06,
+          "8": 1.8969867526107035e-07,
+          "9": 1.5918652139189966e-08,
+          "10": 1.1791050393319968e-09,
+          "11": 7.745158296491538e-11,
+          "12": 4.551917124770203e-12,
+          "13": 2.4610091340012104e-13,
+          "14": 1.2289785553706127e-14,
+          "15": 5.639122521508681e-16,
+          "16": 2.4411924781556185e-17,
+          "17": 9.829357762642696e-19,
+          "18": 3.779262814405879e-20,
+          "19": 1.369759048216899e-21,
+          "20": 4.622062012044077e-23,
+          "21": 1.5207842084261234e-24,
+          "22": 4.7437277761475197e-26,
+          "23": 1.3927179064773794e-27,
+          "24": 3.98135386194875e-29,
+          "25": 1.0756190756474496e-30,
+          "26": 2.8146403558293386e-32
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "check_reverse",
+      "eps": 1e-05,
+      "decoder": "single_fault_lookup",
+      "difference": 0.00037033113376540045,
+      "simultaneous_difference_interval": [
+        -0.0010013969308985621,
+        0.0017417626343567963
+      ],
+      "sorting": "unresolved",
+      "complete": true,
+      "forward": {
+        "probability": 0.006065671633146594,
+        "confidence_interval": [
+          0.005594467354564277,
+          0.00656508218044972
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 1.456785120315509e-33,
+        "exact_single_fault": 3.510601166314086e-05,
+        "sampled_multiple_fault": 0.006030565621483453,
+        "linear_prediction": 6.933333333333333e-05,
+        "contributions": {
+          "single_fault": 3.510601166314086e-05,
+          "2": 0.0033493931804313166,
+          "3": 0.001985562128283761,
+          "4": 0.0005661044555626194,
+          "5": 0.00011126081238196025,
+          "6": 1.6158215569165088e-05,
+          "7": 1.8862751251403334e-06,
+          "8": 1.8412759892440694e-07,
+          "9": 1.520416565898516e-08,
+          "10": 1.1427313859146468e-09,
+          "11": 7.489286950899991e-11,
+          "12": 4.486371554540742e-12,
+          "13": 2.416542094766026e-13,
+          "14": 1.2039667412621019e-14,
+          "15": 5.602404703293362e-16,
+          "16": 2.4219864736261864e-17,
+          "17": 9.825608007646774e-19,
+          "18": 3.767214908196684e-20,
+          "19": 1.3485257526942678e-21,
+          "20": 4.636451097443629e-23,
+          "21": 1.5251663344635233e-24,
+          "22": 4.6802935364956566e-26,
+          "23": 1.3951913475507974e-27,
+          "24": 3.9334818716247167e-29,
+          "25": 1.0837776739701976e-30,
+          "26": 2.78984934651749e-32
+        }
+      },
+      "candidate_result": {
+        "probability": 0.0064360027669119945,
+        "confidence_interval": [
+          0.005949706247983967,
+          0.006950346773163441
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 1.456785120315509e-33,
+        "exact_single_fault": 3.510601166314086e-05,
+        "sampled_multiple_fault": 0.006400896755248854,
+        "linear_prediction": 6.933333333333333e-05,
+        "contributions": {
+          "single_fault": 3.510601166314086e-05,
+          "2": 0.003610617221212819,
+          "3": 0.002059432182933729,
+          "4": 0.0005962119869880039,
+          "5": 0.00011586613406359233,
+          "6": 1.658887390733257e-05,
+          "7": 1.9735316714192127e-06,
+          "8": 1.8964578529584885e-07,
+          "9": 1.5917319142025404e-08,
+          "10": 1.1791050393319968e-09,
+          "11": 7.745158296491538e-11,
+          "12": 4.551917124770203e-12,
+          "13": 2.4610091340012104e-13,
+          "14": 1.2289785553706127e-14,
+          "15": 5.638755343326528e-16,
+          "16": 2.4411924781556185e-17,
+          "17": 9.829357762642696e-19,
+          "18": 3.779262814405879e-20,
+          "19": 1.369759048216899e-21,
+          "20": 4.622062012044077e-23,
+          "21": 1.5207842084261234e-24,
+          "22": 4.7437277761475197e-26,
+          "23": 1.3927179064773794e-27,
+          "24": 3.98135386194875e-29,
+          "25": 1.0756190756474496e-30,
+          "26": 2.8146403558293386e-32
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "check_reverse",
+      "eps": 3e-05,
+      "decoder": "original",
+      "difference": 0.0748444277301145,
+      "simultaneous_difference_interval": [
+        0.06374039898029218,
+        0.08590454188868987
+      ],
+      "sorting": "forward lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.09905418364194134,
+        "confidence_interval": [
+          0.09551763224352726,
+          0.10267816727598511
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.9982627561732402e-21,
+        "exact_single_fault": 0.009490695395599807,
+        "sampled_multiple_fault": 0.08956348824634153,
+        "linear_prediction": 0.07311199999999994,
+        "contributions": {
+          "single_fault": 0.009490695395599807,
+          "2": 0.025703398958988294,
+          "3": 0.028079377255833222,
+          "4": 0.019652465572667307,
+          "5": 0.01022044577893215,
+          "6": 0.004082975359504776,
+          "7": 0.0013398023911163413,
+          "8": 0.00037141651061330767,
+          "9": 8.97461432420847e-05,
+          "10": 1.9352855167518786e-05,
+          "11": 3.726445754217607e-06,
+          "12": 6.590398899473596e-07,
+          "13": 1.0400606689383807e-07,
+          "14": 1.5479929623819848e-08,
+          "15": 2.1379794444173828e-09,
+          "16": 2.734371786241093e-10,
+          "17": 3.297763170502061e-11,
+          "18": 3.785724885061463e-12,
+          "19": 4.097073357926144e-13,
+          "20": 4.1646864278539845e-14,
+          "21": 4.093233367529816e-15,
+          "22": 3.7778851430954835e-16,
+          "23": 3.3896661440295656e-17,
+          "24": 2.893209602044303e-18,
+          "25": 2.328581383683773e-19,
+          "26": 1.84252053080214e-20
+        }
+      },
+      "candidate_result": {
+        "probability": 0.17389861137205584,
+        "confidence_interval": [
+          0.16955120879664407,
+          0.17831022351817058
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.9982627561732402e-21,
+        "exact_single_fault": 0.027877035474284016,
+        "sampled_multiple_fault": 0.14602157589777182,
+        "linear_prediction": 0.21475200000000022,
+        "contributions": {
+          "single_fault": 0.027877035474284016,
+          "2": 0.05102698540525141,
+          "3": 0.04652736515475266,
+          "4": 0.02844616951980653,
+          "5": 0.01303701184955571,
+          "6": 0.004909453096730318,
+          "7": 0.001542492829189459,
+          "8": 0.0004113075276838897,
+          "9": 9.570679413507474e-05,
+          "10": 2.0389786943225032e-05,
+          "11": 3.89976881255331e-06,
+          "12": 6.70226960912977e-07,
+          "13": 1.0581042746515507e-07,
+          "14": 1.564473646819864e-08,
+          "15": 2.1681089575686136e-09,
+          "16": 2.772121733992893e-10,
+          "17": 3.321772492524168e-11,
+          "18": 3.791358054956774e-12,
+          "19": 4.0955604061691546e-13,
+          "20": 4.186561132566806e-14,
+          "21": 4.070971220761901e-15,
+          "22": 3.7718512949647335e-16,
+          "23": 3.360627750062243e-17,
+          "24": 2.858706164087845e-18,
+          "25": 2.356750283443411e-19,
+          "26": 1.8319693928249606e-20
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "check_reverse",
+      "eps": 3e-05,
+      "decoder": "strong",
+      "difference": 0.001197370485735462,
+      "simultaneous_difference_interval": [
+        -0.006056671741325868,
+        0.008450183139037122
+      ],
+      "sorting": "unresolved",
+      "complete": true,
+      "forward": {
+        "probability": 0.04762052008762693,
+        "confidence_interval": [
+          0.04508549283855962,
+          0.050260905706042185
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.9982627561732402e-21,
+        "exact_single_fault": 0.001269026126865409,
+        "sampled_multiple_fault": 0.046351493960761526,
+        "linear_prediction": 0.009776000000000002,
+        "contributions": {
+          "single_fault": 0.001269026126865409,
+          "2": 0.008859539699002389,
+          "3": 0.014166121685402351,
+          "4": 0.011879817922064797,
+          "5": 0.006958850557856632,
+          "6": 0.003020190342542133,
+          "7": 0.0010588948287179897,
+          "8": 0.0003099042657029827,
+          "9": 7.674169834801051e-05,
+          "10": 1.7303713168374792e-05,
+          "11": 3.401974793539152e-06,
+          "12": 6.113430757528669e-07,
+          "13": 9.87972524143758e-08,
+          "14": 1.4767090381265805e-08,
+          "15": 2.0616423371059684e-09,
+          "16": 2.6736960711331776e-10,
+          "17": 3.254091041651503e-11,
+          "18": 3.74300668002202e-12,
+          "19": 4.019660659693541e-13,
+          "20": 4.146157266214889e-14,
+          "21": 4.091732548646586e-15,
+          "22": 3.7669778022437427e-16,
+          "23": 3.368865592322476e-17,
+          "24": 2.849423513267072e-18,
+          "25": 2.355320390054597e-19,
+          "26": 1.8189488395765265e-20
+        }
+      },
+      "candidate_result": {
+        "probability": 0.048817890573362395,
+        "confidence_interval": [
+          0.046246731044915584,
+          0.051493756415102794
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.9982627561732402e-21,
+        "exact_single_fault": 0.0008962107589892364,
+        "sampled_multiple_fault": 0.04792167981437316,
+        "linear_prediction": 0.006903999999999995,
+        "contributions": {
+          "single_fault": 0.0008962107589892364,
+          "2": 0.009065959542874766,
+          "3": 0.014610042198352286,
+          "4": 0.012396082341662012,
+          "5": 0.007221183530754627,
+          "6": 0.0031002877510196325,
+          "7": 0.0011065456771182068,
+          "8": 0.0003191281365646563,
+          "9": 8.034096271341645e-05,
+          "10": 1.785308099656353e-05,
+          "11": 3.5182031973642704e-06,
+          "12": 6.203187489694668e-07,
+          "13": 1.0061523080132539e-07,
+          "14": 1.5073869386766084e-08,
+          "15": 2.0750182196260214e-09,
+          "16": 2.6948980965828186e-10,
+          "17": 3.255332903135405e-11,
+          "18": 3.754977166049556e-12,
+          "19": 4.0829524748609136e-13,
+          "20": 4.133289792854405e-14,
+          "21": 4.079976134061283e-15,
+          "22": 3.8180334402731676e-16,
+          "23": 3.362893156683807e-17,
+          "24": 2.884102095578639e-18,
+          "25": 2.337589712033302e-19,
+          "26": 1.835112284988376e-20
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "check_reverse",
+      "eps": 3e-05,
+      "decoder": "single_fault_lookup",
+      "difference": 0.0021692633688184457,
+      "simultaneous_difference_interval": [
+        -0.004931922435230177,
+        0.009268739717030003
+      ],
+      "sorting": "unresolved",
+      "complete": true,
+      "forward": {
+        "probability": 0.04467428587146369,
+        "confidence_interval": [
+          0.04220650615508229,
+          0.04724815208739776
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.9982627561732402e-21,
+        "exact_single_fault": 2.7000555890753377e-05,
+        "sampled_multiple_fault": 0.04464728531557293,
+        "linear_prediction": 0.000208,
+        "contributions": {
+          "single_fault": 2.7000555890753377e-05,
+          "2": 0.007728358954581767,
+          "3": 0.013744678160449882,
+          "4": 0.011756488088494351,
+          "5": 0.006931914582960856,
+          "6": 0.003020190342542133,
+          "7": 0.0010577326129033503,
+          "8": 0.0003097559719592259,
+          "9": 7.673497075106582e-05,
+          "10": 1.730233974880432e-05,
+          "11": 3.401974793539152e-06,
+          "12": 6.113864364930437e-07,
+          "13": 9.87972524143758e-08,
+          "14": 1.4767090381265805e-08,
+          "15": 2.0615072271815236e-09,
+          "16": 2.6736960711331776e-10,
+          "17": 3.254091041651503e-11,
+          "18": 3.74300668002202e-12,
+          "19": 4.019660659693541e-13,
+          "20": 4.146157266214889e-14,
+          "21": 4.091732548646586e-15,
+          "22": 3.7669778022437427e-16,
+          "23": 3.368865592322476e-17,
+          "24": 2.849423513267072e-18,
+          "25": 2.355320390054597e-19,
+          "26": 1.8189488395765265e-20
+        }
+      },
+      "candidate_result": {
+        "probability": 0.04684354924028213,
+        "confidence_interval": [
+          0.044315662292639925,
+          0.04947661365698881
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 2.9982627561732402e-21,
+        "exact_single_fault": 2.7000555890753377e-05,
+        "sampled_multiple_fault": 0.046816548684391376,
+        "linear_prediction": 0.000208,
+        "contributions": {
+          "single_fault": 2.7000555890753377e-05,
+          "2": 0.008331104898689106,
+          "3": 0.014256029637392212,
+          "4": 0.012381741663339867,
+          "5": 0.0072188412720680375,
+          "6": 0.0031006862455891723,
+          "7": 0.0011066618986996706,
+          "8": 0.0003190391603184022,
+          "9": 8.033423511647178e-05,
+          "10": 1.785308099656353e-05,
+          "11": 3.5182031973642704e-06,
+          "12": 6.203187489694668e-07,
+          "13": 1.0061523080132539e-07,
+          "14": 1.5073869386766084e-08,
+          "15": 2.0748831097015766e-09,
+          "16": 2.6948980965828186e-10,
+          "17": 3.255332903135405e-11,
+          "18": 3.754977166049556e-12,
+          "19": 4.0829524748609136e-13,
+          "20": 4.133289792854405e-14,
+          "21": 4.079976134061283e-15,
+          "22": 3.8180334402731676e-16,
+          "23": 3.362893156683807e-17,
+          "24": 2.884102095578639e-18,
+          "25": 2.337589712033302e-19,
+          "26": 1.835112284988376e-20
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "check_reverse",
+      "eps": 0.0001,
+      "decoder": "original",
+      "difference": 0.055927817540132596,
+      "simultaneous_difference_interval": [
+        0.03377078698096592,
+        0.07804182858787762
+      ],
+      "sorting": "forward lower",
+      "complete": true,
+      "forward": {
+        "probability": 0.32247411328733766,
+        "confidence_interval": [
+          0.3147592607999636,
+          0.3302601105281218
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 4.10190730312314e-09,
+        "exact_single_fault": 0.00026985379102153746,
+        "sampled_multiple_fault": 0.32220425949631615,
+        "linear_prediction": 0.2437066666666665,
+        "contributions": {
+          "single_fault": 0.00026985379102153746,
+          "2": 0.0024362967944974944,
+          "3": 0.008872300775826647,
+          "4": 0.02070022073022847,
+          "5": 0.035886980502580657,
+          "6": 0.047791755894805235,
+          "7": 0.05227886189117952,
+          "8": 0.04831207928726386,
+          "9": 0.03891521784017775,
+          "10": 0.027974212267980726,
+          "11": 0.017956296623572152,
+          "12": 0.010586266367637105,
+          "13": 0.005569278506542738,
+          "14": 0.002763238637833098,
+          "15": 0.001272219606281405,
+          "16": 0.0005424069817032285,
+          "17": 0.00021807019809710489,
+          "18": 8.345167390583559e-05,
+          "19": 3.0107097596278794e-05,
+          "20": 1.0202030224001663e-05,
+          "21": 3.3425656965673626e-06,
+          "22": 1.0284219659951484e-06,
+          "23": 3.07601654785129e-07,
+          "24": 8.752271625641774e-08,
+          "25": 2.348234469089569e-08,
+          "26": 6.194004567127909e-09
+        }
+      },
+      "candidate_result": {
+        "probability": 0.37840193082747026,
+        "confidence_interval": [
+          0.3702791565344654,
+          0.3865731163480956
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 4.10190730312314e-09,
+        "exact_single_fault": 0.000792641992141609,
+        "sampled_multiple_fault": 0.3776092888353286,
+        "linear_prediction": 0.7158400000000007,
+        "contributions": {
+          "single_fault": 0.000792641992141609,
+          "2": 0.004836593058141509,
+          "3": 0.01470135089530611,
+          "4": 0.029962753824052245,
+          "5": 0.045776769445941085,
+          "6": 0.0574657849525669,
+          "7": 0.06018780838130939,
+          "8": 0.05350091156717841,
+          "9": 0.0414998417537008,
+          "10": 0.02947307893907046,
+          "11": 0.018791473210715046,
+          "12": 0.010765966132282829,
+          "13": 0.005665897740862465,
+          "14": 0.002792657417584271,
+          "15": 0.001290148383594395,
+          "16": 0.0005498952959560815,
+          "17": 0.00021965785534804722,
+          "18": 8.357585024496016e-05,
+          "19": 3.009597976112507e-05,
+          "20": 1.0255615626525307e-05,
+          "21": 3.3243862571274644e-06,
+          "22": 1.026779422158557e-06,
+          "23": 3.0496651089274774e-07,
+          "24": 8.647894998106729e-08,
+          "25": 2.3766411126517822e-08,
+          "26": 6.158534787699946e-09
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "check_reverse",
+      "eps": 0.0001,
+      "decoder": "strong",
+      "difference": 0.00883491458558705,
+      "simultaneous_difference_interval": [
+        -0.010999269453461413,
+        0.02866222787424072
+      ],
+      "sorting": "unresolved",
+      "complete": true,
+      "forward": {
+        "probability": 0.25380726828196165,
+        "confidence_interval": [
+          0.24677239942280732,
+          0.26094139403442923
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 4.10190730312314e-09,
+        "exact_single_fault": 3.608286821625113e-05,
+        "sampled_multiple_fault": 0.2537711854137454,
+        "linear_prediction": 0.032586666666666673,
+        "contributions": {
+          "single_fault": 3.608286821625113e-05,
+          "2": 0.0008397515131692296,
+          "3": 0.004476099710998395,
+          "4": 0.012513180715791933,
+          "5": 0.02443456378438573,
+          "6": 0.0353517194931416,
+          "7": 0.04131789648599381,
+          "8": 0.040310861332956964,
+          "9": 0.0332763035909226,
+          "10": 0.02501221349544313,
+          "11": 0.016392796924406126,
+          "12": 0.00982010458038789,
+          "13": 0.005290358830110319,
+          "14": 0.002635993554331035,
+          "15": 0.0012267946772148608,
+          "16": 0.0005303709697534374,
+          "17": 0.00021518230430444255,
+          "18": 8.251000333414101e-05,
+          "19": 2.953823503091336e-05,
+          "20": 1.0156640235981636e-05,
+          "21": 3.3413401163804033e-06,
+          "22": 1.0254527521366945e-06,
+          "23": 3.057140694437779e-07,
+          "24": 8.619813976485624e-08,
+          "25": 2.3751991510496395e-08,
+          "26": 6.1147635705335225e-09
+        }
+      },
+      "candidate_result": {
+        "probability": 0.2626421828675487,
+        "confidence_interval": [
+          0.25553159763325783,
+          0.26984839361129154
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 4.10190730312314e-09,
+        "exact_single_fault": 2.5482418388399915e-05,
+        "sampled_multiple_fault": 0.2626167004491603,
+        "linear_prediction": 0.023013333333333316,
+        "contributions": {
+          "single_fault": 2.5482418388399915e-05,
+          "2": 0.0008593170190678603,
+          "3": 0.004616366223163754,
+          "4": 0.013056969351437164,
+          "5": 0.025355691735867117,
+          "6": 0.03628927004309825,
+          "7": 0.043177224502595445,
+          "8": 0.041510658239316385,
+          "9": 0.03483699636037501,
+          "10": 0.025806315043040342,
+          "11": 0.01695285651813724,
+          "12": 0.009964282298533878,
+          "13": 0.005387707266198497,
+          "14": 0.002690755017843761,
+          "15": 0.0012347540895645739,
+          "16": 0.000534576735292711,
+          "17": 0.0002152644245070775,
+          "18": 8.27738780547807e-05,
+          "19": 3.0003331134844056e-05,
+          "20": 1.0125119410967726e-05,
+          "21": 3.331739738249221e-06,
+          "22": 1.0393511999847769e-06,
+          "23": 3.051720894942811e-07,
+          "24": 8.724720434617295e-08,
+          "25": 2.3573188271830686e-08,
+          "26": 6.169100253912531e-09
+        }
+      }
+    },
+    {
+      "instance": "holdout-hgp-3x4",
+      "candidate": "check_reverse",
+      "eps": 0.0001,
+      "decoder": "single_fault_lookup",
+      "difference": 0.009169096000601507,
+      "simultaneous_difference_interval": [
+        -0.010637992724638945,
+        0.0289690607970417
+      ],
+      "sorting": "unresolved",
+      "complete": true,
+      "forward": {
+        "probability": 0.2532381594594623,
+        "confidence_interval": [
+          0.24621640359607078,
+          0.26035939480352793
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 4.10190730312314e-09,
+        "exact_single_fault": 7.677206003457685e-07,
+        "sampled_multiple_fault": 0.25323739173886195,
+        "linear_prediction": 0.0006933333333333333,
+        "contributions": {
+          "single_fault": 7.677206003457685e-07,
+          "2": 0.0007325325408447334,
+          "3": 0.004342935300714825,
+          "4": 0.012383275652832239,
+          "5": 0.024339983682224692,
+          "6": 0.0353517194931416,
+          "7": 0.04127254702217426,
+          "8": 0.04029157199362642,
+          "9": 0.03327338640817597,
+          "10": 0.025010228241574138,
+          "11": 0.016392796924406126,
+          "12": 0.009820801091103571,
+          "13": 0.005290358830110319,
+          "14": 0.002635993554331035,
+          "15": 0.0012267142791103183,
+          "16": 0.0005303709697534374,
+          "17": 0.00021518230430444255,
+          "18": 8.251000333414101e-05,
+          "19": 2.953823503091336e-05,
+          "20": 1.0156640235981636e-05,
+          "21": 3.3413401163804033e-06,
+          "22": 1.0254527521366945e-06,
+          "23": 3.057140694437779e-07,
+          "24": 8.619813976485624e-08,
+          "25": 2.3751991510496395e-08,
+          "26": 6.1147635705335225e-09
+        }
+      },
+      "candidate_result": {
+        "probability": 0.2624072554600638,
+        "confidence_interval": [
+          0.255303256308211,
+          0.2696069684838694
+        ],
+        "confidence_method": "Bonferroni Clopper-Pearson per conditional stratum plus exact unobserved-tail bound",
+        "confidence_level": 0.95,
+        "tail_probability_bound": 4.10190730312314e-09,
+        "exact_single_fault": 7.677206003457685e-07,
+        "sampled_multiple_fault": 0.26240648773946346,
+        "linear_prediction": 0.0006933333333333333,
+        "contributions": {
+          "single_fault": 7.677206003457685e-07,
+          "2": 0.000789663818068735,
+          "3": 0.004504508118525556,
+          "4": 0.01304186411155813,
+          "5": 0.02534746737915746,
+          "6": 0.036293934473695055,
+          "7": 0.0431817594489774,
+          "8": 0.04149908463571806,
+          "9": 0.034834079177628374,
+          "10": 0.025806315043040342,
+          "11": 0.01695285651813724,
+          "12": 0.009964282298533878,
+          "13": 0.005387707266198497,
+          "14": 0.002690755017843761,
+          "15": 0.0012346736914600313,
+          "16": 0.000534576735292711,
+          "17": 0.0002152644245070775,
+          "18": 8.27738780547807e-05,
+          "19": 3.0003331134844056e-05,
+          "20": 1.0125119410967726e-05,
+          "21": 3.331739738249221e-06,
+          "22": 1.0393511999847769e-06,
+          "23": 3.051720894942811e-07,
+          "24": 8.724720434617295e-08,
+          "25": 2.3573188271830686e-08,
+          "26": 6.169100253912531e-09
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "original_scientific_sources_byte_identical": 670,
+  "audit": {
+    "passed": true,
+    "counts": {
+      "historical_risks": 6,
+      "bb_risks": 6,
+      "decision_arrays": 19273,
+      "sample_records": 6428
+    },
+    "historical_risks": [
+      {
+        "instance": "tiny-hgp",
+        "order": "forward",
+        "R_star": 115.19999999999996
+      },
+      {
+        "instance": "tiny-hgp",
+        "order": "macro_reverse",
+        "R_star": 109.33333333333331
+      },
+      {
+        "instance": "tiny-hgp",
+        "order": "check_reverse",
+        "R_star": 152.00000000000009
+      },
+      {
+        "instance": "holdout-hgp-3x4",
+        "order": "forward",
+        "R_star": 6.933333333333333
+      },
+      {
+        "instance": "holdout-hgp-3x4",
+        "order": "macro_reverse",
+        "R_star": 6.933333333333333
+      },
+      {
+        "instance": "holdout-hgp-3x4",
+        "order": "check_reverse",
+        "R_star": 6.933333333333333
+      }
+    ]
+  },
+  "registered_tasks": 324,
+  "real_replay_original_seed_shots_arrays_equal": {
+    "physical.npz": {
+      "detectors": true,
+      "observables": true,
+      "seed": true
+    },
+    "decoded.npz": {
+      "original_prediction": true,
+      "original_residual": true,
+      "strong_prediction": true,
+      "strong_residual": true,
+      "single_fault_lookup_prediction": true,
+      "single_fault_lookup_residual": true
+    }
+  },
+  "environment_unchanged": true,
+  "note": "Basic replay uses original decoder; no reduced shot count or altered protocol."
+}

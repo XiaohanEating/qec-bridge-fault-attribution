@@ -1,0 +1,72 @@
+{
+  "updated_utc": "2026-10-12T08:51:52.440801+00:00",
+  "circuits": [
+    {
+      "instance": "bb-72",
+      "order": "forward",
+      "zero_record_nonzero_logical_signatures": 0,
+      "equal_record_unequal_logical_pairs": 0,
+      "observed_task_fault_distance_lower_bound": 3,
+      "logical_task": "all saved logical-Z memory observables, initial plus three noisy extraction blocks",
+      "scope": "Lower bound for the declared memory task; full quantum-code fault distance and exact minimum remain separate",
+      "single_fault_sha256": "3d62d4cb8a9150510371bdbcf2770a158c439976000aaf5719782fcb422f5ac1",
+      "prior_sha256": "2ef89ce52e1a1cd9bd3a7fce07a841f964118139f6722e9df57ac7938aa2ff9b"
+    },
+    {
+      "instance": "bb-72",
+      "order": "macro_reverse",
+      "zero_record_nonzero_logical_signatures": 0,
+      "equal_record_unequal_logical_pairs": 0,
+      "observed_task_fault_distance_lower_bound": 3,
+      "logical_task": "all saved logical-Z memory observables, initial plus three noisy extraction blocks",
+      "scope": "Lower bound for the declared memory task; full quantum-code fault distance and exact minimum remain separate",
+      "single_fault_sha256": "15307b59565d71d2eab7294082805ff3fbe5ac3619939356187c7b9b9641aa70",
+      "prior_sha256": "e4c413a373217632bd9c02ec3e2e29aba1da952fe9f43d52eb15c84dc0ba45f7"
+    },
+    {
+      "instance": "bb-72",
+      "order": "check_reverse",
+      "zero_record_nonzero_logical_signatures": 0,
+      "equal_record_unequal_logical_pairs": 0,
+      "observed_task_fault_distance_lower_bound": 3,
+      "logical_task": "all saved logical-Z memory observables, initial plus three noisy extraction blocks",
+      "scope": "Lower bound for the declared memory task; full quantum-code fault distance and exact minimum remain separate",
+      "single_fault_sha256": "72df39375d288ca344e67d3234bee6d4866f231ec7ea68a6e2956ec2e75255f5",
+      "prior_sha256": "66bf2a0705d854a58d1e6f6da5c55de5f43c3c0a8a891cb6e10cdc2e9f2d6cc7"
+    },
+    {
+      "instance": "bb-108",
+      "order": "forward",
+      "zero_record_nonzero_logical_signatures": 0,
+      "equal_record_unequal_logical_pairs": 0,
+      "observed_task_fault_distance_lower_bound": 3,
+      "logical_task": "all saved logical-Z memory observables, initial plus three noisy extraction blocks",
+      "scope": "Lower bound for the declared memory task; full quantum-code fault distance and exact minimum remain separate",
+      "single_fault_sha256": "20300f149fe354938f83b7db2649bb3050829ca046ac839e20e7d8fc51c28cb5",
+      "prior_sha256": "ca5b3304c9cb352ad5d0ba0ce979dd85ad34110a98a8ea1477335078b52a49c8"
+    },
+    {
+      "instance": "bb-108",
+      "order": "macro_reverse",
+      "zero_record_nonzero_logical_signatures": 0,
+      "equal_record_unequal_logical_pairs": 0,
+      "observed_task_fault_distance_lower_bound": 3,
+      "logical_task": "all saved logical-Z memory observables, initial plus three noisy extraction blocks",
+      "scope": "Lower bound for the declared memory task; full quantum-code fault distance and exact minimum remain separate",
+      "single_fault_sha256": "2b445ec7f37edda69279626cde571525968e79af1f4d6c044ca6f77354d5b561",
+      "prior_sha256": "f9ba880e2639d866b8dd232f7ea4ac90b2ceef6c4cd265bb10357b018561b5c9"
+    },
+    {
+      "instance": "bb-108",
+      "order": "check_reverse",
+      "zero_record_nonzero_logical_signatures": 0,
+      "equal_record_unequal_logical_pairs": 0,
+      "observed_task_fault_distance_lower_bound": 3,
+      "logical_task": "all saved logical-Z memory observables, initial plus three noisy extraction blocks",
+      "scope": "Lower bound for the declared memory task; full quantum-code fault distance and exact minimum remain separate",
+      "single_fault_sha256": "b7598e0035f0adbc1dcd2f1a247f09d8852381a0903096d19c50cc525028ad38",
+      "prior_sha256": "4542d97e2e127008c87378c1fa63da53db9473c2803949807c37599d181e18af"
+    }
+  ],
+  "proof": "Every physical single-fault joint response is enumerated. Two-fault zero detector product requires equal D. Each D has one L, hence L1 XOR L2=0. The zero D label is zero. Mutually exclusive branches of one location are not double counted."
+}

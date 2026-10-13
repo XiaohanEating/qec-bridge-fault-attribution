@@ -1,0 +1,170 @@
+{
+  "instance": "tiny-hgp",
+  "order": "macro_reverse",
+  "prior": "matched",
+  "prior_epsilon": 0.0001,
+  "sample_sha256": "accb2928632830148b93a61d658a97941327558461b157373b1cb15f2bcb93de",
+  "configurations": {
+    "original": {
+      "window": 1,
+      "max_iter": 2,
+      "osd_order": 0
+    },
+    "window2": {
+      "window": 2,
+      "max_iter": 2,
+      "osd_order": 0
+    },
+    "window4": {
+      "window": 4,
+      "max_iter": 2,
+      "osd_order": 0
+    },
+    "iterations10": {
+      "window": 1,
+      "max_iter": 10,
+      "osd_order": 0
+    },
+    "iterations50": {
+      "window": 1,
+      "max_iter": 50,
+      "osd_order": 0
+    },
+    "osd1": {
+      "window": 1,
+      "max_iter": 2,
+      "osd_order": 1
+    },
+    "osd2": {
+      "window": 1,
+      "max_iter": 2,
+      "osd_order": 2
+    },
+    "strong": {
+      "window": 4,
+      "max_iter": 50,
+      "osd_order": 2
+    }
+  },
+  "results": {
+    "original": {
+      "failures": 112,
+      "shots": 4096,
+      "single_fault_risk": 264.93333333333334
+    },
+    "window2": {
+      "failures": 129,
+      "shots": 4096,
+      "single_fault_risk": 314.26666666666654
+    },
+    "window4": {
+      "failures": 120,
+      "shots": 4096,
+      "single_fault_risk": 290.1333333333332
+    },
+    "iterations10": {
+      "failures": 109,
+      "shots": 4096,
+      "single_fault_risk": 255.86666666666667
+    },
+    "iterations50": {
+      "failures": 109,
+      "shots": 4096,
+      "single_fault_risk": 255.86666666666667
+    },
+    "osd1": {
+      "failures": 110,
+      "shots": 4096,
+      "single_fault_risk": 260.53333333333336
+    },
+    "osd2": {
+      "failures": 110,
+      "shots": 4096,
+      "single_fault_risk": 260.53333333333336
+    },
+    "strong": {
+      "failures": 119,
+      "shots": 4096,
+      "single_fault_risk": 289.9999999999999
+    },
+    "single_fault_lookup": {
+      "failures": 68,
+      "shots": 4096,
+      "single_fault_risk": null
+    }
+  },
+  "paired": {
+    "window2": {
+      "shots": 4096,
+      "first_failures": 112,
+      "second_failures": 129,
+      "first_only": 35,
+      "second_only": 52,
+      "paired_difference": 0.004150390625,
+      "mcnemar_exact_two_sided_p": 0.08568897435916664
+    },
+    "window4": {
+      "shots": 4096,
+      "first_failures": 112,
+      "second_failures": 120,
+      "first_only": 42,
+      "second_only": 50,
+      "paired_difference": 0.001953125,
+      "mcnemar_exact_two_sided_p": 0.465707445773062
+    },
+    "iterations10": {
+      "shots": 4096,
+      "first_failures": 112,
+      "second_failures": 109,
+      "first_only": 10,
+      "second_only": 7,
+      "paired_difference": -0.000732421875,
+      "mcnemar_exact_two_sided_p": 0.629058837890625
+    },
+    "iterations50": {
+      "shots": 4096,
+      "first_failures": 112,
+      "second_failures": 109,
+      "first_only": 10,
+      "second_only": 7,
+      "paired_difference": -0.000732421875,
+      "mcnemar_exact_two_sided_p": 0.629058837890625
+    },
+    "osd1": {
+      "shots": 4096,
+      "first_failures": 112,
+      "second_failures": 110,
+      "first_only": 12,
+      "second_only": 10,
+      "paired_difference": -0.00048828125,
+      "mcnemar_exact_two_sided_p": 0.8318119049072266
+    },
+    "osd2": {
+      "shots": 4096,
+      "first_failures": 112,
+      "second_failures": 110,
+      "first_only": 12,
+      "second_only": 10,
+      "paired_difference": -0.00048828125,
+      "mcnemar_exact_two_sided_p": 0.8318119049072266
+    },
+    "strong": {
+      "shots": 4096,
+      "first_failures": 112,
+      "second_failures": 119,
+      "first_only": 43,
+      "second_only": 50,
+      "paired_difference": 0.001708984375,
+      "mcnemar_exact_two_sided_p": 0.5340598617346067
+    },
+    "single_fault_lookup": {
+      "shots": 4096,
+      "first_failures": 112,
+      "second_failures": 68,
+      "first_only": 61,
+      "second_only": 17,
+      "paired_difference": -0.0107421875,
+      "mcnemar_exact_two_sided_p": 5.663739625418237e-07
+    }
+  }
+}

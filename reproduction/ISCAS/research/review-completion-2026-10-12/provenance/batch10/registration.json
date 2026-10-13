@@ -1,0 +1,1325 @@
+{
+  "registered_utc": "2026-10-12T08:53:50.524699+00:00",
+  "python": "G:\\1014gogogo\\.harness\\envs\\qldpc-submission-audit\\Scripts\\python.exe",
+  "python_version": "3.11.17 (main, Oct  9 2026, 15:19:27) [MSC v.1944 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "stim": "1.16.0",
+    "ldpc": "2.4.1",
+    "quits": "1.2.0",
+    "pymatching": "2.4.0",
+    "bposd": "2.1",
+    "pyscipopt": "5.4.1"
+  },
+  "source_sha256": {
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch10\\source\\src\\iscas_revision\\__init__.py": "eccf53e0ac7bfc3dc25e985bfb426bcb29f0c0da56545bf1b766cf4723dd11b9",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch10\\source\\src\\iscas_revision\\artifacts.py": "38b73ca09d581d436134dcc64d2fd83d1b2180f519ee659d5c470e5debdba29e",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch10\\source\\src\\iscas_revision\\audit.py": "b36cba0c99afe89f337df2eab5ab2578ea78d284416c663993ee6d672b67accc",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch10\\source\\src\\iscas_revision\\decoding.py": "0105c1ae64c051ca11144d6c89f26aa33dbe6c483d007759721f04997f4f474b",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch10\\source\\src\\iscas_revision\\stratification.py": "b002b95c2ef2d6dd514ad9df9f9fa4ed5aee23a781f7b9456b52912b7fcbb19f",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch10\\source\\src\\iscas_revision\\literature.py": "7d78db5b08a7bfeec606e269d93b6968140873ecffcd7e6fbf8f595e7dcd9360",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch10\\source\\src\\iscas_revision\\verification.py": "cb29cd6dc30b86b5831fb33cd5d2131a56ba10dd3f8c32ec02261f187e0ab49f",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch10\\source\\src\\iscas_revision\\experiments.py": "b0d1cbf6368bbccdd20f857d0eb1e44e423cf98f175f30c3f137f3d6dc8fc5a9",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch10\\source\\src\\iscas_revision\\orchestration.py": "8f680698c16523ceda211a32a325d834f3db16ebfa6d20b6ddf499cad663be17",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch10\\source\\src\\iscas_revision\\baselines.py": "09ec2eb9e3400a67d9bb7b8c158872b62910909fcf3c7f4a614f4fb48488ad67",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch10\\source\\src\\iscas_revision\\scheduling.py": "daa06230f03b70f4c44e1c02b4b2bf29d1c7043771fd746baf0ca17b5502a231",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch10\\source\\src\\iscas_revision\\execution\\__init__.py": "a050e93afca6b3dfc3b5b3362c3eb88ee7d5b42c4ad5dbd4e4f4fd88232db42b",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch10\\source\\src\\iscas_revision\\execution\\linear_osd.py": "21dbe45fa0cdc94e88589d4aad1405c32d3c2abcb6f56e87fe6e470e44ed24e0",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch10\\source\\src\\iscas_revision\\execution\\serial_bp.py": "46ff98201539a4da8beca8f5495226e2653cf132ff504163f17592414de6758d",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch10\\source\\src\\iscas_revision\\execution\\decoder.py": "6063917003a44ebccd1db33f19f47b475a3ac8154b25bdd36cf4c6009426bd15",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch10\\source\\src\\iscas_revision\\execution\\registration.py": "a9c6a03dddcdfd7447a937f2e71c2227049066e8bbb633023e8c8c52e087d02f",
+    "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\src\\support.py": "3c16ac099feeefe89bb44c53c13e51b88984f40e6ed7dd97220c2c8a11a25a47",
+    "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\src\\construction.py": "ad3aa6bffd9a5aa77b2c4a6c26ae18a8031d2dbc9d1209cb07fe3a2aa0c0cf0b",
+    "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\src\\physical_risk.py": "f9d740ef4741af4ad8247f406b0ece83f557cae5ad5be63f0c84c3c9a790509b",
+    "G:\\1014gogogo\\ISCAS\\research\\parallel-routing-2026-10-10\\src\\routing.py": "89dafb2f9a54e8fa732c4450d5cba7f2533af27b9299cb29b988a6b452d9e3f3",
+    "G:\\1014gogogo\\ISCAS\\research\\conflict-fault-routing-2026-10-11\\src\\joint_router.py": "cc960d117a95824a4a209e34c899a2188cc7ddb5c1c593f6a95303d2cd568fc9"
+  },
+  "protocol_sha256": "dc5dd5c3c0efe625ea832dbfa16ce96c90330a5ae7d285e9f5f0641cb0227d24",
+  "tasks": [
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "forward",
+      "k": 2,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 120263012,
+      "id": "batch1-0040-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "macro_reverse",
+      "k": 2,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 121263012,
+      "id": "batch1-0041-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "check_reverse",
+      "k": 2,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 122263012,
+      "id": "batch1-0042-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 2,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123263012,
+      "id": "batch1-0043-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 2,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124263012,
+      "id": "batch1-0044-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 2,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125263012,
+      "id": "batch1-0045-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "forward",
+      "k": 3,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 120264012,
+      "id": "batch1-0058-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "macro_reverse",
+      "k": 3,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 121264012,
+      "id": "batch1-0059-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "check_reverse",
+      "k": 3,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 122264012,
+      "id": "batch1-0060-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 3,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123264012,
+      "id": "batch1-0061-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 3,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124264012,
+      "id": "batch1-0062-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 3,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125264012,
+      "id": "batch1-0063-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "forward",
+      "k": 4,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 120265012,
+      "id": "batch1-0064-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "macro_reverse",
+      "k": 4,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 121265012,
+      "id": "batch1-0065-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "check_reverse",
+      "k": 4,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 122265012,
+      "id": "batch1-0066-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 4,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123265012,
+      "id": "batch1-0067-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 4,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124265012,
+      "id": "batch1-0068-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 4,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125265012,
+      "id": "batch1-0069-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "forward",
+      "k": 5,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 120266012,
+      "id": "batch1-0070-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "macro_reverse",
+      "k": 5,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 121266012,
+      "id": "batch1-0071-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "check_reverse",
+      "k": 5,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 122266012,
+      "id": "batch1-0072-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 5,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123266012,
+      "id": "batch1-0073-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 5,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124266012,
+      "id": "batch1-0074-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 5,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125266012,
+      "id": "batch1-0075-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "forward",
+      "k": 6,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 120267012,
+      "id": "batch1-0076-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "macro_reverse",
+      "k": 6,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 121267012,
+      "id": "batch1-0077-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "check_reverse",
+      "k": 6,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 122267012,
+      "id": "batch1-0078-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 6,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123267012,
+      "id": "batch1-0079-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 6,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124267012,
+      "id": "batch1-0080-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 6,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125267012,
+      "id": "batch1-0081-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "forward",
+      "k": 7,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 120268012,
+      "id": "batch1-0082-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "macro_reverse",
+      "k": 7,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 121268012,
+      "id": "batch1-0083-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "check_reverse",
+      "k": 7,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 122268012,
+      "id": "batch1-0084-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 7,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123268012,
+      "id": "batch1-0085-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 7,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124268012,
+      "id": "batch1-0086-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 7,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125268012,
+      "id": "batch1-0087-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "forward",
+      "k": 8,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 120269012,
+      "id": "batch1-0088-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "macro_reverse",
+      "k": 8,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 121269012,
+      "id": "batch1-0089-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "check_reverse",
+      "k": 8,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 122269012,
+      "id": "batch1-0090-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 8,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123269012,
+      "id": "batch1-0091-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 8,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124269012,
+      "id": "batch1-0092-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 8,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125269012,
+      "id": "batch1-0093-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 9,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123270012,
+      "id": "batch1-0094-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 9,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124270012,
+      "id": "batch1-0095-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 9,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125270012,
+      "id": "batch1-0096-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 10,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123271012,
+      "id": "batch1-0097-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 10,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124271012,
+      "id": "batch1-0098-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 10,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125271012,
+      "id": "batch1-0099-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 11,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123272012,
+      "id": "batch1-0100-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 11,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124272012,
+      "id": "batch1-0101-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 11,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125272012,
+      "id": "batch1-0102-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 12,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123273012,
+      "id": "batch1-0103-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 12,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124273012,
+      "id": "batch1-0104-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 12,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125273012,
+      "id": "batch1-0105-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 13,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123274012,
+      "id": "batch1-0106-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 13,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124274012,
+      "id": "batch1-0107-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 13,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125274012,
+      "id": "batch1-0108-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 14,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123275012,
+      "id": "batch1-0109-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 14,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124275012,
+      "id": "batch1-0110-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 14,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125275012,
+      "id": "batch1-0111-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 15,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123276012,
+      "id": "batch1-0112-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 15,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124276012,
+      "id": "batch1-0113-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 15,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125276012,
+      "id": "batch1-0114-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 16,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123277012,
+      "id": "batch1-0115-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 16,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124277012,
+      "id": "batch1-0116-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 16,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125277012,
+      "id": "batch1-0117-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 17,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123278012,
+      "id": "batch1-0118-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 17,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124278012,
+      "id": "batch1-0119-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 17,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125278012,
+      "id": "batch1-0120-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 18,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123279012,
+      "id": "batch1-0121-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 18,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124279012,
+      "id": "batch1-0122-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 18,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125279012,
+      "id": "batch1-0123-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 19,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123280012,
+      "id": "batch1-0124-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 19,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124280012,
+      "id": "batch1-0125-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 19,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125280012,
+      "id": "batch1-0126-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 20,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123281012,
+      "id": "batch1-0127-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 20,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124281012,
+      "id": "batch1-0128-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 20,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125281012,
+      "id": "batch1-0129-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 21,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123282012,
+      "id": "batch1-0130-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 21,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124282012,
+      "id": "batch1-0131-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 21,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125282012,
+      "id": "batch1-0132-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 22,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123283012,
+      "id": "batch1-0133-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 22,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124283012,
+      "id": "batch1-0134-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 22,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125283012,
+      "id": "batch1-0135-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 23,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123284012,
+      "id": "batch1-0136-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 23,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124284012,
+      "id": "batch1-0137-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 23,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125284012,
+      "id": "batch1-0138-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 24,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123285012,
+      "id": "batch1-0139-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 24,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124285012,
+      "id": "batch1-0140-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 24,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125285012,
+      "id": "batch1-0141-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 25,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123286012,
+      "id": "batch1-0142-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 25,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124286012,
+      "id": "batch1-0143-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 25,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125286012,
+      "id": "batch1-0144-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 26,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123287012,
+      "id": "batch1-0145-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 26,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124287012,
+      "id": "batch1-0146-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 26,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125287012,
+      "id": "batch1-0147-stratum"
+    }
+  ],
+  "conditional_shots": 3145728,
+  "conditional_strata": 96,
+  "raw_confirmation_shots": 29622272,
+  "pending_full_scope": [
+    "BB-72 and BB-108 construction, risks and finite-noise",
+    "Zhao official routing, original and common-noise controls",
+    "standard nearest-neighbor surface-code SD6 d=3,5",
+    "source-specific sensitivity risk reweighting and completed paper revision"
+  ],
+  "stopping": "fixed registered samples; unfinished requirements retained explicitly",
+  "serial_benchmark": {
+    "2": {
+      "shots": 128,
+      "seconds": 11.122532500012312,
+      "unique_records": 101,
+      "failures": {
+        "original": 13,
+        "strong": 1,
+        "single_fault_lookup": 0
+      }
+    },
+    "7": {
+      "shots": 128,
+      "seconds": 14.851227600011043,
+      "unique_records": 128,
+      "failures": {
+        "original": 45,
+        "strong": 30,
+        "single_fault_lookup": 30
+      }
+    }
+  },
+  "execution_revision": "batch1-v2",
+  "repair": "Supervisor JSON import and progress recording repair; same tasks, seeds and scientific settings",
+  "scheduling_change": "Replace 12 older workers with exact validated execution; original 96 tasks/seeds/samples/settings/checkpoints retained; batch9 four workers continue",
+  "resource_basis": {
+    "Seconds": 166.027379,
+    "PythonCPUSeconds": 2407.407,
+    "PythonRAMGB": 8.871999999999995,
+    "Processes": [
+      {
+        "PID": 16040,
+        "CPUSecondsDelta": 0.0,
+        "PercentOneCore": 0.0,
+        "RAMGB": 0.001
+      },
+      {
+        "PID": 16048,
+        "CPUSecondsDelta": 0.0,
+        "PercentOneCore": 0.0,
+        "RAMGB": 0.001
+      },
+      {
+        "PID": 16056,
+        "CPUSecondsDelta": 0.0,
+        "PercentOneCore": 0.0,
+        "RAMGB": 0.001
+      },
+      {
+        "PID": 16092,
+        "CPUSecondsDelta": 0.312,
+        "PercentOneCore": 0.19,
+        "RAMGB": 0.007
+      },
+      {
+        "PID": 16100,
+        "CPUSecondsDelta": 0.234,
+        "PercentOneCore": 0.14,
+        "RAMGB": 0.007
+      },
+      {
+        "PID": 17468,
+        "CPUSecondsDelta": 0.203,
+        "PercentOneCore": 0.12,
+        "RAMGB": 0.007
+      },
+      {
+        "PID": 52092,
+        "CPUSecondsDelta": 28.672,
+        "PercentOneCore": 17.27,
+        "RAMGB": 0.179
+      },
+      {
+        "PID": 55428,
+        "CPUSecondsDelta": 113.734,
+        "PercentOneCore": 68.5,
+        "RAMGB": 0.207
+      },
+      {
+        "PID": 57328,
+        "CPUSecondsDelta": 0.0,
+        "PercentOneCore": 0.0,
+        "RAMGB": 0.004
+      },
+      {
+        "PID": 59388,
+        "CPUSecondsDelta": 110.594,
+        "PercentOneCore": 66.61,
+        "RAMGB": 0.133
+      },
+      {
+        "PID": 61708,
+        "CPUSecondsDelta": 0.0,
+        "PercentOneCore": 0.0,
+        "RAMGB": 0.004
+      },
+      {
+        "PID": 66576,
+        "CPUSecondsDelta": 111.828,
+        "PercentOneCore": 67.36,
+        "RAMGB": 0.034
+      },
+      {
+        "PID": 84804,
+        "CPUSecondsDelta": 113.062,
+        "PercentOneCore": 68.1,
+        "RAMGB": 0.19
+      },
+      {
+        "PID": 94032,
+        "CPUSecondsDelta": 19.797,
+        "PercentOneCore": 11.92,
+        "RAMGB": 5.899
+      },
+      {
+        "PID": 94340,
+        "CPUSecondsDelta": 113.719,
+        "PercentOneCore": 68.49,
+        "RAMGB": 0.188
+      },
+      {
+        "PID": 96052,
+        "CPUSecondsDelta": 32.516,
+        "PercentOneCore": 19.58,
+        "RAMGB": 0.176
+      },
+      {
+        "PID": 99980,
+        "CPUSecondsDelta": 0.0,
+        "PercentOneCore": 0.0,
+        "RAMGB": 0.004
+      },
+      {
+        "PID": 103256,
+        "CPUSecondsDelta": 0.0,
+        "PercentOneCore": 0.0,
+        "RAMGB": 0.052
+      },
+      {
+        "PID": 108628,
+        "CPUSecondsDelta": 0.0,
+        "PercentOneCore": 0.0,
+        "RAMGB": 0.004
+      },
+      {
+        "PID": 113900,
+        "CPUSecondsDelta": 111.297,
+        "PercentOneCore": 67.04,
+        "RAMGB": 0.208
+      },
+      {
+        "PID": 115292,
+        "CPUSecondsDelta": 0.0,
+        "PercentOneCore": 0.0,
+        "RAMGB": 0.032
+      },
+      {
+        "PID": 115608,
+        "CPUSecondsDelta": 111.125,
+        "PercentOneCore": 66.93,
+        "RAMGB": 0.055
+      },
+      {
+        "PID": 116260,
+        "CPUSecondsDelta": 87.391,
+        "PercentOneCore": 52.64,
+        "RAMGB": 0.112
+      },
+      {
+        "PID": 120024,
+        "CPUSecondsDelta": 111.797,
+        "PercentOneCore": 67.34,
+        "RAMGB": 0.097
+      },
+      {
+        "PID": 120420,
+        "CPUSecondsDelta": 112.016,
+        "PercentOneCore": 67.47,
+        "RAMGB": 0.14
+      },
+      {
+        "PID": 120740,
+        "CPUSecondsDelta": 1.094,
+        "PercentOneCore": 0.66,
+        "RAMGB": 0.038
+      },
+      {
+        "PID": 120784,
+        "CPUSecondsDelta": 0.0,
+        "PercentOneCore": 0.0,
+        "RAMGB": 0.004
+      },
+      {
+        "PID": 121076,
+        "CPUSecondsDelta": 0.0,
+        "PercentOneCore": 0.0,
+        "RAMGB": 0.004
+      },
+      {
+        "PID": 121220,
+        "CPUSecondsDelta": 110.156,
+        "PercentOneCore": 66.35,
+        "RAMGB": 0.101
+      },
+      {
+        "PID": 121876,
+        "CPUSecondsDelta": 112.031,
+        "PercentOneCore": 67.48,
+        "RAMGB": 0.055
+      },
+      {
+        "PID": 123152,
+        "CPUSecondsDelta": 1.266,
+        "PercentOneCore": 0.76,
+        "RAMGB": 0.038
+      },
+      {
+        "PID": 123524,
+        "CPUSecondsDelta": 111.453,
+        "PercentOneCore": 67.13,
+        "RAMGB": 0.055
+      },
+      {
+        "PID": 123656,
+        "CPUSecondsDelta": 111.266,
+        "PercentOneCore": 67.02,
+        "RAMGB": 0.097
+      },
+      {
+        "PID": 123704,
+        "CPUSecondsDelta": 112.406,
+        "PercentOneCore": 67.7,
+        "RAMGB": 0.075
+      },
+      {
+        "PID": 124328,
+        "CPUSecondsDelta": 111.719,
+        "PercentOneCore": 67.29,
+        "RAMGB": 0.063
+      },
+      {
+        "PID": 124764,
+        "CPUSecondsDelta": 111.578,
+        "PercentOneCore": 67.2,
+        "RAMGB": 0.138
+      },
+      {
+        "PID": 124896,
+        "CPUSecondsDelta": 0.641,
+        "PercentOneCore": 0.39,
+        "RAMGB": 0.063
+      },
+      {
+        "PID": 124900,
+        "CPUSecondsDelta": 0.0,
+        "PercentOneCore": 0.0,
+        "RAMGB": 0.052
+      },
+      {
+        "PID": 125008,
+        "CPUSecondsDelta": 112.844,
+        "PercentOneCore": 67.97,
+        "RAMGB": 0.094
+      },
+      {
+        "PID": 125096,
+        "CPUSecondsDelta": 112.281,
+        "PercentOneCore": 67.63,
+        "RAMGB": 0.052
+      },
+      {
+        "PID": 125108,
+        "CPUSecondsDelta": 110.125,
+        "PercentOneCore": 66.33,
+        "RAMGB": 0.105
+      },
+      {
+        "PID": 125308,
+        "CPUSecondsDelta": 0.0,
+        "PercentOneCore": 0.0,
+        "RAMGB": 0.004
+      },
+      {
+        "PID": 125692,
+        "CPUSecondsDelta": 108.984,
+        "PercentOneCore": 65.64,
+        "RAMGB": 0.056
+      },
+      {
+        "PID": 125708,
+        "CPUSecondsDelta": 1.266,
+        "PercentOneCore": 0.76,
+        "RAMGB": 0.036
+      }
+    ]
+  },
+  "workers": 12,
+  "supersedes_scheduler": [
+    "batch1-v2",
+    "batch8"
+  ],
+  "validated_by": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\historical-execution-validation.json",
+  "validation_sha256": "f5de1f5d92562fdcc304124059430374724d90f0bb0afd5229000fe33f86bfe7",
+  "protocol_sources_unchanged": {
+    "decoding.py": true,
+    "baselines.py": true,
+    "stratification.py": true
+  },
+  "execution_packages": {
+    "numba": "0.68.0",
+    "llvmlite": "0.50.0"
+  },
+  "no_new_dependencies": true,
+  "core_versions_unchanged": true
+}

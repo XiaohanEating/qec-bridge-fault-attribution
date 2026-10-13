@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-10-12T12:21:30.297135+00:00",
+  "pdf_sha256": "3d38c014d9be640edb3cb6aeface6e9e2843dd67a91ef5ebe88f74546f3d62e5",
+  "pages_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "passed": true,
+  "render_dpi": 120,
+  "review": "Actual page images examined: title and affiliations, equations, two figures and two tables, page4 conclusion and page5 references; no overlap or clipped content",
+  "rendered_sha256": {
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\manuscript-layout\\final\\page-1.png": "1c08f4566d0d5fcab1f1b0429421ae1f188c3b64b43fff021d9263981ea453e5",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\manuscript-layout\\final\\page-2.png": "cdcd29abfcd56cb5debfd31b8866ab1e31312ca4d4877418939d6380b15c7444",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\manuscript-layout\\final\\page-3.png": "1cde516e48ec8a6c0d3611d6132479920fe9a92041a1c7ec33b5448560e01910",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\manuscript-layout\\final\\page-4.png": "f3e7e5c31bd50e66e50f2146c04f0d3c76c85f8ab93983affb897bab0e6609d6",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\manuscript-layout\\final\\page-5.png": "9454cb94ba5061346becd072df3ef51fe0a947e86bb3f61f55ec125df172eca5"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "original": [
+    {
+      "checks": 36,
+      "columns": 1566,
+      "bp_iters": 2,
+      "osd_order": 0
+    },
+    {
+      "checks": 36,
+      "columns": 1797,
+      "bp_iters": 2,
+      "osd_order": 0
+    },
+    {
+      "checks": 36,
+      "columns": 1797,
+      "bp_iters": 2,
+      "osd_order": 0
+    },
+    {
+      "checks": 36,
+      "columns": 1797,
+      "bp_iters": 2,
+      "osd_order": 0
+    },
+    {
+      "checks": 36,
+      "columns": 303,
+      "bp_iters": 2,
+      "osd_order": 0
+    }
+  ],
+  "strong": [
+    {
+      "checks": 144,
+      "columns": 6957,
+      "bp_iters": 50,
+      "osd_order": 2
+    },
+    {
+      "checks": 36,
+      "columns": 303,
+      "bp_iters": 50,
+      "osd_order": 2
+    }
+  ]
+}

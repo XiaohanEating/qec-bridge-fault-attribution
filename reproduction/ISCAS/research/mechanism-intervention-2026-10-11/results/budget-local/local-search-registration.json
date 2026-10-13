@@ -1,0 +1,44 @@
+{
+  "source_plan_sha256": "d1cbc04fbef57b8a2483fec23b3895452fbb9133f2bc9ef875231179a893ee46",
+  "moves": [
+    [
+      25,
+      27
+    ],
+    [
+      38,
+      40
+    ],
+    [
+      78,
+      80
+    ],
+    [
+      111,
+      113
+    ],
+    [
+      118,
+      120
+    ],
+    [
+      193,
+      195
+    ],
+    [
+      273,
+      275
+    ],
+    [
+      305,
+      307
+    ]
+  ],
+  "objective": "exact weighted original decoder single-fault risk at .001",
+  "method": "one steepest descent move, all individual compatible layer regions; no combinations",
+  "physical_sampling_used": false,
+  "source_sha256": "1c65e8d69c3d8b4e1e84e1754c35595602e465a347cc605d5885d296a10c3ae8",
+  "if_no_improvement": "retain baseline; force candidate with smallest risk for a negative direction validation",
+  "primary_eps": 0.001,
+  "primary_shots": 32768
+}

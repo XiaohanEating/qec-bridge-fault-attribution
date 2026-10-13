@@ -1,0 +1,41 @@
+{
+  "registered_utc": "2026-10-12T07:15:41.022219+00:00",
+  "tasks": [
+    {
+      "kind": "bb",
+      "instance": "bb-108",
+      "order": "macro_reverse",
+      "shots": 32768,
+      "id": "batch2-0058-bb",
+      "seed": 720841012
+    },
+    {
+      "kind": "bb",
+      "instance": "bb-108",
+      "order": "check_reverse",
+      "shots": 32768,
+      "id": "batch2-0059-bb",
+      "seed": 720851012
+    }
+  ],
+  "source_sha256": {
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch2-v3\\source\\src\\iscas_revision\\__init__.py": "eccf53e0ac7bfc3dc25e985bfb426bcb29f0c0da56545bf1b766cf4723dd11b9",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch2-v3\\source\\src\\iscas_revision\\artifacts.py": "38b73ca09d581d436134dcc64d2fd83d1b2180f519ee659d5c470e5debdba29e",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch2-v3\\source\\src\\iscas_revision\\audit.py": "b36cba0c99afe89f337df2eab5ab2578ea78d284416c663993ee6d672b67accc",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch2-v3\\source\\src\\iscas_revision\\decoding.py": "0105c1ae64c051ca11144d6c89f26aa33dbe6c483d007759721f04997f4f474b",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch2-v3\\source\\src\\iscas_revision\\stratification.py": "b002b95c2ef2d6dd514ad9df9f9fa4ed5aee23a781f7b9456b52912b7fcbb19f",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch2-v3\\source\\src\\iscas_revision\\literature.py": "7d78db5b08a7bfeec606e269d93b6968140873ecffcd7e6fbf8f595e7dcd9360",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch2-v3\\source\\src\\iscas_revision\\verification.py": "cb29cd6dc30b86b5831fb33cd5d2131a56ba10dd3f8c32ec02261f187e0ab49f",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch2-v3\\source\\src\\iscas_revision\\experiments.py": "80ffd5015b8b4b4b7fd5e4e1000e71657f0b7f2fb849c366fa95e78797c80c9f",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch2-v3\\source\\src\\iscas_revision\\orchestration.py": "ee63de4b3ccfb98a612637cb6a876e2e24d64223dcdd3a26f164581a69d99a73",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch2-v3\\source\\src\\iscas_revision\\baselines.py": "cb4edaf35a0c6e7ed74046ffe075b32fece5b0ea5a90112e16c53f409a3bec65",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch2-v3\\source\\src\\iscas_revision\\parallel_decode.py": "086d7f73a0b774831f9255c5fbbc485b811f069bb2ee1923b7a90f56e44cddc3",
+    "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\src\\support.py": "3c16ac099feeefe89bb44c53c13e51b88984f40e6ed7dd97220c2c8a11a25a47",
+    "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\src\\construction.py": "ad3aa6bffd9a5aa77b2c4a6c26ae18a8031d2dbc9d1209cb07fe3a2aa0c0cf0b",
+    "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\src\\physical_risk.py": "f9d740ef4741af4ad8247f406b0ece83f557cae5ad5be63f0c84c3c9a790509b",
+    "G:\\1014gogogo\\ISCAS\\research\\parallel-routing-2026-10-10\\src\\routing.py": "89dafb2f9a54e8fa732c4450d5cba7f2533af27b9299cb29b988a6b452d9e3f3",
+    "G:\\1014gogogo\\ISCAS\\research\\conflict-fault-routing-2026-10-11\\src\\joint_router.py": "cc960d117a95824a4a209e34c899a2188cc7ddb5c1c593f6a95303d2cd568fc9",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-physical-preparation\\run.py": "fe7a203f0e85f5b2a920b82a6db2e0ce920115b411eb9c220033f020ab5b5560"
+  },
+  "scope": "prepare complete physical branches for last two registered tasks; use unchanged batch2-v3 encode_physical; one process; task-level locks; no decoder change"
+}

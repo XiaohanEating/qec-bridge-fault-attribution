@@ -1,0 +1,22 @@
+{
+  "Targets": [
+    115016,
+    118344,
+    120612,
+    21876,
+    48772,
+    126832,
+    102972,
+    59624,
+    117788,
+    101912,
+    48812,
+    126668,
+    122884,
+    121588,
+    30944,
+    114084
+  ],
+  "Reason": "Restart unchanged v4 scheduler after verified old process exit and dead lock cleanup; preserve every committed checkpoint",
+  "TimeUtc": "2026-10-12T09:02:22.1952693Z"
+}

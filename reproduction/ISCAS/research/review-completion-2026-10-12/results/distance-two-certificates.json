@@ -1,0 +1,524 @@
+[
+  {
+    "instance": "tiny-hgp",
+    "order": "forward",
+    "exact_fault_distance": 2,
+    "full_single_fault_enumeration_no_distance_one": true,
+    "physical_branches": [
+      {
+        "instruction_offset": 326,
+        "source": "DEPOLARIZE2",
+        "paulis": [
+          [
+            3,
+            "X"
+          ],
+          [
+            8,
+            "X"
+          ]
+        ],
+        "coefficient": 0.06666666666666667,
+        "signature": 13
+      },
+      {
+        "instruction_offset": 276,
+        "source": "DEPOLARIZE2",
+        "paulis": [
+          [
+            13,
+            "X"
+          ],
+          [
+            18,
+            "X"
+          ]
+        ],
+        "coefficient": 0.06666666666666667,
+        "signature": 15
+      }
+    ],
+    "signature_indices": [
+      13,
+      15
+    ],
+    "distinct_physical_noise_instructions": true,
+    "probes": [
+      {
+        "label": "first",
+        "deterministic_repetitions": 16,
+        "detectors": [
+          0,
+          3,
+          7
+        ],
+        "logical_vector": [
+          0
+        ],
+        "source_sha256": "b0b84024812d9895d7554f3dd591be9ea52f0533e60bc0d93eec5707e2fdfe2d"
+      },
+      {
+        "label": "second",
+        "deterministic_repetitions": 16,
+        "detectors": [
+          0,
+          3,
+          7
+        ],
+        "logical_vector": [
+          1
+        ],
+        "source_sha256": "8d7bf350f3e86cc341e98a0354c6f7c284302614254cd91053efa5947aa85eaa"
+      },
+      {
+        "label": "pair",
+        "deterministic_repetitions": 16,
+        "detectors": [],
+        "logical_vector": [
+          1
+        ],
+        "source_sha256": "b89959dfeea763595cd79a645389e3f3da10d756fa071932bdaafcf1a0dee3bf"
+      }
+    ],
+    "inputs_sha256": {
+      "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\provenance\\decoder-priors\\tiny-hgp\\forward.stim": "e15f409ab14957d84a86be65d6a51885224b05c9bc19537b454506d335d75c5c",
+      "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\results\\tiny-hgp\\forward\\branches.json": "c66771ec4514e1f14544695f6465ff1df3a40f197d6b02523e5a1dc8d98184ea",
+      "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\results\\tiny-hgp\\forward\\single-fault.npz": "f7357b4263730713550e1d553f6af805bfa5d32aa56df15108d4adede10396d2"
+    },
+    "repetition_purpose": "check deterministic simulator response; no failure-rate estimate"
+  },
+  {
+    "instance": "tiny-hgp",
+    "order": "macro_reverse",
+    "exact_fault_distance": 2,
+    "full_single_fault_enumeration_no_distance_one": true,
+    "physical_branches": [
+      {
+        "instruction_offset": 168,
+        "source": "DEPOLARIZE2",
+        "paulis": [
+          [
+            0,
+            "X"
+          ],
+          [
+            5,
+            "X"
+          ]
+        ],
+        "coefficient": 0.06666666666666667,
+        "signature": 10
+      },
+      {
+        "instruction_offset": 296,
+        "source": "DEPOLARIZE2",
+        "paulis": [
+          [
+            10,
+            "X"
+          ],
+          [
+            15,
+            "X"
+          ]
+        ],
+        "coefficient": 0.06666666666666667,
+        "signature": 12
+      }
+    ],
+    "signature_indices": [
+      10,
+      12
+    ],
+    "distinct_physical_noise_instructions": true,
+    "probes": [
+      {
+        "label": "first",
+        "deterministic_repetitions": 16,
+        "detectors": [
+          0,
+          3,
+          6
+        ],
+        "logical_vector": [
+          0
+        ],
+        "source_sha256": "fc4e368d4950689ed6f479330ea3ef9d0f989a7e1050de7ce1309de04959b310"
+      },
+      {
+        "label": "second",
+        "deterministic_repetitions": 16,
+        "detectors": [
+          0,
+          3,
+          6
+        ],
+        "logical_vector": [
+          1
+        ],
+        "source_sha256": "044243ea9305c41305b31da325191ae42a82211837bd5f0590f9c52f56e35e05"
+      },
+      {
+        "label": "pair",
+        "deterministic_repetitions": 16,
+        "detectors": [],
+        "logical_vector": [
+          1
+        ],
+        "source_sha256": "b92f6dc8ade94e9631dcde448cdc9e6e4d50910c65d06701b37a71cc6d1c249f"
+      }
+    ],
+    "inputs_sha256": {
+      "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\provenance\\decoder-priors\\tiny-hgp\\macro_reverse.stim": "b0511b264c300488099a533019cbd065c5550849f98c7a5790794cbcdb971ebe",
+      "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\results\\tiny-hgp\\macro_reverse\\branches.json": "5c92046d8206a3933677695e86d9cf4d4a6aa5b3d7ba4a661f2f2241fbd1c00a",
+      "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\results\\tiny-hgp\\macro_reverse\\single-fault.npz": "2a59fb804655c813f765712b2947f0c008f93bbc6d183c26b66b4c7b12a5c60c"
+    },
+    "repetition_purpose": "check deterministic simulator response; no failure-rate estimate"
+  },
+  {
+    "instance": "tiny-hgp",
+    "order": "check_reverse",
+    "exact_fault_distance": 2,
+    "full_single_fault_enumeration_no_distance_one": true,
+    "physical_branches": [
+      {
+        "instruction_offset": 412,
+        "source": "DEPOLARIZE2",
+        "paulis": [
+          [
+            0,
+            "X"
+          ],
+          [
+            5,
+            "X"
+          ]
+        ],
+        "coefficient": 0.06666666666666667,
+        "signature": 11
+      },
+      {
+        "instruction_offset": 438,
+        "source": "DEPOLARIZE2",
+        "paulis": [
+          [
+            10,
+            "X"
+          ],
+          [
+            15,
+            "X"
+          ]
+        ],
+        "coefficient": 0.06666666666666667,
+        "signature": 12
+      }
+    ],
+    "signature_indices": [
+      11,
+      12
+    ],
+    "distinct_physical_noise_instructions": true,
+    "probes": [
+      {
+        "label": "first",
+        "deterministic_repetitions": 16,
+        "detectors": [
+          0,
+          6,
+          9
+        ],
+        "logical_vector": [
+          0
+        ],
+        "source_sha256": "3bd2a353af83cf5a3658db4f9a55b729171a671ebcb4a32908cd227f25f4455a"
+      },
+      {
+        "label": "second",
+        "deterministic_repetitions": 16,
+        "detectors": [
+          0,
+          6,
+          9
+        ],
+        "logical_vector": [
+          1
+        ],
+        "source_sha256": "da6ba28412e69cb53f332c9bf00c7e6c5869cd4b576f97e90cffde987ca36d3a"
+      },
+      {
+        "label": "pair",
+        "deterministic_repetitions": 16,
+        "detectors": [],
+        "logical_vector": [
+          1
+        ],
+        "source_sha256": "2f410463e917fbf7b75041f4484251fc4ad24719badeb120d116068611f918df"
+      }
+    ],
+    "inputs_sha256": {
+      "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\provenance\\decoder-priors\\tiny-hgp\\check_reverse.stim": "102e04beb0c0df734e5294de5aca0ec33c800648a050017fa25ecaad3ac823a1",
+      "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\results\\tiny-hgp\\check_reverse\\branches.json": "216435b9ea41aa9effb365c5bb52fe36dfa8405a80e984977925d6acc0f12b74",
+      "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\results\\tiny-hgp\\check_reverse\\single-fault.npz": "04003bb383b3bfd51aa8a8e72439638904e3abc6556d40a42ef0bbd0ac2eccac"
+    },
+    "repetition_purpose": "check deterministic simulator response; no failure-rate estimate"
+  },
+  {
+    "instance": "holdout-hgp-3x4",
+    "order": "forward",
+    "exact_fault_distance": 2,
+    "full_single_fault_enumeration_no_distance_one": true,
+    "physical_branches": [
+      {
+        "instruction_offset": 227,
+        "target_start": 0,
+        "source": "DEPOLARIZE2",
+        "paulis": [
+          [
+            3,
+            "X"
+          ],
+          [
+            4,
+            "X"
+          ]
+        ],
+        "coefficient": 0.06666666666666667,
+        "signature": 96
+      },
+      {
+        "instruction_offset": 389,
+        "target_start": 0,
+        "source": "DEPOLARIZE2",
+        "paulis": [
+          [
+            13,
+            "X"
+          ],
+          [
+            14,
+            "X"
+          ]
+        ],
+        "coefficient": 0.06666666666666667,
+        "signature": 128
+      }
+    ],
+    "signature_indices": [
+      96,
+      128
+    ],
+    "distinct_physical_noise_instructions": true,
+    "probes": [
+      {
+        "label": "first",
+        "deterministic_repetitions": 16,
+        "detectors": [
+          3
+        ],
+        "logical_vector": [
+          0
+        ],
+        "source_sha256": "b3f22130f99d08ff6242178207a0782588cfbcaed2050131732b29727610fb32"
+      },
+      {
+        "label": "second",
+        "deterministic_repetitions": 16,
+        "detectors": [
+          3
+        ],
+        "logical_vector": [
+          1
+        ],
+        "source_sha256": "78b941bf2f70586cf028e4a086abfe69a7988a5d202d3429cd3d9d5c6c7f9f47"
+      },
+      {
+        "label": "pair",
+        "deterministic_repetitions": 16,
+        "detectors": [],
+        "logical_vector": [
+          1
+        ],
+        "source_sha256": "b73d37f9ef96a1f61ea125149ea805844f4b07a2568ed6a6634d34c3a7aa2bcb"
+      }
+    ],
+    "inputs_sha256": {
+      "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\provenance\\decoder-priors\\holdout-hgp-3x4\\forward.stim": "7c5fa6afcea063489362765f275348b7e3ed1b1580484df2ce4b35f424c90ae7",
+      "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\results\\holdout-hgp-3x4\\forward\\branches.json": "2837a7ce3d5b087165e307b50225895f93a719d5597c6edbcb6e1977974667ec",
+      "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\results\\holdout-hgp-3x4\\forward\\single-fault.npz": "7608189921bc193f687cb847e6769642fe26c297c1beed8734d8caa1917e2a8c"
+    },
+    "repetition_purpose": "check deterministic simulator response; no failure-rate estimate"
+  },
+  {
+    "instance": "holdout-hgp-3x4",
+    "order": "macro_reverse",
+    "exact_fault_distance": 2,
+    "full_single_fault_enumeration_no_distance_one": true,
+    "physical_branches": [
+      {
+        "instruction_offset": 143,
+        "target_start": 0,
+        "source": "DEPOLARIZE2",
+        "paulis": [
+          [
+            3,
+            "X"
+          ],
+          [
+            4,
+            "X"
+          ]
+        ],
+        "coefficient": 0.06666666666666667,
+        "signature": 95
+      },
+      {
+        "instruction_offset": 333,
+        "target_start": 0,
+        "source": "DEPOLARIZE2",
+        "paulis": [
+          [
+            13,
+            "X"
+          ],
+          [
+            14,
+            "X"
+          ]
+        ],
+        "coefficient": 0.06666666666666667,
+        "signature": 125
+      }
+    ],
+    "signature_indices": [
+      95,
+      125
+    ],
+    "distinct_physical_noise_instructions": true,
+    "probes": [
+      {
+        "label": "first",
+        "deterministic_repetitions": 16,
+        "detectors": [
+          3
+        ],
+        "logical_vector": [
+          0
+        ],
+        "source_sha256": "650fbdfe525d7f7bde55df41b142fa19107f30a83b30793c9b28b435f39ef369"
+      },
+      {
+        "label": "second",
+        "deterministic_repetitions": 16,
+        "detectors": [
+          3
+        ],
+        "logical_vector": [
+          1
+        ],
+        "source_sha256": "35ced5c82f85a4b4389e6dd926bec9b9a112af9ffcc779ca3ccef9b1d91709cd"
+      },
+      {
+        "label": "pair",
+        "deterministic_repetitions": 16,
+        "detectors": [],
+        "logical_vector": [
+          1
+        ],
+        "source_sha256": "6dd4e4611fbe3bc8f5863062a1726d5f8b61441d6022275657076fb604f4c95e"
+      }
+    ],
+    "inputs_sha256": {
+      "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\provenance\\decoder-priors\\holdout-hgp-3x4\\macro_reverse.stim": "effd8c0409e2aa1e0ac3252ec3f94ac87af22c95ddcae949427c66a6172e3a24",
+      "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\results\\holdout-hgp-3x4\\macro_reverse\\branches.json": "4e0dba5486212b1cf9b9a861726e02007adbab3a73a46658a2b567f37cd8e862",
+      "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\results\\holdout-hgp-3x4\\macro_reverse\\single-fault.npz": "a065e1f44a830103663b0e4448d04ff9e81df084349155f1a3a3e50b6ab49f58"
+    },
+    "repetition_purpose": "check deterministic simulator response; no failure-rate estimate"
+  },
+  {
+    "instance": "holdout-hgp-3x4",
+    "order": "check_reverse",
+    "exact_fault_distance": 2,
+    "full_single_fault_enumeration_no_distance_one": true,
+    "physical_branches": [
+      {
+        "instruction_offset": 2505,
+        "target_start": 0,
+        "source": "DEPOLARIZE2",
+        "paulis": [
+          [
+            3,
+            "X"
+          ],
+          [
+            4,
+            "X"
+          ]
+        ],
+        "coefficient": 0.06666666666666667,
+        "signature": 283
+      },
+      {
+        "instruction_offset": 2333,
+        "target_start": 0,
+        "source": "DEPOLARIZE2",
+        "paulis": [
+          [
+            13,
+            "X"
+          ],
+          [
+            14,
+            "X"
+          ]
+        ],
+        "coefficient": 0.06666666666666667,
+        "signature": 306
+      }
+    ],
+    "signature_indices": [
+      283,
+      306
+    ],
+    "distinct_physical_noise_instructions": true,
+    "probes": [
+      {
+        "label": "first",
+        "deterministic_repetitions": 16,
+        "detectors": [
+          12
+        ],
+        "logical_vector": [
+          0
+        ],
+        "source_sha256": "1b4cbaad21f4ed7639c5503cf46d3e2493edbac58d65f74ee68f0625e6d405c4"
+      },
+      {
+        "label": "second",
+        "deterministic_repetitions": 16,
+        "detectors": [
+          12
+        ],
+        "logical_vector": [
+          1
+        ],
+        "source_sha256": "0c65e4e882143efc435c416ae1fc90dff17903062f2bc01bf69146911bdf8979"
+      },
+      {
+        "label": "pair",
+        "deterministic_repetitions": 16,
+        "detectors": [],
+        "logical_vector": [
+          1
+        ],
+        "source_sha256": "329361d3b3e0a4a0a5690c9d86fb0df6543f8bdc2d4d6a779e98b4f3af726650"
+      }
+    ],
+    "inputs_sha256": {
+      "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\provenance\\decoder-priors\\holdout-hgp-3x4\\check_reverse.stim": "8ec7d5f82e0badf7f425049b17ab536aec151a2b027027d816e37ddb19298cfa",
+      "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\results\\holdout-hgp-3x4\\check_reverse\\branches.json": "43ca7d5f1c74c4f45adcce66e3987c45e99ca4aee83c66590736d4c3513492e4",
+      "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\results\\holdout-hgp-3x4\\check_reverse\\single-fault.npz": "320dd49e93a94a91e26220715d835c91c00f9a3ae8131691b713077ea3093346"
+    },
+    "repetition_purpose": "check deterministic simulator response; no failure-rate estimate"
+  }
+]

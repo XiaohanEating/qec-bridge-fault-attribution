@@ -1,0 +1,1772 @@
+{
+  "winners": {
+    "original": "macro7-checks0",
+    "optimal": "macro7-checks0",
+    "strong": "macro6-checks1"
+  },
+  "risks": [
+    {
+      "order": "macro0-checks0",
+      "R_star": 115.19999999999996,
+      "R_delta": {
+        "original": 601.7333333333331,
+        "strong": 501.9333333333331,
+        "single_fault_lookup": 115.20000000000002
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "4b0cc22b91cc5150b0ee0fb07a18259a384ab10f3769be194576769ff08809e6"
+    },
+    {
+      "order": "macro0-checks1",
+      "R_star": 124.39999999999995,
+      "R_delta": {
+        "original": 683.1333333333331,
+        "strong": 419.9333333333333,
+        "single_fault_lookup": 124.39999999999999
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "4e136fb96dc9043ce197688a899962d91fabbe4231baaa09ce13f998b1bcd558"
+    },
+    {
+      "order": "macro0-checks2",
+      "R_star": 124.4,
+      "R_delta": {
+        "original": 676.9333333333332,
+        "strong": 465.26666666666654,
+        "single_fault_lookup": 124.39999999999999
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "0c613a29c3970993c7ee4e437871b7f2fa09e100123729947aaf3e0456b68523"
+    },
+    {
+      "order": "macro0-checks3",
+      "R_star": 133.6,
+      "R_delta": {
+        "original": 620.1999999999998,
+        "strong": 460.5999999999999,
+        "single_fault_lookup": 133.6
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "ab2838f2f99ee4959733b05d7cf33bafdce571a39a2709648f9a244801f34420"
+    },
+    {
+      "order": "macro0-checks4",
+      "R_star": 124.40000000000003,
+      "R_delta": {
+        "original": 611.9999999999998,
+        "strong": 475.533333333333,
+        "single_fault_lookup": 124.4
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "8fb7bba32946ea467bf462f739a658c18981771697d829d8c3453e0c317f2693"
+    },
+    {
+      "order": "macro0-checks5",
+      "R_star": 133.60000000000002,
+      "R_delta": {
+        "original": 643.933333333333,
+        "strong": 393.5333333333332,
+        "single_fault_lookup": 133.60000000000002
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "5a74863098cf1959ca7ba01acd024cd8449f01bf25ecd8ec45686eaaeec3939c"
+    },
+    {
+      "order": "macro0-checks6",
+      "R_star": 133.60000000000008,
+      "R_delta": {
+        "original": 596.2666666666665,
+        "strong": 386.99999999999994,
+        "single_fault_lookup": 133.60000000000002
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "1e7997695a22ed8c5e1f1520b01fc6ba6e4792a42af81b11e581ff57f5c33f4d"
+    },
+    {
+      "order": "macro0-checks7",
+      "R_star": 142.80000000000007,
+      "R_delta": {
+        "original": 539.5333333333334,
+        "strong": 381.1333333333334,
+        "single_fault_lookup": 142.8
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "09f2a10e0bde74f44f73ce673bc96b7226bd96eb9158519ad3cee2324bf5dbe6"
+    },
+    {
+      "order": "macro1-checks0",
+      "R_star": 113.73333333333329,
+      "R_delta": {
+        "original": 572.1333333333332,
+        "strong": 480.1999999999998,
+        "single_fault_lookup": 113.73333333333333
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "f916c355b2a057cb44375c082300ff8285c89f2e0fea4982e57153e001976600"
+    },
+    {
+      "order": "macro1-checks1",
+      "R_star": 115.19999999999996,
+      "R_delta": {
+        "original": 692.0666666666666,
+        "strong": 414.0666666666667,
+        "single_fault_lookup": 115.2
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "ed8d637a67adbf044523a63ad9b4ae4485e68eeb33611d9e5808cdcaf50f108e"
+    },
+    {
+      "order": "macro1-checks2",
+      "R_star": 122.93333333333331,
+      "R_delta": {
+        "original": 574.9999999999998,
+        "strong": 447.93333333333317,
+        "single_fault_lookup": 122.93333333333332
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "fb159db6d6c8357726f22b6a547b477eede5f2959b491ceef066bf0373888781"
+    },
+    {
+      "order": "macro1-checks3",
+      "R_star": 124.39999999999998,
+      "R_delta": {
+        "original": 703.4,
+        "strong": 471.93333333333356,
+        "single_fault_lookup": 124.39999999999998
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "74e90e6e120870ecf9029013f273a18c4db9a143e5f09b56feb196484cb0663c"
+    },
+    {
+      "order": "macro1-checks4",
+      "R_star": 122.93333333333337,
+      "R_delta": {
+        "original": 582.3999999999999,
+        "strong": 453.7999999999997,
+        "single_fault_lookup": 122.93333333333334
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "65dbecbe94e40eacb71e8c3a427026e9b26bd03c80aa0d81ab025e90d06ee4b2"
+    },
+    {
+      "order": "macro1-checks5",
+      "R_star": 124.40000000000003,
+      "R_delta": {
+        "original": 655.9333333333333,
+        "strong": 387.66666666666663,
+        "single_fault_lookup": 124.4
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "1eda7a3ae70c04d5ad62ec6f99845db8d27af871e6662be82e910c3a5afd9aef"
+    },
+    {
+      "order": "macro1-checks6",
+      "R_star": 132.13333333333338,
+      "R_delta": {
+        "original": 494.3333333333333,
+        "strong": 369.6666666666666,
+        "single_fault_lookup": 132.13333333333333
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "1fc8802acad782f9404da1858d8696b161df27b8a1f8a755eaffb03153246580"
+    },
+    {
+      "order": "macro1-checks7",
+      "R_star": 133.60000000000005,
+      "R_delta": {
+        "original": 622.7333333333335,
+        "strong": 392.4666666666669,
+        "single_fault_lookup": 133.6
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "32178d682222a6b82195f990df6287d6a4d6143fea2bc76ea088dc6a55a03bdb"
+    },
+    {
+      "order": "macro2-checks0",
+      "R_star": 113.73333333333329,
+      "R_delta": {
+        "original": 569.7333333333332,
+        "strong": 480.86666666666645,
+        "single_fault_lookup": 113.73333333333333
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "f5cba4f8736a48afe2b7c03b81108bda21467e468deffe62ea2708e1bf8fd945"
+    },
+    {
+      "order": "macro2-checks1",
+      "R_star": 122.93333333333331,
+      "R_delta": {
+        "original": 645.7999999999997,
+        "strong": 408.99999999999983,
+        "single_fault_lookup": 122.93333333333334
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "e6dca30394beddf74fbb0f77fe551796c1bd4abc20105cc28f354dca6ac02a33"
+    },
+    {
+      "order": "macro2-checks2",
+      "R_star": 115.19999999999999,
+      "R_delta": {
+        "original": 684.1333333333332,
+        "strong": 457.5333333333333,
+        "single_fault_lookup": 115.2
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "eabce7b1a5bd777e51dddf1e1b4b8b6a1b6666fc3ad64c850808aed5268595bc"
+    },
+    {
+      "order": "macro2-checks3",
+      "R_star": 124.39999999999998,
+      "R_delta": {
+        "original": 630.2,
+        "strong": 457.00000000000006,
+        "single_fault_lookup": 124.4
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "d4c024b05fa2d12de93f3c998d8ac2e30b7a81d5815a65f576fc0df14aa9e785"
+    },
+    {
+      "order": "macro2-checks4",
+      "R_star": 122.93333333333334,
+      "R_delta": {
+        "original": 546.6666666666665,
+        "strong": 457.66666666666634,
+        "single_fault_lookup": 122.93333333333334
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "9bae9562e08eb0a8e9390fd1ecbad89fb09726857c421fcf1f982a077f9b158a"
+    },
+    {
+      "order": "macro2-checks5",
+      "R_star": 132.13333333333335,
+      "R_delta": {
+        "original": 602.1999999999997,
+        "strong": 385.7999999999997,
+        "single_fault_lookup": 132.13333333333335
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "f047301cc463393968266ed9554ddfff583528f027a33d6b1f21794ca3367c14"
+    },
+    {
+      "order": "macro2-checks6",
+      "R_star": 124.4,
+      "R_delta": {
+        "original": 677.0666666666666,
+        "strong": 425.26666666666677,
+        "single_fault_lookup": 124.40000000000003
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "ab239499e302233740d523eda0ca9bf0daedb2c5176869f1c0ce8919448b0953"
+    },
+    {
+      "order": "macro2-checks7",
+      "R_star": 133.6,
+      "R_delta": {
+        "original": 646.4666666666668,
+        "strong": 424.73333333333363,
+        "single_fault_lookup": 133.60000000000002
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "9e14d7e1b49224d0262d588085ca1f65cbf321cfa86d03db59c2a6e3446bc7ab"
+    },
+    {
+      "order": "macro3-checks0",
+      "R_star": 112.26666666666662,
+      "R_delta": {
+        "original": 540.1333333333331,
+        "strong": 457.53333333333313,
+        "single_fault_lookup": 112.26666666666668
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "30ca107e475acdd46e89d12999f0e356d9060877850e7ffbe60ee99dfd8486cd"
+    },
+    {
+      "order": "macro3-checks1",
+      "R_star": 113.73333333333329,
+      "R_delta": {
+        "original": 675.1333333333331,
+        "strong": 416.5999999999999,
+        "single_fault_lookup": 113.73333333333332
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "06254d13c4ea25dbca3e3edcfff7a930c9ffd70cc08471db5081e84e4579175e"
+    },
+    {
+      "order": "macro3-checks2",
+      "R_star": 113.73333333333332,
+      "R_delta": {
+        "original": 590.4666666666666,
+        "strong": 441.4,
+        "single_fault_lookup": 113.73333333333333
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "db6545ba40c95494f007eefd21692189dc374ca31c12277a43ffa318f9dc4408"
+    },
+    {
+      "order": "macro3-checks3",
+      "R_star": 115.19999999999999,
+      "R_delta": {
+        "original": 718.3333333333334,
+        "strong": 467.2666666666669,
+        "single_fault_lookup": 115.20000000000002
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "eea112eb4b76bf83094e385fc01911070b138af8416662ee5b2b6a951af77aa6"
+    },
+    {
+      "order": "macro3-checks4",
+      "R_star": 121.46666666666667,
+      "R_delta": {
+        "original": 455.53333333333313,
+        "strong": 435.13333333333304,
+        "single_fault_lookup": 121.4666666666667
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "069052ac4d852c08da19ed8b4583b668fb603b3bc934d5e405a16b86b4dc9729"
+    },
+    {
+      "order": "macro3-checks5",
+      "R_star": 122.93333333333334,
+      "R_delta": {
+        "original": 632.0666666666664,
+        "strong": 393.3999999999998,
+        "single_fault_lookup": 122.93333333333334
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "45115de09014c8b3d3c3c6eb68ea8fba8f63f3f8805b8e2ab2f64c0908fa7410"
+    },
+    {
+      "order": "macro3-checks6",
+      "R_star": 122.93333333333334,
+      "R_delta": {
+        "original": 583.4000000000002,
+        "strong": 409.1333333333335,
+        "single_fault_lookup": 122.93333333333334
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "ffbed59dd162452fc560d0c27cfba1ccf66e7184805420b03c0b122f5bfbc4c0"
+    },
+    {
+      "order": "macro3-checks7",
+      "R_star": 124.4,
+      "R_delta": {
+        "original": 656.6000000000003,
+        "strong": 435.00000000000034,
+        "single_fault_lookup": 124.40000000000003
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "a5af6c38c1fcaaaf575f26dfc49234c2b7e4e05ea306a6232b749d1fab7ebc6b"
+    },
+    {
+      "order": "macro4-checks0",
+      "R_star": 113.73333333333332,
+      "R_delta": {
+        "original": 521.1999999999999,
+        "strong": 353.26666666666654,
+        "single_fault_lookup": 113.73333333333335
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "3b3f41c3c93f3bee3dcd36595542fcfcd9d02b5f527eff7c4f0318cc4b76b517"
+    },
+    {
+      "order": "macro4-checks1",
+      "R_star": 122.93333333333331,
+      "R_delta": {
+        "original": 555.3999999999999,
+        "strong": 271.26666666666677,
+        "single_fault_lookup": 122.93333333333334
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "f88d938e3507aa64729181fcb92021a03135b14643baf889622f37bb0ee79fe1"
+    },
+    {
+      "order": "macro4-checks2",
+      "R_star": 122.93333333333337,
+      "R_delta": {
+        "original": 567.8666666666664,
+        "strong": 366.59999999999985,
+        "single_fault_lookup": 122.93333333333335
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "251355b44e1a72473009efbd392922d73f715b55545cd6900869536d5a7ea89c"
+    },
+    {
+      "order": "macro4-checks3",
+      "R_star": 132.13333333333338,
+      "R_delta": {
+        "original": 443.3333333333333,
+        "strong": 363.1333333333333,
+        "single_fault_lookup": 132.13333333333338
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "e65b3f159a52403052d837156f34c1f9caac4094e8bc21a321e2f46f8db9a792"
+    },
+    {
+      "order": "macro4-checks4",
+      "R_star": 115.19999999999999,
+      "R_delta": {
+        "original": 652.7999999999997,
+        "strong": 521.2666666666664,
+        "single_fault_lookup": 115.2
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "b5f8c0115f5a3850cc9f371f71f682627f2d06e368fbda725304372f3f3635ae"
+    },
+    {
+      "order": "macro4-checks5",
+      "R_star": 124.39999999999998,
+      "R_delta": {
+        "original": 683.2666666666664,
+        "strong": 439.2666666666666,
+        "single_fault_lookup": 124.39999999999999
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "5d1597c5d69c529e2f7cc6f3aaa1995eab8d34d2acdb3f47fc09953c57912bb1"
+    },
+    {
+      "order": "macro4-checks6",
+      "R_star": 124.40000000000006,
+      "R_delta": {
+        "original": 657.1999999999998,
+        "strong": 423.79999999999995,
+        "single_fault_lookup": 124.40000000000002
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "58f793837bf7a61ea94d4fd2ef40448ca93942063f2d4d28a250fad7f52a74ef"
+    },
+    {
+      "order": "macro4-checks7",
+      "R_star": 133.60000000000005,
+      "R_delta": {
+        "original": 624.8666666666667,
+        "strong": 415.53333333333336,
+        "single_fault_lookup": 133.6
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "43e2e5d37718ba4d4493c584191d36ec6830f226e030989e3f988f0865097725"
+    },
+    {
+      "order": "macro5-checks0",
+      "R_star": 112.26666666666665,
+      "R_delta": {
+        "original": 489.1999999999999,
+        "strong": 331.5333333333332,
+        "single_fault_lookup": 112.26666666666668
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "70a6b0fbbc2dc8841068a5c2655ee56d7db92c37b695d32867fa9e655f9c9744"
+    },
+    {
+      "order": "macro5-checks1",
+      "R_star": 113.73333333333332,
+      "R_delta": {
+        "original": 565.0,
+        "strong": 265.40000000000015,
+        "single_fault_lookup": 113.73333333333332
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "aa47dda111bc844efc61c0794ce8da0aa50bdbfdb8a4a3ad1cae5c787a058f18"
+    },
+    {
+      "order": "macro5-checks2",
+      "R_star": 121.46666666666667,
+      "R_delta": {
+        "original": 392.5333333333332,
+        "strong": 350.46666666666647,
+        "single_fault_lookup": 121.46666666666668
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "e4dec8d8becf421d5501bd579540322f1056cc8fb9b2073673c09ccf661cccbc"
+    },
+    {
+      "order": "macro5-checks3",
+      "R_star": 122.93333333333334,
+      "R_delta": {
+        "original": 655.6666666666667,
+        "strong": 374.4666666666668,
+        "single_fault_lookup": 122.93333333333335
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "9ee64e2068bfe68851c91614b6f02682a498b705c8a170ee0f7213515ec9fd5d"
+    },
+    {
+      "order": "macro5-checks4",
+      "R_star": 113.73333333333332,
+      "R_delta": {
+        "original": 623.1999999999997,
+        "strong": 499.533333333333,
+        "single_fault_lookup": 113.73333333333332
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "1fec2662ae82d9445d4b48ad7c6ac4262ef87a98a9c1d93dda753a6333b98624"
+    },
+    {
+      "order": "macro5-checks5",
+      "R_star": 115.19999999999999,
+      "R_delta": {
+        "original": 695.2666666666664,
+        "strong": 433.4,
+        "single_fault_lookup": 115.19999999999999
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "b73975d9f33ac5bbf745545ce20f688bc1ae4725cd96eea0e84eb9040d633d9d"
+    },
+    {
+      "order": "macro5-checks6",
+      "R_star": 122.93333333333337,
+      "R_delta": {
+        "original": 556.8666666666666,
+        "strong": 405.2666666666666,
+        "single_fault_lookup": 122.93333333333335
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "110b92663f018afbee2639af8e78d606def73f1da9ce860e32e3aad3855535a2"
+    },
+    {
+      "order": "macro5-checks7",
+      "R_star": 124.40000000000003,
+      "R_delta": {
+        "original": 633.8,
+        "strong": 426.86666666666696,
+        "single_fault_lookup": 124.39999999999999
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "518c15183183304c150ad82b965649b9dbc5fb0c0a152ce4db28781754db1af4"
+    },
+    {
+      "order": "macro6-checks0",
+      "R_star": 112.26666666666662,
+      "R_delta": {
+        "original": 438.2666666666666,
+        "strong": 333.1333333333332,
+        "single_fault_lookup": 112.26666666666668
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "327f4a0dcb07e25a6c5379497d752e1cb28d08957d09afc8e99972ba9a881e62"
+    },
+    {
+      "order": "macro6-checks1",
+      "R_star": 121.46666666666664,
+      "R_delta": {
+        "original": 392.5333333333332,
+        "strong": 260.8666666666666,
+        "single_fault_lookup": 121.46666666666667
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "3e039e4ab3526cb81d75e144c727075c1565652f14020ce5028ad8202bddb779"
+    },
+    {
+      "order": "macro6-checks2",
+      "R_star": 113.73333333333332,
+      "R_delta": {
+        "original": 661.4666666666665,
+        "strong": 437.39999999999975,
+        "single_fault_lookup": 113.73333333333333
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "10a0085c7cf6363681825d9e5807a7c8e9ff90c00b83e94dbfe29f6a70f91dcf"
+    },
+    {
+      "order": "macro6-checks3",
+      "R_star": 122.93333333333331,
+      "R_delta": {
+        "original": 607.5333333333333,
+        "strong": 436.8666666666667,
+        "single_fault_lookup": 122.93333333333334
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "50ee7d5fa767048625a918fd4e08a1044ad5e8624bc40274ec5c54268c52e55c"
+    },
+    {
+      "order": "macro6-checks4",
+      "R_star": 113.73333333333332,
+      "R_delta": {
+        "original": 595.7333333333331,
+        "strong": 503.7999999999997,
+        "single_fault_lookup": 113.73333333333335
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "fdd79502490bf1cd62f35df20c59202ecd09e8f96e3bfd99184a69c36d2572e6"
+    },
+    {
+      "order": "macro6-checks5",
+      "R_star": 122.93333333333334,
+      "R_delta": {
+        "original": 651.2666666666663,
+        "strong": 430.73333333333306,
+        "single_fault_lookup": 122.93333333333334
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "cba499d37086b2375bbb0170968b1de353a258cc620d6c07da1307e455ace1ce"
+    },
+    {
+      "order": "macro6-checks6",
+      "R_star": 115.19999999999999,
+      "R_delta": {
+        "original": 666.1333333333332,
+        "strong": 411.93333333333345,
+        "single_fault_lookup": 115.20000000000002
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "483149e28d75937bba6387e0f516a4714291cddcdaf6934f080504840bda4461"
+    },
+    {
+      "order": "macro6-checks7",
+      "R_star": 124.39999999999998,
+      "R_delta": {
+        "original": 631.9333333333334,
+        "strong": 411.4000000000002,
+        "single_fault_lookup": 124.40000000000003
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "7e321280a086c107918b2e8d1d790a3c96f9d092a325861f8539ad476edd426c"
+    },
+    {
+      "order": "macro7-checks0",
+      "R_star": 110.79999999999995,
+      "R_delta": {
+        "original": 262.9333333333334,
+        "strong": 310.5999999999999,
+        "single_fault_lookup": 110.80000000000001
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "481fde01845d39fff9af8391dae2f72ae855e1de01b8d9196667434c758cd53b"
+    },
+    {
+      "order": "macro7-checks1",
+      "R_star": 112.26666666666662,
+      "R_delta": {
+        "original": 542.333333333333,
+        "strong": 270.4666666666666,
+        "single_fault_lookup": 112.26666666666667
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "deb7dda62e9ff089b3714279d021da0fac96b0a9171718a9a5c061147ea138d0"
+    },
+    {
+      "order": "macro7-checks2",
+      "R_star": 112.26666666666665,
+      "R_delta": {
+        "original": 567.7999999999997,
+        "strong": 421.2666666666665,
+        "single_fault_lookup": 112.26666666666668
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "31fa9bef855aa281080012ea3324d1f7c2b53657671b579d971e58369d163efa"
+    },
+    {
+      "order": "macro7-checks3",
+      "R_star": 113.73333333333332,
+      "R_delta": {
+        "original": 695.6666666666666,
+        "strong": 447.13333333333344,
+        "single_fault_lookup": 113.73333333333333
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "bf91815570d12dc6561de56fa17cbf460a27334ccb4544e10decbe080b418ca0"
+    },
+    {
+      "order": "macro7-checks4",
+      "R_star": 112.26666666666665,
+      "R_delta": {
+        "original": 504.5999999999998,
+        "strong": 481.26666666666637,
+        "single_fault_lookup": 112.26666666666668
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "67cd28b3fb82a32dcc78c12e31c97102eca34f4ae4347ab97c835bd6f93854e7"
+    },
+    {
+      "order": "macro7-checks5",
+      "R_star": 113.73333333333332,
+      "R_delta": {
+        "original": 681.133333333333,
+        "strong": 439.53333333333313,
+        "single_fault_lookup": 113.73333333333332
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "a7d4eaf9570a2830e87308dd639cd8b15d5fcc47dec24064dd7bb63ccfd05b47"
+    },
+    {
+      "order": "macro7-checks6",
+      "R_star": 113.73333333333332,
+      "R_delta": {
+        "original": 572.4666666666667,
+        "strong": 395.80000000000007,
+        "single_fault_lookup": 113.73333333333336
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "6806eebeec6f2179114f9421e9e116d9463bc05c1096bfe43743b6e9d6eec381"
+    },
+    {
+      "order": "macro7-checks7",
+      "R_star": 115.19999999999999,
+      "R_delta": {
+        "original": 640.8666666666668,
+        "strong": 421.666666666667,
+        "single_fault_lookup": 115.2
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "a1379a67673ba3ef08a001272b76e04c88c62f4ac7c4acb7339f919f56b29936"
+    },
+    {
+      "order": "anchor-forward",
+      "R_star": 115.19999999999996,
+      "R_delta": {
+        "original": 601.7333333333331,
+        "strong": 501.9333333333331,
+        "single_fault_lookup": 115.20000000000002
+      },
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "442de70436f5eb2f11e2c9fa3c798d1bccc385c34617d15cf63ff5220008f5ed"
+    },
+    {
+      "order": "anchor-macro_reverse",
+      "R_star": 109.33333333333331,
+      "R_delta": {
+        "original": 255.20000000000002,
+        "strong": 304.39999999999986,
+        "single_fault_lookup": 109.33333333333334
+      },
+      "metrics": {
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_reset": 25,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "8368bbfd90a9880704006c90e0465d47e2218267fa71450d9b0c701f6d9e965e"
+    },
+    {
+      "order": "anchor-check_reverse",
+      "R_star": 152.00000000000009,
+      "R_delta": {
+        "original": 527.6000000000001,
+        "strong": 417.3333333333334,
+        "single_fault_lookup": 152.0
+      },
+      "metrics": {
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_reset": 25,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "matched": true,
+      "plan_sha256": "7e830d94aed7435b7dc4157ea57a7b80dd606dc623e5bb99046053e1e5bf086f"
+    }
+  ],
+  "samples": [
+    {
+      "task": {
+        "id": "batch3-0000-order-space",
+        "kind": "order_space",
+        "seed": 820261012,
+        "shots": 65536,
+        "order": "anchor-forward",
+        "eps": 1e-06
+      },
+      "decoder": {
+        "original": {
+          "shots": 65536,
+          "failures": 41,
+          "rate": 0.0006256103515625,
+          "interval": [
+            0.0004489850281150577,
+            0.0008486164023353283
+          ],
+          "per_logical": [
+            41
+          ]
+        },
+        "strong": {
+          "shots": 65536,
+          "failures": 37,
+          "rate": 0.0005645751953125,
+          "interval": [
+            0.0003975432175176601,
+            0.0007781094145988183
+          ],
+          "per_logical": [
+            37
+          ]
+        },
+        "single_fault_lookup": {
+          "shots": 65536,
+          "failures": 10,
+          "rate": 0.000152587890625,
+          "interval": [
+            7.317417198306338e-05,
+            0.00028059660069066256
+          ],
+          "per_logical": [
+            10
+          ]
+        }
+      },
+      "sample_sha256": "634cf0f6d52495a3640a7ea6dec70e247e8a9f0a1d29fdb7875e8d24aea5373e",
+      "decoded_sha256": "009e04a5ba57dcfc8d8236cb0faae9fdda5226264266a796e0840d826405dee0",
+      "paired": {
+        "shots": 65536,
+        "first_failures": 41,
+        "second_failures": 37,
+        "first_only": 10,
+        "second_only": 6,
+        "paired_difference": -6.103515625e-05,
+        "mcnemar_exact_two_sided_p": 0.454498291015625
+      }
+    },
+    {
+      "task": {
+        "id": "batch3-0000-order-space",
+        "kind": "order_space",
+        "seed": 820261013,
+        "shots": 65536,
+        "order": "anchor-forward",
+        "eps": 0.0001
+      },
+      "decoder": {
+        "original": {
+          "shots": 65536,
+          "failures": 3670,
+          "rate": 0.055999755859375,
+          "interval": [
+            0.05425151279393251,
+            0.057787440418192164
+          ],
+          "per_logical": [
+            3670
+          ]
+        },
+        "strong": {
+          "shots": 65536,
+          "failures": 3130,
+          "rate": 0.047760009765625,
+          "interval": [
+            0.046139706945940544,
+            0.04942050389608587
+          ],
+          "per_logical": [
+            3130
+          ]
+        },
+        "single_fault_lookup": {
+          "shots": 65536,
+          "failures": 1292,
+          "rate": 0.01971435546875,
+          "interval": [
+            0.01866370332013686,
+            0.020807830951334712
+          ],
+          "per_logical": [
+            1292
+          ]
+        }
+      },
+      "sample_sha256": "2286afb7f73c5fba586b5ef5dd474a7978e0b909e1cc71b2c8d18906fc12f0b6",
+      "decoded_sha256": "fda9bf7e9273074a114265109850383150a9de28aaf25c0feb28a35291f6e8c2",
+      "paired": {
+        "shots": 65536,
+        "first_failures": 3670,
+        "second_failures": 3130,
+        "first_only": 977,
+        "second_only": 437,
+        "paired_difference": -0.00823974609375,
+        "mcnemar_exact_two_sided_p": 9.54492702681426e-48
+      }
+    },
+    {
+      "task": {
+        "id": "batch3-0000-order-space",
+        "kind": "order_space",
+        "seed": 820262012,
+        "shots": 65536,
+        "order": "macro6-checks1",
+        "eps": 1e-06
+      },
+      "decoder": {
+        "original": {
+          "shots": 65536,
+          "failures": 24,
+          "rate": 0.0003662109375,
+          "interval": [
+            0.0002346519053461079,
+            0.0005448441640331788
+          ],
+          "per_logical": [
+            24
+          ]
+        },
+        "strong": {
+          "shots": 65536,
+          "failures": 17,
+          "rate": 0.0002593994140625,
+          "interval": [
+            0.00015111674749004953,
+            0.0004152912105563073
+          ],
+          "per_logical": [
+            17
+          ]
+        },
+        "single_fault_lookup": {
+          "shots": 65536,
+          "failures": 7,
+          "rate": 0.0001068115234375,
+          "interval": [
+            4.2944815920336876e-05,
+            0.00022006009840546748
+          ],
+          "per_logical": [
+            7
+          ]
+        }
+      },
+      "sample_sha256": "76a5404249a6a2714f673c4aac14ee345e8dcfd73a307cd04179224f3d167790",
+      "decoded_sha256": "d0b53de6147f368aee3424e5cabc09ca541312d4d515ee3d87ec84f12d9070ea",
+      "paired": {
+        "shots": 65536,
+        "first_failures": 24,
+        "second_failures": 17,
+        "first_only": 13,
+        "second_only": 6,
+        "paired_difference": -0.0001068115234375,
+        "mcnemar_exact_two_sided_p": 0.1670684814453125
+      }
+    },
+    {
+      "task": {
+        "id": "batch3-0000-order-space",
+        "kind": "order_space",
+        "seed": 820262013,
+        "shots": 65536,
+        "order": "macro6-checks1",
+        "eps": 0.0001
+      },
+      "decoder": {
+        "original": {
+          "shots": 65536,
+          "failures": 2592,
+          "rate": 0.03955078125,
+          "interval": [
+            0.0380713838657661,
+            0.04107112313772047
+          ],
+          "per_logical": [
+            2592
+          ]
+        },
+        "strong": {
+          "shots": 65536,
+          "failures": 1805,
+          "rate": 0.0275421142578125,
+          "interval": [
+            0.026302463664084987,
+            0.028823830921985233
+          ],
+          "per_logical": [
+            1805
+          ]
+        },
+        "single_fault_lookup": {
+          "shots": 65536,
+          "failures": 1092,
+          "rate": 0.01666259765625,
+          "interval": [
+            0.015696402809311907,
+            0.017671922584695313
+          ],
+          "per_logical": [
+            1092
+          ]
+        }
+      },
+      "sample_sha256": "78e27290e04fb91cc416e3238dc59ae6d5f5b6311fd3505362d60f492a083e57",
+      "decoded_sha256": "ad88886d329a73de1bc04f41eae5f5eedfcf912a5ca669d5d009d4f0c2acd435",
+      "paired": {
+        "shots": 65536,
+        "first_failures": 2592,
+        "second_failures": 1805,
+        "first_only": 1274,
+        "second_only": 487,
+        "paired_difference": -0.0120086669921875,
+        "mcnemar_exact_two_sided_p": 4.93007403765259e-81
+      }
+    },
+    {
+      "task": {
+        "id": "batch3-0000-order-space",
+        "kind": "order_space",
+        "seed": 820263012,
+        "shots": 65536,
+        "order": "macro7-checks0",
+        "eps": 1e-06
+      },
+      "decoder": {
+        "original": {
+          "shots": 65536,
+          "failures": 19,
+          "rate": 0.0002899169921875,
+          "interval": [
+            0.0001745577058965559,
+            0.00045270443680574425
+          ],
+          "per_logical": [
+            19
+          ]
+        },
+        "strong": {
+          "shots": 65536,
+          "failures": 18,
+          "rate": 0.000274658203125,
+          "interval": [
+            0.00016278772277520943,
+            0.0004340437724130767
+          ],
+          "per_logical": [
+            18
+          ]
+        },
+        "single_fault_lookup": {
+          "shots": 65536,
+          "failures": 7,
+          "rate": 0.0001068115234375,
+          "interval": [
+            4.2944815920336876e-05,
+            0.00022006009840546748
+          ],
+          "per_logical": [
+            7
+          ]
+        }
+      },
+      "sample_sha256": "40488a6dc5b8a47840ad87c766228a85705cd242a70bbf8dad6f960aa99706d8",
+      "decoded_sha256": "e9b31cd2da4964242e6ab4a0af178e4c0753816a217b99a79e9f456b8232f783",
+      "paired": {
+        "shots": 65536,
+        "first_failures": 19,
+        "second_failures": 18,
+        "first_only": 9,
+        "second_only": 8,
+        "paired_difference": -1.52587890625e-05,
+        "mcnemar_exact_two_sided_p": 1.0
+      }
+    },
+    {
+      "task": {
+        "id": "batch3-0000-order-space",
+        "kind": "order_space",
+        "seed": 820263013,
+        "shots": 65536,
+        "order": "macro7-checks0",
+        "eps": 0.0001
+      },
+      "decoder": {
+        "original": {
+          "shots": 65536,
+          "failures": 1874,
+          "rate": 0.028594970703125,
+          "interval": [
+            0.027332240062478984,
+            0.029899667639026316
+          ],
+          "per_logical": [
+            1874
+          ]
+        },
+        "strong": {
+          "shots": 65536,
+          "failures": 2141,
+          "rate": 0.0326690673828125,
+          "interval": [
+            0.031321143444873974,
+            0.03405857459833206
+          ],
+          "per_logical": [
+            2141
+          ]
+        },
+        "single_fault_lookup": {
+          "shots": 65536,
+          "failures": 1098,
+          "rate": 0.016754150390625,
+          "interval": [
+            0.015785308443352918,
+            0.017766113074222482
+          ],
+          "per_logical": [
+            1098
+          ]
+        }
+      },
+      "sample_sha256": "f74bca4e2a6b677a0f6701f025ff93ee63d8968faccafa84def14facd6c995e6",
+      "decoded_sha256": "a6e782c198a3aca201a3d17290fcd5839e8888bae04549432f3181bc5bea8232",
+      "paired": {
+        "shots": 65536,
+        "first_failures": 1874,
+        "second_failures": 2141,
+        "first_only": 718,
+        "second_only": 985,
+        "paired_difference": 0.0040740966796875,
+        "mcnemar_exact_two_sided_p": 1.0563000979847615e-10
+      }
+    }
+  ]
+}

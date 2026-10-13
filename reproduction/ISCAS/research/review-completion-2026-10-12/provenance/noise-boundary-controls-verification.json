@@ -1,0 +1,16 @@
+[
+  {
+    "distance": 3,
+    "resource_exclusion": true,
+    "noiseless_verified": true,
+    "noise_channels": 600,
+    "ticks": 28
+  },
+  {
+    "distance": 5,
+    "resource_exclusion": true,
+    "noiseless_verified": true,
+    "noise_channels": 1892,
+    "ticks": 28
+  }
+]

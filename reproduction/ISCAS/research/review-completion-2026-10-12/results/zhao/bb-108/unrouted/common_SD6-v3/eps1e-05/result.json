@@ -1,0 +1,79 @@
+{
+  "task": {
+    "kind": "zhao",
+    "instance": "bb-108",
+    "order": "unrouted",
+    "noise": "common_SD6",
+    "eps": 1e-05,
+    "shots": 32768,
+    "id": "batch5-0020-zhao",
+    "seed": 920281012,
+    "initial_noisy": true,
+    "revision": "-v3"
+  },
+  "R_star": 0.0,
+  "decoder": {
+    "full_joint_original": {
+      "R_delta": 0.0,
+      "E": 0.0,
+      "failures": 0,
+      "shots": 32768,
+      "interval": [
+        0.0,
+        0.00011256933053201362
+      ]
+    },
+    "full_joint_strong": {
+      "R_delta": 0.0,
+      "E": 0.0,
+      "failures": 0,
+      "shots": 32768,
+      "interval": [
+        0.0,
+        0.00011256933053201362
+      ]
+    },
+    "single_fault_lookup": {
+      "R_delta": 0.0,
+      "E": 0.0,
+      "failures": 0,
+      "shots": 32768,
+      "interval": [
+        0.0,
+        0.00011256933053201362
+      ]
+    }
+  },
+  "resources": {
+    "CX": 2592,
+    "TICK": 55
+  },
+  "noise_channels": {
+    "total_physical_branches": 58104,
+    "total_physical_coefficient": 9719.999999999998,
+    "invisible_branches": 19332,
+    "invisible_coefficient": 4269.600000001615
+  },
+  "source": {
+    "repository": "Guangqi-Phys/Routing-Circuit",
+    "commit": "295adf67633f223e1cc543d972cd34012c10a4e8",
+    "n": 108,
+    "k": 8,
+    "parameters": [
+      9,
+      6,
+      3,
+      -1,
+      -1,
+      3
+    ],
+    "rounds_parameter": 3,
+    "total_extraction_rounds": 4,
+    "noisy_rounds": 4,
+    "noise": "common SD6; all four extraction blocks and preparation noisy, final data readout noiseless; conflicting operations split into distinct TICK slots",
+    "geometry": "author periodic checkerboard and reduced long-range couplers; hardware difference separately reported"
+  },
+  "sample_sha256": "cc1d62f591241c9d91ee3f4b1f897131f6ebd9fa348672c9363bf61d2f992311",
+  "decoded_sha256": "3a154d0f37011c8b0246e65d731f7961f0b9508e99fe0e74b2bedca9e98e65da",
+  "detector_columns": "separate complete (D,L) signatures; no first-logical-label merging"
+}

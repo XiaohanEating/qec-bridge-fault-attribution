@@ -1,0 +1,9 @@
+{
+  "R_star": 0.0,
+  "total_physical_branches": 23122692,
+  "total_physical_coefficient": 7528284.0,
+  "invisible_branches": 13030624,
+  "invisible_coefficient": 4302704.532974848,
+  "signature_count": 12144,
+  "zero_record_logical_mass": 0.0
+}

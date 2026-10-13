@@ -1,0 +1,2124 @@
+{
+  "registered_utc": "2026-10-12T05:09:43.863217+00:00",
+  "python": "G:\\1014gogogo\\.harness\\envs\\qldpc-submission-audit\\Scripts\\python.exe",
+  "python_version": "3.11.17 (main, Oct  9 2026, 15:19:27) [MSC v.1944 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "stim": "1.16.0",
+    "ldpc": "2.4.1",
+    "quits": "1.2.0",
+    "pymatching": "2.4.0",
+    "bposd": "2.1",
+    "pyscipopt": "5.4.1"
+  },
+  "source_sha256": {
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch1\\source\\src\\iscas_revision\\__init__.py": "eccf53e0ac7bfc3dc25e985bfb426bcb29f0c0da56545bf1b766cf4723dd11b9",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch1\\source\\src\\iscas_revision\\artifacts.py": "38b73ca09d581d436134dcc64d2fd83d1b2180f519ee659d5c470e5debdba29e",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch1\\source\\src\\iscas_revision\\audit.py": "b36cba0c99afe89f337df2eab5ab2578ea78d284416c663993ee6d672b67accc",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch1\\source\\src\\iscas_revision\\decoding.py": "0105c1ae64c051ca11144d6c89f26aa33dbe6c483d007759721f04997f4f474b",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch1\\source\\src\\iscas_revision\\stratification.py": "b002b95c2ef2d6dd514ad9df9f9fa4ed5aee23a781f7b9456b52912b7fcbb19f",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch1\\source\\src\\iscas_revision\\literature.py": "7d78db5b08a7bfeec606e269d93b6968140873ecffcd7e6fbf8f595e7dcd9360",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch1\\source\\src\\iscas_revision\\verification.py": "cb29cd6dc30b86b5831fb33cd5d2131a56ba10dd3f8c32ec02261f187e0ab49f",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch1\\source\\src\\iscas_revision\\experiments.py": "76d781a6226e96d1e1aadc8b80f9464a7e348f8e177ae2d2f837616238ab230c",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch1\\source\\src\\iscas_revision\\orchestration.py": "2b0d5dd396c04690d7cd31ead0bb49d360363194fad98abc4a83819ac2a4111d",
+    "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\src\\support.py": "3c16ac099feeefe89bb44c53c13e51b88984f40e6ed7dd97220c2c8a11a25a47",
+    "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\src\\construction.py": "ad3aa6bffd9a5aa77b2c4a6c26ae18a8031d2dbc9d1209cb07fe3a2aa0c0cf0b",
+    "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\src\\physical_risk.py": "f9d740ef4741af4ad8247f406b0ece83f557cae5ad5be63f0c84c3c9a790509b",
+    "G:\\1014gogogo\\ISCAS\\research\\parallel-routing-2026-10-10\\src\\routing.py": "89dafb2f9a54e8fa732c4450d5cba7f2533af27b9299cb29b988a6b452d9e3f3",
+    "G:\\1014gogogo\\ISCAS\\research\\conflict-fault-routing-2026-10-11\\src\\joint_router.py": "cc960d117a95824a4a209e34c899a2188cc7ddb5c1c593f6a95303d2cd568fc9"
+  },
+  "protocol_sha256": "dc5dd5c3c0efe625ea832dbfa16ce96c90330a5ae7d285e9f5f0641cb0227d24",
+  "tasks": [
+    {
+      "kind": "hirai",
+      "distance": 3,
+      "order": "normal",
+      "eps": 0.0001,
+      "shots": 1048576,
+      "id": "batch1-0000-hirai",
+      "seed": 520261012
+    },
+    {
+      "kind": "hirai",
+      "distance": 3,
+      "order": "normal",
+      "eps": 0.0002,
+      "shots": 1048576,
+      "id": "batch1-0001-hirai",
+      "seed": 520262012
+    },
+    {
+      "kind": "hirai",
+      "distance": 3,
+      "order": "normal",
+      "eps": 0.0005,
+      "shots": 1048576,
+      "id": "batch1-0002-hirai",
+      "seed": 520263012
+    },
+    {
+      "kind": "hirai",
+      "distance": 3,
+      "order": "normal",
+      "eps": 0.001,
+      "shots": 131072,
+      "id": "batch1-0003-hirai",
+      "seed": 520264012
+    },
+    {
+      "kind": "hirai",
+      "distance": 3,
+      "order": "normal",
+      "eps": 0.01,
+      "shots": 131072,
+      "id": "batch1-0004-hirai",
+      "seed": 520265012
+    },
+    {
+      "kind": "hirai",
+      "distance": 3,
+      "order": "normal_hook_proned",
+      "eps": 0.0001,
+      "shots": 1048576,
+      "id": "batch1-0005-hirai",
+      "seed": 520266012
+    },
+    {
+      "kind": "hirai",
+      "distance": 3,
+      "order": "normal_hook_proned",
+      "eps": 0.0002,
+      "shots": 1048576,
+      "id": "batch1-0006-hirai",
+      "seed": 520267012
+    },
+    {
+      "kind": "hirai",
+      "distance": 3,
+      "order": "normal_hook_proned",
+      "eps": 0.0005,
+      "shots": 1048576,
+      "id": "batch1-0007-hirai",
+      "seed": 520268012
+    },
+    {
+      "kind": "hirai",
+      "distance": 3,
+      "order": "normal_hook_proned",
+      "eps": 0.001,
+      "shots": 131072,
+      "id": "batch1-0008-hirai",
+      "seed": 520269012
+    },
+    {
+      "kind": "hirai",
+      "distance": 3,
+      "order": "normal_hook_proned",
+      "eps": 0.01,
+      "shots": 131072,
+      "id": "batch1-0009-hirai",
+      "seed": 520270012
+    },
+    {
+      "kind": "hirai",
+      "distance": 3,
+      "order": "ZX_interleaved_Z2Z_X2X",
+      "eps": 0.0001,
+      "shots": 1048576,
+      "id": "batch1-0010-hirai",
+      "seed": 520271012
+    },
+    {
+      "kind": "hirai",
+      "distance": 3,
+      "order": "ZX_interleaved_Z2Z_X2X",
+      "eps": 0.0002,
+      "shots": 1048576,
+      "id": "batch1-0011-hirai",
+      "seed": 520272012
+    },
+    {
+      "kind": "hirai",
+      "distance": 3,
+      "order": "ZX_interleaved_Z2Z_X2X",
+      "eps": 0.0005,
+      "shots": 1048576,
+      "id": "batch1-0012-hirai",
+      "seed": 520273012
+    },
+    {
+      "kind": "hirai",
+      "distance": 3,
+      "order": "ZX_interleaved_Z2Z_X2X",
+      "eps": 0.001,
+      "shots": 131072,
+      "id": "batch1-0013-hirai",
+      "seed": 520274012
+    },
+    {
+      "kind": "hirai",
+      "distance": 3,
+      "order": "ZX_interleaved_Z2Z_X2X",
+      "eps": 0.01,
+      "shots": 131072,
+      "id": "batch1-0014-hirai",
+      "seed": 520275012
+    },
+    {
+      "kind": "hirai",
+      "distance": 3,
+      "order": "alternating",
+      "eps": 0.0001,
+      "shots": 1048576,
+      "id": "batch1-0015-hirai",
+      "seed": 520276012
+    },
+    {
+      "kind": "hirai",
+      "distance": 3,
+      "order": "alternating",
+      "eps": 0.0002,
+      "shots": 1048576,
+      "id": "batch1-0016-hirai",
+      "seed": 520277012
+    },
+    {
+      "kind": "hirai",
+      "distance": 3,
+      "order": "alternating",
+      "eps": 0.0005,
+      "shots": 1048576,
+      "id": "batch1-0017-hirai",
+      "seed": 520278012
+    },
+    {
+      "kind": "hirai",
+      "distance": 3,
+      "order": "alternating",
+      "eps": 0.001,
+      "shots": 131072,
+      "id": "batch1-0018-hirai",
+      "seed": 520279012
+    },
+    {
+      "kind": "hirai",
+      "distance": 3,
+      "order": "alternating",
+      "eps": 0.01,
+      "shots": 131072,
+      "id": "batch1-0019-hirai",
+      "seed": 520280012
+    },
+    {
+      "kind": "hirai",
+      "distance": 5,
+      "order": "normal",
+      "eps": 0.0001,
+      "shots": 1048576,
+      "id": "batch1-0020-hirai",
+      "seed": 520281012
+    },
+    {
+      "kind": "hirai",
+      "distance": 5,
+      "order": "normal",
+      "eps": 0.0002,
+      "shots": 1048576,
+      "id": "batch1-0021-hirai",
+      "seed": 520282012
+    },
+    {
+      "kind": "hirai",
+      "distance": 5,
+      "order": "normal",
+      "eps": 0.0005,
+      "shots": 1048576,
+      "id": "batch1-0022-hirai",
+      "seed": 520283012
+    },
+    {
+      "kind": "hirai",
+      "distance": 5,
+      "order": "normal",
+      "eps": 0.001,
+      "shots": 131072,
+      "id": "batch1-0023-hirai",
+      "seed": 520284012
+    },
+    {
+      "kind": "hirai",
+      "distance": 5,
+      "order": "normal",
+      "eps": 0.01,
+      "shots": 131072,
+      "id": "batch1-0024-hirai",
+      "seed": 520285012
+    },
+    {
+      "kind": "hirai",
+      "distance": 5,
+      "order": "normal_hook_proned",
+      "eps": 0.0001,
+      "shots": 1048576,
+      "id": "batch1-0025-hirai",
+      "seed": 520286012
+    },
+    {
+      "kind": "hirai",
+      "distance": 5,
+      "order": "normal_hook_proned",
+      "eps": 0.0002,
+      "shots": 1048576,
+      "id": "batch1-0026-hirai",
+      "seed": 520287012
+    },
+    {
+      "kind": "hirai",
+      "distance": 5,
+      "order": "normal_hook_proned",
+      "eps": 0.0005,
+      "shots": 1048576,
+      "id": "batch1-0027-hirai",
+      "seed": 520288012
+    },
+    {
+      "kind": "hirai",
+      "distance": 5,
+      "order": "normal_hook_proned",
+      "eps": 0.001,
+      "shots": 131072,
+      "id": "batch1-0028-hirai",
+      "seed": 520289012
+    },
+    {
+      "kind": "hirai",
+      "distance": 5,
+      "order": "normal_hook_proned",
+      "eps": 0.01,
+      "shots": 131072,
+      "id": "batch1-0029-hirai",
+      "seed": 520290012
+    },
+    {
+      "kind": "hirai",
+      "distance": 5,
+      "order": "ZX_interleaved_Z2Z_X2X",
+      "eps": 0.0001,
+      "shots": 1048576,
+      "id": "batch1-0030-hirai",
+      "seed": 520291012
+    },
+    {
+      "kind": "hirai",
+      "distance": 5,
+      "order": "ZX_interleaved_Z2Z_X2X",
+      "eps": 0.0002,
+      "shots": 1048576,
+      "id": "batch1-0031-hirai",
+      "seed": 520292012
+    },
+    {
+      "kind": "hirai",
+      "distance": 5,
+      "order": "ZX_interleaved_Z2Z_X2X",
+      "eps": 0.0005,
+      "shots": 1048576,
+      "id": "batch1-0032-hirai",
+      "seed": 520293012
+    },
+    {
+      "kind": "hirai",
+      "distance": 5,
+      "order": "ZX_interleaved_Z2Z_X2X",
+      "eps": 0.001,
+      "shots": 131072,
+      "id": "batch1-0033-hirai",
+      "seed": 520294012
+    },
+    {
+      "kind": "hirai",
+      "distance": 5,
+      "order": "ZX_interleaved_Z2Z_X2X",
+      "eps": 0.01,
+      "shots": 131072,
+      "id": "batch1-0034-hirai",
+      "seed": 520295012
+    },
+    {
+      "kind": "hirai",
+      "distance": 5,
+      "order": "alternating",
+      "eps": 0.0001,
+      "shots": 1048576,
+      "id": "batch1-0035-hirai",
+      "seed": 520296012
+    },
+    {
+      "kind": "hirai",
+      "distance": 5,
+      "order": "alternating",
+      "eps": 0.0002,
+      "shots": 1048576,
+      "id": "batch1-0036-hirai",
+      "seed": 520297012
+    },
+    {
+      "kind": "hirai",
+      "distance": 5,
+      "order": "alternating",
+      "eps": 0.0005,
+      "shots": 1048576,
+      "id": "batch1-0037-hirai",
+      "seed": 520298012
+    },
+    {
+      "kind": "hirai",
+      "distance": 5,
+      "order": "alternating",
+      "eps": 0.001,
+      "shots": 131072,
+      "id": "batch1-0038-hirai",
+      "seed": 520299012
+    },
+    {
+      "kind": "hirai",
+      "distance": 5,
+      "order": "alternating",
+      "eps": 0.01,
+      "shots": 131072,
+      "id": "batch1-0039-hirai",
+      "seed": 520300012
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "forward",
+      "k": 2,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 120263012,
+      "id": "batch1-0040-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "macro_reverse",
+      "k": 2,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 121263012,
+      "id": "batch1-0041-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "check_reverse",
+      "k": 2,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 122263012,
+      "id": "batch1-0042-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 2,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123263012,
+      "id": "batch1-0043-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 2,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124263012,
+      "id": "batch1-0044-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 2,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125263012,
+      "id": "batch1-0045-stratum"
+    },
+    {
+      "kind": "onefactor",
+      "instance": "tiny-hgp",
+      "order": "forward",
+      "prior": "fixed",
+      "id": "batch1-0046-onefactor",
+      "seed": 520307012
+    },
+    {
+      "kind": "onefactor",
+      "instance": "tiny-hgp",
+      "order": "forward",
+      "prior": "matched",
+      "id": "batch1-0047-onefactor",
+      "seed": 520308012
+    },
+    {
+      "kind": "onefactor",
+      "instance": "tiny-hgp",
+      "order": "macro_reverse",
+      "prior": "fixed",
+      "id": "batch1-0048-onefactor",
+      "seed": 520309012
+    },
+    {
+      "kind": "onefactor",
+      "instance": "tiny-hgp",
+      "order": "macro_reverse",
+      "prior": "matched",
+      "id": "batch1-0049-onefactor",
+      "seed": 520310012
+    },
+    {
+      "kind": "onefactor",
+      "instance": "tiny-hgp",
+      "order": "check_reverse",
+      "prior": "fixed",
+      "id": "batch1-0050-onefactor",
+      "seed": 520311012
+    },
+    {
+      "kind": "onefactor",
+      "instance": "tiny-hgp",
+      "order": "check_reverse",
+      "prior": "matched",
+      "id": "batch1-0051-onefactor",
+      "seed": 520312012
+    },
+    {
+      "kind": "onefactor",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "prior": "fixed",
+      "id": "batch1-0052-onefactor",
+      "seed": 520313012
+    },
+    {
+      "kind": "onefactor",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "prior": "matched",
+      "id": "batch1-0053-onefactor",
+      "seed": 520314012
+    },
+    {
+      "kind": "onefactor",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "prior": "fixed",
+      "id": "batch1-0054-onefactor",
+      "seed": 520315012
+    },
+    {
+      "kind": "onefactor",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "prior": "matched",
+      "id": "batch1-0055-onefactor",
+      "seed": 520316012
+    },
+    {
+      "kind": "onefactor",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "prior": "fixed",
+      "id": "batch1-0056-onefactor",
+      "seed": 520317012
+    },
+    {
+      "kind": "onefactor",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "prior": "matched",
+      "id": "batch1-0057-onefactor",
+      "seed": 520318012
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "forward",
+      "k": 3,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 120264012,
+      "id": "batch1-0058-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "macro_reverse",
+      "k": 3,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 121264012,
+      "id": "batch1-0059-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "check_reverse",
+      "k": 3,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 122264012,
+      "id": "batch1-0060-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 3,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123264012,
+      "id": "batch1-0061-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 3,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124264012,
+      "id": "batch1-0062-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 3,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125264012,
+      "id": "batch1-0063-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "forward",
+      "k": 4,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 120265012,
+      "id": "batch1-0064-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "macro_reverse",
+      "k": 4,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 121265012,
+      "id": "batch1-0065-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "check_reverse",
+      "k": 4,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 122265012,
+      "id": "batch1-0066-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 4,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123265012,
+      "id": "batch1-0067-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 4,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124265012,
+      "id": "batch1-0068-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 4,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125265012,
+      "id": "batch1-0069-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "forward",
+      "k": 5,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 120266012,
+      "id": "batch1-0070-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "macro_reverse",
+      "k": 5,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 121266012,
+      "id": "batch1-0071-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "check_reverse",
+      "k": 5,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 122266012,
+      "id": "batch1-0072-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 5,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123266012,
+      "id": "batch1-0073-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 5,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124266012,
+      "id": "batch1-0074-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 5,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125266012,
+      "id": "batch1-0075-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "forward",
+      "k": 6,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 120267012,
+      "id": "batch1-0076-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "macro_reverse",
+      "k": 6,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 121267012,
+      "id": "batch1-0077-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "check_reverse",
+      "k": 6,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 122267012,
+      "id": "batch1-0078-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 6,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123267012,
+      "id": "batch1-0079-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 6,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124267012,
+      "id": "batch1-0080-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 6,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125267012,
+      "id": "batch1-0081-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "forward",
+      "k": 7,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 120268012,
+      "id": "batch1-0082-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "macro_reverse",
+      "k": 7,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 121268012,
+      "id": "batch1-0083-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "check_reverse",
+      "k": 7,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 122268012,
+      "id": "batch1-0084-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 7,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123268012,
+      "id": "batch1-0085-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 7,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124268012,
+      "id": "batch1-0086-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 7,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125268012,
+      "id": "batch1-0087-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "forward",
+      "k": 8,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 120269012,
+      "id": "batch1-0088-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "macro_reverse",
+      "k": 8,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 121269012,
+      "id": "batch1-0089-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "tiny-hgp",
+      "order": "check_reverse",
+      "k": 8,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 122269012,
+      "id": "batch1-0090-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 8,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123269012,
+      "id": "batch1-0091-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 8,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124269012,
+      "id": "batch1-0092-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 8,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125269012,
+      "id": "batch1-0093-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 9,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123270012,
+      "id": "batch1-0094-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 9,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124270012,
+      "id": "batch1-0095-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 9,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125270012,
+      "id": "batch1-0096-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 10,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123271012,
+      "id": "batch1-0097-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 10,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124271012,
+      "id": "batch1-0098-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 10,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125271012,
+      "id": "batch1-0099-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 11,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123272012,
+      "id": "batch1-0100-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 11,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124272012,
+      "id": "batch1-0101-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 11,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125272012,
+      "id": "batch1-0102-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 12,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123273012,
+      "id": "batch1-0103-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 12,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124273012,
+      "id": "batch1-0104-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 12,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125273012,
+      "id": "batch1-0105-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 13,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123274012,
+      "id": "batch1-0106-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 13,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124274012,
+      "id": "batch1-0107-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 13,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125274012,
+      "id": "batch1-0108-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 14,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123275012,
+      "id": "batch1-0109-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 14,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124275012,
+      "id": "batch1-0110-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 14,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125275012,
+      "id": "batch1-0111-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 15,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123276012,
+      "id": "batch1-0112-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 15,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124276012,
+      "id": "batch1-0113-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 15,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125276012,
+      "id": "batch1-0114-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 16,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123277012,
+      "id": "batch1-0115-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 16,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124277012,
+      "id": "batch1-0116-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 16,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125277012,
+      "id": "batch1-0117-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 17,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123278012,
+      "id": "batch1-0118-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 17,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124278012,
+      "id": "batch1-0119-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 17,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125278012,
+      "id": "batch1-0120-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 18,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123279012,
+      "id": "batch1-0121-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 18,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124279012,
+      "id": "batch1-0122-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 18,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125279012,
+      "id": "batch1-0123-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 19,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123280012,
+      "id": "batch1-0124-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 19,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124280012,
+      "id": "batch1-0125-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 19,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125280012,
+      "id": "batch1-0126-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 20,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123281012,
+      "id": "batch1-0127-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 20,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124281012,
+      "id": "batch1-0128-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 20,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125281012,
+      "id": "batch1-0129-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 21,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123282012,
+      "id": "batch1-0130-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 21,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124282012,
+      "id": "batch1-0131-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 21,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125282012,
+      "id": "batch1-0132-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 22,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123283012,
+      "id": "batch1-0133-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 22,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124283012,
+      "id": "batch1-0134-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 22,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125283012,
+      "id": "batch1-0135-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 23,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123284012,
+      "id": "batch1-0136-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 23,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124284012,
+      "id": "batch1-0137-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 23,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125284012,
+      "id": "batch1-0138-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 24,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123285012,
+      "id": "batch1-0139-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 24,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124285012,
+      "id": "batch1-0140-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 24,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125285012,
+      "id": "batch1-0141-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 25,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123286012,
+      "id": "batch1-0142-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 25,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124286012,
+      "id": "batch1-0143-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 25,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125286012,
+      "id": "batch1-0144-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "k": 26,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 123287012,
+      "id": "batch1-0145-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "k": 26,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 124287012,
+      "id": "batch1-0146-stratum"
+    },
+    {
+      "kind": "stratum",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "k": 26,
+      "shots": 32768,
+      "shard_shots": 512,
+      "seed": 125287012,
+      "id": "batch1-0147-stratum"
+    },
+    {
+      "kind": "direct",
+      "instance": "tiny-hgp",
+      "order": "forward",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch1-0148-direct",
+      "seed": 520409012
+    },
+    {
+      "kind": "direct",
+      "instance": "tiny-hgp",
+      "order": "forward",
+      "eps": 3e-06,
+      "shots": 32768,
+      "id": "batch1-0149-direct",
+      "seed": 520410012
+    },
+    {
+      "kind": "direct",
+      "instance": "tiny-hgp",
+      "order": "forward",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0150-direct",
+      "seed": 520411012
+    },
+    {
+      "kind": "direct",
+      "instance": "tiny-hgp",
+      "order": "forward",
+      "eps": 3e-05,
+      "shots": 32768,
+      "id": "batch1-0151-direct",
+      "seed": 520412012
+    },
+    {
+      "kind": "direct",
+      "instance": "tiny-hgp",
+      "order": "forward",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0152-direct",
+      "seed": 520413012
+    },
+    {
+      "kind": "direct",
+      "instance": "tiny-hgp",
+      "order": "macro_reverse",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch1-0153-direct",
+      "seed": 520414012
+    },
+    {
+      "kind": "direct",
+      "instance": "tiny-hgp",
+      "order": "macro_reverse",
+      "eps": 3e-06,
+      "shots": 32768,
+      "id": "batch1-0154-direct",
+      "seed": 520415012
+    },
+    {
+      "kind": "direct",
+      "instance": "tiny-hgp",
+      "order": "macro_reverse",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0155-direct",
+      "seed": 520416012
+    },
+    {
+      "kind": "direct",
+      "instance": "tiny-hgp",
+      "order": "macro_reverse",
+      "eps": 3e-05,
+      "shots": 32768,
+      "id": "batch1-0156-direct",
+      "seed": 520417012
+    },
+    {
+      "kind": "direct",
+      "instance": "tiny-hgp",
+      "order": "macro_reverse",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0157-direct",
+      "seed": 520418012
+    },
+    {
+      "kind": "direct",
+      "instance": "tiny-hgp",
+      "order": "check_reverse",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch1-0158-direct",
+      "seed": 520419012
+    },
+    {
+      "kind": "direct",
+      "instance": "tiny-hgp",
+      "order": "check_reverse",
+      "eps": 3e-06,
+      "shots": 32768,
+      "id": "batch1-0159-direct",
+      "seed": 520420012
+    },
+    {
+      "kind": "direct",
+      "instance": "tiny-hgp",
+      "order": "check_reverse",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0160-direct",
+      "seed": 520421012
+    },
+    {
+      "kind": "direct",
+      "instance": "tiny-hgp",
+      "order": "check_reverse",
+      "eps": 3e-05,
+      "shots": 32768,
+      "id": "batch1-0161-direct",
+      "seed": 520422012
+    },
+    {
+      "kind": "direct",
+      "instance": "tiny-hgp",
+      "order": "check_reverse",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0162-direct",
+      "seed": 520423012
+    },
+    {
+      "kind": "direct",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch1-0163-direct",
+      "seed": 520424012
+    },
+    {
+      "kind": "direct",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "eps": 3e-06,
+      "shots": 32768,
+      "id": "batch1-0164-direct",
+      "seed": 520425012
+    },
+    {
+      "kind": "direct",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0165-direct",
+      "seed": 520426012
+    },
+    {
+      "kind": "direct",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "eps": 3e-05,
+      "shots": 32768,
+      "id": "batch1-0166-direct",
+      "seed": 520427012
+    },
+    {
+      "kind": "direct",
+      "instance": "holdout-hgp-3x4",
+      "order": "forward",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0167-direct",
+      "seed": 520428012
+    },
+    {
+      "kind": "direct",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch1-0168-direct",
+      "seed": 520429012
+    },
+    {
+      "kind": "direct",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "eps": 3e-06,
+      "shots": 32768,
+      "id": "batch1-0169-direct",
+      "seed": 520430012
+    },
+    {
+      "kind": "direct",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0170-direct",
+      "seed": 520431012
+    },
+    {
+      "kind": "direct",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "eps": 3e-05,
+      "shots": 32768,
+      "id": "batch1-0171-direct",
+      "seed": 520432012
+    },
+    {
+      "kind": "direct",
+      "instance": "holdout-hgp-3x4",
+      "order": "macro_reverse",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0172-direct",
+      "seed": 520433012
+    },
+    {
+      "kind": "direct",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch1-0173-direct",
+      "seed": 520434012
+    },
+    {
+      "kind": "direct",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "eps": 3e-06,
+      "shots": 32768,
+      "id": "batch1-0174-direct",
+      "seed": 520435012
+    },
+    {
+      "kind": "direct",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0175-direct",
+      "seed": 520436012
+    },
+    {
+      "kind": "direct",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "eps": 3e-05,
+      "shots": 32768,
+      "id": "batch1-0176-direct",
+      "seed": 520437012
+    },
+    {
+      "kind": "direct",
+      "instance": "holdout-hgp-3x4",
+      "order": "check_reverse",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0177-direct",
+      "seed": 520438012
+    },
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "forward",
+      "rho": 0.0,
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0178-sensitivity",
+      "seed": 520439012
+    },
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "forward",
+      "rho": 0.0,
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0179-sensitivity",
+      "seed": 520440012
+    },
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "forward",
+      "rho": 0.1,
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0180-sensitivity",
+      "seed": 520441012
+    },
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "forward",
+      "rho": 0.1,
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0181-sensitivity",
+      "seed": 520442012
+    },
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "forward",
+      "rho": 1.0,
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0182-sensitivity",
+      "seed": 520443012
+    },
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "forward",
+      "rho": 1.0,
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0183-sensitivity",
+      "seed": 520444012
+    },
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "macro_reverse",
+      "rho": 0.0,
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0184-sensitivity",
+      "seed": 520445012
+    },
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "macro_reverse",
+      "rho": 0.0,
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0185-sensitivity",
+      "seed": 520446012
+    },
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "macro_reverse",
+      "rho": 0.1,
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0186-sensitivity",
+      "seed": 520447012
+    },
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "macro_reverse",
+      "rho": 0.1,
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0187-sensitivity",
+      "seed": 520448012
+    },
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "macro_reverse",
+      "rho": 1.0,
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0188-sensitivity",
+      "seed": 520449012
+    },
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "macro_reverse",
+      "rho": 1.0,
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0189-sensitivity",
+      "seed": 520450012
+    },
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "check_reverse",
+      "rho": 0.0,
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0190-sensitivity",
+      "seed": 520451012
+    },
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "check_reverse",
+      "rho": 0.0,
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0191-sensitivity",
+      "seed": 520452012
+    },
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "check_reverse",
+      "rho": 0.1,
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0192-sensitivity",
+      "seed": 520453012
+    },
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "check_reverse",
+      "rho": 0.1,
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0193-sensitivity",
+      "seed": 520454012
+    },
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "check_reverse",
+      "rho": 1.0,
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0194-sensitivity",
+      "seed": 520455012
+    },
+    {
+      "kind": "sensitivity",
+      "instance": "tiny-hgp",
+      "order": "check_reverse",
+      "rho": 1.0,
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0195-sensitivity",
+      "seed": 520456012
+    },
+    {
+      "kind": "deployment",
+      "order": "dynamic646",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch1-0196-deployment",
+      "seed": 520457012
+    },
+    {
+      "kind": "deployment",
+      "order": "dynamic646",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0197-deployment",
+      "seed": 520458012
+    },
+    {
+      "kind": "deployment",
+      "order": "dynamic646",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0198-deployment",
+      "seed": 520459012
+    },
+    {
+      "kind": "deployment",
+      "order": "dynamic646",
+      "eps": 0.001,
+      "shots": 32768,
+      "id": "batch1-0199-deployment",
+      "seed": 520460012
+    },
+    {
+      "kind": "deployment",
+      "order": "region1",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch1-0200-deployment",
+      "seed": 520461012
+    },
+    {
+      "kind": "deployment",
+      "order": "region1",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0201-deployment",
+      "seed": 520462012
+    },
+    {
+      "kind": "deployment",
+      "order": "region1",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0202-deployment",
+      "seed": 520463012
+    },
+    {
+      "kind": "deployment",
+      "order": "region1",
+      "eps": 0.001,
+      "shots": 32768,
+      "id": "batch1-0203-deployment",
+      "seed": 520464012
+    },
+    {
+      "kind": "deployment",
+      "order": "kutin",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch1-0204-deployment",
+      "seed": 520465012
+    },
+    {
+      "kind": "deployment",
+      "order": "kutin",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0205-deployment",
+      "seed": 520466012
+    },
+    {
+      "kind": "deployment",
+      "order": "kutin",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0206-deployment",
+      "seed": 520467012
+    },
+    {
+      "kind": "deployment",
+      "order": "kutin",
+      "eps": 0.001,
+      "shots": 32768,
+      "id": "batch1-0207-deployment",
+      "seed": 520468012
+    },
+    {
+      "kind": "deployment",
+      "order": "forward",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch1-0208-deployment",
+      "seed": 520469012
+    },
+    {
+      "kind": "deployment",
+      "order": "forward",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0209-deployment",
+      "seed": 520470012
+    },
+    {
+      "kind": "deployment",
+      "order": "forward",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0210-deployment",
+      "seed": 520471012
+    },
+    {
+      "kind": "deployment",
+      "order": "forward",
+      "eps": 0.001,
+      "shots": 32768,
+      "id": "batch1-0211-deployment",
+      "seed": 520472012
+    },
+    {
+      "kind": "deployment",
+      "order": "macro_reverse",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch1-0212-deployment",
+      "seed": 520473012
+    },
+    {
+      "kind": "deployment",
+      "order": "macro_reverse",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0213-deployment",
+      "seed": 520474012
+    },
+    {
+      "kind": "deployment",
+      "order": "macro_reverse",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0214-deployment",
+      "seed": 520475012
+    },
+    {
+      "kind": "deployment",
+      "order": "macro_reverse",
+      "eps": 0.001,
+      "shots": 32768,
+      "id": "batch1-0215-deployment",
+      "seed": 520476012
+    },
+    {
+      "kind": "deployment",
+      "order": "check_reverse",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch1-0216-deployment",
+      "seed": 520477012
+    },
+    {
+      "kind": "deployment",
+      "order": "check_reverse",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch1-0217-deployment",
+      "seed": 520478012
+    },
+    {
+      "kind": "deployment",
+      "order": "check_reverse",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch1-0218-deployment",
+      "seed": 520479012
+    },
+    {
+      "kind": "deployment",
+      "order": "check_reverse",
+      "eps": 0.001,
+      "shots": 32768,
+      "id": "batch1-0219-deployment",
+      "seed": 520480012
+    }
+  ],
+  "conditional_shots": 3145728,
+  "conditional_strata": 96,
+  "raw_confirmation_shots": 29622272,
+  "pending_full_scope": [
+    "BB-72 and BB-108 construction, risks and finite-noise",
+    "Zhao official routing, original and common-noise controls",
+    "standard nearest-neighbor surface-code SD6 d=3,5",
+    "source-specific sensitivity risk reweighting and completed paper revision"
+  ],
+  "stopping": "fixed registered samples; unfinished requirements retained explicitly",
+  "serial_benchmark": {
+    "2": {
+      "shots": 128,
+      "seconds": 11.122532500012312,
+      "unique_records": 101,
+      "failures": {
+        "original": 13,
+        "strong": 1,
+        "single_fault_lookup": 0
+      }
+    },
+    "7": {
+      "shots": 128,
+      "seconds": 14.851227600011043,
+      "unique_records": 128,
+      "failures": {
+        "original": 45,
+        "strong": 30,
+        "single_fault_lookup": 30
+      }
+    }
+  }
+}

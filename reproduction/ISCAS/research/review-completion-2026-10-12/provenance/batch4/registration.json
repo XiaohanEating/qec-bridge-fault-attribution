@@ -1,0 +1,467 @@
+{
+  "registered_utc": "2026-10-12T05:33:21.092764+00:00",
+  "python": "G:\\1014gogogo\\.harness\\envs\\qldpc-submission-audit\\Scripts\\python.exe",
+  "python_version": "3.11.17 (main, Oct  9 2026, 15:19:27) [MSC v.1944 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "stim": "1.16.0",
+    "ldpc": "2.4.1",
+    "quits": "1.2.0",
+    "pymatching": "2.4.0",
+    "bposd": "2.1",
+    "pyscipopt": "5.4.1"
+  },
+  "source_sha256": {
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch4\\source\\src\\iscas_revision\\__init__.py": "eccf53e0ac7bfc3dc25e985bfb426bcb29f0c0da56545bf1b766cf4723dd11b9",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch4\\source\\src\\iscas_revision\\artifacts.py": "38b73ca09d581d436134dcc64d2fd83d1b2180f519ee659d5c470e5debdba29e",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch4\\source\\src\\iscas_revision\\audit.py": "b36cba0c99afe89f337df2eab5ab2578ea78d284416c663993ee6d672b67accc",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch4\\source\\src\\iscas_revision\\decoding.py": "96dcad7e99e432d6d583283892aa3134b6f00c9ab7d5dc3c275797a11109d5df",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch4\\source\\src\\iscas_revision\\stratification.py": "b002b95c2ef2d6dd514ad9df9f9fa4ed5aee23a781f7b9456b52912b7fcbb19f",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch4\\source\\src\\iscas_revision\\literature.py": "7d78db5b08a7bfeec606e269d93b6968140873ecffcd7e6fbf8f595e7dcd9360",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch4\\source\\src\\iscas_revision\\verification.py": "cb29cd6dc30b86b5831fb33cd5d2131a56ba10dd3f8c32ec02261f187e0ab49f",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch4\\source\\src\\iscas_revision\\experiments.py": "04bb8c1e6e529b3208fd7057d9ce9a891a57d7e40828515dce691ecc25dc0344",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch4\\source\\src\\iscas_revision\\orchestration.py": "961c13d631c9551cad086b2ae43dc7051472ae850c4e65a8dab5bb128c3a83ba",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch4\\source\\src\\iscas_revision\\baselines.py": "1909d40b49b2664ca138921cda4e686f11794e73e46c57b02d845f5b061efad5",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch4\\source\\src\\iscas_revision\\order_space.py": "4a53fed7a09ecda6ba35df2056aa7753aa748215d09347004fd969321478effc",
+    "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\src\\support.py": "3c16ac099feeefe89bb44c53c13e51b88984f40e6ed7dd97220c2c8a11a25a47",
+    "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\src\\construction.py": "ad3aa6bffd9a5aa77b2c4a6c26ae18a8031d2dbc9d1209cb07fe3a2aa0c0cf0b",
+    "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\src\\physical_risk.py": "f9d740ef4741af4ad8247f406b0ece83f557cae5ad5be63f0c84c3c9a790509b",
+    "G:\\1014gogogo\\ISCAS\\research\\parallel-routing-2026-10-10\\src\\routing.py": "89dafb2f9a54e8fa732c4450d5cba7f2533af27b9299cb29b988a6b452d9e3f3",
+    "G:\\1014gogogo\\ISCAS\\research\\conflict-fault-routing-2026-10-11\\src\\joint_router.py": "cc960d117a95824a4a209e34c899a2188cc7ddb5c1c593f6a95303d2cd568fc9"
+  },
+  "protocol_sha256": "0eb5f622e4c76d7b9c1b068dbae6e9aae34a5bac156f0528882aa61f214f04ca",
+  "tasks": [
+    {
+      "kind": "zhao",
+      "instance": "bb-72",
+      "order": "unrouted",
+      "noise": "author",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch4-0018-zhao",
+      "seed": 720441012,
+      "revision": "-v2"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-72",
+      "order": "unrouted",
+      "noise": "author",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch4-0019-zhao",
+      "seed": 720451012,
+      "revision": "-v2"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-72",
+      "order": "unrouted",
+      "noise": "author",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch4-0020-zhao",
+      "seed": 720461012,
+      "revision": "-v2"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-72",
+      "order": "unrouted",
+      "noise": "common_SD6",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch4-0021-zhao",
+      "seed": 720471012,
+      "revision": "-v2"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-72",
+      "order": "unrouted",
+      "noise": "common_SD6",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch4-0022-zhao",
+      "seed": 720481012,
+      "revision": "-v2"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-72",
+      "order": "unrouted",
+      "noise": "common_SD6",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch4-0023-zhao",
+      "seed": 720491012,
+      "revision": "-v2"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-72",
+      "order": "routing50",
+      "noise": "author",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch4-0024-zhao",
+      "seed": 720501012,
+      "revision": "-v2"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-72",
+      "order": "routing50",
+      "noise": "author",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch4-0025-zhao",
+      "seed": 720511012,
+      "revision": "-v2"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-72",
+      "order": "routing50",
+      "noise": "author",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch4-0026-zhao",
+      "seed": 720521012,
+      "revision": "-v2"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-72",
+      "order": "routing50",
+      "noise": "common_SD6",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch4-0027-zhao",
+      "seed": 720531012,
+      "revision": "-v2"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-72",
+      "order": "routing50",
+      "noise": "common_SD6",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch4-0028-zhao",
+      "seed": 720541012,
+      "revision": "-v2"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-72",
+      "order": "routing50",
+      "noise": "common_SD6",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch4-0029-zhao",
+      "seed": 720551012,
+      "revision": "-v2"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-72",
+      "order": "routing75",
+      "noise": "author",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch4-0030-zhao",
+      "seed": 720561012,
+      "revision": "-v2"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-72",
+      "order": "routing75",
+      "noise": "author",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch4-0031-zhao",
+      "seed": 720571012,
+      "revision": "-v2"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-72",
+      "order": "routing75",
+      "noise": "author",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch4-0032-zhao",
+      "seed": 720581012,
+      "revision": "-v2"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-72",
+      "order": "routing75",
+      "noise": "common_SD6",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch4-0033-zhao",
+      "seed": 720591012,
+      "revision": "-v2"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-72",
+      "order": "routing75",
+      "noise": "common_SD6",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch4-0034-zhao",
+      "seed": 720601012,
+      "revision": "-v2"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-72",
+      "order": "routing75",
+      "noise": "common_SD6",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch4-0035-zhao",
+      "seed": 720611012,
+      "revision": "-v2"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-108",
+      "order": "unrouted",
+      "noise": "author",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch4-0036-zhao",
+      "seed": 720621012,
+      "revision": "-v2"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-108",
+      "order": "unrouted",
+      "noise": "author",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch4-0037-zhao",
+      "seed": 720631012,
+      "revision": "-v2"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-108",
+      "order": "unrouted",
+      "noise": "author",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch4-0038-zhao",
+      "seed": 720641012,
+      "revision": "-v2"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-108",
+      "order": "unrouted",
+      "noise": "common_SD6",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch4-0039-zhao",
+      "seed": 720651012,
+      "revision": "-v2"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-108",
+      "order": "unrouted",
+      "noise": "common_SD6",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch4-0040-zhao",
+      "seed": 720661012,
+      "revision": "-v2"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-108",
+      "order": "unrouted",
+      "noise": "common_SD6",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch4-0041-zhao",
+      "seed": 720671012,
+      "revision": "-v2"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-108",
+      "order": "routing50",
+      "noise": "author",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch4-0042-zhao",
+      "seed": 720681012,
+      "revision": "-v2"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-108",
+      "order": "routing50",
+      "noise": "author",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch4-0043-zhao",
+      "seed": 720691012,
+      "revision": "-v2"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-108",
+      "order": "routing50",
+      "noise": "author",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch4-0044-zhao",
+      "seed": 720701012,
+      "revision": "-v2"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-108",
+      "order": "routing50",
+      "noise": "common_SD6",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch4-0045-zhao",
+      "seed": 720711012,
+      "revision": "-v2"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-108",
+      "order": "routing50",
+      "noise": "common_SD6",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch4-0046-zhao",
+      "seed": 720721012,
+      "revision": "-v2"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-108",
+      "order": "routing50",
+      "noise": "common_SD6",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch4-0047-zhao",
+      "seed": 720731012,
+      "revision": "-v2"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-108",
+      "order": "routing75",
+      "noise": "author",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch4-0048-zhao",
+      "seed": 720741012,
+      "revision": "-v2"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-108",
+      "order": "routing75",
+      "noise": "author",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch4-0049-zhao",
+      "seed": 720751012,
+      "revision": "-v2"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-108",
+      "order": "routing75",
+      "noise": "author",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch4-0050-zhao",
+      "seed": 720761012,
+      "revision": "-v2"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-108",
+      "order": "routing75",
+      "noise": "common_SD6",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch4-0051-zhao",
+      "seed": 720771012,
+      "revision": "-v2"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-108",
+      "order": "routing75",
+      "noise": "common_SD6",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch4-0052-zhao",
+      "seed": 720781012,
+      "revision": "-v2"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-108",
+      "order": "routing75",
+      "noise": "common_SD6",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch4-0053-zhao",
+      "seed": 720791012,
+      "revision": "-v2"
+    }
+  ],
+  "conditional_shots": 0,
+  "conditional_strata": 0,
+  "raw_confirmation_shots": 1179648,
+  "pending_full_scope": [
+    "BB-72 and BB-108 construction, risks and finite-noise",
+    "Zhao official routing, original and common-noise controls",
+    "standard nearest-neighbor surface-code SD6 d=3,5",
+    "source-specific sensitivity risk reweighting and completed paper revision"
+  ],
+  "stopping": "fixed registered samples; unfinished requirements retained explicitly",
+  "serial_benchmark": {
+    "2": {
+      "shots": 128,
+      "seconds": 11.122532500012312,
+      "unique_records": 101,
+      "failures": {
+        "original": 13,
+        "strong": 1,
+        "single_fault_lookup": 0
+      }
+    },
+    "7": {
+      "shots": 128,
+      "seconds": 14.851227600011043,
+      "unique_records": 128,
+      "failures": {
+        "original": 45,
+        "strong": 30,
+        "single_fault_lookup": 30
+      }
+    }
+  },
+  "execution_revision": "batch4",
+  "purpose": "Zhao adapter repair: flatten repeated circuits for physical fault coordinates; distinguish auxiliary measurements from terminal data readout in common SD6",
+  "prior_attempts_retained": true
+}

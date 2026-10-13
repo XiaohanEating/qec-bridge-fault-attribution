@@ -1,0 +1,79 @@
+{
+  "task": {
+    "kind": "zhao",
+    "instance": "bb-72",
+    "order": "routing75",
+    "noise": "common_SD6",
+    "eps": 0.0001,
+    "shots": 32768,
+    "id": "batch5-0018-zhao",
+    "seed": 920279012,
+    "initial_noisy": true,
+    "revision": "-v3"
+  },
+  "R_star": 0.0,
+  "decoder": {
+    "full_joint_original": {
+      "R_delta": 0.0,
+      "E": 0.0,
+      "failures": 0,
+      "shots": 32768,
+      "interval": [
+        0.0,
+        0.00011256933053201362
+      ]
+    },
+    "full_joint_strong": {
+      "R_delta": 0.0,
+      "E": 0.0,
+      "failures": 0,
+      "shots": 32768,
+      "interval": [
+        0.0,
+        0.00011256933053201362
+      ]
+    },
+    "single_fault_lookup": {
+      "R_delta": 0.0,
+      "E": 0.0,
+      "failures": 0,
+      "shots": 32768,
+      "interval": [
+        0.0,
+        0.00011256933053201362
+      ]
+    }
+  },
+  "resources": {
+    "CX": 2160,
+    "TICK": 72
+  },
+  "noise_channels": {
+    "total_physical_branches": 48096,
+    "total_physical_coefficient": 8208.0,
+    "invisible_branches": 16056,
+    "invisible_coefficient": 3489.600000000888
+  },
+  "source": {
+    "repository": "Guangqi-Phys/Routing-Circuit",
+    "commit": "295adf67633f223e1cc543d972cd34012c10a4e8",
+    "n": 72,
+    "k": 12,
+    "parameters": [
+      6,
+      6,
+      3,
+      -1,
+      -1,
+      3
+    ],
+    "rounds_parameter": 3,
+    "total_extraction_rounds": 4,
+    "noisy_rounds": 4,
+    "noise": "common SD6; all four extraction blocks and preparation noisy, final data readout noiseless; conflicting operations split into distinct TICK slots",
+    "geometry": "author periodic checkerboard and reduced long-range couplers; hardware difference separately reported"
+  },
+  "sample_sha256": "d5080b1246283675031d4219ef4d9642526e5f3cc40814e292c549234992d3d2",
+  "decoded_sha256": "ee28f7b0e2fff5a6bd956cee81876dd42040c43399bd4e3d42de50f49b6c6ce9",
+  "detector_columns": "separate complete (D,L) signatures; no first-logical-label merging"
+}

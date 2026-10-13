@@ -1,0 +1,93 @@
+{
+  "task": {
+    "kind": "bb",
+    "instance": "bb-72",
+    "order": "check_reverse",
+    "shots": 32768,
+    "id": "batch2-0056-bb",
+    "seed": 720821112,
+    "eps": 1e-08
+  },
+  "decoder": {
+    "original": {
+      "shots": 32768,
+      "failures": 243,
+      "rate": 0.007415771484375,
+      "interval": [
+        0.006515454016481127,
+        0.008404981094325727
+      ],
+      "per_logical": [
+        159,
+        124,
+        136,
+        121,
+        157,
+        143,
+        112,
+        127,
+        148,
+        127,
+        136,
+        142
+      ]
+    },
+    "strong": {
+      "shots": 32768,
+      "failures": 2,
+      "rate": 6.103515625e-05,
+      "interval": [
+        7.391726051759192e-06,
+        0.000220462393834729
+      ],
+      "per_logical": [
+        0,
+        1,
+        1,
+        2,
+        2,
+        1,
+        0,
+        2,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    "single_fault_lookup": {
+      "shots": 32768,
+      "failures": 1,
+      "rate": 3.0517578125e-05,
+      "interval": [
+        7.72637884629511e-07,
+        0.00017002120181939268
+      ],
+      "per_logical": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "sample_sha256": "b2fd492ac692329fc7f2ca9dcdd9d7df249dc98265bfc67a45ba6a1f45411314",
+  "decoded_sha256": "ecede35638fcebf2486d4999791141e96325e8d5c59617f8ce8a0df0df7c95e7",
+  "paired": {
+    "shots": 32768,
+    "first_failures": 243,
+    "second_failures": 2,
+    "first_only": 241,
+    "second_only": 0,
+    "paired_difference": -0.007354736328125,
+    "mcnemar_exact_two_sided_p": 5.659799424266695e-73
+  }
+}

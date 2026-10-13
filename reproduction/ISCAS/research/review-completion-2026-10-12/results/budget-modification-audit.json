@@ -1,0 +1,127 @@
+{
+  "index_convention": "zero-based half-open slot interval [38,40)",
+  "operation": "exchange the two complete saved slots; no other plan entry changes",
+  "before": [
+    {
+      "operations": [
+        [
+          "CX",
+          [
+            24,
+            23
+          ]
+        ],
+        [
+          "CX",
+          [
+            15,
+            20
+          ]
+        ],
+        [
+          "CX",
+          [
+            22,
+            21
+          ]
+        ]
+      ],
+      "noisy": true
+    },
+    {
+      "operations": [
+        [
+          "CX",
+          [
+            4,
+            9
+          ]
+        ],
+        [
+          "CX",
+          [
+            2,
+            7
+          ]
+        ]
+      ],
+      "noisy": true
+    }
+  ],
+  "after": [
+    {
+      "operations": [
+        [
+          "CX",
+          [
+            4,
+            9
+          ]
+        ],
+        [
+          "CX",
+          [
+            2,
+            7
+          ]
+        ]
+      ],
+      "noisy": true
+    },
+    {
+      "operations": [
+        [
+          "CX",
+          [
+            24,
+            23
+          ]
+        ],
+        [
+          "CX",
+          [
+            15,
+            20
+          ]
+        ],
+        [
+          "CX",
+          [
+            22,
+            21
+          ]
+        ]
+      ],
+      "noisy": true
+    }
+  ],
+  "unchanged_signed_block_tableaus": true,
+  "same_directed_physical_cx_multiset": true,
+  "metrics": {
+    "baseline": {
+      "num_reset": 25,
+      "full_lifetime_idle_slots": 5949,
+      "noisy_idle_locations": 5937,
+      "noisy_slots": 294,
+      "physical_slots": 295,
+      "num_1q": 48,
+      "num_2q": 646,
+      "num_measure": 61
+    },
+    "region-1": {
+      "num_reset": 25,
+      "full_lifetime_idle_slots": 5949,
+      "noisy_idle_locations": 5937,
+      "noisy_slots": 294,
+      "physical_slots": 295,
+      "num_1q": 48,
+      "num_2q": 646,
+      "num_measure": 61
+    }
+  },
+  "cap": 678.3000000000001,
+  "source_sha256": {
+    "baseline": "505239c73aa940e79a5c8654f7f07cb623851bd3dcc67ce8251ec0e0240ba967",
+    "region-1": "d916968609f8bc15f1c4134525e619472b20acab16fcc404624f6303c17d427e"
+  }
+}

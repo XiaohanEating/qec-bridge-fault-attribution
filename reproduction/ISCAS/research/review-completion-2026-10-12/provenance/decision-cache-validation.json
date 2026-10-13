@@ -1,0 +1,16 @@
+{
+  "actual_decoder_records": [
+    0,
+    4,
+    12,
+    255
+  ],
+  "all_12_bits_equal": true,
+  "concurrent_reuse_attempts": 32,
+  "workers": 8,
+  "duplicate_order_restored": true,
+  "conflicting_decisions_rejected": true,
+  "sqlite_quick_check": true,
+  "scientific_rules_unchanged": true,
+  "prior_sha256": "2ef89ce52e1a1cd9bd3a7fce07a841f964118139f6722e9df57ac7938aa2ff9b"
+}

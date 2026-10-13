@@ -1,0 +1,12 @@
+{
+  "seed": 120263047,
+  "shots": 512,
+  "failures": {
+    "original": 104,
+    "strong": 97,
+    "single_fault_lookup": 66
+  },
+  "sample_sha256": "209fc3560b29e199700a8883f6f1c518dc55255609731c9ee0a23cff2e445a3d",
+  "decoded_sha256": "f40a57448929fc74b1656fefb1d593b7ed0a1c4e936f453e2fdb6f279dd1e731",
+  "seconds": 0.8385932999663055
+}

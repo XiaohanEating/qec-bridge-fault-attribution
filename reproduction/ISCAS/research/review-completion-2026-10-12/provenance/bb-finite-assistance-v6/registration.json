@@ -1,0 +1,182 @@
+{
+  "registered_utc": "2026-10-12T10:02:30.397010+00:00",
+  "source_sha256": {
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-finite-assistance-v6\\source\\src\\iscas_revision\\__init__.py": "eccf53e0ac7bfc3dc25e985bfb426bcb29f0c0da56545bf1b766cf4723dd11b9",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-finite-assistance-v6\\source\\src\\iscas_revision\\artifacts.py": "38b73ca09d581d436134dcc64d2fd83d1b2180f519ee659d5c470e5debdba29e",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-finite-assistance-v6\\source\\src\\iscas_revision\\audit.py": "b36cba0c99afe89f337df2eab5ab2578ea78d284416c663993ee6d672b67accc",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-finite-assistance-v6\\source\\src\\iscas_revision\\decoding.py": "0105c1ae64c051ca11144d6c89f26aa33dbe6c483d007759721f04997f4f474b",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-finite-assistance-v6\\source\\src\\iscas_revision\\stratification.py": "b002b95c2ef2d6dd514ad9df9f9fa4ed5aee23a781f7b9456b52912b7fcbb19f",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-finite-assistance-v6\\source\\src\\iscas_revision\\literature.py": "7d78db5b08a7bfeec606e269d93b6968140873ecffcd7e6fbf8f595e7dcd9360",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-finite-assistance-v6\\source\\src\\iscas_revision\\verification.py": "cb29cd6dc30b86b5831fb33cd5d2131a56ba10dd3f8c32ec02261f187e0ab49f",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-finite-assistance-v6\\source\\src\\iscas_revision\\experiments.py": "80ffd5015b8b4b4b7fd5e4e1000e71657f0b7f2fb849c366fa95e78797c80c9f",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-finite-assistance-v6\\source\\src\\iscas_revision\\orchestration.py": "ee63de4b3ccfb98a612637cb6a876e2e24d64223dcdd3a26f164581a69d99a73",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-finite-assistance-v6\\source\\src\\iscas_revision\\baselines.py": "cb4edaf35a0c6e7ed74046ffe075b32fece5b0ea5a90112e16c53f409a3bec65",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-finite-assistance-v6\\source\\src\\iscas_revision\\parallel_decode.py": "007a20ce7993f4980d7543391bb1e0320cd18087ac35e0f2fdab1c83b69d2a5f",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-finite-assistance-v6\\source\\src\\iscas_revision\\finite_parallel.py": "90fe940fc7c134a0d458c9538a84798012d59f7c6a6e3fecb5400a3051515bc3",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-finite-assistance-v6\\source\\src\\iscas_revision\\publication.py": "84b89d0cccb8ee3ddae0cc4bf397f034d86326d3b06f6297322d016138ed038d",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-finite-assistance-v6\\source\\src\\iscas_revision\\decision_cache.py": "af6510abbf78e444a8fb4e63613aa0fc0eb6869f06f5387740f7fa5e28a7667c",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-finite-assistance-v6\\source\\src\\iscas_revision\\execution\\__init__.py": "a050e93afca6b3dfc3b5b3362c3eb88ee7d5b42c4ad5dbd4e4f4fd88232db42b",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-finite-assistance-v6\\source\\src\\iscas_revision\\execution\\linear_osd.py": "928c2e45848e04a0850e2cf9cb6b58fab2755bf768cb6db85447af4a5a384d61",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-finite-assistance-v6\\source\\src\\iscas_revision\\execution\\serial_bp.py": "c7073d6d7d58a757eb650b5780f03ed352fbc29dae600652c1ef930bcc8fe7de",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-finite-assistance-v6\\source\\src\\iscas_revision\\execution\\decoder.py": "aafb4f65b296141bf6d9a9006599c6567d67add8b140855bf54ded8484f87b38",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-finite-assistance-v6\\source\\src\\iscas_revision\\execution\\registration.py": "a9c6a03dddcdfd7447a937f2e71c2227049066e8bbb633023e8c8c52e087d02f",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-finite-assistance-v6\\source\\src\\iscas_revision\\execution\\assembly.py": "8a4c1e6c44c21a3045c37fe4427d547d47658f5828b4e4358db869fde62d38b5",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-finite-assistance-v6\\source\\src\\iscas_revision\\execution\\state_store.py": "45aa8c1c82462cc3e940f40175cad24da0641adae602f3708facb8e7d3a09716",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-finite-assistance-v6\\source\\src\\iscas_revision\\execution\\assistance.py": "69ba713bd9ff2ee7b9ed13f6a4c52e28c292841b1590507f7e5c4af1de22f058",
+    "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\src\\support.py": "3c16ac099feeefe89bb44c53c13e51b88984f40e6ed7dd97220c2c8a11a25a47",
+    "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\src\\construction.py": "ad3aa6bffd9a5aa77b2c4a6c26ae18a8031d2dbc9d1209cb07fe3a2aa0c0cf0b",
+    "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\src\\physical_risk.py": "f9d740ef4741af4ad8247f406b0ece83f557cae5ad5be63f0c84c3c9a790509b",
+    "G:\\1014gogogo\\ISCAS\\research\\parallel-routing-2026-10-10\\src\\routing.py": "89dafb2f9a54e8fa732c4450d5cba7f2533af27b9299cb29b988a6b452d9e3f3",
+    "G:\\1014gogogo\\ISCAS\\research\\conflict-fault-routing-2026-10-11\\src\\joint_router.py": "cc960d117a95824a4a209e34c899a2188cc7ddb5c1c593f6a95303d2cd568fc9",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-decoder-states\\bb-72\\forward\\identity.json": "16d99a17b98d0015e439d165fc4f4595ee7faf31c4ceb0f66b74e362f54fcdc2",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-decoder-states\\bb-72\\forward\\states.npz": "27acd41f8bdabf27a8782e0a682d12b0361da6ced2864e681c0b07410c8842b9",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-decoder-states\\bb-72\\macro_reverse\\identity.json": "4cb7279650ccebd303572cadc8f36a2d4f92d8524db1dd10ee377d1a436cf7b3",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-decoder-states\\bb-72\\macro_reverse\\states.npz": "1ce71289814d558b59f0c617d8af37dee9b5f45c0315bfca5cbd1a4a57034cbf",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-decoder-states\\bb-72\\check_reverse\\identity.json": "c619c48cfaa9675ceffa09b65894f50e0ecd537067775ad08d91bf1714156410",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-decoder-states\\bb-72\\check_reverse\\states.npz": "28e2463b3a4df67a880adca70cd0553b042c7c67e8260120576740156d92a969",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-decoder-states\\bb-108\\forward\\identity.json": "c1981db107193652d88874e0f6c3ded757ce1056902502d627503d3e10e67d95",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-decoder-states\\bb-108\\forward\\states.npz": "3fae772a278653d29a30c18b4c10d0532cd9eedbf5c34715e672296a6d8fc348",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-decoder-states\\bb-108\\macro_reverse\\identity.json": "37fd55841596e223f8c6a984173265b4d5b8b3656592c336173f97a3171c8024",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-decoder-states\\bb-108\\macro_reverse\\states.npz": "3d2e14daf0dcea18480e46e5c3156b05a9439814bc33ffb0c9a283f0e15d3ae2",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-decoder-states\\bb-108\\check_reverse\\identity.json": "dcc5307fb249fec113196e21c9317c1eb6b2d7ef53e5641bfc169b039b808932",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-decoder-states\\bb-108\\check_reverse\\states.npz": "f87f2179f27cd6f3f27055fb32ac55fa7e81ac2899c998d03dfa3f4683a462c4"
+  },
+  "tasks": [
+    {
+      "kind": "bb",
+      "instance": "bb-72",
+      "order": "forward",
+      "shots": 32768,
+      "id": "batch2-0054-bb",
+      "seed": 720801012
+    },
+    {
+      "kind": "bb",
+      "instance": "bb-72",
+      "order": "macro_reverse",
+      "shots": 32768,
+      "id": "batch2-0055-bb",
+      "seed": 720811012
+    },
+    {
+      "kind": "bb",
+      "instance": "bb-72",
+      "order": "check_reverse",
+      "shots": 32768,
+      "id": "batch2-0056-bb",
+      "seed": 720821012
+    },
+    {
+      "kind": "bb",
+      "instance": "bb-108",
+      "order": "forward",
+      "shots": 32768,
+      "id": "batch2-0057-bb",
+      "seed": 720831012
+    },
+    {
+      "kind": "bb",
+      "instance": "bb-108",
+      "order": "macro_reverse",
+      "shots": 32768,
+      "id": "batch2-0058-bb",
+      "seed": 720841012
+    },
+    {
+      "kind": "bb",
+      "instance": "bb-108",
+      "order": "check_reverse",
+      "shots": 32768,
+      "id": "batch2-0059-bb",
+      "seed": 720851012
+    }
+  ],
+  "workers": 16,
+  "scientific_protocol": "same batch2 tasks, seeds, samples, priors, original/strong configurations, all logical vectors, complete lookup",
+  "checkpointing": "Same 256-row SF/128-row finite blocks,32-row checkpoints; no-overwrite Windows atomic rename and equality check",
+  "benchmark": [
+    {
+      "eps": 1e-06,
+      "shots": 16,
+      "seconds": 87.2978579000337,
+      "seconds_per_record": 5.456116118752107,
+      "unique_records": 12
+    },
+    {
+      "eps": 0.0001,
+      "shots": 16,
+      "seconds": 133.7981393999653,
+      "seconds_per_record": 8.36238371249783,
+      "unique_records": 16
+    }
+  ],
+  "supersedes_scheduler": "bb-finite-parallel-v4",
+  "scheduling_change": "Reuse unchanged UCRT tanh values and linear candidate solves; same BP updates, scalar product order, candidate order, weights and strict comparison",
+  "core_versions_unchanged": true,
+  "validation": {
+    "actual_decoder_records": [
+      0,
+      4,
+      12,
+      255
+    ],
+    "all_12_bits_equal": true,
+    "concurrent_reuse_attempts": 32,
+    "workers": 8,
+    "duplicate_order_restored": true,
+    "conflicting_decisions_rejected": true,
+    "sqlite_quick_check": true,
+    "scientific_rules_unchanged": true,
+    "prior_sha256": "2ef89ce52e1a1cd9bd3a7fce07a841f964118139f6722e9df57ac7938aa2ff9b"
+  },
+  "validated_by": {
+    "prefix-product-validation.json": {
+      "path": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\prefix-product-validation.json",
+      "sha256": "72dd2fe9d46626db602baf8e25cf5fc995a1282d2c26019ce07546036874abac"
+    },
+    "prefix-execution-validation.json": {
+      "path": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\prefix-execution-validation.json",
+      "sha256": "f66e259bf5f36dc8536623ece09a7d7ad0e6ea97750c33a6f91049bef0987729"
+    },
+    "sparse-support-validation.json": {
+      "path": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\sparse-support-validation.json",
+      "sha256": "81ba8aab0c60e791028377c08f142c3aa52e589763c7911d7bf826fedd5395e6"
+    },
+    "window-input-storage-validation.json": {
+      "path": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\window-input-storage-validation.json",
+      "sha256": "7f39722e78d56448f4872f9728dfc5d937f4e99d3328e102517f869d02d840c3"
+    },
+    "stored-execution-validation.json": {
+      "path": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\stored-execution-validation.json",
+      "sha256": "a17295f3d2825885a0f4699989167b5473b54582abf2b63dd333391802ede67e"
+    }
+  },
+  "validation_sha256": "e25773cb54b1b1fde10d8a23900190c698f0a4137463660136f56103d5f4dc1d",
+  "protocol_sources_unchanged": {
+    "decoding.py": true,
+    "baselines.py": true,
+    "stratification.py": true
+  },
+  "execution_packages": {
+    "numba": "0.68.0",
+    "llvmlite": "0.50.0"
+  },
+  "no_new_dependencies": true,
+  "execution_source_origin": "Validated batch9 immutable implementation; zero-product shortcut not enabled",
+  "single_fault_partition_scope": "All remaining rows starting at zero; previous sequential workers are replaced by a pure assembler",
+  "scientific_module_bytes_unchanged": {
+    "decoding.py": true,
+    "baselines.py": true,
+    "experiments.py": true,
+    "stratification.py": true
+  },
+  "execution_change": "Coexist with original workers using identical atomic per-partition locks; reverse traversal only; all registered samples retained",
+  "complete_registered_range_retained": true,
+  "kind": "finite",
+  "purpose": "Exact validated decisions; no process termination or overwrite",
+  "preserved_existing_batches": [
+    "bb-decoder-parallel-v4",
+    "bb-finite-parallel-v4"
+  ],
+  "source_v5_registered_but_never_launched": true
+}

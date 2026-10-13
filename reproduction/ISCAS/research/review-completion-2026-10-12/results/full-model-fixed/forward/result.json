@@ -1,0 +1,55 @@
+{
+  "task": {
+    "order": "forward",
+    "id": "full-model-fixed-0",
+    "physical_epsilon": 0.0001,
+    "prior_epsilon": 0.001,
+    "shots": 32768
+  },
+  "prior_epsilon": 0.001,
+  "physical_epsilon": 0.0001,
+  "decoder": {
+    "full_joint_original": {
+      "R_delta": 135.73333333333335,
+      "failures": 498,
+      "shots": 32768,
+      "interval": [
+        0.013900995308826306,
+        0.01658145190883598
+      ],
+      "fixed_vs_matched": {
+        "shots": 32768,
+        "first_failures": 498,
+        "second_failures": 442,
+        "first_only": 94,
+        "second_only": 38,
+        "paired_difference": -0.001708984375,
+        "mcnemar_exact_two_sided_p": 1.1861458863771179e-06
+      }
+    },
+    "full_joint_strong": {
+      "R_delta": 123.60000000000001,
+      "failures": 450,
+      "shots": 32768,
+      "interval": [
+        0.012500807538208383,
+        0.015052281175227273
+      ],
+      "fixed_vs_matched": {
+        "shots": 32768,
+        "first_failures": 450,
+        "second_failures": 424,
+        "first_only": 37,
+        "second_only": 11,
+        "paired_difference": -0.00079345703125,
+        "mcnemar_exact_two_sided_p": 0.0002222449626216872
+      }
+    }
+  },
+  "seconds": 22.917337199964095,
+  "sample_source": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\joint-bridge\\forward\\eps0.0001\\physical.npz",
+  "sample_sha256": "ba3ab5ff7ecc77e61796cd4a2d5f6f08de23b3f3ba4b2797fd8f40e78006511f",
+  "prior_sha256": "e15f409ab14957d84a86be65d6a51885224b05c9bc19537b454506d335d75c5c",
+  "decoded_sha256": "44d96bf7ab727a240a904849b70fb912db42c0627d4f970907d75538b031ff32",
+  "interpretation": "Same fixed prior, serial BP and OSD budgets as sliding rules; complete model replaces window recursion and its matrix representation"
+}

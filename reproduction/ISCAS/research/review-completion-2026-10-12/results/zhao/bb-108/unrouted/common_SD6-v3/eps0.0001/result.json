@@ -1,0 +1,79 @@
+{
+  "task": {
+    "kind": "zhao",
+    "instance": "bb-108",
+    "order": "unrouted",
+    "noise": "common_SD6",
+    "eps": 0.0001,
+    "shots": 32768,
+    "id": "batch5-0021-zhao",
+    "seed": 920282012,
+    "initial_noisy": true,
+    "revision": "-v3"
+  },
+  "R_star": 0.0,
+  "decoder": {
+    "full_joint_original": {
+      "R_delta": 0.0,
+      "E": 0.0,
+      "failures": 0,
+      "shots": 32768,
+      "interval": [
+        0.0,
+        0.00011256933053201362
+      ]
+    },
+    "full_joint_strong": {
+      "R_delta": 0.0,
+      "E": 0.0,
+      "failures": 0,
+      "shots": 32768,
+      "interval": [
+        0.0,
+        0.00011256933053201362
+      ]
+    },
+    "single_fault_lookup": {
+      "R_delta": 0.0,
+      "E": 0.0,
+      "failures": 0,
+      "shots": 32768,
+      "interval": [
+        0.0,
+        0.00011256933053201362
+      ]
+    }
+  },
+  "resources": {
+    "CX": 2592,
+    "TICK": 55
+  },
+  "noise_channels": {
+    "total_physical_branches": 58104,
+    "total_physical_coefficient": 9720.0,
+    "invisible_branches": 19332,
+    "invisible_coefficient": 4269.6000000016165
+  },
+  "source": {
+    "repository": "Guangqi-Phys/Routing-Circuit",
+    "commit": "295adf67633f223e1cc543d972cd34012c10a4e8",
+    "n": 108,
+    "k": 8,
+    "parameters": [
+      9,
+      6,
+      3,
+      -1,
+      -1,
+      3
+    ],
+    "rounds_parameter": 3,
+    "total_extraction_rounds": 4,
+    "noisy_rounds": 4,
+    "noise": "common SD6; all four extraction blocks and preparation noisy, final data readout noiseless; conflicting operations split into distinct TICK slots",
+    "geometry": "author periodic checkerboard and reduced long-range couplers; hardware difference separately reported"
+  },
+  "sample_sha256": "635d882ccd50f09ba2489f2dd66a8a03d271305c214270cb25fea4ba6f0e2db1",
+  "decoded_sha256": "eaa27be665658902d3b8718aac64b071fffab623bdf2b9fcfe72b8d60ce1b9b2",
+  "detector_columns": "separate complete (D,L) signatures; no first-logical-label merging"
+}

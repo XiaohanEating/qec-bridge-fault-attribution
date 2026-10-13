@@ -1,0 +1,61 @@
+{
+  "rows": [
+    {
+      "instance": "bb-72",
+      "file": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\bb\\bb-72\\forward\\single-fault.npz",
+      "records": 7260,
+      "unique_full": 7260,
+      "unique_strong_first": 6070,
+      "first_window_width": 144
+    },
+    {
+      "instance": "bb-72",
+      "file": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\bb\\bb-72\\forward\\eps1e-09\\physical.npz",
+      "records": 32768,
+      "unique_full": 48,
+      "unique_strong_first": 47,
+      "first_window_width": 144
+    },
+    {
+      "instance": "bb-72",
+      "file": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\bb\\bb-72\\forward\\eps1e-06\\physical.npz",
+      "records": 32768,
+      "unique_full": 14284,
+      "unique_strong_first": 13334,
+      "first_window_width": 144
+    },
+    {
+      "instance": "bb-72",
+      "file": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\bb\\bb-72\\forward\\eps0.0001\\physical.npz",
+      "records": 32768,
+      "unique_full": 32768,
+      "unique_strong_first": 32768,
+      "first_window_width": 144
+    },
+    {
+      "instance": "bb-108",
+      "file": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\bb\\bb-108\\forward\\single-fault.npz",
+      "records": 12168,
+      "unique_full": 12168,
+      "unique_strong_first": 10219,
+      "first_window_width": 216
+    },
+    {
+      "instance": "bb-108",
+      "file": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\bb\\bb-108\\forward\\eps1e-09\\physical.npz",
+      "records": 32768,
+      "unique_full": 83,
+      "unique_strong_first": 83,
+      "first_window_width": 216
+    },
+    {
+      "instance": "bb-108",
+      "file": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\bb\\bb-108\\forward\\eps1e-06\\physical.npz",
+      "records": 32768,
+      "unique_full": 29193,
+      "unique_strong_first": 28518,
+      "first_window_width": 216
+    }
+  ],
+  "scientific_inputs_modified": false
+}

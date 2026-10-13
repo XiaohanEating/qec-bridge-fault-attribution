@@ -1,0 +1,21 @@
+{
+  "order": "anchor-check_reverse",
+  "R_star": 152.00000000000009,
+  "R_delta": {
+    "original": 527.6000000000001,
+    "strong": 417.3333333333334,
+    "single_fault_lookup": 152.0
+  },
+  "metrics": {
+    "full_lifetime_idle_slots": 3696,
+    "noisy_idle_locations": 3684,
+    "noisy_slots": 229,
+    "physical_slots": 230,
+    "num_reset": 25,
+    "num_1q": 48,
+    "num_2q": 960,
+    "num_measure": 61
+  },
+  "matched": true,
+  "plan_sha256": "7e830d94aed7435b7dc4157ea57a7b80dd606dc623e5bb99046053e1e5bf086f"
+}

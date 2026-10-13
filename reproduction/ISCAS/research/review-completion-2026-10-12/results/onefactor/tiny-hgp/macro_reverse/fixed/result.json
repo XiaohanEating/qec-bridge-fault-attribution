@@ -1,0 +1,170 @@
+{
+  "instance": "tiny-hgp",
+  "order": "macro_reverse",
+  "prior": "fixed",
+  "prior_epsilon": 0.001,
+  "sample_sha256": "accb2928632830148b93a61d658a97941327558461b157373b1cb15f2bcb93de",
+  "configurations": {
+    "original": {
+      "window": 1,
+      "max_iter": 2,
+      "osd_order": 0
+    },
+    "window2": {
+      "window": 2,
+      "max_iter": 2,
+      "osd_order": 0
+    },
+    "window4": {
+      "window": 4,
+      "max_iter": 2,
+      "osd_order": 0
+    },
+    "iterations10": {
+      "window": 1,
+      "max_iter": 10,
+      "osd_order": 0
+    },
+    "iterations50": {
+      "window": 1,
+      "max_iter": 50,
+      "osd_order": 0
+    },
+    "osd1": {
+      "window": 1,
+      "max_iter": 2,
+      "osd_order": 1
+    },
+    "osd2": {
+      "window": 1,
+      "max_iter": 2,
+      "osd_order": 2
+    },
+    "strong": {
+      "window": 4,
+      "max_iter": 50,
+      "osd_order": 2
+    }
+  },
+  "results": {
+    "original": {
+      "failures": 107,
+      "shots": 4096,
+      "single_fault_risk": 255.20000000000002
+    },
+    "window2": {
+      "failures": 138,
+      "shots": 4096,
+      "single_fault_risk": 347.0666666666665
+    },
+    "window4": {
+      "failures": 137,
+      "shots": 4096,
+      "single_fault_risk": 337.33333333333314
+    },
+    "iterations10": {
+      "failures": 112,
+      "shots": 4096,
+      "single_fault_risk": 260.53333333333336
+    },
+    "iterations50": {
+      "failures": 112,
+      "shots": 4096,
+      "single_fault_risk": 260.53333333333336
+    },
+    "osd1": {
+      "failures": 110,
+      "shots": 4096,
+      "single_fault_risk": 260.53333333333336
+    },
+    "osd2": {
+      "failures": 110,
+      "shots": 4096,
+      "single_fault_risk": 260.53333333333336
+    },
+    "strong": {
+      "failures": 126,
+      "shots": 4096,
+      "single_fault_risk": 304.39999999999986
+    },
+    "single_fault_lookup": {
+      "failures": 71,
+      "shots": 4096,
+      "single_fault_risk": null
+    }
+  },
+  "paired": {
+    "window2": {
+      "shots": 4096,
+      "first_failures": 107,
+      "second_failures": 138,
+      "first_only": 27,
+      "second_only": 58,
+      "paired_difference": 0.007568359375,
+      "mcnemar_exact_two_sided_p": 0.001016220951347889
+    },
+    "window4": {
+      "shots": 4096,
+      "first_failures": 107,
+      "second_failures": 137,
+      "first_only": 30,
+      "second_only": 60,
+      "paired_difference": 0.00732421875,
+      "mcnemar_exact_two_sided_p": 0.0020602656809630745
+    },
+    "iterations10": {
+      "shots": 4096,
+      "first_failures": 107,
+      "second_failures": 112,
+      "first_only": 0,
+      "second_only": 5,
+      "paired_difference": 0.001220703125,
+      "mcnemar_exact_two_sided_p": 0.0625
+    },
+    "iterations50": {
+      "shots": 4096,
+      "first_failures": 107,
+      "second_failures": 112,
+      "first_only": 0,
+      "second_only": 5,
+      "paired_difference": 0.001220703125,
+      "mcnemar_exact_two_sided_p": 0.0625
+    },
+    "osd1": {
+      "shots": 4096,
+      "first_failures": 107,
+      "second_failures": 110,
+      "first_only": 1,
+      "second_only": 4,
+      "paired_difference": 0.000732421875,
+      "mcnemar_exact_two_sided_p": 0.375
+    },
+    "osd2": {
+      "shots": 4096,
+      "first_failures": 107,
+      "second_failures": 110,
+      "first_only": 1,
+      "second_only": 4,
+      "paired_difference": 0.000732421875,
+      "mcnemar_exact_two_sided_p": 0.375
+    },
+    "strong": {
+      "shots": 4096,
+      "first_failures": 107,
+      "second_failures": 126,
+      "first_only": 32,
+      "second_only": 51,
+      "paired_difference": 0.004638671875,
+      "mcnemar_exact_two_sided_p": 0.047524889256531824
+    },
+    "single_fault_lookup": {
+      "shots": 4096,
+      "first_failures": 107,
+      "second_failures": 71,
+      "first_only": 55,
+      "second_only": 19,
+      "paired_difference": -0.0087890625,
+      "mcnemar_exact_two_sided_p": 3.376813810738312e-05
+    }
+  }
+}

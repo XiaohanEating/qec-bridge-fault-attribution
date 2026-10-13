@@ -1,0 +1,152 @@
+{
+  "created_utc": "2026-10-12T12:28:34.129569+00:00",
+  "passed": true,
+  "batches": [
+    {
+      "batch": "bb-finite-parallel-v4",
+      "bindings": {
+        "linear_osd.py": {
+          "sha256": "21dbe45fa0cdc94e88589d4aad1405c32d3c2abcb6f56e87fe6e470e44ed24e0",
+          "equivalence_checks": [
+            "historical-execution-validation.json",
+            "optimized-execution-validation.json"
+          ]
+        },
+        "serial_bp.py": {
+          "sha256": "46ff98201539a4da8beca8f5495226e2653cf132ff504163f17592414de6758d",
+          "equivalence_checks": [
+            "historical-execution-validation.json"
+          ]
+        },
+        "decoder.py": {
+          "sha256": "6063917003a44ebccd1db33f19f47b475a3ac8154b25bdd36cf4c6009426bd15",
+          "equivalence_checks": [
+            "optimized-execution-validation.json"
+          ]
+        }
+      },
+      "scientific_modules_unchanged": true
+    },
+    {
+      "batch": "bb-finite-assistance-v6",
+      "bindings": {
+        "linear_osd.py": {
+          "sha256": "928c2e45848e04a0850e2cf9cb6b58fab2755bf768cb6db85447af4a5a384d61",
+          "equivalence_checks": [
+            "prefix-execution-validation.json",
+            "stable-execution-validation.json",
+            "stored-execution-validation.json"
+          ]
+        },
+        "serial_bp.py": {
+          "sha256": "c7073d6d7d58a757eb650b5780f03ed352fbc29dae600652c1ef930bcc8fe7de",
+          "equivalence_checks": [
+            "prefix-execution-validation.json",
+            "stored-execution-validation.json"
+          ]
+        },
+        "decoder.py": {
+          "sha256": "aafb4f65b296141bf6d9a9006599c6567d67add8b140855bf54ded8484f87b38",
+          "equivalence_checks": [
+            "stored-execution-validation.json"
+          ]
+        }
+      },
+      "scientific_modules_unchanged": true
+    },
+    {
+      "batch": "bb-finite-assistance-v8",
+      "bindings": {
+        "linear_osd.py": {
+          "sha256": "928c2e45848e04a0850e2cf9cb6b58fab2755bf768cb6db85447af4a5a384d61",
+          "equivalence_checks": [
+            "prefix-execution-validation.json",
+            "stable-execution-validation.json",
+            "stored-execution-validation.json"
+          ]
+        },
+        "serial_bp.py": {
+          "sha256": "d392d0467effdb468f8efdf9bff0457e358d605a00e9d609cabfa7d0641c998f",
+          "equivalence_checks": [
+            "packed-execution-validation.json",
+            "stable-execution-validation.json"
+          ]
+        },
+        "decoder.py": {
+          "sha256": "2d6137982635a60ea7d091fb55b6474fc737eebaae83328f306a48829a019890",
+          "equivalence_checks": [
+            "stable-execution-validation.json"
+          ]
+        }
+      },
+      "scientific_modules_unchanged": true
+    },
+    {
+      "batch": "bb-finite-assistance-v9",
+      "bindings": {
+        "linear_osd.py": {
+          "sha256": "928c2e45848e04a0850e2cf9cb6b58fab2755bf768cb6db85447af4a5a384d61",
+          "equivalence_checks": [
+            "prefix-execution-validation.json",
+            "stable-execution-validation.json",
+            "stored-execution-validation.json"
+          ]
+        },
+        "serial_bp.py": {
+          "sha256": "d392d0467effdb468f8efdf9bff0457e358d605a00e9d609cabfa7d0641c998f",
+          "equivalence_checks": [
+            "packed-execution-validation.json",
+            "stable-execution-validation.json"
+          ]
+        },
+        "decoder.py": {
+          "sha256": "2d6137982635a60ea7d091fb55b6474fc737eebaae83328f306a48829a019890",
+          "equivalence_checks": [
+            "stable-execution-validation.json"
+          ]
+        }
+      },
+      "scientific_modules_unchanged": true
+    },
+    {
+      "batch": "bb-finite-assistance-v10",
+      "bindings": {
+        "linear_osd.py": {
+          "sha256": "68632a5873bf66ceda7758875d2d99b3a77cf31c6c02d0b0ec89e6f1d79d2708",
+          "equivalence_checks": [
+            "packed-execution-validation.json"
+          ]
+        },
+        "serial_bp.py": {
+          "sha256": "d392d0467effdb468f8efdf9bff0457e358d605a00e9d609cabfa7d0641c998f",
+          "equivalence_checks": [
+            "packed-execution-validation.json",
+            "stable-execution-validation.json"
+          ]
+        },
+        "decoder.py": {
+          "sha256": "400551568508aa577dc23ddfea9811380583051de5a897c08a58228f6c263115",
+          "equivalence_checks": [
+            "packed-execution-validation.json"
+          ]
+        }
+      },
+      "scientific_modules_unchanged": true
+    }
+  ],
+  "input_sha256": {
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\historical-execution-validation.json": "f5de1f5d92562fdcc304124059430374724d90f0bb0afd5229000fe33f86bfe7",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\optimized-execution-validation.json": "e25773cb54b1b1fde10d8a23900190c698f0a4137463660136f56103d5f4dc1d",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\prefix-execution-validation.json": "f66e259bf5f36dc8536623ece09a7d7ad0e6ea97750c33a6f91049bef0987729",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\stored-execution-validation.json": "a17295f3d2825885a0f4699989167b5473b54582abf2b63dd333391802ede67e",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\stable-execution-validation.json": "608a62c89fdb869229f45041cb6353ccfed98918e557a2a6591bf6baef9d95cb",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\packed-execution-validation.json": "a59d13da06aa6ede6ccd35880ed34431db350e8123af0c3ae9ec23f008c8c045",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-finite-parallel-v4\\registration.json": "25b7f0163df96187bd777c8ddfedd11a7b742a79701e5363c830781678c26b77",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-finite-assistance-v6\\registration.json": "f2aab89798cfbde4c5a955936a54e7d7f151511da352fa54b00685fadb45857a",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-finite-assistance-v8\\registration.json": "c122e0c1a40d36cb5eb92bc71d3ec48c19f3bc52b2c9a39d139d35568161d470",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-finite-assistance-v9\\registration.json": "821263cc742a631be4f30ab1a86ada130dd213343975474fc6203286121e7f2b",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\bb-finite-assistance-v10\\registration.json": "5c7a4b43b7ed0ae12d59c431778e41851b8732e255ba0274554724426466de68"
+  },
+  "source_sha256": "919b94d9e48c5a1ffdadc3de4f1c8eaa2cd223890afd523d82a31a9360b8291d",
+  "scope": "Registered immutable numeric modules appear in completed equivalence checks; original scientific modules match the assembly snapshot"
+}

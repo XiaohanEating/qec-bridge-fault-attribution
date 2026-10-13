@@ -1,0 +1,299 @@
+[
+  {
+    "order": "forward",
+    "rho": 0.0,
+    "R_star": 34.133333333333326,
+    "decoder": {
+      "original": {
+        "R_delta": 204.39999999999998,
+        "E": 170.26666666666665,
+        "gate_contribution": 204.39999999999998,
+        "scaled_idle_contribution": 0.0
+      },
+      "strong": {
+        "R_delta": 169.93333333333322,
+        "E": 135.7999999999999,
+        "gate_contribution": 169.93333333333322,
+        "scaled_idle_contribution": 0.0
+      },
+      "fixed_SD6_lookup": {
+        "R_delta": 40.53333333333333,
+        "E": 6.400000000000006,
+        "gate_contribution": 40.53333333333333,
+        "scaled_idle_contribution": 0.0
+      }
+    },
+    "visible_gate_mass": 806.6000000000001,
+    "visible_idle_mass": 2178.6666666666656,
+    "noise_channel_counts": {
+      "idle": 3684,
+      "single_qubit_gate": 48
+    },
+    "branch_sha256": "c66771ec4514e1f14544695f6465ff1df3a40f197d6b02523e5a1dc8d98184ea",
+    "note": "R_star reoptimizes logical labels at each rho; finite-noise sensitivity uses the fixed SD6 lookup"
+  },
+  {
+    "order": "forward",
+    "rho": 0.1,
+    "R_star": 44.266666666666666,
+    "decoder": {
+      "original": {
+        "R_delta": 244.13333333333327,
+        "E": 199.86666666666662,
+        "gate_contribution": 204.39999999999998,
+        "scaled_idle_contribution": 39.73333333333332
+      },
+      "strong": {
+        "R_delta": 203.1333333333332,
+        "E": 158.86666666666656,
+        "gate_contribution": 169.93333333333322,
+        "scaled_idle_contribution": 33.19999999999999
+      },
+      "fixed_SD6_lookup": {
+        "R_delta": 48.0,
+        "E": 3.7333333333333343,
+        "gate_contribution": 40.53333333333333,
+        "scaled_idle_contribution": 7.466666666666667
+      }
+    },
+    "visible_gate_mass": 806.6000000000001,
+    "visible_idle_mass": 2178.6666666666656,
+    "noise_channel_counts": {
+      "idle": 3684,
+      "single_qubit_gate": 48
+    },
+    "branch_sha256": "c66771ec4514e1f14544695f6465ff1df3a40f197d6b02523e5a1dc8d98184ea",
+    "note": "R_star reoptimizes logical labels at each rho; finite-noise sensitivity uses the fixed SD6 lookup"
+  },
+  {
+    "order": "forward",
+    "rho": 1.0,
+    "R_star": 115.19999999999996,
+    "decoder": {
+      "original": {
+        "R_delta": 601.7333333333331,
+        "E": 486.5333333333332,
+        "gate_contribution": 204.39999999999998,
+        "scaled_idle_contribution": 397.33333333333326
+      },
+      "strong": {
+        "R_delta": 501.9333333333331,
+        "E": 386.7333333333331,
+        "gate_contribution": 169.93333333333322,
+        "scaled_idle_contribution": 331.9999999999999
+      },
+      "fixed_SD6_lookup": {
+        "R_delta": 115.19999999999999,
+        "E": 2.842170943040401e-14,
+        "gate_contribution": 40.53333333333333,
+        "scaled_idle_contribution": 74.66666666666666
+      }
+    },
+    "visible_gate_mass": 806.6000000000001,
+    "visible_idle_mass": 2178.6666666666656,
+    "noise_channel_counts": {
+      "idle": 3684,
+      "single_qubit_gate": 48
+    },
+    "branch_sha256": "c66771ec4514e1f14544695f6465ff1df3a40f197d6b02523e5a1dc8d98184ea",
+    "note": "R_star reoptimizes logical labels at each rho; finite-noise sensitivity uses the fixed SD6 lookup"
+  },
+  {
+    "order": "macro_reverse",
+    "rho": 0.0,
+    "R_star": 31.999999999999986,
+    "decoder": {
+      "original": {
+        "R_delta": 112.53333333333336,
+        "E": 80.53333333333337,
+        "gate_contribution": 112.53333333333336,
+        "scaled_idle_contribution": 0.0
+      },
+      "strong": {
+        "R_delta": 131.06666666666663,
+        "E": 99.06666666666665,
+        "gate_contribution": 131.06666666666663,
+        "scaled_idle_contribution": 0.0
+      },
+      "fixed_SD6_lookup": {
+        "R_delta": 32.0,
+        "E": 1.4210854715202004e-14,
+        "gate_contribution": 32.0,
+        "scaled_idle_contribution": 0.0
+      }
+    },
+    "visible_gate_mass": 800.2,
+    "visible_idle_mass": 2141.999999999999,
+    "noise_channel_counts": {
+      "idle": 3684,
+      "single_qubit_gate": 48
+    },
+    "branch_sha256": "5c92046d8206a3933677695e86d9cf4d4a6aa5b3d7ba4a661f2f2241fbd1c00a",
+    "note": "R_star reoptimizes logical labels at each rho; finite-noise sensitivity uses the fixed SD6 lookup"
+  },
+  {
+    "order": "macro_reverse",
+    "rho": 0.1,
+    "R_star": 39.73333333333334,
+    "decoder": {
+      "original": {
+        "R_delta": 126.80000000000001,
+        "E": 87.06666666666666,
+        "gate_contribution": 112.53333333333336,
+        "scaled_idle_contribution": 14.266666666666666
+      },
+      "strong": {
+        "R_delta": 148.39999999999998,
+        "E": 108.66666666666663,
+        "gate_contribution": 131.06666666666663,
+        "scaled_idle_contribution": 17.333333333333336
+      },
+      "fixed_SD6_lookup": {
+        "R_delta": 39.733333333333334,
+        "E": -7.105427357601002e-15,
+        "gate_contribution": 32.0,
+        "scaled_idle_contribution": 7.733333333333334
+      }
+    },
+    "visible_gate_mass": 800.2,
+    "visible_idle_mass": 2141.999999999999,
+    "noise_channel_counts": {
+      "idle": 3684,
+      "single_qubit_gate": 48
+    },
+    "branch_sha256": "5c92046d8206a3933677695e86d9cf4d4a6aa5b3d7ba4a661f2f2241fbd1c00a",
+    "note": "R_star reoptimizes logical labels at each rho; finite-noise sensitivity uses the fixed SD6 lookup"
+  },
+  {
+    "order": "macro_reverse",
+    "rho": 1.0,
+    "R_star": 109.33333333333329,
+    "decoder": {
+      "original": {
+        "R_delta": 255.20000000000005,
+        "E": 145.86666666666676,
+        "gate_contribution": 112.53333333333336,
+        "scaled_idle_contribution": 142.66666666666666
+      },
+      "strong": {
+        "R_delta": 304.4,
+        "E": 195.0666666666667,
+        "gate_contribution": 131.06666666666663,
+        "scaled_idle_contribution": 173.33333333333331
+      },
+      "fixed_SD6_lookup": {
+        "R_delta": 109.33333333333334,
+        "E": 5.684341886080802e-14,
+        "gate_contribution": 32.0,
+        "scaled_idle_contribution": 77.33333333333333
+      }
+    },
+    "visible_gate_mass": 800.2,
+    "visible_idle_mass": 2141.999999999999,
+    "noise_channel_counts": {
+      "idle": 3684,
+      "single_qubit_gate": 48
+    },
+    "branch_sha256": "5c92046d8206a3933677695e86d9cf4d4a6aa5b3d7ba4a661f2f2241fbd1c00a",
+    "note": "R_star reoptimizes logical labels at each rho; finite-noise sensitivity uses the fixed SD6 lookup"
+  },
+  {
+    "order": "check_reverse",
+    "rho": 0.0,
+    "R_star": 31.999999999999986,
+    "decoder": {
+      "original": {
+        "R_delta": 187.59999999999997,
+        "E": 155.59999999999997,
+        "gate_contribution": 187.59999999999997,
+        "scaled_idle_contribution": 0.0
+      },
+      "strong": {
+        "R_delta": 147.99999999999994,
+        "E": 115.99999999999996,
+        "gate_contribution": 147.99999999999994,
+        "scaled_idle_contribution": 0.0
+      },
+      "fixed_SD6_lookup": {
+        "R_delta": 32.0,
+        "E": 1.4210854715202004e-14,
+        "gate_contribution": 32.0,
+        "scaled_idle_contribution": 0.0
+      }
+    },
+    "visible_gate_mass": 800.2000000000003,
+    "visible_idle_mass": 2291.333333333333,
+    "noise_channel_counts": {
+      "idle": 3684,
+      "single_qubit_gate": 48
+    },
+    "branch_sha256": "216435b9ea41aa9effb365c5bb52fe36dfa8405a80e984977925d6acc0f12b74",
+    "note": "R_star reoptimizes logical labels at each rho; finite-noise sensitivity uses the fixed SD6 lookup"
+  },
+  {
+    "order": "check_reverse",
+    "rho": 0.1,
+    "R_star": 44.000000000000014,
+    "decoder": {
+      "original": {
+        "R_delta": 221.59999999999994,
+        "E": 177.5999999999999,
+        "gate_contribution": 187.59999999999997,
+        "scaled_idle_contribution": 33.99999999999999
+      },
+      "strong": {
+        "R_delta": 174.93333333333325,
+        "E": 130.93333333333322,
+        "gate_contribution": 147.99999999999994,
+        "scaled_idle_contribution": 26.93333333333332
+      },
+      "fixed_SD6_lookup": {
+        "R_delta": 44.0,
+        "E": -1.4210854715202004e-14,
+        "gate_contribution": 32.0,
+        "scaled_idle_contribution": 12.0
+      }
+    },
+    "visible_gate_mass": 800.2000000000003,
+    "visible_idle_mass": 2291.333333333333,
+    "noise_channel_counts": {
+      "idle": 3684,
+      "single_qubit_gate": 48
+    },
+    "branch_sha256": "216435b9ea41aa9effb365c5bb52fe36dfa8405a80e984977925d6acc0f12b74",
+    "note": "R_star reoptimizes logical labels at each rho; finite-noise sensitivity uses the fixed SD6 lookup"
+  },
+  {
+    "order": "check_reverse",
+    "rho": 1.0,
+    "R_star": 152.00000000000006,
+    "decoder": {
+      "original": {
+        "R_delta": 527.5999999999998,
+        "E": 375.59999999999974,
+        "gate_contribution": 187.59999999999997,
+        "scaled_idle_contribution": 339.9999999999999
+      },
+      "strong": {
+        "R_delta": 417.33333333333314,
+        "E": 265.3333333333331,
+        "gate_contribution": 147.99999999999994,
+        "scaled_idle_contribution": 269.3333333333332
+      },
+      "fixed_SD6_lookup": {
+        "R_delta": 152.0,
+        "E": -5.684341886080802e-14,
+        "gate_contribution": 32.0,
+        "scaled_idle_contribution": 119.99999999999999
+      }
+    },
+    "visible_gate_mass": 800.2000000000003,
+    "visible_idle_mass": 2291.333333333333,
+    "noise_channel_counts": {
+      "idle": 3684,
+      "single_qubit_gate": 48
+    },
+    "branch_sha256": "216435b9ea41aa9effb365c5bb52fe36dfa8405a80e984977925d6acc0f12b74",
+    "note": "R_star reoptimizes logical labels at each rho; finite-noise sensitivity uses the fixed SD6 lookup"
+  }
+]

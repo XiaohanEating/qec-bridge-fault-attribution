@@ -1,0 +1,5287 @@
+{
+  "completed": 6,
+  "total": 6,
+  "matrices": [
+    {
+      "instance": "bb-72",
+      "order": "forward",
+      "records": 14,
+      "windows": [
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 6.399990525096655e-06,
+          "optimized_seconds": 2.9678282999666408,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 9.800016414374113e-06,
+          "optimized_seconds": 3.0100054573267698e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 5.499983672052622e-06,
+          "optimized_seconds": 1.9400031305849552e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 5.199981387704611e-06,
+          "optimized_seconds": 3.23000131174922e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "0000800401",
+          "native_seconds": 0.0033529000356793404,
+          "optimized_seconds": 1.5446338999900036,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 7.700000423938036e-06,
+          "optimized_seconds": 3.260001540184021e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 5.300040356814861e-06,
+          "optimized_seconds": 2.6699970476329327e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 5.299982149153948e-06,
+          "optimized_seconds": 1.7900019884109497e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "204118300c",
+          "native_seconds": 0.052763499959837645,
+          "optimized_seconds": 0.007677600020542741,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 6.099988240748644e-06,
+          "optimized_seconds": 1.7300015315413475e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 5.399982910603285e-06,
+          "optimized_seconds": 1.8799968529492617e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 4.599976819008589e-06,
+          "optimized_seconds": 1.8000020645558834e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "0000000100",
+          "native_seconds": 0.04701150004984811,
+          "optimized_seconds": 0.008210199943277985,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "4908090000",
+          "native_seconds": 0.048917400010395795,
+          "optimized_seconds": 0.006157599971629679,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "d90c010000",
+          "native_seconds": 0.012083599984180182,
+          "optimized_seconds": 0.007121400034520775,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 6.699992809444666e-06,
+          "optimized_seconds": 2.8800044674426317e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "0024401000",
+          "native_seconds": 0.03774350002640858,
+          "optimized_seconds": 0.002987299987580627,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "902c000800",
+          "native_seconds": 0.051846600021235645,
+          "optimized_seconds": 0.007751199998892844,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "912c004000",
+          "native_seconds": 0.05593049997696653,
+          "optimized_seconds": 0.0128767000278458,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "912c004000",
+          "native_seconds": 0.0032706999918445945,
+          "optimized_seconds": 0.006680199992842972,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "0000002100",
+          "native_seconds": 0.022326799982693046,
+          "optimized_seconds": 0.006074999982956797,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "0004002104",
+          "native_seconds": 0.06045560003258288,
+          "optimized_seconds": 0.007760799955576658,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "e802132000",
+          "native_seconds": 0.04628270003013313,
+          "optimized_seconds": 0.007935100002214313,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "e80b010000",
+          "native_seconds": 0.05601910001132637,
+          "optimized_seconds": 0.009381999960169196,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "e80b010000",
+          "native_seconds": 0.006753700028639287,
+          "optimized_seconds": 0.005071599967777729,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "009cf46e06",
+          "native_seconds": 0.008735000039450824,
+          "optimized_seconds": 0.0021983999758958817,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "b7cfa7a90a",
+          "native_seconds": 0.019309099996462464,
+          "optimized_seconds": 0.002926299988757819,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "66e456d70a",
+          "native_seconds": 0.01969919999828562,
+          "optimized_seconds": 0.003216699988115579,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "ef8a41ea03",
+          "native_seconds": 0.05405230005271733,
+          "optimized_seconds": 0.012134800024796277,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "1efcc3100f",
+          "native_seconds": 0.01139060000423342,
+          "optimized_seconds": 0.005702299997210503,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "96b8bb6a01",
+          "native_seconds": 0.017427699989639223,
+          "optimized_seconds": 0.007970199978444725,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "d0c6fc380a",
+          "native_seconds": 0.07451439998112619,
+          "optimized_seconds": 0.007091600040439516,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "b9b3793300",
+          "native_seconds": 0.02822010003728792,
+          "optimized_seconds": 0.0032621999853290617,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "7465a70903",
+          "native_seconds": 0.04806160001317039,
+          "optimized_seconds": 0.0075088000157848,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "fbf150660a",
+          "native_seconds": 0.011412100051529706,
+          "optimized_seconds": 0.006104600033722818,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "5e9c95d10a",
+          "native_seconds": 0.028912400011904538,
+          "optimized_seconds": 0.0046730000176467,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "b98ec61201",
+          "native_seconds": 0.06274449999909848,
+          "optimized_seconds": 0.0031915000290609896,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "7db9b98401",
+          "native_seconds": 0.04166420002002269,
+          "optimized_seconds": 0.0076074000098742545,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "a39e918604",
+          "native_seconds": 0.04570249997777864,
+          "optimized_seconds": 0.00716960005229339,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "a7616b9609",
+          "native_seconds": 0.011497500003315508,
+          "optimized_seconds": 0.006075099983718246,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "0700040000",
+          "native_seconds": 0.020037499954923987,
+          "optimized_seconds": 0.0020609000348486006,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "0600040000",
+          "native_seconds": 0.03721990005578846,
+          "optimized_seconds": 0.003684299997985363,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "480e030000",
+          "native_seconds": 0.024034100002609193,
+          "optimized_seconds": 0.0030882999999448657,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "480e030000",
+          "native_seconds": 0.020637799985706806,
+          "optimized_seconds": 0.0032013000454753637,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "480e030000",
+          "native_seconds": 0.0034147999831475317,
+          "optimized_seconds": 0.0020009000436402857,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "000000000000000000000000000000000000",
+          "native_seconds": 1.5099998563528061e-05,
+          "optimized_seconds": 0.0001449999981559813,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "0000800401",
+          "native_seconds": 0.06849150004563853,
+          "optimized_seconds": 0.008128800021950155,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "0000000000000000000000000000128401c3",
+          "native_seconds": 10.072537700005341,
+          "optimized_seconds": 0.44032729999162257,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 6.199989002197981e-06,
+          "optimized_seconds": 2.6099965907633305e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "000000000000000000000000010080900000",
+          "native_seconds": 9.065428200003225,
+          "optimized_seconds": 0.5945674000540748,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 6.599992047995329e-06,
+          "optimized_seconds": 2.6200024876743555e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "000000000040020401000800080000000000",
+          "native_seconds": 9.435783099965192,
+          "optimized_seconds": 0.5579701000242494,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 6.89999433234334e-06,
+          "optimized_seconds": 2.7699978090822697e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "000000210040000040010210200000000000",
+          "native_seconds": 7.883676299999934,
+          "optimized_seconds": 0.4100569000001997,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "090e000000",
+          "native_seconds": 0.07068200001958758,
+          "optimized_seconds": 0.008331799996085465,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "009cf46e76393534ceceea54d7eaaf1aa43a",
+          "native_seconds": 8.47962820000248,
+          "optimized_seconds": 0.4356800999958068,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "1efcc3100f",
+          "native_seconds": 0.10219550004694611,
+          "optimized_seconds": 0.011342099984176457,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "96b8bb6a61e477253709b17b3340d1549a34",
+          "native_seconds": 8.224883600021712,
+          "optimized_seconds": 0.2876523999730125,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "c2da52660a",
+          "native_seconds": 0.07318690000101924,
+          "optimized_seconds": 0.02069969999138266,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "5e9c95d17a2e31343eadbab884a1472b694c",
+          "native_seconds": 8.283956800005399,
+          "optimized_seconds": 0.456921000033617,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "7e6d6a9609",
+          "native_seconds": 0.07793909998144954,
+          "optimized_seconds": 0.008323499991092831,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "070004001000000000000000000000000000",
+          "native_seconds": 8.371219899971038,
+          "optimized_seconds": 0.2122465000138618,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 6.89999433234334e-06,
+          "optimized_seconds": 2.9099988751113415e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        }
+      ],
+      "prior_sha256": "2ef89ce52e1a1cd9bd3a7fce07a841f964118139f6722e9df57ac7938aa2ff9b",
+      "all_logical_predictions_equal": true,
+      "original_accelerated": true,
+      "prefix_reuse": true,
+      "rounded_zero_shortcut": true
+    },
+    {
+      "instance": "bb-72",
+      "order": "macro_reverse",
+      "records": 14,
+      "windows": [
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 6.300047971308231e-06,
+          "optimized_seconds": 4.3000036384910345e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 5.799985956400633e-06,
+          "optimized_seconds": 5.70000265724957e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 4.900037311017513e-06,
+          "optimized_seconds": 1.699995482340455e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 4.700035788118839e-06,
+          "optimized_seconds": 2.3300002794712782e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "0000800401",
+          "native_seconds": 0.0033284000237472355,
+          "optimized_seconds": 0.0020235999836586416,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 5.699985194951296e-06,
+          "optimized_seconds": 2.1299987565726042e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 5.099980626255274e-06,
+          "optimized_seconds": 1.6400008462369442e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "0000000100",
+          "native_seconds": 0.020113900012802333,
+          "optimized_seconds": 0.003041899995878339,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "410a106208",
+          "native_seconds": 0.020879499963484704,
+          "optimized_seconds": 0.0029571999912150204,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "d10e014000",
+          "native_seconds": 0.003386500000488013,
+          "optimized_seconds": 0.0019424999481998384,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 6.199989002197981e-06,
+          "optimized_seconds": 2.269999822601676e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "0024000000",
+          "native_seconds": 0.020290799962822348,
+          "optimized_seconds": 0.002967400010675192,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "9104100000",
+          "native_seconds": 0.020412900019437075,
+          "optimized_seconds": 0.0029636999825015664,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "b10d000000",
+          "native_seconds": 0.020407299976795912,
+          "optimized_seconds": 0.0029433000017888844,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "b10d000000",
+          "native_seconds": 0.003373800020199269,
+          "optimized_seconds": 0.0018940999871119857,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "1800000000",
+          "native_seconds": 0.00877549999859184,
+          "optimized_seconds": 0.0020912999752908945,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "1800300000",
+          "native_seconds": 0.03589290002128109,
+          "optimized_seconds": 0.006170300010126084,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "7108a24000",
+          "native_seconds": 0.037641000002622604,
+          "optimized_seconds": 0.005193999968469143,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "300b004000",
+          "native_seconds": 0.03237449994776398,
+          "optimized_seconds": 0.0029687000205740333,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "300b004000",
+          "native_seconds": 0.005858799966517836,
+          "optimized_seconds": 0.004031900025438517,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "0200000000",
+          "native_seconds": 0.017171300016343594,
+          "optimized_seconds": 0.004476399975828826,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "0600040000",
+          "native_seconds": 0.036559299973305315,
+          "optimized_seconds": 0.0069985000300221145,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "400c034000",
+          "native_seconds": 0.03525139996781945,
+          "optimized_seconds": 0.003084600029978901,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "400c034000",
+          "native_seconds": 0.03502510004909709,
+          "optimized_seconds": 0.0030754999606870115,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "400c034000",
+          "native_seconds": 0.005646800040267408,
+          "optimized_seconds": 0.005696700012777001,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "05e2cace0f",
+          "native_seconds": 0.018950199999380857,
+          "optimized_seconds": 0.004716499999631196,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "d3d44cde06",
+          "native_seconds": 0.04655850003473461,
+          "optimized_seconds": 0.0031213999609462917,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "e7ff30740a",
+          "native_seconds": 0.05091210000682622,
+          "optimized_seconds": 0.009105500008445233,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "dba3065c01",
+          "native_seconds": 0.04097669996554032,
+          "optimized_seconds": 0.0066562999854795635,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "49aa41e20e",
+          "native_seconds": 0.0033967000199481845,
+          "optimized_seconds": 0.0019557999912649393,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "5d9e2ed20b",
+          "native_seconds": 0.015238799969665706,
+          "optimized_seconds": 0.005515000026207417,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "ab87cd8b0d",
+          "native_seconds": 0.04825759999221191,
+          "optimized_seconds": 0.006147799955215305,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "8aa770a407",
+          "native_seconds": 0.04434620001120493,
+          "optimized_seconds": 0.00300920003792271,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "f03966b401",
+          "native_seconds": 0.03268250002292916,
+          "optimized_seconds": 0.003064700053073466,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "0e5f561805",
+          "native_seconds": 0.0036372000467963517,
+          "optimized_seconds": 0.0020108000026084483,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "bb80839904",
+          "native_seconds": 0.009057899995241314,
+          "optimized_seconds": 0.002399899996817112,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "971b81d403",
+          "native_seconds": 0.03026779997162521,
+          "optimized_seconds": 0.005460100015625358,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "d738f71c0a",
+          "native_seconds": 0.044715299969539046,
+          "optimized_seconds": 0.009158700006082654,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "c73ce5ad07",
+          "native_seconds": 0.04031429998576641,
+          "optimized_seconds": 0.005894900008570403,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "5c7959d70a",
+          "native_seconds": 0.00818150001578033,
+          "optimized_seconds": 0.004758500028401613,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "0700040000",
+          "native_seconds": 0.02304499997990206,
+          "optimized_seconds": 0.0022492000134661794,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "0600040000",
+          "native_seconds": 0.020356599998194724,
+          "optimized_seconds": 0.002924199972767383,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "400c034000",
+          "native_seconds": 0.020774600037839264,
+          "optimized_seconds": 0.0031009999802336097,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "400c034000",
+          "native_seconds": 0.02038549998542294,
+          "optimized_seconds": 0.003049899998586625,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "400c034000",
+          "native_seconds": 0.0034664999693632126,
+          "optimized_seconds": 0.0020301000331528485,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "000000000000000000000000000000000000",
+          "native_seconds": 1.4699995517730713e-05,
+          "optimized_seconds": 0.00012480001896619797,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "0000800401",
+          "native_seconds": 0.07098409999161959,
+          "optimized_seconds": 0.008247899997513741,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "000000000000000000000000010080002182",
+          "native_seconds": 7.287541199999396,
+          "optimized_seconds": 0.3368293999810703,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 6.599992047995329e-06,
+          "optimized_seconds": 2.6900030206888914e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "000000000040020000010010000000000000",
+          "native_seconds": 7.95177500002319,
+          "optimized_seconds": 0.4542572000063956,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 6.499991286545992e-06,
+          "optimized_seconds": 2.7200032491236925e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "1800000000000003000001a2000000000000",
+          "native_seconds": 7.985292900004424,
+          "optimized_seconds": 0.3662359999725595,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 7.00005330145359e-06,
+          "optimized_seconds": 2.8900045435875654e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "020000004000400000000000000000000000",
+          "native_seconds": 8.345803300035186,
+          "optimized_seconds": 0.3901795000419952,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 6.999995093792677e-06,
+          "optimized_seconds": 3.15000070258975e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "05e2cace6f6f63481177f73374baaf6ac015",
+          "native_seconds": 7.885290200007148,
+          "optimized_seconds": 0.2742689999868162,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "78ad41e20e",
+          "native_seconds": 0.07050000003073364,
+          "optimized_seconds": 0.019973799993749708,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "5d9e2ed26b9f319e651aa671a4170f73461f",
+          "native_seconds": 7.652667300018948,
+          "optimized_seconds": 0.39766039996175095,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "6f50571805",
+          "native_seconds": 0.15364670002600178,
+          "optimized_seconds": 0.015804499969817698,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "bb808399c4b229d0744739f41c7a0173de7e",
+          "native_seconds": 8.263199600041844,
+          "optimized_seconds": 0.37615419999929145,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "2d7b59d70a",
+          "native_seconds": 0.12883800000417978,
+          "optimized_seconds": 0.01242029998684302,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "070004001000000000000000000000000000",
+          "native_seconds": 7.611886200029403,
+          "optimized_seconds": 0.2753147999756038,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 6.599992047995329e-06,
+          "optimized_seconds": 2.95999925583601e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        }
+      ],
+      "prior_sha256": "e4c413a373217632bd9c02ec3e2e29aba1da952fe9f43d52eb15c84dc0ba45f7",
+      "all_logical_predictions_equal": true,
+      "original_accelerated": true,
+      "prefix_reuse": true,
+      "rounded_zero_shortcut": true
+    },
+    {
+      "instance": "bb-72",
+      "order": "check_reverse",
+      "records": 14,
+      "windows": [
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 6.89999433234334e-06,
+          "optimized_seconds": 5.3800002206116915e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 5.399982910603285e-06,
+          "optimized_seconds": 1.8400023691356182e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 4.8999791033566e-06,
+          "optimized_seconds": 1.7000013031065464e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 4.8999791033566e-06,
+          "optimized_seconds": 2.47000134550035e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "0000800401",
+          "native_seconds": 7.98000255599618e-05,
+          "optimized_seconds": 0.001058999972883612,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 5.199981387704611e-06,
+          "optimized_seconds": 1.780001912266016e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 4.599976819008589e-06,
+          "optimized_seconds": 1.4599994756281376e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "0010000000",
+          "native_seconds": 0.027619000000413507,
+          "optimized_seconds": 0.0032682999735698104,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 6.499991286545992e-06,
+          "optimized_seconds": 2.010003663599491e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 4.399975296109915e-06,
+          "optimized_seconds": 9.800016414374113e-06,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 5.100038833916187e-06,
+          "optimized_seconds": 1.6599951777607203e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 4.799978341907263e-06,
+          "optimized_seconds": 1.6000005416572094e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "0048004800",
+          "native_seconds": 0.031524999998509884,
+          "optimized_seconds": 0.004964300023857504,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "0048084800",
+          "native_seconds": 0.04885870002908632,
+          "optimized_seconds": 0.006015099992509931,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "0048084800",
+          "native_seconds": 0.00013529998250305653,
+          "optimized_seconds": 0.0009865000029094517,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 5.699985194951296e-06,
+          "optimized_seconds": 2.2199994418770075e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "0004002100",
+          "native_seconds": 0.040462100005242974,
+          "optimized_seconds": 0.003577600000426173,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "0404000101",
+          "native_seconds": 0.026987999968696386,
+          "optimized_seconds": 0.003174200013745576,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "0404210001",
+          "native_seconds": 0.0268942000111565,
+          "optimized_seconds": 0.003320799965877086,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "0404014109",
+          "native_seconds": 0.0001289999927394092,
+          "optimized_seconds": 0.0009329000022262335,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 5.199981387704611e-06,
+          "optimized_seconds": 2.1499989088624716e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "2000800408",
+          "native_seconds": 0.027170400018803775,
+          "optimized_seconds": 0.003167300019413233,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "0300000401",
+          "native_seconds": 0.027457899996079504,
+          "optimized_seconds": 0.0031879000016488135,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "0200004c01",
+          "native_seconds": 0.027170499961357564,
+          "optimized_seconds": 0.003216800047084689,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "0200004c01",
+          "native_seconds": 0.0001273000380024314,
+          "optimized_seconds": 0.0009343000128865242,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 5.199981387704611e-06,
+          "optimized_seconds": 1.9499973859637976e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "1000120604",
+          "native_seconds": 0.039197799982503057,
+          "optimized_seconds": 0.005950600025244057,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 6.499991286545992e-06,
+          "optimized_seconds": 2.239999594166875e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 5.099980626255274e-06,
+          "optimized_seconds": 1.7600017599761486e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 4.100031219422817e-06,
+          "optimized_seconds": 9.400013368576765e-06,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 4.799978341907263e-06,
+          "optimized_seconds": 1.7600017599761486e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "0200800000",
+          "native_seconds": 0.046929100004490465,
+          "optimized_seconds": 0.006618699990212917,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "0300000401",
+          "native_seconds": 0.04998219996923581,
+          "optimized_seconds": 0.005108500015921891,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "0200004c01",
+          "native_seconds": 0.04201649996684864,
+          "optimized_seconds": 0.004855900013353676,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "0200004c01",
+          "native_seconds": 0.0002617000136524439,
+          "optimized_seconds": 0.0011142999865114689,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "405887f204",
+          "native_seconds": 0.04596100002527237,
+          "optimized_seconds": 0.006998100026976317,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "d0645cbe05",
+          "native_seconds": 0.04808500001672655,
+          "optimized_seconds": 0.004666100023314357,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "b8fa2ce60b",
+          "native_seconds": 0.04504060000181198,
+          "optimized_seconds": 0.005393099971115589,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "1188ea0c04",
+          "native_seconds": 0.041441100009251386,
+          "optimized_seconds": 0.003625100012868643,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "edd1485204",
+          "native_seconds": 0.0001362999901175499,
+          "optimized_seconds": 0.0027410999755375087,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "0c62c4a202",
+          "native_seconds": 0.03764360002242029,
+          "optimized_seconds": 0.0057545999879948795,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "848592350e",
+          "native_seconds": 0.04180939996149391,
+          "optimized_seconds": 0.0033142000320367515,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "2925ce3b02",
+          "native_seconds": 0.03372600005241111,
+          "optimized_seconds": 0.0032795000006444752,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "c54f4c740a",
+          "native_seconds": 0.027538000023923814,
+          "optimized_seconds": 0.0032042000093497336,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "3f40186c01",
+          "native_seconds": 0.000132200017105788,
+          "optimized_seconds": 0.0009534999844618142,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "c340802006",
+          "native_seconds": 0.032636000018101186,
+          "optimized_seconds": 0.006271000020205975,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "c340802006",
+          "native_seconds": 0.0469742999994196,
+          "optimized_seconds": 0.003323499986436218,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "de40004f00",
+          "native_seconds": 0.027323000016622245,
+          "optimized_seconds": 0.0032740000169724226,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "de40004f00",
+          "native_seconds": 0.026924500009045005,
+          "optimized_seconds": 0.0032523999689146876,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "de40004f00",
+          "native_seconds": 9.049999061971903e-05,
+          "optimized_seconds": 0.000971500005107373,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "0bad637b00",
+          "native_seconds": 0.026347899984102696,
+          "optimized_seconds": 0.003132499987259507,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "424505470e",
+          "native_seconds": 0.027324200025759637,
+          "optimized_seconds": 0.0032754999701865017,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "7c06da9002",
+          "native_seconds": 0.027300599962472916,
+          "optimized_seconds": 0.003439099993556738,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "f252cae20f",
+          "native_seconds": 0.027141799975652248,
+          "optimized_seconds": 0.003286499995738268,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "933ea0da0f",
+          "native_seconds": 0.00013589998707175255,
+          "optimized_seconds": 0.000979800010100007,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "000000000000000000000000000000000000",
+          "native_seconds": 1.2299977242946625e-05,
+          "optimized_seconds": 0.00014590000500902534,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "0000800401",
+          "native_seconds": 0.0008296999731101096,
+          "optimized_seconds": 0.001291499997023493,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "000000000000000000001000000000010000",
+          "native_seconds": 7.362761500000488,
+          "optimized_seconds": 0.4176346000167541,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 5.999987479299307e-06,
+          "optimized_seconds": 1.9700033590197563e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "000000000000000000004800480000800000",
+          "native_seconds": 7.598494800040498,
+          "optimized_seconds": 0.47660769999492913,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 1.4200049918144941e-05,
+          "optimized_seconds": 2.719997428357601e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "000000000040001002000000000000101200",
+          "native_seconds": 7.615243399981409,
+          "optimized_seconds": 0.3825716999708675,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "0000014008",
+          "native_seconds": 0.002058400015812367,
+          "optimized_seconds": 0.00137489999178797,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "000000000002004880030000000000000000",
+          "native_seconds": 7.495165799977258,
+          "optimized_seconds": 0.45561519998591393,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 6.89999433234334e-06,
+          "optimized_seconds": 2.47000134550035e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "000000000001206140000000000000000000",
+          "native_seconds": 8.685368500009645,
+          "optimized_seconds": 0.5348502999986522,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 6.89999433234334e-06,
+          "optimized_seconds": 2.0299979951232672e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "000000002000000800010000000000000000",
+          "native_seconds": 7.737990099994931,
+          "optimized_seconds": 0.32998520002001897,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 6.499991286545992e-06,
+          "optimized_seconds": 2.0199979189783335e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "405887f204c9b3cd147a96206c5b2867ee48",
+          "native_seconds": 7.593381999991834,
+          "optimized_seconds": 0.47871569998096675,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "ffd140d004",
+          "native_seconds": 0.0009665999677963555,
+          "optimized_seconds": 0.0013247000169940293,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "0c62c4a282786e75c9b3a8ceb973ac0604b3",
+          "native_seconds": 8.212305900000501,
+          "optimized_seconds": 0.450230400019791,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "35411ced01",
+          "native_seconds": 0.0008992999792098999,
+          "optimized_seconds": 0.0014058999950066209,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "c34080200600000000000000000000000000",
+          "native_seconds": 7.946013700042386,
+          "optimized_seconds": 0.3569074999541044,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "0000000000",
+          "native_seconds": 8.400005754083395e-06,
+          "optimized_seconds": 2.0499981474131346e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "0bad637b90846ec6e3264bdfd043ca251cf6",
+          "native_seconds": 7.9379793999833055,
+          "optimized_seconds": 0.3099461999954656,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "9132a09e0e",
+          "native_seconds": 0.0009243999957107008,
+          "optimized_seconds": 0.004121100006159395,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        }
+      ],
+      "prior_sha256": "66bf2a0705d854a58d1e6f6da5c55de5f43c3c0a8a891cb6e10cdc2e9f2d6cc7",
+      "all_logical_predictions_equal": true,
+      "original_accelerated": true,
+      "prefix_reuse": true,
+      "rounded_zero_shortcut": true
+    },
+    {
+      "instance": "bb-108",
+      "order": "forward",
+      "records": 14,
+      "windows": [
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 7.700000423938036e-06,
+          "optimized_seconds": 4.169996827840805e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 6.999995093792677e-06,
+          "optimized_seconds": 8.679996244609356e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 6.099988240748644e-06,
+          "optimized_seconds": 2.0099978428333998e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 6.00004568696022e-06,
+          "optimized_seconds": 1.9899976905435324e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "00000000001204",
+          "native_seconds": 0.010958200029563159,
+          "optimized_seconds": 0.006853599974419922,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 7.90000194683671e-06,
+          "optimized_seconds": 4.1000021155923605e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 6.499991286545992e-06,
+          "optimized_seconds": 3.4100026823580265e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 5.89998671784997e-06,
+          "optimized_seconds": 1.8300022929906845e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "00002000000000",
+          "native_seconds": 0.06492979999165982,
+          "optimized_seconds": 0.008412100025452673,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "49022000100000",
+          "native_seconds": 0.011590100009925663,
+          "optimized_seconds": 0.005156699975486845,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 8.500006515532732e-06,
+          "optimized_seconds": 3.249995643272996e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 6.999995093792677e-06,
+          "optimized_seconds": 3.5100034438073635e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "00000000200000",
+          "native_seconds": 0.0608187000034377,
+          "optimized_seconds": 0.0048834000481292605,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "01000020210000",
+          "native_seconds": 0.06034279998857528,
+          "optimized_seconds": 0.008969400019850582,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "01010000280000",
+          "native_seconds": 0.012558699992951006,
+          "optimized_seconds": 0.0062760000000707805,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 9.300012607127428e-06,
+          "optimized_seconds": 4.1499966755509377e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "00800000000000",
+          "native_seconds": 0.06638209999073297,
+          "optimized_seconds": 0.00480490003246814,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "20430100110000",
+          "native_seconds": 0.04258870001649484,
+          "optimized_seconds": 0.010546899982728064,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "800b0080140120",
+          "native_seconds": 0.06721810001181439,
+          "optimized_seconds": 0.008297099964693189,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "800b0080140120",
+          "native_seconds": 0.011967599974013865,
+          "optimized_seconds": 0.004719700023997575,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 8.600007276982069e-06,
+          "optimized_seconds": 3.279995871707797e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "02000000000000",
+          "native_seconds": 0.06313029996817932,
+          "optimized_seconds": 0.00872360001085326,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 7.800001185387373e-06,
+          "optimized_seconds": 3.409996861591935e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 5.89998671784997e-06,
+          "optimized_seconds": 1.939997309818864e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 5.800044164061546e-06,
+          "optimized_seconds": 1.580000389367342e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "00000040080010",
+          "native_seconds": 0.020984600007068366,
+          "optimized_seconds": 0.0037998000043444335,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "00000044000210",
+          "native_seconds": 0.06086879997747019,
+          "optimized_seconds": 0.00892819999717176,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "83428020088400",
+          "native_seconds": 0.05120990000432357,
+          "optimized_seconds": 0.00485080003272742,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "ea0f0000080020",
+          "native_seconds": 0.0416803999687545,
+          "optimized_seconds": 0.004720100027043372,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "ea0f0000080020",
+          "native_seconds": 0.007344899990130216,
+          "optimized_seconds": 0.003658799978438765,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "00802000000000",
+          "native_seconds": 0.017491500009782612,
+          "optimized_seconds": 0.0035448999842628837,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "40802000000000",
+          "native_seconds": 0.041455699945800006,
+          "optimized_seconds": 0.004820600035600364,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "09000000000000",
+          "native_seconds": 0.041140199988149107,
+          "optimized_seconds": 0.004789000027813017,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "0b000000000000",
+          "native_seconds": 0.047071199980564415,
+          "optimized_seconds": 0.004709000000730157,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "0f000400000000",
+          "native_seconds": 0.008094999997410923,
+          "optimized_seconds": 0.0050552000175230205,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "30004010000004",
+          "native_seconds": 0.021137800009455532,
+          "optimized_seconds": 0.00449670001398772,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "10714059000000",
+          "native_seconds": 0.05346930003724992,
+          "optimized_seconds": 0.006773899949621409,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "90004000400200",
+          "native_seconds": 0.059806999983265996,
+          "optimized_seconds": 0.00821550004184246,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "b0080082840300",
+          "native_seconds": 0.06613099999958649,
+          "optimized_seconds": 0.007404899981338531,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "f9080980040205",
+          "native_seconds": 0.01570660003926605,
+          "optimized_seconds": 0.0059399999445304275,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "6244bde9c7373c",
+          "native_seconds": 0.028567799949087203,
+          "optimized_seconds": 0.005663200048729777,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "3aa72579476e27",
+          "native_seconds": 0.041853100003208965,
+          "optimized_seconds": 0.0047957999631762505,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "53a18b76b00634",
+          "native_seconds": 0.04144319996703416,
+          "optimized_seconds": 0.004722400044556707,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "8318c58e2b1e2c",
+          "native_seconds": 0.05699870001990348,
+          "optimized_seconds": 0.004941499966662377,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "6b86b566c12f29",
+          "native_seconds": 0.007087900012265891,
+          "optimized_seconds": 0.0036043000291101635,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "a68931d5fba512",
+          "native_seconds": 0.01717330003157258,
+          "optimized_seconds": 0.003537000040523708,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "9a70d46145d906",
+          "native_seconds": 0.0683009999920614,
+          "optimized_seconds": 0.011075199989136308,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "ac1136b692972b",
+          "native_seconds": 0.05492580001009628,
+          "optimized_seconds": 0.009499199979472905,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "0df1708d1e9427",
+          "native_seconds": 0.06794529996113852,
+          "optimized_seconds": 0.004865500028245151,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "5674fb5ef8a00e",
+          "native_seconds": 0.007266599975991994,
+          "optimized_seconds": 0.0036898000398650765,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "4e22b82ec1da1d",
+          "native_seconds": 0.03112410003086552,
+          "optimized_seconds": 0.0065766999614425,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "4adffed39b750b",
+          "native_seconds": 0.07125049998285249,
+          "optimized_seconds": 0.010542600008193403,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "90fd1589379339",
+          "native_seconds": 0.06001509999623522,
+          "optimized_seconds": 0.006882999965455383,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "ed96494376ee37",
+          "native_seconds": 0.047675699985120445,
+          "optimized_seconds": 0.004721199977211654,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "fa6ade38a83b2a",
+          "native_seconds": 0.007064100005663931,
+          "optimized_seconds": 0.0034845999907702208,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "07000400000000",
+          "native_seconds": 0.019208399986382574,
+          "optimized_seconds": 0.0034716000081971288,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "06000400000000",
+          "native_seconds": 0.04422189999604598,
+          "optimized_seconds": 0.00593679997837171,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "4a030000000020",
+          "native_seconds": 0.055460300005506724,
+          "optimized_seconds": 0.009639999945648015,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "4a030000000020",
+          "native_seconds": 0.055350699985865504,
+          "optimized_seconds": 0.004866500035859644,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "4a030000000020",
+          "native_seconds": 0.009690000035334378,
+          "optimized_seconds": 0.005605199956335127,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "000000000000000000000000000000000000000000000000000000",
+          "native_seconds": 2.1299987565726042e-05,
+          "optimized_seconds": 0.0002577000414021313,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "00000000001204",
+          "native_seconds": 0.20502719999058172,
+          "optimized_seconds": 0.024940600036643445,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "000000000000000000000000000000000000000000008000000000",
+          "native_seconds": 13.45497839996824,
+          "optimized_seconds": 0.33766350004589185,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 8.100003469735384e-06,
+          "optimized_seconds": 3.0800001695752144e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "000000000000000000000000000000000000020004000080040000",
+          "native_seconds": 11.579377799993381,
+          "optimized_seconds": 0.29447079997044057,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 7.700000423938036e-06,
+          "optimized_seconds": 3.170000854879618e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "000000000000000020000000000012140010000000000000000000",
+          "native_seconds": 10.88427879998926,
+          "optimized_seconds": 0.28721039998345077,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 8.300004992634058e-06,
+          "optimized_seconds": 3.060000017285347e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "000000000000800000000000002000000000000000000000000000",
+          "native_seconds": 10.259517099999357,
+          "optimized_seconds": 0.29279189999215305,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 8.400005754083395e-06,
+          "optimized_seconds": 3.520003519952297e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "000000400800100000000182000000040802400800100000000000",
+          "native_seconds": 10.222031400015112,
+          "optimized_seconds": 0.28803629998583347,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "690d0000000020",
+          "native_seconds": 0.15525670000351965,
+          "optimized_seconds": 0.016342399991117418,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "008020000000001000000000000000000000000008000000000000",
+          "native_seconds": 10.367883099999744,
+          "optimized_seconds": 0.27730449999216944,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "06000400000000",
+          "native_seconds": 0.15023759996984154,
+          "optimized_seconds": 0.015541200002189726,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "30004010000004481c401200000108000400040000040008000200",
+          "native_seconds": 9.821368400007486,
+          "optimized_seconds": 0.3037614999921061,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "92010980040204",
+          "native_seconds": 0.15879750001477078,
+          "optimized_seconds": 0.016537299961782992,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "6244bde9c7373cde38222c62d21e43ba68c74a404d61143b3c74b4",
+          "native_seconds": 10.391061300004367,
+          "optimized_seconds": 0.29977450001752004,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "6b87b5e6e52c09",
+          "native_seconds": 0.15988060005474836,
+          "optimized_seconds": 0.01655250001931563,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "a68931d5fba5124f7e3da52d1ff58661632368b952d1c3351a501e",
+          "native_seconds": 10.279742500046268,
+          "optimized_seconds": 0.3041564999730326,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "0f71fb5ee0a22e",
+          "native_seconds": 0.16044180002063513,
+          "optimized_seconds": 0.016158899990841746,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "4e22b82ec1da1d49bf55b7d4af1d3f5f91b80289f942260d19bd5b",
+          "native_seconds": 10.081654399982654,
+          "optimized_seconds": 0.29657760000554845,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "b36dde38a0380b",
+          "native_seconds": 0.15514919999986887,
+          "optimized_seconds": 0.016858000017236918,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "070004000000400000000000000000000000000000000000000000",
+          "native_seconds": 9.877553700003773,
+          "optimized_seconds": 0.28399259998695925,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 7.899943739175797e-06,
+          "optimized_seconds": 3.1100003980100155e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        }
+      ],
+      "prior_sha256": "ca5b3304c9cb352ad5d0ba0ce979dd85ad34110a98a8ea1477335078b52a49c8",
+      "all_logical_predictions_equal": true,
+      "original_accelerated": true,
+      "prefix_reuse": true,
+      "rounded_zero_shortcut": true
+    },
+    {
+      "instance": "bb-108",
+      "order": "macro_reverse",
+      "records": 14,
+      "windows": [
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 8.600007276982069e-06,
+          "optimized_seconds": 7.469998672604561e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 6.799993570894003e-06,
+          "optimized_seconds": 6.290001329034567e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 5.799985956400633e-06,
+          "optimized_seconds": 2.0799983758479357e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 6.00004568696022e-06,
+          "optimized_seconds": 3.890000516548753e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "00000000001204",
+          "native_seconds": 0.006700900034047663,
+          "optimized_seconds": 0.0035149999894201756,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 6.399990525096655e-06,
+          "optimized_seconds": 3.250001464039087e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 6.00004568696022e-06,
+          "optimized_seconds": 3.609998384490609e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "00000000200000",
+          "native_seconds": 0.041433799953665584,
+          "optimized_seconds": 0.004702000005636364,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "01000000281000",
+          "native_seconds": 0.041905099991708994,
+          "optimized_seconds": 0.004944199987221509,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "21000000200000",
+          "native_seconds": 0.0075665999902412295,
+          "optimized_seconds": 0.003560999990440905,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 7.90000194683671e-06,
+          "optimized_seconds": 3.5299977753311396e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "00000020018020",
+          "native_seconds": 0.04135859996313229,
+          "optimized_seconds": 0.005915299989283085,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "20090000000200",
+          "native_seconds": 0.04201969999121502,
+          "optimized_seconds": 0.005079399968963116,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "20090000000200",
+          "native_seconds": 0.04428560001542792,
+          "optimized_seconds": 0.004928099981043488,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "20090000000200",
+          "native_seconds": 0.007345199992414564,
+          "optimized_seconds": 0.0037626000121235847,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 8.599949069321156e-06,
+          "optimized_seconds": 4.569999873638153e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "00800000000000",
+          "native_seconds": 0.0420964999939315,
+          "optimized_seconds": 0.004983199993148446,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "41022000000000",
+          "native_seconds": 0.043509399984031916,
+          "optimized_seconds": 0.004948899964801967,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "01020000000001",
+          "native_seconds": 0.04275359999155626,
+          "optimized_seconds": 0.004825800016988069,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "01020000000001",
+          "native_seconds": 0.007058800023514777,
+          "optimized_seconds": 0.0035777000011876225,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 8.200004231184721e-06,
+          "optimized_seconds": 4.040001658722758e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "0800000000040c",
+          "native_seconds": 0.04130159999476746,
+          "optimized_seconds": 0.004836999985855073,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "a0080000000004",
+          "native_seconds": 0.040063199994619936,
+          "optimized_seconds": 0.0048210000386461616,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "80020001000000",
+          "native_seconds": 0.0411527999676764,
+          "optimized_seconds": 0.0047556000063195825,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "c1030000000001",
+          "native_seconds": 0.006966300017666072,
+          "optimized_seconds": 0.003678700013551861,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "00002000000000",
+          "native_seconds": 0.016856699949130416,
+          "optimized_seconds": 0.0036963000311516225,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "00002082048020",
+          "native_seconds": 0.04169120005099103,
+          "optimized_seconds": 0.005033800029195845,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "600d0000040001",
+          "native_seconds": 0.04091899999184534,
+          "optimized_seconds": 0.0047762999893166125,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "e20d0000000001",
+          "native_seconds": 0.04112359997816384,
+          "optimized_seconds": 0.004853999998886138,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "e20d0000000001",
+          "native_seconds": 0.006970000045839697,
+          "optimized_seconds": 0.0035667999763973057,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "32ce612c4f9c11",
+          "native_seconds": 0.016377299965824932,
+          "optimized_seconds": 0.00332469999557361,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "741958f51e5236",
+          "native_seconds": 0.04093679995276034,
+          "optimized_seconds": 0.0047370000393129885,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "f3239adcfa2f0f",
+          "native_seconds": 0.04140640003606677,
+          "optimized_seconds": 0.004855199949815869,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "63ef42a911fe2a",
+          "native_seconds": 0.04237119999015704,
+          "optimized_seconds": 0.00497519999044016,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "03edbc9bfc2c29",
+          "native_seconds": 0.007091299979947507,
+          "optimized_seconds": 0.003491199982818216,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "07000400000000",
+          "native_seconds": 0.016547200037166476,
+          "optimized_seconds": 0.0035276999697089195,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "06000400000000",
+          "native_seconds": 0.04139119997853413,
+          "optimized_seconds": 0.004639899998437613,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "42010000000021",
+          "native_seconds": 0.04274550004629418,
+          "optimized_seconds": 0.005035699985455722,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "42010000000021",
+          "native_seconds": 0.041064899996854365,
+          "optimized_seconds": 0.004662699997425079,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "42010000000021",
+          "native_seconds": 0.0074495000299066305,
+          "optimized_seconds": 0.0037471000105142593,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "1f26bc42d2aa01",
+          "native_seconds": 0.017192200000863522,
+          "optimized_seconds": 0.0035446000401861966,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "f0719864a3b30c",
+          "native_seconds": 0.042016100022010505,
+          "optimized_seconds": 0.00477949995547533,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "1690ec20068a26",
+          "native_seconds": 0.040429399989079684,
+          "optimized_seconds": 0.004559600027278066,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "42fdc8be1e2a06",
+          "native_seconds": 0.04110130004119128,
+          "optimized_seconds": 0.004782800038810819,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "29eb9618e43820",
+          "native_seconds": 0.006909799994900823,
+          "optimized_seconds": 0.00341659999685362,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "ff11977e19dc14",
+          "native_seconds": 0.016431600030045956,
+          "optimized_seconds": 0.0034487000084482133,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "792987ce224a10",
+          "native_seconds": 0.04033250000793487,
+          "optimized_seconds": 0.004733900015708059,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "50a456d287f43f",
+          "native_seconds": 0.04210439999587834,
+          "optimized_seconds": 0.00484040001174435,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "23722c42c8971d",
+          "native_seconds": 0.041864699975121766,
+          "optimized_seconds": 0.004753999994136393,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "e74e62396a2139",
+          "native_seconds": 0.007034000009298325,
+          "optimized_seconds": 0.003458400024101138,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "000000000000000000000000000000000000000000000000000000",
+          "native_seconds": 1.6700010746717453e-05,
+          "optimized_seconds": 0.000382099999114871,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "00000000001204",
+          "native_seconds": 0.1552697999868542,
+          "optimized_seconds": 0.016456599987577647,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "000000000000000000000000000000000000020004000000204000",
+          "native_seconds": 10.295542800042313,
+          "optimized_seconds": 0.32533079996937886,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 8.700008038431406e-06,
+          "optimized_seconds": 4.0499959141016006e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "000000000000000000004800200800000000000000000000000000",
+          "native_seconds": 10.109184300003108,
+          "optimized_seconds": 0.2966296999948099,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 8.300004992634058e-06,
+          "optimized_seconds": 4.099996294826269e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "000000000000000020000000000004000200000000000000000000",
+          "native_seconds": 10.163049999973737,
+          "optimized_seconds": 0.30998790002195165,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 8.999952115118504e-06,
+          "optimized_seconds": 4.0700018871575594e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "000000000000000200000000010308000000004000080004000000",
+          "native_seconds": 10.405525200010743,
+          "optimized_seconds": 0.30492069997126237,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 7.599999662488699e-06,
+          "optimized_seconds": 3.330002073198557e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "000020000000000000802001200800000040000000000000000000",
+          "native_seconds": 9.996362600009888,
+          "optimized_seconds": 0.3119084000354633,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 9.499955922365189e-06,
+          "optimized_seconds": 4.630000330507755e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "32ce612c4f9c91d9754e7716f7013ca2c9adefe2849c0ba586f8ab",
+          "native_seconds": 10.284242500027176,
+          "optimized_seconds": 0.31810229999246076,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "42e3bc9bdc2d28",
+          "native_seconds": 0.15514769998844713,
+          "optimized_seconds": 0.016578300041146576,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "070004000000400000000000000000000000000000000000000000",
+          "native_seconds": 9.70474270003615,
+          "optimized_seconds": 0.2950688999844715,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 6.900052540004253e-06,
+          "optimized_seconds": 3.520003519952297e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "1f26bc42d2aac1fb158d415e46734cc90e6293788ae923fb3aa098",
+          "native_seconds": 9.944485499989241,
+          "optimized_seconds": 0.29673190001631156,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "99e69618f43820",
+          "native_seconds": 0.15221710002515465,
+          "optimized_seconds": 0.015417099988553673,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "ff11977e19dc94290e00e50e2129836a257d4aef49e2b1086157f2",
+          "native_seconds": 9.686160099983681,
+          "optimized_seconds": 0.30168849998153746,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "844162397a2318",
+          "native_seconds": 0.14844580000499263,
+          "optimized_seconds": 0.015916600008495152,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        }
+      ],
+      "prior_sha256": "f9ba880e2639d866b8dd232f7ea4ac90b2ceef6c4cd265bb10357b018561b5c9",
+      "all_logical_predictions_equal": true,
+      "original_accelerated": true,
+      "prefix_reuse": true,
+      "rounded_zero_shortcut": true
+    },
+    {
+      "instance": "bb-108",
+      "order": "check_reverse",
+      "records": 14,
+      "windows": [
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 7.599999662488699e-06,
+          "optimized_seconds": 0.00011999998241662979,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 6.200047209858894e-06,
+          "optimized_seconds": 5.579995922744274e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 5.799985956400633e-06,
+          "optimized_seconds": 3.070000093430281e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 5.599984433501959e-06,
+          "optimized_seconds": 1.999997766688466e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "00000000001204",
+          "native_seconds": 9.849999332800508e-05,
+          "optimized_seconds": 0.0016723000444471836,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 5.900044925510883e-06,
+          "optimized_seconds": 2.3600005079060793e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 5.399982910603285e-06,
+          "optimized_seconds": 1.8600025214254856e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "00000c00000000",
+          "native_seconds": 0.052262599987443537,
+          "optimized_seconds": 0.005306600010953844,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 7.90000194683671e-06,
+          "optimized_seconds": 3.170000854879618e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 5.799985956400633e-06,
+          "optimized_seconds": 1.209997572004795e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 5.89998671784997e-06,
+          "optimized_seconds": 2.300000051036477e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 5.700043402612209e-06,
+          "optimized_seconds": 2.300000051036477e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "00800000004100",
+          "native_seconds": 0.0531806000508368,
+          "optimized_seconds": 0.0056229999754577875,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "02808020000102",
+          "native_seconds": 0.05500019999453798,
+          "optimized_seconds": 0.0054650999954901636,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "06890020000102",
+          "native_seconds": 0.00021899997955188155,
+          "optimized_seconds": 0.0018406999879516661,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 8.800008799880743e-06,
+          "optimized_seconds": 5.989999044686556e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "00000000481000",
+          "native_seconds": 0.05377390002831817,
+          "optimized_seconds": 0.005396299995481968,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "04001024491004",
+          "native_seconds": 0.053866099973674864,
+          "optimized_seconds": 0.005199900013394654,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "04000004411004",
+          "native_seconds": 0.05430509999860078,
+          "optimized_seconds": 0.006212700041942298,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "04000004411004",
+          "native_seconds": 0.00014449999434873462,
+          "optimized_seconds": 0.0019355000113137066,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 8.800008799880743e-06,
+          "optimized_seconds": 5.7399971410632133e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "00000080000000",
+          "native_seconds": 0.05572499998379499,
+          "optimized_seconds": 0.005716699990443885,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "00400000000000",
+          "native_seconds": 0.05516070005251095,
+          "optimized_seconds": 0.005287600040901452,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "40c02090200018",
+          "native_seconds": 0.05518640001537278,
+          "optimized_seconds": 0.005602099990937859,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "58c02090200c00",
+          "native_seconds": 0.00017709995154291391,
+          "optimized_seconds": 0.0019357000128366053,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 1.3299984857439995e-05,
+          "optimized_seconds": 5.129998316988349e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "00002000200000",
+          "native_seconds": 0.05425649997778237,
+          "optimized_seconds": 0.004954600008204579,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "00482000200000",
+          "native_seconds": 0.05424899997888133,
+          "optimized_seconds": 0.005324000027030706,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "00482000200000",
+          "native_seconds": 0.052892700012307614,
+          "optimized_seconds": 0.0052699000225402415,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "00482000200000",
+          "native_seconds": 0.00019869999960064888,
+          "optimized_seconds": 0.0016752000083215535,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 6.999995093792677e-06,
+          "optimized_seconds": 3.700004890561104e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "40000000480000",
+          "native_seconds": 0.05367880000267178,
+          "optimized_seconds": 0.0052207999979145825,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "44000004410804",
+          "native_seconds": 0.05280279996804893,
+          "optimized_seconds": 0.005322500015608966,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "44000004410804",
+          "native_seconds": 0.05312549998052418,
+          "optimized_seconds": 0.005079499969724566,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "44000004410804",
+          "native_seconds": 0.00020539999241009355,
+          "optimized_seconds": 0.0016059000045061111,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "62d50264859637",
+          "native_seconds": 0.054024299955926836,
+          "optimized_seconds": 0.005530100024770945,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "7372bef671262d",
+          "native_seconds": 0.053182900010142475,
+          "optimized_seconds": 0.00538399996003136,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "4bfd29148fb80c",
+          "native_seconds": 0.053638499986846,
+          "optimized_seconds": 0.005085800017695874,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "671b0c37bef722",
+          "native_seconds": 0.052201999991666526,
+          "optimized_seconds": 0.0053551000310108066,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "5caaefd065d304",
+          "native_seconds": 0.00019859999883919954,
+          "optimized_seconds": 0.0016567999846301973,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "4d9c84f4c20c33",
+          "native_seconds": 0.05225649999920279,
+          "optimized_seconds": 0.005402599985245615,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "62bc144e2f3b2d",
+          "native_seconds": 0.05362620000960305,
+          "optimized_seconds": 0.005231199960689992,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "bbad10c25b980a",
+          "native_seconds": 0.052455600001849234,
+          "optimized_seconds": 0.004942399973515421,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "b1b7ec915a5a27",
+          "native_seconds": 0.05283220001729205,
+          "optimized_seconds": 0.005157999985385686,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "48d371eae9f319",
+          "native_seconds": 0.0002109999768435955,
+          "optimized_seconds": 0.001882400014437735,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "c3408020000018",
+          "native_seconds": 0.0543959999922663,
+          "optimized_seconds": 0.005582100013270974,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "c3408020000018",
+          "native_seconds": 0.05374050000682473,
+          "optimized_seconds": 0.005233999982010573,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "de490020002c01",
+          "native_seconds": 0.05322490003891289,
+          "optimized_seconds": 0.00507299997843802,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "de490020002c01",
+          "native_seconds": 0.05346059997100383,
+          "optimized_seconds": 0.005105399992316961,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "de490020002c01",
+          "native_seconds": 0.00013560004299506545,
+          "optimized_seconds": 0.0015867999754846096,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            0
+          ],
+          "syndrome": "bb144c2cdc061f",
+          "native_seconds": 0.05204859998775646,
+          "optimized_seconds": 0.0056833999697119,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            1
+          ],
+          "syndrome": "b639ede9923e1e",
+          "native_seconds": 0.052184500033035874,
+          "optimized_seconds": 0.005045799945946783,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            2
+          ],
+          "syndrome": "82f5fc989c1605",
+          "native_seconds": 0.05252910003764555,
+          "optimized_seconds": 0.00489380001090467,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            3
+          ],
+          "syndrome": "bd6187eb72371c",
+          "native_seconds": 0.05252019996987656,
+          "optimized_seconds": 0.005746900045778602,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "original",
+            4
+          ],
+          "syndrome": "f23d8181995d0f",
+          "native_seconds": 0.00020619999850168824,
+          "optimized_seconds": 0.0017635999829508364,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "000000000000000000000000000000000000000000000000000000",
+          "native_seconds": 1.8099963199347258e-05,
+          "optimized_seconds": 0.00035390001721680164,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "00000000001204",
+          "native_seconds": 0.0012681999942287803,
+          "optimized_seconds": 0.0021300000371411443,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "000000000000000000000000000000c00000000000003000000000",
+          "native_seconds": 10.740681199997198,
+          "optimized_seconds": 0.35134469997137785,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 7.599999662488699e-06,
+          "optimized_seconds": 2.5900022592395544e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "000000000000000000000000000000080000100400000082000000",
+          "native_seconds": 10.675792399968486,
+          "optimized_seconds": 0.34896329999901354,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "000000a1000100",
+          "native_seconds": 0.0012420000275596976,
+          "optimized_seconds": 0.002169499988667667,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "000000000000000000000012040000000182000000000000000000",
+          "native_seconds": 10.60678759997245,
+          "optimized_seconds": 0.3307767000515014,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 1.379998866468668e-05,
+          "optimized_seconds": 2.8999987989664078e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "000000000000000000002000000000040008000000018240820060",
+          "native_seconds": 10.614657300000545,
+          "optimized_seconds": 0.34409749996848404,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "40802090200000",
+          "native_seconds": 0.001263399957679212,
+          "optimized_seconds": 0.0021532000391744077,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "000000000000000000080008000080040000000000000000000000",
+          "native_seconds": 10.520937499997672,
+          "optimized_seconds": 0.3495212999987416,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 8.100003469735384e-06,
+          "optimized_seconds": 2.7699978090822697e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "000000000000001000000012000000000000800000000000000000",
+          "native_seconds": 10.611126000003424,
+          "optimized_seconds": 0.34367889998247847,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 7.90000194683671e-06,
+          "optimized_seconds": 2.4999957531690598e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "62d50264859677c429af243dac16e15860ec8f8a9498979ce0ac9f",
+          "native_seconds": 10.85263959999429,
+          "optimized_seconds": 0.3655859000282362,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "1cbaefd065c200",
+          "native_seconds": 0.001513600000180304,
+          "optimized_seconds": 0.0023465999984182417,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "4d9c84f4c20cf30b08a46efb8d571f41c1da57bb8c68b0cf25d991",
+          "native_seconds": 10.785720299987588,
+          "optimized_seconds": 0.34238340001320466,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "4e5e71eee9f319",
+          "native_seconds": 0.0013573000323958695,
+          "optimized_seconds": 0.0022258000099100173,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "c34080200000180000000000000000000000000000000000000000",
+          "native_seconds": 10.607236600015312,
+          "optimized_seconds": 0.33602170000085607,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "00000000000000",
+          "native_seconds": 7.499998901039362e-06,
+          "optimized_seconds": 2.300000051036477e-05,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": true
+        },
+        {
+          "window": [
+            "strong",
+            0
+          ],
+          "syndrome": "bb144c2cdc065f434b68b1134e80501c19f76433fc74ae4f9d8f74",
+          "native_seconds": 10.609972900012508,
+          "optimized_seconds": 0.34311109996633604,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        },
+        {
+          "window": [
+            "strong",
+            1
+          ],
+          "syndrome": "723da0a1985d0f",
+          "native_seconds": 0.0013182000257074833,
+          "optimized_seconds": 0.0021205999655649066,
+          "complete_error_vector_equal": true,
+          "llr_equal": true,
+          "bp_converged": false
+        }
+      ],
+      "prior_sha256": "4542d97e2e127008c87378c1fa63da53db9473c2803949807c37599d181e18af",
+      "all_logical_predictions_equal": true,
+      "original_accelerated": true,
+      "prefix_reuse": true,
+      "rounded_zero_shortcut": true
+    }
+  ],
+  "elapsed_seconds": 1342.6351033999817
+}

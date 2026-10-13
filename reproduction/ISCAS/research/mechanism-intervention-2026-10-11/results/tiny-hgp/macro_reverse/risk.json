@@ -1,0 +1,29 @@
+{
+  "total_physical_branches": 25717,
+  "total_physical_coefficient": 4813.0,
+  "invisible_branches": 8142,
+  "invisible_coefficient": 1870.800000000148,
+  "explained_physical_branches": 17575,
+  "signature_count": 342,
+  "optimal_single_fault_coefficient": 109.33333333333331,
+  "ambiguous_syndromes": 34,
+  "decoder": {
+    "original": {
+      "coefficient": 255.20000000000002,
+      "per_logical_coefficient": [
+        255.20000000000002
+      ],
+      "single_signature_failures": 87
+    },
+    "strong": {
+      "coefficient": 304.39999999999986,
+      "per_logical_coefficient": [
+        304.39999999999986
+      ],
+      "single_signature_failures": 62
+    }
+  },
+  "merged_dem_total_probability": 2.8840302177280708,
+  "merged_dem_logical_probability": 0.5571569193863095,
+  "coefficient_semantics": "sum physical channel Pauli branch p/epsilon; invisible D=L=0 mass retained separately"
+}

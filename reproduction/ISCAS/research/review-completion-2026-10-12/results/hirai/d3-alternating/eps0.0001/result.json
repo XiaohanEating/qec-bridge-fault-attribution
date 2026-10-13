@@ -1,0 +1,32 @@
+{
+  "task": {
+    "kind": "hirai",
+    "distance": 3,
+    "order": "alternating",
+    "eps": 0.0001,
+    "shots": 1048576,
+    "id": "batch1-0015-hirai",
+    "seed": 520276012
+  },
+  "source_sha256": "acb9c3245c047684cea7d3fa2d7e4cf3a9fc8b4e27873f1688132874841b2ce5",
+  "source": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\external\\hirai\\simulation\\circuit\\uniform_depolarizing\\circuit_z_alternating_memory_d3_p0.0001_uniform_depolarizing.stim",
+  "R_star": 1.2000000000000006,
+  "R_matching": 10.400000000000002,
+  "E_matching": 9.200000000000001,
+  "graphlike_distance": 2,
+  "shots": 1048576,
+  "failures": 1116,
+  "interval": [
+    0.0010027965465175255,
+    0.0011285866846976965
+  ],
+  "decoder": "official PyMatching; fixed-shot new confirmation, same raw published circuit",
+  "resource_counts": {
+    "CX": 48,
+    "TICK": 15
+  },
+  "noise_locations": 352.0,
+  "noise": "author's original uniform depolarizing",
+  "sample_sha256": "68ca87916d1c912c96c430bdf810a52c12647141f4127a27031694ef4579fd18",
+  "decoded_sha256": "ff6ee076c29449807a1357c1a33b4b5ac6f56608613b20721635d57a3377e4c9"
+}

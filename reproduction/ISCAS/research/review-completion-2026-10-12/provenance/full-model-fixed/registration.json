@@ -1,0 +1,61 @@
+{
+  "registered_utc": "2026-10-12T07:29:15.359642+00:00",
+  "source_sha256": {
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\full-model-fixed\\source\\src\\iscas_revision\\__init__.py": "eccf53e0ac7bfc3dc25e985bfb426bcb29f0c0da56545bf1b766cf4723dd11b9",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\full-model-fixed\\source\\src\\iscas_revision\\artifacts.py": "38b73ca09d581d436134dcc64d2fd83d1b2180f519ee659d5c470e5debdba29e",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\full-model-fixed\\source\\src\\iscas_revision\\audit.py": "ac8bbaf9b9401b1e999bca316a27d7e4ec16027a61bca55c6431e945141c9f57",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\full-model-fixed\\source\\src\\iscas_revision\\decoding.py": "96dcad7e99e432d6d583283892aa3134b6f00c9ab7d5dc3c275797a11109d5df",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\full-model-fixed\\source\\src\\iscas_revision\\stratification.py": "7dfcbf27f29ab9b5804686054c0691d1b30ef9cff70ae7711c972b6ac9246509",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\full-model-fixed\\source\\src\\iscas_revision\\literature.py": "7d78db5b08a7bfeec606e269d93b6968140873ecffcd7e6fbf8f595e7dcd9360",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\full-model-fixed\\source\\src\\iscas_revision\\verification.py": "cb29cd6dc30b86b5831fb33cd5d2131a56ba10dd3f8c32ec02261f187e0ab49f",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\full-model-fixed\\source\\src\\iscas_revision\\experiments.py": "80ffd5015b8b4b4b7fd5e4e1000e71657f0b7f2fb849c366fa95e78797c80c9f",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\full-model-fixed\\source\\src\\iscas_revision\\orchestration.py": "20aeb70896156ec6623a3cac4a22c2d5029bf84752e0d3030f1b171582064ed3",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\full-model-fixed\\source\\src\\iscas_revision\\baselines.py": "cb4edaf35a0c6e7ed74046ffe075b32fece5b0ea5a90112e16c53f409a3bec65",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\full-model-fixed\\source\\src\\iscas_revision\\order_space.py": "7e92b07165a6c4f4f7974b54592b3a0ab2216a7a7b62804023ca9e258cb308f9",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\full-model-fixed\\source\\src\\iscas_revision\\synthesis.py": "ccc3f4158d1498bd75a628c041d5700e077a61841a3327be32397515d854f9dc",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\full-model-fixed\\source\\src\\iscas_revision\\parallel_decode.py": "73a93a6c71941d9d15b15f57127d38011ea90f40cc2085adb554a4670c9b47e1",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\full-model-fixed\\source\\src\\iscas_revision\\certificates.py": "7f7ebc1302582447cb9fb59c1e5a640dfcd2ca9809c2be9b90852dd02176eacf",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\full-model-fixed\\source\\src\\iscas_revision\\reporting.py": "ff06f6e867c759bc7468b8142e83fb0bc96b03545c09e2d234ac45a0b6597fed",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\full-model-fixed\\source\\src\\iscas_revision\\figures.py": "f6ffe12df0af64c47847fceec15ad15f6fb97a9ce542e14c5f6db125508b4ed7",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\full-model-fixed\\source\\src\\iscas_revision\\finite_parallel.py": "7d125d0d9ba6cd065908db96d92c319f9fab98c7f786a361c7ade44f34816312",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\full-model-fixed\\source\\src\\iscas_revision\\publication.py": "84b89d0cccb8ee3ddae0cc4bf397f034d86326d3b06f6297322d016138ed038d",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\full-model-fixed\\source\\src\\iscas_revision\\controls\\__init__.py": "308795124244d5e172452a68289df514bd0dbfc0fd0ec876c4cbf9507fff6e6a",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\full-model-fixed\\source\\src\\iscas_revision\\controls\\full_model.py": "4599dd65837d19cb47ebba25682fe5edbb73adbbf95c97a115aadaa34b9a2e08",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\joint-bridge\\forward\\eps0.0001\\physical.npz": "ba3ab5ff7ecc77e61796cd4a2d5f6f08de23b3f3ba4b2797fd8f40e78006511f",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\joint-bridge\\forward\\eps0.0001\\decoded.npz": "dd81f0a88fff84eeb9ba53f9fc26f90307bbb775f0291fdd798458a6675114e4",
+    "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\provenance\\decoder-priors\\tiny-hgp\\forward.stim": "e15f409ab14957d84a86be65d6a51885224b05c9bc19537b454506d335d75c5c",
+    "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\results\\tiny-hgp\\forward\\single-fault.npz": "f7357b4263730713550e1d553f6af805bfa5d32aa56df15108d4adede10396d2",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\joint-bridge\\macro_reverse\\eps0.0001\\physical.npz": "9b998702d3cc04234020997da960eb96b31fa0a35be87035bc8e2b7fa3cef770",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\joint-bridge\\macro_reverse\\eps0.0001\\decoded.npz": "a87b521dcccb28d6fda960c74bfcde868cf13cf43ecee085ae14dfeb8e6dc219",
+    "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\provenance\\decoder-priors\\tiny-hgp\\macro_reverse.stim": "b0511b264c300488099a533019cbd065c5550849f98c7a5790794cbcdb971ebe",
+    "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\results\\tiny-hgp\\macro_reverse\\single-fault.npz": "2a59fb804655c813f765712b2947f0c008f93bbc6d183c26b66b4c7b12a5c60c",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\joint-bridge\\check_reverse\\eps0.0001\\physical.npz": "e018787d24c88b79849561bb7c42453eac69a15670c23e83cc34f8b65cdadca7",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\joint-bridge\\check_reverse\\eps0.0001\\decoded.npz": "8b8f8628c4fe0620bb116906c7eee74b401bbc83a83d98c1d3598a80ac841ac2",
+    "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\provenance\\decoder-priors\\tiny-hgp\\check_reverse.stim": "102e04beb0c0df734e5294de5aca0ec33c800648a050017fa25ecaad3ac823a1",
+    "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\results\\tiny-hgp\\check_reverse\\single-fault.npz": "04003bb383b3bfd51aa8a8e72439638904e3abc6556d40a42ef0bbd0ac2eccac"
+  },
+  "tasks": [
+    {
+      "order": "forward",
+      "id": "full-model-fixed-0",
+      "physical_epsilon": 0.0001,
+      "prior_epsilon": 0.001,
+      "shots": 32768
+    },
+    {
+      "order": "macro_reverse",
+      "id": "full-model-fixed-1",
+      "physical_epsilon": 0.0001,
+      "prior_epsilon": 0.001,
+      "shots": 32768
+    },
+    {
+      "order": "check_reverse",
+      "id": "full-model-fixed-2",
+      "physical_epsilon": 0.0001,
+      "prior_epsilon": 0.001,
+      "shots": 32768
+    }
+  ],
+  "scope": "attribution reanalysis; same saved batch5 physical arrays; hold prior fixed at .001 while comparing complete and sliding representations; all settings retained"
+}

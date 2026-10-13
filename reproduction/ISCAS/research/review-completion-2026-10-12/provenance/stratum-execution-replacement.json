@@ -1,0 +1,88 @@
+{
+  "TimeUtc": "2026-10-12T08:53:51.7124706Z",
+  "Supervisors": [
+    123152,
+    85720
+  ],
+  "StoppedIds": [
+    123704,
+    125692,
+    115608,
+    125096,
+    121220,
+    123524,
+    121876,
+    124328,
+    30456,
+    94500,
+    103032,
+    57804,
+    123152,
+    85720,
+    125308,
+    100468
+  ],
+  "Children": [
+    {
+      "ProcessId": 123704,
+      "ParentProcessId": 123152,
+      "CommandLine": "\"C:\\Users\\lenovo\\AppData\\Roaming\\uv\\python\\cpython-3.11.17-windows-x86_64-none\\python.exe\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=123152, pipe_handle=1524)\" \"--multiprocessing-fork\""
+    },
+    {
+      "ProcessId": 125692,
+      "ParentProcessId": 123152,
+      "CommandLine": "\"C:\\Users\\lenovo\\AppData\\Roaming\\uv\\python\\cpython-3.11.17-windows-x86_64-none\\python.exe\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=123152, pipe_handle=1560)\" \"--multiprocessing-fork\""
+    },
+    {
+      "ProcessId": 115608,
+      "ParentProcessId": 123152,
+      "CommandLine": "\"C:\\Users\\lenovo\\AppData\\Roaming\\uv\\python\\cpython-3.11.17-windows-x86_64-none\\python.exe\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=123152, pipe_handle=1568)\" \"--multiprocessing-fork\""
+    },
+    {
+      "ProcessId": 125096,
+      "ParentProcessId": 123152,
+      "CommandLine": "\"C:\\Users\\lenovo\\AppData\\Roaming\\uv\\python\\cpython-3.11.17-windows-x86_64-none\\python.exe\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=123152, pipe_handle=1448)\" \"--multiprocessing-fork\""
+    },
+    {
+      "ProcessId": 121220,
+      "ParentProcessId": 123152,
+      "CommandLine": "\"C:\\Users\\lenovo\\AppData\\Roaming\\uv\\python\\cpython-3.11.17-windows-x86_64-none\\python.exe\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=123152, pipe_handle=1572)\" \"--multiprocessing-fork\""
+    },
+    {
+      "ProcessId": 123524,
+      "ParentProcessId": 123152,
+      "CommandLine": "\"C:\\Users\\lenovo\\AppData\\Roaming\\uv\\python\\cpython-3.11.17-windows-x86_64-none\\python.exe\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=123152, pipe_handle=1596)\" \"--multiprocessing-fork\""
+    },
+    {
+      "ProcessId": 121876,
+      "ParentProcessId": 123152,
+      "CommandLine": "\"C:\\Users\\lenovo\\AppData\\Roaming\\uv\\python\\cpython-3.11.17-windows-x86_64-none\\python.exe\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=123152, pipe_handle=1592)\" \"--multiprocessing-fork\""
+    },
+    {
+      "ProcessId": 124328,
+      "ParentProcessId": 123152,
+      "CommandLine": "\"C:\\Users\\lenovo\\AppData\\Roaming\\uv\\python\\cpython-3.11.17-windows-x86_64-none\\python.exe\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=123152, pipe_handle=1580)\" \"--multiprocessing-fork\""
+    },
+    {
+      "ProcessId": 30456,
+      "ParentProcessId": 85720,
+      "CommandLine": "\"C:\\Users\\lenovo\\AppData\\Roaming\\uv\\python\\cpython-3.11.17-windows-x86_64-none\\python.exe\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=85720, pipe_handle=336)\" \"--multiprocessing-fork\""
+    },
+    {
+      "ProcessId": 94500,
+      "ParentProcessId": 85720,
+      "CommandLine": "\"C:\\Users\\lenovo\\AppData\\Roaming\\uv\\python\\cpython-3.11.17-windows-x86_64-none\\python.exe\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=85720, pipe_handle=568)\" \"--multiprocessing-fork\""
+    },
+    {
+      "ProcessId": 103032,
+      "ParentProcessId": 85720,
+      "CommandLine": "\"C:\\Users\\lenovo\\AppData\\Roaming\\uv\\python\\cpython-3.11.17-windows-x86_64-none\\python.exe\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=85720, pipe_handle=880)\" \"--multiprocessing-fork\""
+    },
+    {
+      "ProcessId": 57804,
+      "ParentProcessId": 85720,
+      "CommandLine": "\"C:\\Users\\lenovo\\AppData\\Roaming\\uv\\python\\cpython-3.11.17-windows-x86_64-none\\python.exe\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=85720, pipe_handle=400)\" \"--multiprocessing-fork\""
+    }
+  ],
+  "Reason": "Replace original execution with fully checked exact implementation; committed shards retained"
+}

@@ -1,0 +1,60 @@
+{
+  "task": {
+    "kind": "direct",
+    "instance": "holdout-hgp-3x4",
+    "order": "macro_reverse",
+    "eps": 1e-06,
+    "shots": 32768,
+    "id": "batch1-0168-direct",
+    "seed": 520429012
+  },
+  "decoder": {
+    "original": {
+      "shots": 32768,
+      "failures": 156,
+      "rate": 0.0047607421875,
+      "interval": [
+        0.004044375985321139,
+        0.0055669389838558705
+      ],
+      "per_logical": [
+        156
+      ]
+    },
+    "strong": {
+      "shots": 32768,
+      "failures": 4,
+      "rate": 0.0001220703125,
+      "interval": [
+        3.326102114296466e-05,
+        0.00031251871677278497
+      ],
+      "per_logical": [
+        4
+      ]
+    },
+    "single_fault_lookup": {
+      "shots": 32768,
+      "failures": 1,
+      "rate": 3.0517578125e-05,
+      "interval": [
+        7.72637884629511e-07,
+        0.00017002120181939268
+      ],
+      "per_logical": [
+        1
+      ]
+    }
+  },
+  "sample_sha256": "c5dae583d18afd982a264de295098f442918dc4a3d3d295fb0f8472f42933fb0",
+  "decoded_sha256": "91e60898c5e1c38a2e086e0690edcfb3e55db26c358854ec3898254ed39a9907",
+  "paired": {
+    "shots": 32768,
+    "first_failures": 156,
+    "second_failures": 4,
+    "first_only": 153,
+    "second_only": 1,
+    "paired_difference": -0.004638671875,
+    "mcnemar_exact_two_sided_p": 1.3575078873146665e-44
+  }
+}

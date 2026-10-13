@@ -1,0 +1,76 @@
+{
+  "task": {
+    "kind": "zhao",
+    "instance": "bb-72",
+    "order": "unrouted",
+    "noise": "author",
+    "eps": 0.0001,
+    "shots": 32768,
+    "id": "batch4-0020-zhao",
+    "seed": 720461012,
+    "revision": "-v2"
+  },
+  "R_star": 0.0,
+  "decoder": {
+    "full_joint_original": {
+      "R_delta": 0.0,
+      "E": 0.0,
+      "failures": 0,
+      "shots": 32768,
+      "interval": [
+        0.0,
+        0.00011256933053201362
+      ]
+    },
+    "full_joint_strong": {
+      "R_delta": 0.0,
+      "E": 0.0,
+      "failures": 0,
+      "shots": 32768,
+      "interval": [
+        0.0,
+        0.00011256933053201362
+      ]
+    },
+    "single_fault_lookup": {
+      "R_delta": 0.0,
+      "E": 0.0,
+      "failures": 0,
+      "shots": 32768,
+      "interval": [
+        0.0,
+        0.00011256933053201362
+      ]
+    }
+  },
+  "resources": {
+    "CX": 1728,
+    "TICK": 55
+  },
+  "noise_channels": {
+    "total_physical_branches": 40824,
+    "total_physical_coefficient": 7272.0,
+    "invisible_branches": 14328,
+    "invisible_coefficient": 3662.400000000346
+  },
+  "source": {
+    "repository": "Guangqi-Phys/Routing-Circuit",
+    "commit": "295adf67633f223e1cc543d972cd34012c10a4e8",
+    "n": 72,
+    "k": 12,
+    "parameters": [
+      6,
+      6,
+      3,
+      -1,
+      -1,
+      3
+    ],
+    "rounds_parameter": 3,
+    "noise": "literal author standard_depolarizing_noise_model; Pauli axes audited separately",
+    "geometry": "author periodic checkerboard and reduced long-range couplers; hardware difference separately reported"
+  },
+  "sample_sha256": "51e2bae1236bc6059d3e84c8d93c0c422c5a3dc761832654c5a0d2760bf378e3",
+  "decoded_sha256": "fa7f0fe4192c76c0fa5c3782bae043f6f14ce6f1debb5ea0725887c9dd3dda06",
+  "detector_columns": "separate complete (D,L) signatures; no first-logical-label merging"
+}

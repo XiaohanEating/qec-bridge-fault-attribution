@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qec-bridge-fault-attribution"
+version = "1.0.0"
+description = "Reproduction artifact for physical fault ambiguity and decoder decision loss in QEC bridges"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+dependencies = ["numpy==2.4.6", "scipy==1.17.1", "stim==1.16.0", "ldpc==2.4.1", "quits==1.2.0", "pymatching==2.4.0", "matplotlib>=3.8"]
+
+[project.optional-dependencies]
+upstream = ["bposd==2.1", "pyscipopt==5.4.1"]
+accelerated = ["numba>=0.60"]
+
+[project.scripts]
+qec-bridge = "qec_bridge_artifact.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

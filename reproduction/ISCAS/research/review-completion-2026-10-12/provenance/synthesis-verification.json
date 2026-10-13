@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-10-12T12:11:20.539422+00:00",
+  "idle_reweighting_rows": 9,
+  "decoder_status": "complete",
+  "low_noise_comparisons": 60,
+  "direct_comparisons": 60,
+  "multiple_fault_attribution_complete": true,
+  "bb_comparisons": 96,
+  "order_space_comparisons": 12,
+  "deployment_sensitivity": {
+    "deployment": 60,
+    "sensitivity": 36
+  },
+  "circuit_distance_rows": 8,
+  "scientific_inputs_modified": false,
+  "source_sha256": "5df8081de0cc9e5dcddb28718ae7abab4cd2279147e906d05125776b61c33fa1"
+}

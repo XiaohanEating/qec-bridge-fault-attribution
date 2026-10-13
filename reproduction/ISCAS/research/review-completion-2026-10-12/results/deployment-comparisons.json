@@ -1,0 +1,3367 @@
+{
+  "family_size": 60,
+  "simultaneous_confidence_level": 0.95,
+  "comparisons": [
+    {
+      "candidate": "region1",
+      "eps": 1e-06,
+      "decoder": "original",
+      "baseline": {
+        "shots": 32768,
+        "failures": 22,
+        "rate": 0.00067138671875,
+        "interval": [
+          0.00042080080080591034,
+          0.0010163121577532529
+        ],
+        "per_logical": [
+          22
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 23,
+        "rate": 0.000701904296875,
+        "interval": [
+          0.00044499750401441124,
+          0.0010530160751141115
+        ],
+        "per_logical": [
+          23
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "difference": 3.0517578125e-05,
+      "confidence_interval": [
+        -0.0010395875550933322,
+        0.0011004453291210534
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "region1",
+      "eps": 1e-06,
+      "decoder": "strong",
+      "baseline": {
+        "shots": 32768,
+        "failures": 13,
+        "rate": 0.000396728515625,
+        "interval": [
+          0.00021125759645898579,
+          0.0006783222928272341
+        ],
+        "per_logical": [
+          13
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 15,
+        "rate": 0.000457763671875,
+        "interval": [
+          0.0002562287667784177,
+          0.0007548993485974536
+        ],
+        "per_logical": [
+          15
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "difference": 6.103515625e-05,
+      "confidence_interval": [
+        -0.0007982258727500665,
+        0.0009197180727502132
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "region1",
+      "eps": 1e-06,
+      "decoder": "single_fault_lookup",
+      "baseline": {
+        "shots": 32768,
+        "failures": 2,
+        "rate": 6.103515625e-05,
+        "interval": [
+          7.391726051759192e-06,
+          0.000220462393834729
+        ],
+        "per_logical": [
+          2
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 1,
+        "rate": 3.0517578125e-05,
+        "interval": [
+          7.72637884629511e-07,
+          0.00017002120181939268
+        ],
+        "per_logical": [
+          1
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "difference": -3.0517578125e-05,
+      "confidence_interval": [
+        -0.00039901672317308866,
+        0.00033372598726085124
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "region1",
+      "eps": 1e-05,
+      "decoder": "original",
+      "baseline": {
+        "shots": 32768,
+        "failures": 171,
+        "rate": 0.005218505859375,
+        "interval": [
+          0.0044672536628633346,
+          0.006059402208993768
+        ],
+        "per_logical": [
+          171
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 199,
+        "rate": 0.006072998046875,
+        "interval": [
+          0.00526055788244166,
+          0.006974766873788416
+        ],
+        "per_logical": [
+          199
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "difference": 0.0008544921875,
+      "confidence_interval": [
+        -0.0021018323499161374,
+        0.0038100982166821215
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "region1",
+      "eps": 1e-05,
+      "decoder": "strong",
+      "baseline": {
+        "shots": 32768,
+        "failures": 135,
+        "rate": 0.004119873046875,
+        "interval": [
+          0.0034553433510750337,
+          0.004874522500515144
+        ],
+        "per_logical": [
+          135
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 146,
+        "rate": 0.00445556640625,
+        "interval": [
+          0.0037634118057277123,
+          0.00523768462724788
+        ],
+        "per_logical": [
+          146
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "difference": 0.000335693359375,
+      "confidence_interval": [
+        -0.0022492683386050386,
+        0.002920322956777066
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "region1",
+      "eps": 1e-05,
+      "decoder": "single_fault_lookup",
+      "baseline": {
+        "shots": 32768,
+        "failures": 16,
+        "rate": 0.00048828125,
+        "interval": [
+          0.0002791198609466713,
+          0.0007928173705657305
+        ],
+        "per_logical": [
+          16
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 16,
+        "rate": 0.00048828125,
+        "interval": [
+          0.0002791198609466713,
+          0.0007928173705657305
+        ],
+        "per_logical": [
+          16
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "difference": 0.0,
+      "confidence_interval": [
+        -0.0009135284942861056,
+        0.0009135284942861056
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "region1",
+      "eps": 0.0001,
+      "decoder": "original",
+      "baseline": {
+        "shots": 32768,
+        "failures": 1750,
+        "rate": 0.05340576171875,
+        "interval": [
+          0.05099573548364187,
+          0.05589533132823792
+        ],
+        "per_logical": [
+          1750
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 1758,
+        "rate": 0.05364990234375,
+        "interval": [
+          0.05123461106282978,
+          0.05614469211522628
+        ],
+        "per_logical": [
+          1758
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "difference": 0.000244140625,
+      "confidence_interval": [
+        -0.008564033664135488,
+        0.009052183146100456
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "region1",
+      "eps": 0.0001,
+      "decoder": "strong",
+      "baseline": {
+        "shots": 32768,
+        "failures": 1358,
+        "rate": 0.04144287109375,
+        "interval": [
+          0.03931031918431946,
+          0.04365718275591399
+        ],
+        "per_logical": [
+          1358
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 1380,
+        "rate": 0.0421142578125,
+        "interval": [
+          0.03996499804345921,
+          0.04434515186331853
+        ],
+        "per_logical": [
+          1380
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "difference": 0.00067138671875,
+      "confidence_interval": [
+        -0.007162385869042061,
+        0.008504793424470906
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "region1",
+      "eps": 0.0001,
+      "decoder": "single_fault_lookup",
+      "baseline": {
+        "shots": 32768,
+        "failures": 534,
+        "rate": 0.01629638671875,
+        "interval": [
+          0.014953248505887183,
+          0.01772622380686684
+        ],
+        "per_logical": [
+          534
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 541,
+        "rate": 0.016510009765625,
+        "interval": [
+          0.015158045521994122,
+          0.0179486266464515
+        ],
+        "per_logical": [
+          541
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "difference": 0.000213623046875,
+      "confidence_interval": [
+        -0.004772906365115978,
+        0.0052000253632149985
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "region1",
+      "eps": 0.001,
+      "decoder": "original",
+      "baseline": {
+        "shots": 32768,
+        "failures": 12843,
+        "rate": 0.391937255859375,
+        "interval": [
+          0.38664603195790404,
+          0.397247641710825
+        ],
+        "per_logical": [
+          12843
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 13022,
+        "rate": 0.39739990234375,
+        "interval": [
+          0.392095448890665,
+          0.402722548930472
+        ],
+        "per_logical": [
+          13022
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "difference": 0.005462646484375,
+      "confidence_interval": [
+        -0.013626340642141743,
+        0.02454874724756695
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "region1",
+      "eps": 0.001,
+      "decoder": "strong",
+      "baseline": {
+        "shots": 32768,
+        "failures": 11612,
+        "rate": 0.3543701171875,
+        "interval": [
+          0.3491889832413264,
+          0.35957707660586563
+        ],
+        "per_logical": [
+          11612
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 11759,
+        "rate": 0.358856201171875,
+        "interval": [
+          0.3536601302603677,
+          0.3640773017377374
+        ],
+        "per_logical": [
+          11759
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "difference": 0.004486083984375,
+      "confidence_interval": [
+        -0.014221445935364507,
+        0.023191243187848543
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "region1",
+      "eps": 0.001,
+      "decoder": "single_fault_lookup",
+      "baseline": {
+        "shots": 32768,
+        "failures": 11344,
+        "rate": 0.34619140625,
+        "interval": [
+          0.34103878838707335,
+          0.3513713005392367
+        ],
+        "per_logical": [
+          11344
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 11480,
+        "rate": 0.350341796875,
+        "interval": [
+          0.34517449976045594,
+          0.3555356340982709
+        ],
+        "per_logical": [
+          11480
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "difference": 0.004150390625,
+      "confidence_interval": [
+        -0.014456568127056979,
+        0.022755155971312002
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "kutin",
+      "eps": 1e-06,
+      "decoder": "original",
+      "baseline": {
+        "shots": 32768,
+        "failures": 22,
+        "rate": 0.00067138671875,
+        "interval": [
+          0.00042080080080591034,
+          0.0010163121577532529
+        ],
+        "per_logical": [
+          22
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 14,
+        "rate": 0.00042724609375,
+        "interval": [
+          0.00023359847246846668,
+          0.0007167425479810931
+        ],
+        "per_logical": [
+          14
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 1976,
+        "noisy_idle_locations": 1964,
+        "noisy_slots": 173,
+        "physical_slots": 174,
+        "num_1q": 48,
+        "num_2q": 1120,
+        "num_measure": 61
+      },
+      "difference": -0.000244140625,
+      "confidence_interval": [
+        -0.0012023888908857618,
+        0.0007159328899027048
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "kutin",
+      "eps": 1e-06,
+      "decoder": "strong",
+      "baseline": {
+        "shots": 32768,
+        "failures": 13,
+        "rate": 0.000396728515625,
+        "interval": [
+          0.00021125759645898579,
+          0.0006783222928272341
+        ],
+        "per_logical": [
+          13
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 11,
+        "rate": 0.000335693359375,
+        "interval": [
+          0.00016758844623954023,
+          0.0006005685765494286
+        ],
+        "per_logical": [
+          11
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 1976,
+        "noisy_idle_locations": 1964,
+        "noisy_slots": 173,
+        "physical_slots": 174,
+        "num_1q": 48,
+        "num_2q": 1120,
+        "num_measure": 61
+      },
+      "difference": -6.103515625e-05,
+      "confidence_interval": [
+        -0.0008617045414716954,
+        0.0007402998871298394
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "kutin",
+      "eps": 1e-06,
+      "decoder": "single_fault_lookup",
+      "baseline": {
+        "shots": 32768,
+        "failures": 2,
+        "rate": 6.103515625e-05,
+        "interval": [
+          7.391726051759192e-06,
+          0.000220462393834729
+        ],
+        "per_logical": [
+          2
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 2,
+        "rate": 6.103515625e-05,
+        "interval": [
+          7.391726051759192e-06,
+          0.000220462393834729
+        ],
+        "per_logical": [
+          2
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 1976,
+        "noisy_idle_locations": 1964,
+        "noisy_slots": 173,
+        "physical_slots": 174,
+        "num_1q": 48,
+        "num_2q": 1120,
+        "num_measure": 61
+      },
+      "difference": 0.0,
+      "confidence_interval": [
+        -0.0003983958562013427,
+        0.0003983958562013427
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "kutin",
+      "eps": 1e-05,
+      "decoder": "original",
+      "baseline": {
+        "shots": 32768,
+        "failures": 171,
+        "rate": 0.005218505859375,
+        "interval": [
+          0.0044672536628633346,
+          0.006059402208993768
+        ],
+        "per_logical": [
+          171
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 161,
+        "rate": 0.004913330078125,
+        "interval": [
+          0.004185153289554649,
+          0.005731273702169402
+        ],
+        "per_logical": [
+          161
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 1976,
+        "noisy_idle_locations": 1964,
+        "noisy_slots": 173,
+        "physical_slots": 174,
+        "num_1q": 48,
+        "num_2q": 1120,
+        "num_measure": 61
+      },
+      "difference": -0.00030517578125,
+      "confidence_interval": [
+        -0.003109885381661412,
+        0.0024998060489697296
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "kutin",
+      "eps": 1e-05,
+      "decoder": "strong",
+      "baseline": {
+        "shots": 32768,
+        "failures": 135,
+        "rate": 0.004119873046875,
+        "interval": [
+          0.0034553433510750337,
+          0.004874522500515144
+        ],
+        "per_logical": [
+          135
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 138,
+        "rate": 0.00421142578125,
+        "interval": [
+          0.0035392523726212343,
+          0.004973675236787752
+        ],
+        "per_logical": [
+          138
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 1976,
+        "noisy_idle_locations": 1964,
+        "noisy_slots": 173,
+        "physical_slots": 174,
+        "num_1q": 48,
+        "num_2q": 1120,
+        "num_measure": 61
+      },
+      "difference": 9.1552734375e-05,
+      "confidence_interval": [
+        -0.002457474689299213,
+        0.0026404878607889084
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "kutin",
+      "eps": 1e-05,
+      "decoder": "single_fault_lookup",
+      "baseline": {
+        "shots": 32768,
+        "failures": 16,
+        "rate": 0.00048828125,
+        "interval": [
+          0.0002791198609466713,
+          0.0007928173705657305
+        ],
+        "per_logical": [
+          16
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 25,
+        "rate": 0.000762939453125,
+        "interval": [
+          0.0004937931277900551,
+          0.0011260445356005625
+        ],
+        "per_logical": [
+          25
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 1976,
+        "noisy_idle_locations": 1964,
+        "noisy_slots": 173,
+        "physical_slots": 174,
+        "num_1q": 48,
+        "num_2q": 1120,
+        "num_measure": 61
+      },
+      "difference": 0.000274658203125,
+      "confidence_interval": [
+        -0.0007451699766702364,
+        0.001292693602576751
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "kutin",
+      "eps": 0.0001,
+      "decoder": "original",
+      "baseline": {
+        "shots": 32768,
+        "failures": 1750,
+        "rate": 0.05340576171875,
+        "interval": [
+          0.05099573548364187,
+          0.05589533132823792
+        ],
+        "per_logical": [
+          1750
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 1479,
+        "rate": 0.045135498046875,
+        "interval": [
+          0.04291286921994754,
+          0.04743919836990116
+        ],
+        "per_logical": [
+          1479
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 1976,
+        "noisy_idle_locations": 1964,
+        "noisy_slots": 173,
+        "physical_slots": 174,
+        "num_1q": 48,
+        "num_2q": 1120,
+        "num_measure": 61
+      },
+      "difference": -0.008270263671875,
+      "confidence_interval": [
+        -0.0167307104314064,
+        0.0001946600048773131
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "kutin",
+      "eps": 0.0001,
+      "decoder": "strong",
+      "baseline": {
+        "shots": 32768,
+        "failures": 1358,
+        "rate": 0.04144287109375,
+        "interval": [
+          0.03931031918431946,
+          0.04365718275591399
+        ],
+        "per_logical": [
+          1358
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 1353,
+        "rate": 0.041290283203125,
+        "interval": [
+          0.039161549901407876,
+          0.04350080479594691
+        ],
+        "per_logical": [
+          1353
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 1976,
+        "noisy_idle_locations": 1964,
+        "noisy_slots": 173,
+        "physical_slots": 174,
+        "num_1q": 48,
+        "num_2q": 1120,
+        "num_measure": 61
+      },
+      "difference": -0.000152587890625,
+      "confidence_interval": [
+        -0.00794932293620669,
+        0.0076442303482380375
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "kutin",
+      "eps": 0.0001,
+      "decoder": "single_fault_lookup",
+      "baseline": {
+        "shots": 32768,
+        "failures": 534,
+        "rate": 0.01629638671875,
+        "interval": [
+          0.014953248505887183,
+          0.01772622380686684
+        ],
+        "per_logical": [
+          534
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 414,
+        "rate": 0.01263427734375,
+        "interval": [
+          0.011453060892530703,
+          0.013903016616364177
+        ],
+        "per_logical": [
+          414
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 1976,
+        "noisy_idle_locations": 1964,
+        "noisy_slots": 173,
+        "physical_slots": 174,
+        "num_1q": 48,
+        "num_2q": 1120,
+        "num_measure": 61
+      },
+      "difference": -0.003662109375,
+      "confidence_interval": [
+        -0.008340965389471407,
+        0.0010189774385258397
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "kutin",
+      "eps": 0.001,
+      "decoder": "original",
+      "baseline": {
+        "shots": 32768,
+        "failures": 12843,
+        "rate": 0.391937255859375,
+        "interval": [
+          0.38664603195790404,
+          0.397247641710825
+        ],
+        "per_logical": [
+          12843
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 10122,
+        "rate": 0.30889892578125,
+        "interval": [
+          0.30389811018361873,
+          0.31393363518274847
+        ],
+        "per_logical": [
+          10122
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 1976,
+        "noisy_idle_locations": 1964,
+        "noisy_slots": 173,
+        "physical_slots": 174,
+        "num_1q": 48,
+        "num_2q": 1120,
+        "num_measure": 61
+      },
+      "difference": -0.083038330078125,
+      "confidence_interval": [
+        -0.10157137666883453,
+        -0.06446139908923965
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "kutin",
+      "eps": 0.001,
+      "decoder": "strong",
+      "baseline": {
+        "shots": 32768,
+        "failures": 11612,
+        "rate": 0.3543701171875,
+        "interval": [
+          0.3491889832413264,
+          0.35957707660586563
+        ],
+        "per_logical": [
+          11612
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 9677,
+        "rate": 0.295318603515625,
+        "interval": [
+          0.2903823663691917,
+          0.30029114495192816
+        ],
+        "per_logical": [
+          9677
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 1976,
+        "noisy_idle_locations": 1964,
+        "noisy_slots": 173,
+        "physical_slots": 174,
+        "num_1q": 48,
+        "num_2q": 1120,
+        "num_measure": 61
+      },
+      "difference": -0.059051513671875,
+      "confidence_interval": [
+        -0.07728458078189376,
+        -0.04078723441968157
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "kutin",
+      "eps": 0.001,
+      "decoder": "single_fault_lookup",
+      "baseline": {
+        "shots": 32768,
+        "failures": 11344,
+        "rate": 0.34619140625,
+        "interval": [
+          0.34103878838707335,
+          0.3513713005392367
+        ],
+        "per_logical": [
+          11344
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 8173,
+        "rate": 0.249420166015625,
+        "interval": [
+          0.24474251799861257,
+          0.2541422691432491
+        ],
+        "per_logical": [
+          8173
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 1976,
+        "noisy_idle_locations": 1964,
+        "noisy_slots": 173,
+        "physical_slots": 174,
+        "num_1q": 48,
+        "num_2q": 1120,
+        "num_measure": 61
+      },
+      "difference": -0.096771240234375,
+      "confidence_interval": [
+        -0.11448605613996896,
+        -0.07900526375132855
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "forward",
+      "eps": 1e-06,
+      "decoder": "original",
+      "baseline": {
+        "shots": 32768,
+        "failures": 22,
+        "rate": 0.00067138671875,
+        "interval": [
+          0.00042080080080591034,
+          0.0010163121577532529
+        ],
+        "per_logical": [
+          22
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 25,
+        "rate": 0.000762939453125,
+        "interval": [
+          0.0004937931277900551,
+          0.0011260445356005625
+        ],
+        "per_logical": [
+          25
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": 9.1552734375e-05,
+      "confidence_interval": [
+        -0.0010003092220480067,
+        0.001182906344679744
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "forward",
+      "eps": 1e-06,
+      "decoder": "strong",
+      "baseline": {
+        "shots": 32768,
+        "failures": 13,
+        "rate": 0.000396728515625,
+        "interval": [
+          0.00021125759645898579,
+          0.0006783222928272341
+        ],
+        "per_logical": [
+          13
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 18,
+        "rate": 0.00054931640625,
+        "interval": [
+          0.0003255911781712472,
+          0.0008680183416625527
+        ],
+        "per_logical": [
+          18
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": 0.000152587890625,
+      "confidence_interval": [
+        -0.0007458342865112193,
+        0.0010496933163414602
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "forward",
+      "eps": 1e-06,
+      "decoder": "single_fault_lookup",
+      "baseline": {
+        "shots": 32768,
+        "failures": 2,
+        "rate": 6.103515625e-05,
+        "interval": [
+          7.391726051759192e-06,
+          0.000220462393834729
+        ],
+        "per_logical": [
+          2
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 6,
+        "rate": 0.00018310546875,
+        "interval": [
+          6.719934912220542e-05,
+          0.00039850058933766226
+        ],
+        "per_logical": [
+          6
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": 0.0001220703125,
+      "confidence_interval": [
+        -0.00037403914967021123,
+        0.0006181774761550692
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "forward",
+      "eps": 1e-05,
+      "decoder": "original",
+      "baseline": {
+        "shots": 32768,
+        "failures": 171,
+        "rate": 0.005218505859375,
+        "interval": [
+          0.0044672536628633346,
+          0.006059402208993768
+        ],
+        "per_logical": [
+          171
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 183,
+        "rate": 0.005584716796875,
+        "interval": [
+          0.00480666094938053,
+          0.006452277035647873
+        ],
+        "per_logical": [
+          183
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": 0.0003662109375,
+      "confidence_interval": [
+        -0.002528238456948115,
+        0.0032603452698046704
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "forward",
+      "eps": 1e-05,
+      "decoder": "strong",
+      "baseline": {
+        "shots": 32768,
+        "failures": 135,
+        "rate": 0.004119873046875,
+        "interval": [
+          0.0034553433510750337,
+          0.004874522500515144
+        ],
+        "per_logical": [
+          135
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 149,
+        "rate": 0.004547119140625,
+        "interval": [
+          0.0038476151261696147,
+          0.005336546045370871
+        ],
+        "per_logical": [
+          149
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": 0.00042724609375,
+      "confidence_interval": [
+        -0.002170933995328872,
+        0.0030250063485335295
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "forward",
+      "eps": 1e-05,
+      "decoder": "single_fault_lookup",
+      "baseline": {
+        "shots": 32768,
+        "failures": 16,
+        "rate": 0.00048828125,
+        "interval": [
+          0.0002791198609466713,
+          0.0007928173705657305
+        ],
+        "per_logical": [
+          16
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 41,
+        "rate": 0.001251220703125,
+        "interval": [
+          0.0008980425648013908,
+          0.001697043414019103
+        ],
+        "per_logical": [
+          41
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": 0.000762939453125,
+      "confidence_interval": [
+        -0.00040681362686153014,
+        0.0019289886703801815
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "forward",
+      "eps": 0.0001,
+      "decoder": "original",
+      "baseline": {
+        "shots": 32768,
+        "failures": 1750,
+        "rate": 0.05340576171875,
+        "interval": [
+          0.05099573548364187,
+          0.05589533132823792
+        ],
+        "per_logical": [
+          1750
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 1834,
+        "rate": 0.05596923828125,
+        "interval": [
+          0.053504620018934156,
+          0.05851292918153084
+        ],
+        "per_logical": [
+          1834
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": 0.0025634765625,
+      "confidence_interval": [
+        -0.006333741687497008,
+        0.011459312189238513
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "forward",
+      "eps": 0.0001,
+      "decoder": "strong",
+      "baseline": {
+        "shots": 32768,
+        "failures": 1358,
+        "rate": 0.04144287109375,
+        "interval": [
+          0.03931031918431946,
+          0.04365718275591399
+        ],
+        "per_logical": [
+          1358
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 1549,
+        "rate": 0.047271728515625,
+        "interval": [
+          0.044998906728011934,
+          0.04962522549428743
+        ],
+        "per_logical": [
+          1549
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": 0.005828857421875,
+      "confidence_interval": [
+        -0.002227891281798261,
+        0.01388243779105068
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "forward",
+      "eps": 0.0001,
+      "decoder": "single_fault_lookup",
+      "baseline": {
+        "shots": 32768,
+        "failures": 534,
+        "rate": 0.01629638671875,
+        "interval": [
+          0.014953248505887183,
+          0.01772622380686684
+        ],
+        "per_logical": [
+          534
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 637,
+        "rate": 0.019439697265625,
+        "interval": [
+          0.017972277280542917,
+          0.02099315000052747
+        ],
+        "per_logical": [
+          637
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": 0.003143310546875,
+      "confidence_interval": [
+        -0.0020513150294993038,
+        0.00833608980958271
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "forward",
+      "eps": 0.001,
+      "decoder": "original",
+      "baseline": {
+        "shots": 32768,
+        "failures": 12843,
+        "rate": 0.391937255859375,
+        "interval": [
+          0.38664603195790404,
+          0.397247641710825
+        ],
+        "per_logical": [
+          12843
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 12006,
+        "rate": 0.36639404296875,
+        "interval": [
+          0.3611739833323726,
+          0.3716377951305561
+        ],
+        "per_logical": [
+          12006
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": -0.025543212890625,
+      "confidence_interval": [
+        -0.04447701058651954,
+        -0.006595917893312653
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "forward",
+      "eps": 0.001,
+      "decoder": "strong",
+      "baseline": {
+        "shots": 32768,
+        "failures": 11612,
+        "rate": 0.3543701171875,
+        "interval": [
+          0.3491889832413264,
+          0.35957707660586563
+        ],
+        "per_logical": [
+          11612
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 11202,
+        "rate": 0.34185791015625,
+        "interval": [
+          0.3367210812853764,
+          0.34702278428428524
+        ],
+        "per_logical": [
+          11202
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": -0.01251220703125,
+      "confidence_interval": [
+        -0.031111296839663405,
+        0.006093495257493087
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "forward",
+      "eps": 0.001,
+      "decoder": "single_fault_lookup",
+      "baseline": {
+        "shots": 32768,
+        "failures": 11344,
+        "rate": 0.34619140625,
+        "interval": [
+          0.34103878838707335,
+          0.3513713005392367
+        ],
+        "per_logical": [
+          11344
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 10472,
+        "rate": 0.319580078125,
+        "interval": [
+          0.3145320365044725,
+          0.32466011795497957
+        ],
+        "per_logical": [
+          10472
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": -0.026611328125,
+      "confidence_interval": [
+        -0.045000356060218016,
+        -0.008208235367909433
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "macro_reverse",
+      "eps": 1e-06,
+      "decoder": "original",
+      "baseline": {
+        "shots": 32768,
+        "failures": 22,
+        "rate": 0.00067138671875,
+        "interval": [
+          0.00042080080080591034,
+          0.0010163121577532529
+        ],
+        "per_logical": [
+          22
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 6,
+        "rate": 0.00018310546875,
+        "interval": [
+          6.719934912220542e-05,
+          0.00039850058933766226
+        ],
+        "per_logical": [
+          6
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_reset": 25,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": -0.00048828125,
+      "confidence_interval": [
+        -0.0013121695381230114,
+        0.0003405317132677953
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "macro_reverse",
+      "eps": 1e-06,
+      "decoder": "strong",
+      "baseline": {
+        "shots": 32768,
+        "failures": 13,
+        "rate": 0.000396728515625,
+        "interval": [
+          0.00021125759645898579,
+          0.0006783222928272341
+        ],
+        "per_logical": [
+          13
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 9,
+        "rate": 0.000274658203125,
+        "interval": [
+          0.00012559866522160945,
+          0.0005213225047901794
+        ],
+        "per_logical": [
+          9
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_reset": 25,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": -0.0001220703125,
+      "confidence_interval": [
+        -0.00088968384098106,
+        0.000646980651785027
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "macro_reverse",
+      "eps": 1e-06,
+      "decoder": "single_fault_lookup",
+      "baseline": {
+        "shots": 32768,
+        "failures": 2,
+        "rate": 6.103515625e-05,
+        "interval": [
+          7.391726051759192e-06,
+          0.000220462393834729
+        ],
+        "per_logical": [
+          2
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 4,
+        "rate": 0.0001220703125,
+        "interval": [
+          3.326102114296466e-05,
+          0.00031251871677278497
+        ],
+        "per_logical": [
+          4
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_reset": 25,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": 6.103515625e-05,
+      "confidence_interval": [
+        -0.00039044043802336084,
+        0.0005133541511827373
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "macro_reverse",
+      "eps": 1e-05,
+      "decoder": "original",
+      "baseline": {
+        "shots": 32768,
+        "failures": 171,
+        "rate": 0.005218505859375,
+        "interval": [
+          0.0044672536628633346,
+          0.006059402208993768
+        ],
+        "per_logical": [
+          171
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 81,
+        "rate": 0.002471923828125,
+        "interval": [
+          0.0019635342129423186,
+          0.0030714528425452928
+        ],
+        "per_logical": [
+          81
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_reset": 25,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": -0.00274658203125,
+      "confidence_interval": [
+        -0.005156245172142451,
+        -0.0003338771323605299
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "macro_reverse",
+      "eps": 1e-05,
+      "decoder": "strong",
+      "baseline": {
+        "shots": 32768,
+        "failures": 135,
+        "rate": 0.004119873046875,
+        "interval": [
+          0.0034553433510750337,
+          0.004874522500515144
+        ],
+        "per_logical": [
+          135
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 89,
+        "rate": 0.002716064453125,
+        "interval": [
+          0.0021817732815621834,
+          0.0033413039206326087
+        ],
+        "per_logical": [
+          89
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_reset": 25,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": -0.00140380859375,
+      "confidence_interval": [
+        -0.003705027921442329,
+        0.000899063545302834
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "macro_reverse",
+      "eps": 1e-05,
+      "decoder": "single_fault_lookup",
+      "baseline": {
+        "shots": 32768,
+        "failures": 16,
+        "rate": 0.00048828125,
+        "interval": [
+          0.0002791198609466713,
+          0.0007928173705657305
+        ],
+        "per_logical": [
+          16
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 39,
+        "rate": 0.001190185546875,
+        "interval": [
+          0.0008464709180479357,
+          0.0016266674018393767
+        ],
+        "per_logical": [
+          39
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_reset": 25,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": 0.000701904296875,
+      "confidence_interval": [
+        -0.00045092851671809655,
+        0.0018512225066914644
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "macro_reverse",
+      "eps": 0.0001,
+      "decoder": "original",
+      "baseline": {
+        "shots": 32768,
+        "failures": 1750,
+        "rate": 0.05340576171875,
+        "interval": [
+          0.05099573548364187,
+          0.05589533132823792
+        ],
+        "per_logical": [
+          1750
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 909,
+        "rate": 0.027740478515625,
+        "interval": [
+          0.025989018379032704,
+          0.02957630725521215
+        ],
+        "per_logical": [
+          909
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_reset": 25,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": -0.025665283203125,
+      "confidence_interval": [
+        -0.033275749664062215,
+        -0.01804078087446219
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "macro_reverse",
+      "eps": 0.0001,
+      "decoder": "strong",
+      "baseline": {
+        "shots": 32768,
+        "failures": 1358,
+        "rate": 0.04144287109375,
+        "interval": [
+          0.03931031918431946,
+          0.04365718275591399
+        ],
+        "per_logical": [
+          1358
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 1031,
+        "rate": 0.031463623046875,
+        "interval": [
+          0.02959988692536973,
+          0.03341100734375118
+        ],
+        "per_logical": [
+          1031
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_reset": 25,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": -0.009979248046875,
+      "confidence_interval": [
+        -0.017297926164075855,
+        -0.002655091321888098
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "macro_reverse",
+      "eps": 0.0001,
+      "decoder": "single_fault_lookup",
+      "baseline": {
+        "shots": 32768,
+        "failures": 534,
+        "rate": 0.01629638671875,
+        "interval": [
+          0.014953248505887183,
+          0.01772622380686684
+        ],
+        "per_logical": [
+          534
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 530,
+        "rate": 0.01617431640625,
+        "interval": [
+          0.01483624890092871,
+          0.017599109282399883
+        ],
+        "per_logical": [
+          530
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_reset": 25,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": -0.0001220703125,
+      "confidence_interval": [
+        -0.005083555229589257,
+        0.004839487353852591
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "macro_reverse",
+      "eps": 0.001,
+      "decoder": "original",
+      "baseline": {
+        "shots": 32768,
+        "failures": 12843,
+        "rate": 0.391937255859375,
+        "interval": [
+          0.38664603195790404,
+          0.397247641710825
+        ],
+        "per_logical": [
+          12843
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 9651,
+        "rate": 0.294525146484375,
+        "interval": [
+          0.2895928430684283,
+          0.2994938950415752
+        ],
+        "per_logical": [
+          9651
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_reset": 25,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": -0.097412109375,
+      "confidence_interval": [
+        -0.11582029995811277,
+        -0.07895243581498962
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "macro_reverse",
+      "eps": 0.001,
+      "decoder": "strong",
+      "baseline": {
+        "shots": 32768,
+        "failures": 11612,
+        "rate": 0.3543701171875,
+        "interval": [
+          0.3491889832413264,
+          0.35957707660586563
+        ],
+        "per_logical": [
+          11612
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 9374,
+        "rate": 0.28607177734375,
+        "interval": [
+          0.28118250887159685,
+          0.29099899166946663
+        ],
+        "per_logical": [
+          9374
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_reset": 25,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": -0.06829833984375,
+      "confidence_interval": [
+        -0.08644587517926267,
+        -0.050114703652143766
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "macro_reverse",
+      "eps": 0.001,
+      "decoder": "single_fault_lookup",
+      "baseline": {
+        "shots": 32768,
+        "failures": 11344,
+        "rate": 0.34619140625,
+        "interval": [
+          0.34103878838707335,
+          0.3513713005392367
+        ],
+        "per_logical": [
+          11344
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 9042,
+        "rate": 0.27593994140625,
+        "interval": [
+          0.27110501927707736,
+          0.28081460834214644
+        ],
+        "per_logical": [
+          9042
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_reset": 25,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": -0.07025146484375,
+      "confidence_interval": [
+        -0.08825221787050314,
+        -0.05221357611694616
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "check_reverse",
+      "eps": 1e-06,
+      "decoder": "original",
+      "baseline": {
+        "shots": 32768,
+        "failures": 22,
+        "rate": 0.00067138671875,
+        "interval": [
+          0.00042080080080591034,
+          0.0010163121577532529
+        ],
+        "per_logical": [
+          22
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 16,
+        "rate": 0.00048828125,
+        "interval": [
+          0.0002791198609466713,
+          0.0007928173705657305
+        ],
+        "per_logical": [
+          16
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_reset": 25,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": -0.00018310546875,
+      "confidence_interval": [
+        -0.001168667739663876,
+        0.0008037412363890986
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "check_reverse",
+      "eps": 1e-06,
+      "decoder": "strong",
+      "baseline": {
+        "shots": 32768,
+        "failures": 13,
+        "rate": 0.000396728515625,
+        "interval": [
+          0.00021125759645898579,
+          0.0006783222928272341
+        ],
+        "per_logical": [
+          13
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 14,
+        "rate": 0.00042724609375,
+        "interval": [
+          0.00023359847246846668,
+          0.0007167425479810931
+        ],
+        "per_logical": [
+          14
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_reset": 25,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": 3.0517578125e-05,
+      "confidence_interval": [
+        -0.0008148690479011903,
+        0.0008756053266220405
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "check_reverse",
+      "eps": 1e-06,
+      "decoder": "single_fault_lookup",
+      "baseline": {
+        "shots": 32768,
+        "failures": 2,
+        "rate": 6.103515625e-05,
+        "interval": [
+          7.391726051759192e-06,
+          0.000220462393834729
+        ],
+        "per_logical": [
+          2
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 2,
+        "rate": 6.103515625e-05,
+        "interval": [
+          7.391726051759192e-06,
+          0.000220462393834729
+        ],
+        "per_logical": [
+          2
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_reset": 25,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": 0.0,
+      "confidence_interval": [
+        -0.0003983958562013427,
+        0.0003983958562013427
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "check_reverse",
+      "eps": 1e-05,
+      "decoder": "original",
+      "baseline": {
+        "shots": 32768,
+        "failures": 171,
+        "rate": 0.005218505859375,
+        "interval": [
+          0.0044672536628633346,
+          0.006059402208993768
+        ],
+        "per_logical": [
+          171
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 178,
+        "rate": 0.00543212890625,
+        "interval": [
+          0.004665129342089279,
+          0.006288690185542265
+        ],
+        "per_logical": [
+          178
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_reset": 25,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": 0.000213623046875,
+      "confidence_interval": [
+        -0.0026609324943457323,
+        0.0030879933801689985
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "check_reverse",
+      "eps": 1e-05,
+      "decoder": "strong",
+      "baseline": {
+        "shots": 32768,
+        "failures": 135,
+        "rate": 0.004119873046875,
+        "interval": [
+          0.0034553433510750337,
+          0.004874522500515144
+        ],
+        "per_logical": [
+          135
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 136,
+        "rate": 0.004150390625,
+        "interval": [
+          0.0034833035560169487,
+          0.004907582781827443
+        ],
+        "per_logical": [
+          136
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_reset": 25,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": 3.0517578125e-05,
+      "confidence_interval": [
+        -0.0025093633196715645,
+        0.002570367558128908
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "check_reverse",
+      "eps": 1e-05,
+      "decoder": "single_fault_lookup",
+      "baseline": {
+        "shots": 32768,
+        "failures": 16,
+        "rate": 0.00048828125,
+        "interval": [
+          0.0002791198609466713,
+          0.0007928173705657305
+        ],
+        "per_logical": [
+          16
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 73,
+        "rate": 0.002227783203125,
+        "interval": [
+          0.0017466205014589281,
+          0.0028002996688795273
+        ],
+        "per_logical": [
+          73
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_reset": 25,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": 0.001739501953125,
+      "confidence_interval": [
+        0.0003404131622553935,
+        0.0031327347552699792
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "check_reverse",
+      "eps": 0.0001,
+      "decoder": "original",
+      "baseline": {
+        "shots": 32768,
+        "failures": 1750,
+        "rate": 0.05340576171875,
+        "interval": [
+          0.05099573548364187,
+          0.05589533132823792
+        ],
+        "per_logical": [
+          1750
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 1690,
+        "rate": 0.05157470703125,
+        "interval": [
+          0.04920462760997052,
+          0.05402466682733091
+        ],
+        "per_logical": [
+          1690
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_reset": 25,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": -0.0018310546875,
+      "confidence_interval": [
+        -0.010557619307979181,
+        0.00689649883628491
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "check_reverse",
+      "eps": 0.0001,
+      "decoder": "strong",
+      "baseline": {
+        "shots": 32768,
+        "failures": 1358,
+        "rate": 0.04144287109375,
+        "interval": [
+          0.03931031918431946,
+          0.04365718275591399
+        ],
+        "per_logical": [
+          1358
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 1371,
+        "rate": 0.041839599609375,
+        "interval": [
+          0.039697156472374366,
+          0.04406372833811077
+        ],
+        "per_logical": [
+          1371
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_reset": 25,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": 0.000396728515625,
+      "confidence_interval": [
+        -0.007424744157290983,
+        0.00821798495269186
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "check_reverse",
+      "eps": 0.0001,
+      "decoder": "single_fault_lookup",
+      "baseline": {
+        "shots": 32768,
+        "failures": 534,
+        "rate": 0.01629638671875,
+        "interval": [
+          0.014953248505887183,
+          0.01772622380686684
+        ],
+        "per_logical": [
+          534
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 724,
+        "rate": 0.0220947265625,
+        "interval": [
+          0.020530405469086743,
+          0.023744536426927528
+        ],
+        "per_logical": [
+          724
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_reset": 25,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": 0.00579833984375,
+      "confidence_interval": [
+        0.00042902985854644665,
+        0.011164275352124125
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "check_reverse",
+      "eps": 0.001,
+      "decoder": "original",
+      "baseline": {
+        "shots": 32768,
+        "failures": 12843,
+        "rate": 0.391937255859375,
+        "interval": [
+          0.38664603195790404,
+          0.397247641710825
+        ],
+        "per_logical": [
+          12843
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 11287,
+        "rate": 0.344451904296875,
+        "interval": [
+          0.33930556732262956,
+          0.34962582630904426
+        ],
+        "per_logical": [
+          11287
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_reset": 25,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": -0.0474853515625,
+      "confidence_interval": [
+        -0.06628412047085636,
+        -0.028661489732377587
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "check_reverse",
+      "eps": 0.001,
+      "decoder": "strong",
+      "baseline": {
+        "shots": 32768,
+        "failures": 11612,
+        "rate": 0.3543701171875,
+        "interval": [
+          0.3491889832413264,
+          0.35957707660586563
+        ],
+        "per_logical": [
+          11612
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 10580,
+        "rate": 0.3228759765625,
+        "interval": [
+          0.3178139810681628,
+          0.32796938538769665
+        ],
+        "per_logical": [
+          10580
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_reset": 25,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": -0.031494140625,
+      "confidence_interval": [
+        -0.049956511421830885,
+        -0.013015124848994808
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    },
+    {
+      "candidate": "check_reverse",
+      "eps": 0.001,
+      "decoder": "single_fault_lookup",
+      "baseline": {
+        "shots": 32768,
+        "failures": 11344,
+        "rate": 0.34619140625,
+        "interval": [
+          0.34103878838707335,
+          0.3513713005392367
+        ],
+        "per_logical": [
+          11344
+        ]
+      },
+      "candidate_result": {
+        "shots": 32768,
+        "failures": 10170,
+        "rate": 0.31036376953125,
+        "interval": [
+          0.30535629394843733,
+          0.31540487893614755
+        ],
+        "per_logical": [
+          10170
+        ]
+      },
+      "baseline_metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "candidate_metrics": {
+        "full_lifetime_idle_slots": 3696,
+        "noisy_idle_locations": 3684,
+        "noisy_slots": 229,
+        "physical_slots": 230,
+        "num_reset": 25,
+        "num_1q": 48,
+        "num_2q": 960,
+        "num_measure": 61
+      },
+      "difference": -0.03582763671875,
+      "confidence_interval": [
+        -0.054142663638109045,
+        -0.01749367334325158
+      ],
+      "confidence_level": 0.9991666666666666,
+      "method": "Bonferroni two independent Clopper-Pearson intervals"
+    }
+  ],
+  "note": "Absolute deployment costs differ; only region1 versus dynamic646 has matching resources"
+}

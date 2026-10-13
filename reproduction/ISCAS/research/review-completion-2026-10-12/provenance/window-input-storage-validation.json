@@ -1,0 +1,1441 @@
+{
+  "matrices": [
+    {
+      "instance": "bb-72",
+      "order": "forward",
+      "prior_sha256": "2ef89ce52e1a1cd9bd3a7fce07a841f964118139f6722e9df57ac7938aa2ff9b",
+      "archive_sha256": "27acd41f8bdabf27a8782e0a682d12b0361da6ced2864e681c0b07410c8842b9",
+      "num_detectors": 180,
+      "num_observables": 12,
+      "groups": {
+        "original": {
+          "num_cor_rounds": 4,
+          "hz_rows": 36,
+          "W": 1,
+          "F": 1,
+          "configuration": {
+            "window": 1,
+            "max_iter": 2,
+            "osd_order": 0
+          },
+          "collections": {
+            "checks": [
+              {
+                "prefix": "original_checks_0",
+                "format": "csc",
+                "shape": [
+                  36,
+                  1566
+                ]
+              },
+              {
+                "prefix": "original_checks_1",
+                "format": "csc",
+                "shape": [
+                  36,
+                  1797
+                ]
+              },
+              {
+                "prefix": "original_checks_2",
+                "format": "csc",
+                "shape": [
+                  36,
+                  1797
+                ]
+              },
+              {
+                "prefix": "original_checks_3",
+                "format": "csc",
+                "shape": [
+                  36,
+                  1797
+                ]
+              },
+              {
+                "prefix": "original_checks_4",
+                "format": "csc",
+                "shape": [
+                  36,
+                  303
+                ]
+              }
+            ],
+            "observations": [
+              {
+                "prefix": "original_observations_0",
+                "format": "csc",
+                "shape": [
+                  12,
+                  1566
+                ]
+              },
+              {
+                "prefix": "original_observations_1",
+                "format": "csc",
+                "shape": [
+                  12,
+                  1797
+                ]
+              },
+              {
+                "prefix": "original_observations_2",
+                "format": "csc",
+                "shape": [
+                  12,
+                  1797
+                ]
+              },
+              {
+                "prefix": "original_observations_3",
+                "format": "csc",
+                "shape": [
+                  12,
+                  1797
+                ]
+              },
+              {
+                "prefix": "original_observations_4",
+                "format": "csc",
+                "shape": [
+                  12,
+                  303
+                ]
+              }
+            ],
+            "priors": [
+              {
+                "prefix": "original_priors_0",
+                "format": "dense"
+              },
+              {
+                "prefix": "original_priors_1",
+                "format": "dense"
+              },
+              {
+                "prefix": "original_priors_2",
+                "format": "dense"
+              },
+              {
+                "prefix": "original_priors_3",
+                "format": "dense"
+              },
+              {
+                "prefix": "original_priors_4",
+                "format": "dense"
+              }
+            ],
+            "updates": [
+              {
+                "prefix": "original_updates_0",
+                "format": "csc",
+                "shape": [
+                  36,
+                  1566
+                ]
+              },
+              {
+                "prefix": "original_updates_1",
+                "format": "csc",
+                "shape": [
+                  36,
+                  1797
+                ]
+              },
+              {
+                "prefix": "original_updates_2",
+                "format": "csc",
+                "shape": [
+                  36,
+                  1797
+                ]
+              },
+              {
+                "prefix": "original_updates_3",
+                "format": "csc",
+                "shape": [
+                  36,
+                  1797
+                ]
+              }
+            ]
+          }
+        },
+        "strong": {
+          "num_cor_rounds": 1,
+          "hz_rows": 36,
+          "W": 4,
+          "F": 4,
+          "configuration": {
+            "window": 4,
+            "max_iter": 50,
+            "osd_order": 2
+          },
+          "collections": {
+            "checks": [
+              {
+                "prefix": "strong_checks_0",
+                "format": "csc",
+                "shape": [
+                  144,
+                  6957
+                ]
+              },
+              {
+                "prefix": "strong_checks_1",
+                "format": "csc",
+                "shape": [
+                  36,
+                  303
+                ]
+              }
+            ],
+            "observations": [
+              {
+                "prefix": "strong_observations_0",
+                "format": "csc",
+                "shape": [
+                  12,
+                  6957
+                ]
+              },
+              {
+                "prefix": "strong_observations_1",
+                "format": "csc",
+                "shape": [
+                  12,
+                  303
+                ]
+              }
+            ],
+            "priors": [
+              {
+                "prefix": "strong_priors_0",
+                "format": "dense"
+              },
+              {
+                "prefix": "strong_priors_1",
+                "format": "dense"
+              }
+            ],
+            "updates": [
+              {
+                "prefix": "strong_updates_0",
+                "format": "csc",
+                "shape": [
+                  36,
+                  6957
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "scientific_decoder_sha256": "96dcad7e99e432d6d583283892aa3134b6f00c9ab7d5dc3c275797a11109d5df",
+      "generator_source_sha256": "bbf5ab0a4737eebe496f14ef474cbf10dd5ca7ff3754402afaffc9e46e5615c5",
+      "created_utc": "2026-10-12T09:50:38.241033+00:00",
+      "preparation_seconds": 4.088287100021262,
+      "all_window_inputs_storage_exact_equal": true,
+      "circuit_text_sha256": "f9c5f70c07c4d7b6dd222629e53928942f765c5fb57f2f4053e613a71e93c402",
+      "hz_sha256": "267f345c09710ec0cfad1e49e0786b2636ab052fbfb660e5a76ae9919ba22614"
+    },
+    {
+      "instance": "bb-72",
+      "order": "macro_reverse",
+      "prior_sha256": "e4c413a373217632bd9c02ec3e2e29aba1da952fe9f43d52eb15c84dc0ba45f7",
+      "archive_sha256": "1ce71289814d558b59f0c617d8af37dee9b5f45c0315bfca5cbd1a4a57034cbf",
+      "num_detectors": 180,
+      "num_observables": 12,
+      "groups": {
+        "original": {
+          "num_cor_rounds": 4,
+          "hz_rows": 36,
+          "W": 1,
+          "F": 1,
+          "configuration": {
+            "window": 1,
+            "max_iter": 2,
+            "osd_order": 0
+          },
+          "collections": {
+            "checks": [
+              {
+                "prefix": "original_checks_0",
+                "format": "csc",
+                "shape": [
+                  36,
+                  1563
+                ]
+              },
+              {
+                "prefix": "original_checks_1",
+                "format": "csc",
+                "shape": [
+                  36,
+                  1794
+                ]
+              },
+              {
+                "prefix": "original_checks_2",
+                "format": "csc",
+                "shape": [
+                  36,
+                  1794
+                ]
+              },
+              {
+                "prefix": "original_checks_3",
+                "format": "csc",
+                "shape": [
+                  36,
+                  1794
+                ]
+              },
+              {
+                "prefix": "original_checks_4",
+                "format": "csc",
+                "shape": [
+                  36,
+                  303
+                ]
+              }
+            ],
+            "observations": [
+              {
+                "prefix": "original_observations_0",
+                "format": "csc",
+                "shape": [
+                  12,
+                  1563
+                ]
+              },
+              {
+                "prefix": "original_observations_1",
+                "format": "csc",
+                "shape": [
+                  12,
+                  1794
+                ]
+              },
+              {
+                "prefix": "original_observations_2",
+                "format": "csc",
+                "shape": [
+                  12,
+                  1794
+                ]
+              },
+              {
+                "prefix": "original_observations_3",
+                "format": "csc",
+                "shape": [
+                  12,
+                  1794
+                ]
+              },
+              {
+                "prefix": "original_observations_4",
+                "format": "csc",
+                "shape": [
+                  12,
+                  303
+                ]
+              }
+            ],
+            "priors": [
+              {
+                "prefix": "original_priors_0",
+                "format": "dense"
+              },
+              {
+                "prefix": "original_priors_1",
+                "format": "dense"
+              },
+              {
+                "prefix": "original_priors_2",
+                "format": "dense"
+              },
+              {
+                "prefix": "original_priors_3",
+                "format": "dense"
+              },
+              {
+                "prefix": "original_priors_4",
+                "format": "dense"
+              }
+            ],
+            "updates": [
+              {
+                "prefix": "original_updates_0",
+                "format": "csc",
+                "shape": [
+                  36,
+                  1563
+                ]
+              },
+              {
+                "prefix": "original_updates_1",
+                "format": "csc",
+                "shape": [
+                  36,
+                  1794
+                ]
+              },
+              {
+                "prefix": "original_updates_2",
+                "format": "csc",
+                "shape": [
+                  36,
+                  1794
+                ]
+              },
+              {
+                "prefix": "original_updates_3",
+                "format": "csc",
+                "shape": [
+                  36,
+                  1794
+                ]
+              }
+            ]
+          }
+        },
+        "strong": {
+          "num_cor_rounds": 1,
+          "hz_rows": 36,
+          "W": 4,
+          "F": 4,
+          "configuration": {
+            "window": 4,
+            "max_iter": 50,
+            "osd_order": 2
+          },
+          "collections": {
+            "checks": [
+              {
+                "prefix": "strong_checks_0",
+                "format": "csc",
+                "shape": [
+                  144,
+                  6945
+                ]
+              },
+              {
+                "prefix": "strong_checks_1",
+                "format": "csc",
+                "shape": [
+                  36,
+                  303
+                ]
+              }
+            ],
+            "observations": [
+              {
+                "prefix": "strong_observations_0",
+                "format": "csc",
+                "shape": [
+                  12,
+                  6945
+                ]
+              },
+              {
+                "prefix": "strong_observations_1",
+                "format": "csc",
+                "shape": [
+                  12,
+                  303
+                ]
+              }
+            ],
+            "priors": [
+              {
+                "prefix": "strong_priors_0",
+                "format": "dense"
+              },
+              {
+                "prefix": "strong_priors_1",
+                "format": "dense"
+              }
+            ],
+            "updates": [
+              {
+                "prefix": "strong_updates_0",
+                "format": "csc",
+                "shape": [
+                  36,
+                  6945
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "scientific_decoder_sha256": "96dcad7e99e432d6d583283892aa3134b6f00c9ab7d5dc3c275797a11109d5df",
+      "generator_source_sha256": "bbf5ab0a4737eebe496f14ef474cbf10dd5ca7ff3754402afaffc9e46e5615c5",
+      "created_utc": "2026-10-12T09:50:38.345082+00:00",
+      "preparation_seconds": 4.145537399977911,
+      "all_window_inputs_storage_exact_equal": true,
+      "circuit_text_sha256": "ead6931a24e58a9768d0657ef122ae1f562e1e3029ede52fb28b6a65a64063a4",
+      "hz_sha256": "267f345c09710ec0cfad1e49e0786b2636ab052fbfb660e5a76ae9919ba22614"
+    },
+    {
+      "instance": "bb-72",
+      "order": "check_reverse",
+      "prior_sha256": "66bf2a0705d854a58d1e6f6da5c55de5f43c3c0a8a891cb6e10cdc2e9f2d6cc7",
+      "archive_sha256": "28e2463b3a4df67a880adca70cd0553b042c7c67e8260120576740156d92a969",
+      "num_detectors": 180,
+      "num_observables": 12,
+      "groups": {
+        "original": {
+          "num_cor_rounds": 4,
+          "hz_rows": 36,
+          "W": 1,
+          "F": 1,
+          "configuration": {
+            "window": 1,
+            "max_iter": 2,
+            "osd_order": 0
+          },
+          "collections": {
+            "checks": [
+              {
+                "prefix": "original_checks_0",
+                "format": "csc",
+                "shape": [
+                  36,
+                  1794
+                ]
+              },
+              {
+                "prefix": "original_checks_1",
+                "format": "csc",
+                "shape": [
+                  36,
+                  1794
+                ]
+              },
+              {
+                "prefix": "original_checks_2",
+                "format": "csc",
+                "shape": [
+                  36,
+                  1794
+                ]
+              },
+              {
+                "prefix": "original_checks_3",
+                "format": "csc",
+                "shape": [
+                  36,
+                  1794
+                ]
+              },
+              {
+                "prefix": "original_checks_4",
+                "format": "csc",
+                "shape": [
+                  36,
+                  72
+                ]
+              }
+            ],
+            "observations": [
+              {
+                "prefix": "original_observations_0",
+                "format": "csc",
+                "shape": [
+                  12,
+                  1794
+                ]
+              },
+              {
+                "prefix": "original_observations_1",
+                "format": "csc",
+                "shape": [
+                  12,
+                  1794
+                ]
+              },
+              {
+                "prefix": "original_observations_2",
+                "format": "csc",
+                "shape": [
+                  12,
+                  1794
+                ]
+              },
+              {
+                "prefix": "original_observations_3",
+                "format": "csc",
+                "shape": [
+                  12,
+                  1794
+                ]
+              },
+              {
+                "prefix": "original_observations_4",
+                "format": "csc",
+                "shape": [
+                  12,
+                  72
+                ]
+              }
+            ],
+            "priors": [
+              {
+                "prefix": "original_priors_0",
+                "format": "dense"
+              },
+              {
+                "prefix": "original_priors_1",
+                "format": "dense"
+              },
+              {
+                "prefix": "original_priors_2",
+                "format": "dense"
+              },
+              {
+                "prefix": "original_priors_3",
+                "format": "dense"
+              },
+              {
+                "prefix": "original_priors_4",
+                "format": "dense"
+              }
+            ],
+            "updates": [
+              {
+                "prefix": "original_updates_0",
+                "format": "csc",
+                "shape": [
+                  36,
+                  1794
+                ]
+              },
+              {
+                "prefix": "original_updates_1",
+                "format": "csc",
+                "shape": [
+                  36,
+                  1794
+                ]
+              },
+              {
+                "prefix": "original_updates_2",
+                "format": "csc",
+                "shape": [
+                  36,
+                  1794
+                ]
+              },
+              {
+                "prefix": "original_updates_3",
+                "format": "csc",
+                "shape": [
+                  36,
+                  1794
+                ]
+              }
+            ]
+          }
+        },
+        "strong": {
+          "num_cor_rounds": 1,
+          "hz_rows": 36,
+          "W": 4,
+          "F": 4,
+          "configuration": {
+            "window": 4,
+            "max_iter": 50,
+            "osd_order": 2
+          },
+          "collections": {
+            "checks": [
+              {
+                "prefix": "strong_checks_0",
+                "format": "csc",
+                "shape": [
+                  144,
+                  7176
+                ]
+              },
+              {
+                "prefix": "strong_checks_1",
+                "format": "csc",
+                "shape": [
+                  36,
+                  72
+                ]
+              }
+            ],
+            "observations": [
+              {
+                "prefix": "strong_observations_0",
+                "format": "csc",
+                "shape": [
+                  12,
+                  7176
+                ]
+              },
+              {
+                "prefix": "strong_observations_1",
+                "format": "csc",
+                "shape": [
+                  12,
+                  72
+                ]
+              }
+            ],
+            "priors": [
+              {
+                "prefix": "strong_priors_0",
+                "format": "dense"
+              },
+              {
+                "prefix": "strong_priors_1",
+                "format": "dense"
+              }
+            ],
+            "updates": [
+              {
+                "prefix": "strong_updates_0",
+                "format": "csc",
+                "shape": [
+                  36,
+                  7176
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "scientific_decoder_sha256": "96dcad7e99e432d6d583283892aa3134b6f00c9ab7d5dc3c275797a11109d5df",
+      "generator_source_sha256": "bbf5ab0a4737eebe496f14ef474cbf10dd5ca7ff3754402afaffc9e46e5615c5",
+      "created_utc": "2026-10-12T09:50:42.427441+00:00",
+      "preparation_seconds": 4.155361200042535,
+      "all_window_inputs_storage_exact_equal": true,
+      "circuit_text_sha256": "e7ca74b6775f904a008a7d39c3f2404dbc282309469ac909014c0577dc77c0cc",
+      "hz_sha256": "267f345c09710ec0cfad1e49e0786b2636ab052fbfb660e5a76ae9919ba22614"
+    },
+    {
+      "instance": "bb-108",
+      "order": "forward",
+      "prior_sha256": "ca5b3304c9cb352ad5d0ba0ce979dd85ad34110a98a8ea1477335078b52a49c8",
+      "archive_sha256": "3fae772a278653d29a30c18b4c10d0532cd9eedbf5c34715e672296a6d8fc348",
+      "num_detectors": 270,
+      "num_observables": 8,
+      "groups": {
+        "original": {
+          "num_cor_rounds": 4,
+          "hz_rows": 54,
+          "W": 1,
+          "F": 1,
+          "configuration": {
+            "window": 1,
+            "max_iter": 2,
+            "osd_order": 0
+          },
+          "collections": {
+            "checks": [
+              {
+                "prefix": "original_checks_0",
+                "format": "csc",
+                "shape": [
+                  54,
+                  2595
+                ]
+              },
+              {
+                "prefix": "original_checks_1",
+                "format": "csc",
+                "shape": [
+                  54,
+                  3015
+                ]
+              },
+              {
+                "prefix": "original_checks_2",
+                "format": "csc",
+                "shape": [
+                  54,
+                  3015
+                ]
+              },
+              {
+                "prefix": "original_checks_3",
+                "format": "csc",
+                "shape": [
+                  54,
+                  3015
+                ]
+              },
+              {
+                "prefix": "original_checks_4",
+                "format": "csc",
+                "shape": [
+                  54,
+                  528
+                ]
+              }
+            ],
+            "observations": [
+              {
+                "prefix": "original_observations_0",
+                "format": "csc",
+                "shape": [
+                  8,
+                  2595
+                ]
+              },
+              {
+                "prefix": "original_observations_1",
+                "format": "csc",
+                "shape": [
+                  8,
+                  3015
+                ]
+              },
+              {
+                "prefix": "original_observations_2",
+                "format": "csc",
+                "shape": [
+                  8,
+                  3015
+                ]
+              },
+              {
+                "prefix": "original_observations_3",
+                "format": "csc",
+                "shape": [
+                  8,
+                  3015
+                ]
+              },
+              {
+                "prefix": "original_observations_4",
+                "format": "csc",
+                "shape": [
+                  8,
+                  528
+                ]
+              }
+            ],
+            "priors": [
+              {
+                "prefix": "original_priors_0",
+                "format": "dense"
+              },
+              {
+                "prefix": "original_priors_1",
+                "format": "dense"
+              },
+              {
+                "prefix": "original_priors_2",
+                "format": "dense"
+              },
+              {
+                "prefix": "original_priors_3",
+                "format": "dense"
+              },
+              {
+                "prefix": "original_priors_4",
+                "format": "dense"
+              }
+            ],
+            "updates": [
+              {
+                "prefix": "original_updates_0",
+                "format": "csc",
+                "shape": [
+                  54,
+                  2595
+                ]
+              },
+              {
+                "prefix": "original_updates_1",
+                "format": "csc",
+                "shape": [
+                  54,
+                  3015
+                ]
+              },
+              {
+                "prefix": "original_updates_2",
+                "format": "csc",
+                "shape": [
+                  54,
+                  3015
+                ]
+              },
+              {
+                "prefix": "original_updates_3",
+                "format": "csc",
+                "shape": [
+                  54,
+                  3015
+                ]
+              }
+            ]
+          }
+        },
+        "strong": {
+          "num_cor_rounds": 1,
+          "hz_rows": 54,
+          "W": 4,
+          "F": 4,
+          "configuration": {
+            "window": 4,
+            "max_iter": 50,
+            "osd_order": 2
+          },
+          "collections": {
+            "checks": [
+              {
+                "prefix": "strong_checks_0",
+                "format": "csc",
+                "shape": [
+                  216,
+                  11640
+                ]
+              },
+              {
+                "prefix": "strong_checks_1",
+                "format": "csc",
+                "shape": [
+                  54,
+                  528
+                ]
+              }
+            ],
+            "observations": [
+              {
+                "prefix": "strong_observations_0",
+                "format": "csc",
+                "shape": [
+                  8,
+                  11640
+                ]
+              },
+              {
+                "prefix": "strong_observations_1",
+                "format": "csc",
+                "shape": [
+                  8,
+                  528
+                ]
+              }
+            ],
+            "priors": [
+              {
+                "prefix": "strong_priors_0",
+                "format": "dense"
+              },
+              {
+                "prefix": "strong_priors_1",
+                "format": "dense"
+              }
+            ],
+            "updates": [
+              {
+                "prefix": "strong_updates_0",
+                "format": "csc",
+                "shape": [
+                  54,
+                  11640
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "scientific_decoder_sha256": "96dcad7e99e432d6d583283892aa3134b6f00c9ab7d5dc3c275797a11109d5df",
+      "generator_source_sha256": "bbf5ab0a4737eebe496f14ef474cbf10dd5ca7ff3754402afaffc9e46e5615c5",
+      "created_utc": "2026-10-12T09:50:52.176473+00:00",
+      "preparation_seconds": 13.795938599971123,
+      "all_window_inputs_storage_exact_equal": true,
+      "circuit_text_sha256": "484377da6a84392d8c5dda135a05e13f535f5029c175b49d4465091131ffbc68",
+      "hz_sha256": "b3b366f06e93c6c39a9eecc01f98dba6b8bef6c19b108f228eb7b1395b8b3ea0"
+    },
+    {
+      "instance": "bb-108",
+      "order": "macro_reverse",
+      "prior_sha256": "f9ba880e2639d866b8dd232f7ea4ac90b2ceef6c4cd265bb10357b018561b5c9",
+      "archive_sha256": "3d2e14daf0dcea18480e46e5c3156b05a9439814bc33ffb0c9a283f0e15d3ae2",
+      "num_detectors": 270,
+      "num_observables": 8,
+      "groups": {
+        "original": {
+          "num_cor_rounds": 4,
+          "hz_rows": 54,
+          "W": 1,
+          "F": 1,
+          "configuration": {
+            "window": 1,
+            "max_iter": 2,
+            "osd_order": 0
+          },
+          "collections": {
+            "checks": [
+              {
+                "prefix": "original_checks_0",
+                "format": "csc",
+                "shape": [
+                  54,
+                  2589
+                ]
+              },
+              {
+                "prefix": "original_checks_1",
+                "format": "csc",
+                "shape": [
+                  54,
+                  3009
+                ]
+              },
+              {
+                "prefix": "original_checks_2",
+                "format": "csc",
+                "shape": [
+                  54,
+                  3009
+                ]
+              },
+              {
+                "prefix": "original_checks_3",
+                "format": "csc",
+                "shape": [
+                  54,
+                  3009
+                ]
+              },
+              {
+                "prefix": "original_checks_4",
+                "format": "csc",
+                "shape": [
+                  54,
+                  528
+                ]
+              }
+            ],
+            "observations": [
+              {
+                "prefix": "original_observations_0",
+                "format": "csc",
+                "shape": [
+                  8,
+                  2589
+                ]
+              },
+              {
+                "prefix": "original_observations_1",
+                "format": "csc",
+                "shape": [
+                  8,
+                  3009
+                ]
+              },
+              {
+                "prefix": "original_observations_2",
+                "format": "csc",
+                "shape": [
+                  8,
+                  3009
+                ]
+              },
+              {
+                "prefix": "original_observations_3",
+                "format": "csc",
+                "shape": [
+                  8,
+                  3009
+                ]
+              },
+              {
+                "prefix": "original_observations_4",
+                "format": "csc",
+                "shape": [
+                  8,
+                  528
+                ]
+              }
+            ],
+            "priors": [
+              {
+                "prefix": "original_priors_0",
+                "format": "dense"
+              },
+              {
+                "prefix": "original_priors_1",
+                "format": "dense"
+              },
+              {
+                "prefix": "original_priors_2",
+                "format": "dense"
+              },
+              {
+                "prefix": "original_priors_3",
+                "format": "dense"
+              },
+              {
+                "prefix": "original_priors_4",
+                "format": "dense"
+              }
+            ],
+            "updates": [
+              {
+                "prefix": "original_updates_0",
+                "format": "csc",
+                "shape": [
+                  54,
+                  2589
+                ]
+              },
+              {
+                "prefix": "original_updates_1",
+                "format": "csc",
+                "shape": [
+                  54,
+                  3009
+                ]
+              },
+              {
+                "prefix": "original_updates_2",
+                "format": "csc",
+                "shape": [
+                  54,
+                  3009
+                ]
+              },
+              {
+                "prefix": "original_updates_3",
+                "format": "csc",
+                "shape": [
+                  54,
+                  3009
+                ]
+              }
+            ]
+          }
+        },
+        "strong": {
+          "num_cor_rounds": 1,
+          "hz_rows": 54,
+          "W": 4,
+          "F": 4,
+          "configuration": {
+            "window": 4,
+            "max_iter": 50,
+            "osd_order": 2
+          },
+          "collections": {
+            "checks": [
+              {
+                "prefix": "strong_checks_0",
+                "format": "csc",
+                "shape": [
+                  216,
+                  11616
+                ]
+              },
+              {
+                "prefix": "strong_checks_1",
+                "format": "csc",
+                "shape": [
+                  54,
+                  528
+                ]
+              }
+            ],
+            "observations": [
+              {
+                "prefix": "strong_observations_0",
+                "format": "csc",
+                "shape": [
+                  8,
+                  11616
+                ]
+              },
+              {
+                "prefix": "strong_observations_1",
+                "format": "csc",
+                "shape": [
+                  8,
+                  528
+                ]
+              }
+            ],
+            "priors": [
+              {
+                "prefix": "strong_priors_0",
+                "format": "dense"
+              },
+              {
+                "prefix": "strong_priors_1",
+                "format": "dense"
+              }
+            ],
+            "updates": [
+              {
+                "prefix": "strong_updates_0",
+                "format": "csc",
+                "shape": [
+                  54,
+                  11616
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "scientific_decoder_sha256": "96dcad7e99e432d6d583283892aa3134b6f00c9ab7d5dc3c275797a11109d5df",
+      "generator_source_sha256": "bbf5ab0a4737eebe496f14ef474cbf10dd5ca7ff3754402afaffc9e46e5615c5",
+      "created_utc": "2026-10-12T09:50:56.107378+00:00",
+      "preparation_seconds": 13.651553299976513,
+      "all_window_inputs_storage_exact_equal": true,
+      "circuit_text_sha256": "140979c7d888a5e6b6b9b330e5d15ab539618de4f575227136278b188b3dd62e",
+      "hz_sha256": "b3b366f06e93c6c39a9eecc01f98dba6b8bef6c19b108f228eb7b1395b8b3ea0"
+    },
+    {
+      "instance": "bb-108",
+      "order": "check_reverse",
+      "prior_sha256": "4542d97e2e127008c87378c1fa63da53db9473c2803949807c37599d181e18af",
+      "archive_sha256": "f87f2179f27cd6f3f27055fb32ac55fa7e81ac2899c998d03dfa3f4683a462c4",
+      "num_detectors": 270,
+      "num_observables": 8,
+      "groups": {
+        "original": {
+          "num_cor_rounds": 4,
+          "hz_rows": 54,
+          "W": 1,
+          "F": 1,
+          "configuration": {
+            "window": 1,
+            "max_iter": 2,
+            "osd_order": 0
+          },
+          "collections": {
+            "checks": [
+              {
+                "prefix": "original_checks_0",
+                "format": "csc",
+                "shape": [
+                  54,
+                  3009
+                ]
+              },
+              {
+                "prefix": "original_checks_1",
+                "format": "csc",
+                "shape": [
+                  54,
+                  3009
+                ]
+              },
+              {
+                "prefix": "original_checks_2",
+                "format": "csc",
+                "shape": [
+                  54,
+                  3009
+                ]
+              },
+              {
+                "prefix": "original_checks_3",
+                "format": "csc",
+                "shape": [
+                  54,
+                  3009
+                ]
+              },
+              {
+                "prefix": "original_checks_4",
+                "format": "csc",
+                "shape": [
+                  54,
+                  108
+                ]
+              }
+            ],
+            "observations": [
+              {
+                "prefix": "original_observations_0",
+                "format": "csc",
+                "shape": [
+                  8,
+                  3009
+                ]
+              },
+              {
+                "prefix": "original_observations_1",
+                "format": "csc",
+                "shape": [
+                  8,
+                  3009
+                ]
+              },
+              {
+                "prefix": "original_observations_2",
+                "format": "csc",
+                "shape": [
+                  8,
+                  3009
+                ]
+              },
+              {
+                "prefix": "original_observations_3",
+                "format": "csc",
+                "shape": [
+                  8,
+                  3009
+                ]
+              },
+              {
+                "prefix": "original_observations_4",
+                "format": "csc",
+                "shape": [
+                  8,
+                  108
+                ]
+              }
+            ],
+            "priors": [
+              {
+                "prefix": "original_priors_0",
+                "format": "dense"
+              },
+              {
+                "prefix": "original_priors_1",
+                "format": "dense"
+              },
+              {
+                "prefix": "original_priors_2",
+                "format": "dense"
+              },
+              {
+                "prefix": "original_priors_3",
+                "format": "dense"
+              },
+              {
+                "prefix": "original_priors_4",
+                "format": "dense"
+              }
+            ],
+            "updates": [
+              {
+                "prefix": "original_updates_0",
+                "format": "csc",
+                "shape": [
+                  54,
+                  3009
+                ]
+              },
+              {
+                "prefix": "original_updates_1",
+                "format": "csc",
+                "shape": [
+                  54,
+                  3009
+                ]
+              },
+              {
+                "prefix": "original_updates_2",
+                "format": "csc",
+                "shape": [
+                  54,
+                  3009
+                ]
+              },
+              {
+                "prefix": "original_updates_3",
+                "format": "csc",
+                "shape": [
+                  54,
+                  3009
+                ]
+              }
+            ]
+          }
+        },
+        "strong": {
+          "num_cor_rounds": 1,
+          "hz_rows": 54,
+          "W": 4,
+          "F": 4,
+          "configuration": {
+            "window": 4,
+            "max_iter": 50,
+            "osd_order": 2
+          },
+          "collections": {
+            "checks": [
+              {
+                "prefix": "strong_checks_0",
+                "format": "csc",
+                "shape": [
+                  216,
+                  12036
+                ]
+              },
+              {
+                "prefix": "strong_checks_1",
+                "format": "csc",
+                "shape": [
+                  54,
+                  108
+                ]
+              }
+            ],
+            "observations": [
+              {
+                "prefix": "strong_observations_0",
+                "format": "csc",
+                "shape": [
+                  8,
+                  12036
+                ]
+              },
+              {
+                "prefix": "strong_observations_1",
+                "format": "csc",
+                "shape": [
+                  8,
+                  108
+                ]
+              }
+            ],
+            "priors": [
+              {
+                "prefix": "strong_priors_0",
+                "format": "dense"
+              },
+              {
+                "prefix": "strong_priors_1",
+                "format": "dense"
+              }
+            ],
+            "updates": [
+              {
+                "prefix": "strong_updates_0",
+                "format": "csc",
+                "shape": [
+                  54,
+                  12036
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "scientific_decoder_sha256": "96dcad7e99e432d6d583283892aa3134b6f00c9ab7d5dc3c275797a11109d5df",
+      "generator_source_sha256": "bbf5ab0a4737eebe496f14ef474cbf10dd5ca7ff3754402afaffc9e46e5615c5",
+      "created_utc": "2026-10-12T09:51:05.789329+00:00",
+      "preparation_seconds": 13.584991000010632,
+      "all_window_inputs_storage_exact_equal": true,
+      "circuit_text_sha256": "9b9028a60b0c90a1566f75f4b96e5f852891ac4ba797199293b0978e8d4ab9f4",
+      "hz_sha256": "b3b366f06e93c6c39a9eecc01f98dba6b8bef6c19b108f228eb7b1395b8b3ea0"
+    }
+  ],
+  "all_exact_equal": true,
+  "created_utc": "2026-10-12T09:54:10.902718+00:00",
+  "scientific_protocol_unchanged": true
+}

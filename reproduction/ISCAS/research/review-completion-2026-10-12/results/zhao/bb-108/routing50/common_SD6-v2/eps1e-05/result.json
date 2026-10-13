@@ -1,0 +1,76 @@
+{
+  "task": {
+    "kind": "zhao",
+    "instance": "bb-108",
+    "order": "routing50",
+    "noise": "common_SD6",
+    "eps": 1e-05,
+    "shots": 32768,
+    "id": "batch4-0046-zhao",
+    "seed": 720721012,
+    "revision": "-v2"
+  },
+  "R_star": 0.0,
+  "decoder": {
+    "full_joint_original": {
+      "R_delta": 0.0,
+      "E": 0.0,
+      "failures": 0,
+      "shots": 32768,
+      "interval": [
+        0.0,
+        0.00011256933053201362
+      ]
+    },
+    "full_joint_strong": {
+      "R_delta": 0.0,
+      "E": 0.0,
+      "failures": 0,
+      "shots": 32768,
+      "interval": [
+        0.0,
+        0.00011256933053201362
+      ]
+    },
+    "single_fault_lookup": {
+      "R_delta": 0.0,
+      "E": 0.0,
+      "failures": 0,
+      "shots": 32768,
+      "interval": [
+        0.0,
+        0.00011256933053201362
+      ]
+    }
+  },
+  "resources": {
+    "CX": 3888,
+    "TICK": 77
+  },
+  "noise_channels": {
+    "total_physical_branches": 61560,
+    "total_physical_coefficient": 9719.999999999998,
+    "invisible_branches": 20250,
+    "invisible_coefficient": 3920.4000000018477
+  },
+  "source": {
+    "repository": "Guangqi-Phys/Routing-Circuit",
+    "commit": "295adf67633f223e1cc543d972cd34012c10a4e8",
+    "n": 108,
+    "k": 8,
+    "parameters": [
+      9,
+      6,
+      3,
+      -1,
+      -1,
+      3
+    ],
+    "rounds_parameter": 3,
+    "noise": "common SD6; correct-basis flips and idle once per TICK, first extraction and final readout noiseless",
+    "geometry": "author periodic checkerboard and reduced long-range couplers; hardware difference separately reported"
+  },
+  "sample_sha256": "4cef67e366e3dd8a0197b24b4e1455e9c965c43fbf6398b6ecd2491f7ab4c1ed",
+  "decoded_sha256": "eb8801d160bd227e0b54c6b235c9d404dc74831ae559441531a64fda87494bb6",
+  "detector_columns": "separate complete (D,L) signatures; no first-logical-label merging"
+}

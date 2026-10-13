@@ -1,0 +1,36 @@
+{
+  "utc": "2026-10-12T05:50:49.7050925Z",
+  "batch": "batch1-v2",
+  "change": "4 to 8 worker processes; same immutable source and task registration",
+  "reason": "Each worker consumes 94.8-97.3 percent of one core; 24 physical cores, 32 logical processors; about 28 GB free RAM; little disk I/O",
+  "supervisor": 94528,
+  "workerPids": [
+    122532,
+    125076,
+    125020,
+    125144
+  ],
+  "taskStatus": {
+    "status": "running",
+    "pid": 94528,
+    "workers": 4,
+    "completed_tasks": 61,
+    "total_tasks": 220,
+    "failed": [],
+    "active": [
+      "batch1-0061-stratum",
+      "batch1-0062-stratum",
+      "batch1-0063-stratum",
+      "batch1-0064-stratum"
+    ],
+    "elapsed_seconds": 2165.869655700051,
+    "updated_utc": "2026-10-12T13:50:36.328683+08:00",
+    "full_scope_remaining": [
+      "BB-72 and BB-108 construction, risks and finite-noise",
+      "Zhao official routing, original and common-noise controls",
+      "standard nearest-neighbor surface-code SD6 d=3,5",
+      "source-specific sensitivity risk reweighting and completed paper revision"
+    ]
+  },
+  "checkpointPolicy": "Committed shards and physical arrays retained; interrupted uncommitted decoding is replayed"
+}

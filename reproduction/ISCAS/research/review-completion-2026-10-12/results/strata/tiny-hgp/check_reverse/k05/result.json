@@ -1,0 +1,13 @@
+{
+  "instance": "tiny-hgp",
+  "order": "check_reverse",
+  "k": 5,
+  "shots": 32768,
+  "failures": {
+    "original": 12278,
+    "strong": 11550,
+    "single_fault_lookup": 11367
+  },
+  "shard_count": 64,
+  "noise_locations": 4813
+}

@@ -1,0 +1,17 @@
+{
+  "time": "2026-10-12T10:07:24.078322+00:00",
+  "active_batches": [
+    "bb-decoder-parallel-v4",
+    "bb-finite-parallel-v4",
+    "bb-decoder-assistance-v7",
+    "bb-finite-assistance-v6",
+    "bb-assembly-v2"
+  ],
+  "automatic_review_rejection": {
+    "action": "Combined bulk termination and replacement of v4 BB processes",
+    "reason": "blocked by policy",
+    "executed": false
+  },
+  "safe_alternative": "Retain old processes; shared exclusive locks and reverse traversal",
+  "all_scientific_inputs_preserved": true
+}

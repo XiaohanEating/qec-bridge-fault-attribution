@@ -1,0 +1,175 @@
+{
+  "description": "C0 Common Core: shared code instances, small/medium sizes",
+  "noise": {
+    "primary": "SD6",
+    "eps_points": [
+      0.001,
+      0.003,
+      0.01
+    ],
+    "robustness": "SI1000 (appendix)"
+  },
+  "decoders": [
+    "BP-OSD",
+    "BP-LSD"
+  ],
+  "instances": [
+    {
+      "family": "BB",
+      "name": "bb-72",
+      "n_data": 72,
+      "n_checks": 72,
+      "quits_ctor": {
+        "l": 6,
+        "m": 6,
+        "A_x_pows": [
+          3
+        ],
+        "A_y_pows": [
+          1,
+          2
+        ],
+        "B_x_pows": [
+          1,
+          2
+        ],
+        "B_y_pows": [
+          3
+        ]
+      },
+      "strategies": [
+        "custom",
+        "zxcoloration"
+      ]
+    },
+    {
+      "family": "BB",
+      "name": "bb-108",
+      "n_data": 108,
+      "n_checks": 108,
+      "quits_ctor": {
+        "l": 9,
+        "m": 6,
+        "A_x_pows": [
+          3
+        ],
+        "A_y_pows": [
+          1,
+          2
+        ],
+        "B_x_pows": [
+          1,
+          2
+        ],
+        "B_y_pows": [
+          3
+        ]
+      },
+      "strategies": [
+        "custom",
+        "zxcoloration"
+      ]
+    },
+    {
+      "family": "BB",
+      "name": "bb-144",
+      "n_data": 288,
+      "n_checks": 288,
+      "quits_ctor": {
+        "l": 12,
+        "m": 12,
+        "A_x_pows": [
+          3
+        ],
+        "A_y_pows": [
+          1,
+          2
+        ],
+        "B_x_pows": [
+          1,
+          2
+        ],
+        "B_y_pows": [
+          3
+        ]
+      },
+      "strategies": [
+        "custom",
+        "zxcoloration"
+      ]
+    },
+    {
+      "family": "HGP",
+      "name": "hgp-seed3x3",
+      "n_data": 13,
+      "n_checks": 12,
+      "quits_ctor": {
+        "h1": [
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ]
+        ],
+        "h2": [
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ]
+        ]
+      },
+      "strategies": [
+        "cardinal",
+        "cardinalNSmerge",
+        "zxcoloration"
+      ]
+    },
+    {
+      "family": "QLP",
+      "name": "qlp-b1b2-l12",
+      "n_data": 120,
+      "n_checks": 120,
+      "quits_ctor": {
+        "b1": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "b2": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            3
+          ]
+        ],
+        "lift_size": 12
+      },
+      "strategies": [
+        "cardinal",
+        "cardinalNSmerge",
+        "zxcoloration"
+      ]
+    }
+  ]
+}

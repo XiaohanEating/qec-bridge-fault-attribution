@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-10-12T12:25:09.824965+00:00",
+  "complete": true,
+  "report_sha256": "b133bd015168740ba282f36c85f5e6abdc4f416296b2429df2575d05499aba59",
+  "inputs": {
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\bb-components.json": "10b10ae0d0823fb2797c2fc48146cc76791639f8f99e78a7fed07b53724a7953",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\bb-comparisons.json": "18f2f424abad73aee069b7e241fb01007e5a27d86fb013c3ddcf8608cdf0e7b9"
+  },
+  "source_sha256": "7590f53a24382b08f5b82ff252612c8d6bfb982ddac562af9496de253fbed9d2",
+  "finite_points": 48,
+  "comparisons": 96,
+  "scientific_inputs_modified": false
+}

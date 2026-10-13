@@ -1,0 +1,71 @@
+{
+  "Stopped": [
+    123704,
+    125692,
+    115608,
+    125096,
+    121220,
+    123524,
+    121876,
+    124328,
+    30456,
+    94500,
+    103032,
+    57804,
+    123152,
+    85720,
+    125308,
+    100468
+  ],
+  "RemovedDeadLocks": [
+    {
+      "Owner": 121220,
+      "Path": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\locks\\batch1-0091-stratum.lock"
+    },
+    {
+      "Owner": 123704,
+      "Path": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\locks\\batch1-0092-stratum.lock"
+    },
+    {
+      "Owner": 125692,
+      "Path": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\locks\\batch1-0093-stratum.lock"
+    },
+    {
+      "Owner": 30456,
+      "Path": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\locks\\batch1-0094-stratum.lock"
+    },
+    {
+      "Owner": 94500,
+      "Path": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\locks\\batch1-0095-stratum.lock"
+    },
+    {
+      "Owner": 57804,
+      "Path": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\locks\\batch1-0096-stratum.lock"
+    },
+    {
+      "Owner": 103032,
+      "Path": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\locks\\batch1-0097-stratum.lock"
+    },
+    {
+      "Owner": 115608,
+      "Path": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\locks\\batch1-0098-stratum.lock"
+    },
+    {
+      "Owner": 123524,
+      "Path": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\locks\\batch1-0099-stratum.lock"
+    },
+    {
+      "Owner": 125096,
+      "Path": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\locks\\batch1-0100-stratum.lock"
+    },
+    {
+      "Owner": 124328,
+      "Path": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\locks\\batch1-0105-stratum.lock"
+    },
+    {
+      "Owner": 121876,
+      "Path": "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\results\\locks\\batch1-0106-stratum.lock"
+    }
+  ],
+  "CommittedResultsRetained": true
+}

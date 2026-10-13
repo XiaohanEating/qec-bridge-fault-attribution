@@ -1,0 +1,496 @@
+{
+  "registered_utc": "2026-10-12T05:57:23.354797+00:00",
+  "python": "G:\\1014gogogo\\.harness\\envs\\qldpc-submission-audit\\Scripts\\python.exe",
+  "python_version": "3.11.17 (main, Oct  9 2026, 15:19:27) [MSC v.1944 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "stim": "1.16.0",
+    "ldpc": "2.4.1",
+    "quits": "1.2.0",
+    "pymatching": "2.4.0",
+    "bposd": "2.1",
+    "pyscipopt": "5.4.1"
+  },
+  "source_sha256": {
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch5\\source\\src\\iscas_revision\\__init__.py": "eccf53e0ac7bfc3dc25e985bfb426bcb29f0c0da56545bf1b766cf4723dd11b9",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch5\\source\\src\\iscas_revision\\artifacts.py": "38b73ca09d581d436134dcc64d2fd83d1b2180f519ee659d5c470e5debdba29e",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch5\\source\\src\\iscas_revision\\audit.py": "b36cba0c99afe89f337df2eab5ab2578ea78d284416c663993ee6d672b67accc",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch5\\source\\src\\iscas_revision\\decoding.py": "96dcad7e99e432d6d583283892aa3134b6f00c9ab7d5dc3c275797a11109d5df",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch5\\source\\src\\iscas_revision\\stratification.py": "7dfcbf27f29ab9b5804686054c0691d1b30ef9cff70ae7711c972b6ac9246509",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch5\\source\\src\\iscas_revision\\literature.py": "7d78db5b08a7bfeec606e269d93b6968140873ecffcd7e6fbf8f595e7dcd9360",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch5\\source\\src\\iscas_revision\\verification.py": "cb29cd6dc30b86b5831fb33cd5d2131a56ba10dd3f8c32ec02261f187e0ab49f",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch5\\source\\src\\iscas_revision\\experiments.py": "12424c04d43a5b59c6fc3568ee5c307de46ab71b95178435eaf28da0423a3ec0",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch5\\source\\src\\iscas_revision\\orchestration.py": "a5048cdc997080e86efd938877e005f4a9c1fbf65c38fd02d14e0be9e2e98a48",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch5\\source\\src\\iscas_revision\\baselines.py": "53a45ca516be484f4b13c69a4a15e9ead19d4f0d842e14effb534d51b86fee63",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch5\\source\\src\\iscas_revision\\order_space.py": "7e92b07165a6c4f4f7974b54592b3a0ab2216a7a7b62804023ca9e258cb308f9",
+    "G:\\1014gogogo\\ISCAS\\research\\review-completion-2026-10-12\\provenance\\batch5\\source\\src\\iscas_revision\\synthesis.py": "9c35089f7cb6714b4227a4a61be587462c9096f66fc382442c92ac4d71ee6e72",
+    "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\src\\support.py": "3c16ac099feeefe89bb44c53c13e51b88984f40e6ed7dd97220c2c8a11a25a47",
+    "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\src\\construction.py": "ad3aa6bffd9a5aa77b2c4a6c26ae18a8031d2dbc9d1209cb07fe3a2aa0c0cf0b",
+    "G:\\1014gogogo\\ISCAS\\research\\mechanism-intervention-2026-10-11\\src\\physical_risk.py": "f9d740ef4741af4ad8247f406b0ece83f557cae5ad5be63f0c84c3c9a790509b",
+    "G:\\1014gogogo\\ISCAS\\research\\parallel-routing-2026-10-10\\src\\routing.py": "89dafb2f9a54e8fa732c4450d5cba7f2533af27b9299cb29b988a6b452d9e3f3",
+    "G:\\1014gogogo\\ISCAS\\research\\conflict-fault-routing-2026-10-11\\src\\joint_router.py": "cc960d117a95824a4a209e34c899a2188cc7ddb5c1c593f6a95303d2cd568fc9"
+  },
+  "protocol_sha256": "cbf0a41d4ee55ca79c0c6721c3aed1d5854db6898d4224e611fba1ecba30baa4",
+  "tasks": [
+    {
+      "kind": "native",
+      "distance": 3,
+      "eps": 1e-06,
+      "shots": 32768,
+      "initial_noisy": true,
+      "id": "batch5-0000-native",
+      "seed": 920261012
+    },
+    {
+      "kind": "native",
+      "distance": 3,
+      "eps": 3e-06,
+      "shots": 32768,
+      "initial_noisy": true,
+      "id": "batch5-0001-native",
+      "seed": 920262012
+    },
+    {
+      "kind": "native",
+      "distance": 3,
+      "eps": 1e-05,
+      "shots": 32768,
+      "initial_noisy": true,
+      "id": "batch5-0002-native",
+      "seed": 920263012
+    },
+    {
+      "kind": "native",
+      "distance": 3,
+      "eps": 3e-05,
+      "shots": 32768,
+      "initial_noisy": true,
+      "id": "batch5-0003-native",
+      "seed": 920264012
+    },
+    {
+      "kind": "native",
+      "distance": 3,
+      "eps": 0.0001,
+      "shots": 32768,
+      "initial_noisy": true,
+      "id": "batch5-0004-native",
+      "seed": 920265012
+    },
+    {
+      "kind": "native",
+      "distance": 5,
+      "eps": 1e-06,
+      "shots": 32768,
+      "initial_noisy": true,
+      "id": "batch5-0005-native",
+      "seed": 920266012
+    },
+    {
+      "kind": "native",
+      "distance": 5,
+      "eps": 3e-06,
+      "shots": 32768,
+      "initial_noisy": true,
+      "id": "batch5-0006-native",
+      "seed": 920267012
+    },
+    {
+      "kind": "native",
+      "distance": 5,
+      "eps": 1e-05,
+      "shots": 32768,
+      "initial_noisy": true,
+      "id": "batch5-0007-native",
+      "seed": 920268012
+    },
+    {
+      "kind": "native",
+      "distance": 5,
+      "eps": 3e-05,
+      "shots": 32768,
+      "initial_noisy": true,
+      "id": "batch5-0008-native",
+      "seed": 920269012
+    },
+    {
+      "kind": "native",
+      "distance": 5,
+      "eps": 0.0001,
+      "shots": 32768,
+      "initial_noisy": true,
+      "id": "batch5-0009-native",
+      "seed": 920270012
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-72",
+      "order": "unrouted",
+      "noise": "common_SD6",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch5-0010-zhao",
+      "seed": 920271012,
+      "initial_noisy": true,
+      "revision": "-v3"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-72",
+      "order": "unrouted",
+      "noise": "common_SD6",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch5-0011-zhao",
+      "seed": 920272012,
+      "initial_noisy": true,
+      "revision": "-v3"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-72",
+      "order": "unrouted",
+      "noise": "common_SD6",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch5-0012-zhao",
+      "seed": 920273012,
+      "initial_noisy": true,
+      "revision": "-v3"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-72",
+      "order": "routing50",
+      "noise": "common_SD6",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch5-0013-zhao",
+      "seed": 920274012,
+      "initial_noisy": true,
+      "revision": "-v3"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-72",
+      "order": "routing50",
+      "noise": "common_SD6",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch5-0014-zhao",
+      "seed": 920275012,
+      "initial_noisy": true,
+      "revision": "-v3"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-72",
+      "order": "routing50",
+      "noise": "common_SD6",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch5-0015-zhao",
+      "seed": 920276012,
+      "initial_noisy": true,
+      "revision": "-v3"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-72",
+      "order": "routing75",
+      "noise": "common_SD6",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch5-0016-zhao",
+      "seed": 920277012,
+      "initial_noisy": true,
+      "revision": "-v3"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-72",
+      "order": "routing75",
+      "noise": "common_SD6",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch5-0017-zhao",
+      "seed": 920278012,
+      "initial_noisy": true,
+      "revision": "-v3"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-72",
+      "order": "routing75",
+      "noise": "common_SD6",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch5-0018-zhao",
+      "seed": 920279012,
+      "initial_noisy": true,
+      "revision": "-v3"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-108",
+      "order": "unrouted",
+      "noise": "common_SD6",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch5-0019-zhao",
+      "seed": 920280012,
+      "initial_noisy": true,
+      "revision": "-v3"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-108",
+      "order": "unrouted",
+      "noise": "common_SD6",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch5-0020-zhao",
+      "seed": 920281012,
+      "initial_noisy": true,
+      "revision": "-v3"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-108",
+      "order": "unrouted",
+      "noise": "common_SD6",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch5-0021-zhao",
+      "seed": 920282012,
+      "initial_noisy": true,
+      "revision": "-v3"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-108",
+      "order": "routing50",
+      "noise": "common_SD6",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch5-0022-zhao",
+      "seed": 920283012,
+      "initial_noisy": true,
+      "revision": "-v3"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-108",
+      "order": "routing50",
+      "noise": "common_SD6",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch5-0023-zhao",
+      "seed": 920284012,
+      "initial_noisy": true,
+      "revision": "-v3"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-108",
+      "order": "routing50",
+      "noise": "common_SD6",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch5-0024-zhao",
+      "seed": 920285012,
+      "initial_noisy": true,
+      "revision": "-v3"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-108",
+      "order": "routing75",
+      "noise": "common_SD6",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch5-0025-zhao",
+      "seed": 920286012,
+      "initial_noisy": true,
+      "revision": "-v3"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-108",
+      "order": "routing75",
+      "noise": "common_SD6",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch5-0026-zhao",
+      "seed": 920287012,
+      "initial_noisy": true,
+      "revision": "-v3"
+    },
+    {
+      "kind": "zhao",
+      "instance": "bb-108",
+      "order": "routing75",
+      "noise": "common_SD6",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch5-0027-zhao",
+      "seed": 920288012,
+      "initial_noisy": true,
+      "revision": "-v3"
+    },
+    {
+      "kind": "joint_bridge",
+      "order": "forward",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch5-0028-joint_bridge",
+      "seed": 920289012
+    },
+    {
+      "kind": "joint_bridge",
+      "order": "forward",
+      "eps": 3e-06,
+      "shots": 32768,
+      "id": "batch5-0029-joint_bridge",
+      "seed": 920290012
+    },
+    {
+      "kind": "joint_bridge",
+      "order": "forward",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch5-0030-joint_bridge",
+      "seed": 920291012
+    },
+    {
+      "kind": "joint_bridge",
+      "order": "forward",
+      "eps": 3e-05,
+      "shots": 32768,
+      "id": "batch5-0031-joint_bridge",
+      "seed": 920292012
+    },
+    {
+      "kind": "joint_bridge",
+      "order": "forward",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch5-0032-joint_bridge",
+      "seed": 920293012
+    },
+    {
+      "kind": "joint_bridge",
+      "order": "macro_reverse",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch5-0033-joint_bridge",
+      "seed": 920294012
+    },
+    {
+      "kind": "joint_bridge",
+      "order": "macro_reverse",
+      "eps": 3e-06,
+      "shots": 32768,
+      "id": "batch5-0034-joint_bridge",
+      "seed": 920295012
+    },
+    {
+      "kind": "joint_bridge",
+      "order": "macro_reverse",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch5-0035-joint_bridge",
+      "seed": 920296012
+    },
+    {
+      "kind": "joint_bridge",
+      "order": "macro_reverse",
+      "eps": 3e-05,
+      "shots": 32768,
+      "id": "batch5-0036-joint_bridge",
+      "seed": 920297012
+    },
+    {
+      "kind": "joint_bridge",
+      "order": "macro_reverse",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch5-0037-joint_bridge",
+      "seed": 920298012
+    },
+    {
+      "kind": "joint_bridge",
+      "order": "check_reverse",
+      "eps": 1e-06,
+      "shots": 32768,
+      "id": "batch5-0038-joint_bridge",
+      "seed": 920299012
+    },
+    {
+      "kind": "joint_bridge",
+      "order": "check_reverse",
+      "eps": 3e-06,
+      "shots": 32768,
+      "id": "batch5-0039-joint_bridge",
+      "seed": 920300012
+    },
+    {
+      "kind": "joint_bridge",
+      "order": "check_reverse",
+      "eps": 1e-05,
+      "shots": 32768,
+      "id": "batch5-0040-joint_bridge",
+      "seed": 920301012
+    },
+    {
+      "kind": "joint_bridge",
+      "order": "check_reverse",
+      "eps": 3e-05,
+      "shots": 32768,
+      "id": "batch5-0041-joint_bridge",
+      "seed": 920302012
+    },
+    {
+      "kind": "joint_bridge",
+      "order": "check_reverse",
+      "eps": 0.0001,
+      "shots": 32768,
+      "id": "batch5-0042-joint_bridge",
+      "seed": 920303012
+    }
+  ],
+  "conditional_shots": 0,
+  "conditional_strata": 0,
+  "raw_confirmation_shots": 1409024,
+  "pending_full_scope": [
+    "BB-72 and BB-108 construction, risks and finite-noise",
+    "Zhao official routing, original and common-noise controls",
+    "standard nearest-neighbor surface-code SD6 d=3,5",
+    "source-specific sensitivity risk reweighting and completed paper revision"
+  ],
+  "stopping": "fixed registered samples; unfinished requirements retained explicitly",
+  "serial_benchmark": {
+    "2": {
+      "shots": 128,
+      "seconds": 11.122532500012312,
+      "unique_records": 101,
+      "failures": {
+        "original": 13,
+        "strong": 1,
+        "single_fault_lookup": 0
+      }
+    },
+    "7": {
+      "shots": 128,
+      "seconds": 14.851227600011043,
+      "unique_records": 128,
+      "failures": {
+        "original": 45,
+        "strong": 30,
+        "single_fault_lookup": 30
+      }
+    }
+  },
+  "execution_revision": "batch5"
+}

@@ -1,0 +1,195 @@
+{
+  "registration_sha256": "7d7bd100ae011ac3d8ed5b8e27f283f47fdd14e863b90d0d5f50b45b96ccec23",
+  "rows": [
+    {
+      "label": "baseline",
+      "region": null,
+      "coefficient": 560.4666666666667,
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "plan_sha256": "505239c73aa940e79a5c8654f7f07cb623851bd3dcc67ce8251ec0e0240ba967",
+      "signed_local_tableau_equal": true,
+      "all_non_CX_slots_and_measurements_unchanged": true
+    },
+    {
+      "label": "region-0",
+      "region": [
+        25,
+        27
+      ],
+      "coefficient": 561.6666666666667,
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "plan_sha256": "152417d252672e4d1c14dc45f90fdfd83689e418e3ecce7e78dd0008c42925d4",
+      "signed_local_tableau_equal": true,
+      "all_non_CX_slots_and_measurements_unchanged": true
+    },
+    {
+      "label": "region-1",
+      "region": [
+        38,
+        40
+      ],
+      "coefficient": 560.4666666666667,
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "plan_sha256": "d916968609f8bc15f1c4134525e619472b20acab16fcc404624f6303c17d427e",
+      "signed_local_tableau_equal": true,
+      "all_non_CX_slots_and_measurements_unchanged": true
+    },
+    {
+      "label": "region-2",
+      "region": [
+        78,
+        80
+      ],
+      "coefficient": 561.8000000000002,
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "plan_sha256": "a2b5516b542020e97b0e21d5c9c9d7085de48424479718dee32fd7f32b24f631",
+      "signed_local_tableau_equal": true,
+      "all_non_CX_slots_and_measurements_unchanged": true
+    },
+    {
+      "label": "region-3",
+      "region": [
+        111,
+        113
+      ],
+      "coefficient": 560.4666666666667,
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "plan_sha256": "d6d59562f278ec1e8eb1db03ca219ff5fbecbd0023ad956b775ba9ec2b03fda1",
+      "signed_local_tableau_equal": true,
+      "all_non_CX_slots_and_measurements_unchanged": true
+    },
+    {
+      "label": "region-4",
+      "region": [
+        118,
+        120
+      ],
+      "coefficient": 560.4666666666667,
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "plan_sha256": "4187d756761ed14afd07f3f4b2010017860a7c1687570fd17d5ed41965101664",
+      "signed_local_tableau_equal": true,
+      "all_non_CX_slots_and_measurements_unchanged": true
+    },
+    {
+      "label": "region-5",
+      "region": [
+        193,
+        195
+      ],
+      "coefficient": 560.4666666666667,
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "plan_sha256": "0636b074ad4fd5d2e71be96fb894c8350158741669262cad59cdc5513b364be2",
+      "signed_local_tableau_equal": true,
+      "all_non_CX_slots_and_measurements_unchanged": true
+    },
+    {
+      "label": "region-6",
+      "region": [
+        273,
+        275
+      ],
+      "coefficient": 561.0000000000001,
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "plan_sha256": "98f1faa06f36545f9130b3e87d99709d19983d2139af38e3cef6da1eb9c7469e",
+      "signed_local_tableau_equal": true,
+      "all_non_CX_slots_and_measurements_unchanged": true
+    },
+    {
+      "label": "region-7",
+      "region": [
+        305,
+        307
+      ],
+      "coefficient": 560.4666666666667,
+      "metrics": {
+        "num_reset": 25,
+        "full_lifetime_idle_slots": 5949,
+        "noisy_idle_locations": 5937,
+        "noisy_slots": 294,
+        "physical_slots": 295,
+        "num_1q": 48,
+        "num_2q": 646,
+        "num_measure": 61
+      },
+      "plan_sha256": "a32593b40bf34085f53b35bf9bffe3b585dc0a1b2a4a496afb1ee645871bae66",
+      "signed_local_tableau_equal": true,
+      "all_non_CX_slots_and_measurements_unchanged": true
+    }
+  ],
+  "selected": "baseline",
+  "tested": "region-1",
+  "candidate_count": 8,
+  "combination_count": 0
+}

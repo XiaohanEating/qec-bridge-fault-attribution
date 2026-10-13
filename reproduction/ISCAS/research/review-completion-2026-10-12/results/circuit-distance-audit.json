@@ -1,0 +1,130 @@
+[
+  {
+    "instance": "tiny-hgp",
+    "order": "forward",
+    "exact_fault_distance": 2,
+    "one_fault_zero_detector_logical_count": 0,
+    "pair_signature_indices": [
+      13,
+      15
+    ],
+    "common_detectors": [
+      0,
+      3,
+      7
+    ],
+    "logical_difference": [
+      1
+    ],
+    "source_sha256": "f7357b4263730713550e1d553f6af805bfa5d32aa56df15108d4adede10396d2",
+    "explanation": "Every physical single-fault response was enumerated; none has D=0,L!=0; an equal-D unequal-L pair exists"
+  },
+  {
+    "instance": "tiny-hgp",
+    "order": "macro_reverse",
+    "exact_fault_distance": 2,
+    "one_fault_zero_detector_logical_count": 0,
+    "pair_signature_indices": [
+      10,
+      12
+    ],
+    "common_detectors": [
+      0,
+      3,
+      6
+    ],
+    "logical_difference": [
+      1
+    ],
+    "source_sha256": "2a59fb804655c813f765712b2947f0c008f93bbc6d183c26b66b4c7b12a5c60c",
+    "explanation": "Every physical single-fault response was enumerated; none has D=0,L!=0; an equal-D unequal-L pair exists"
+  },
+  {
+    "instance": "tiny-hgp",
+    "order": "check_reverse",
+    "exact_fault_distance": 2,
+    "one_fault_zero_detector_logical_count": 0,
+    "pair_signature_indices": [
+      11,
+      12
+    ],
+    "common_detectors": [
+      0,
+      6,
+      9
+    ],
+    "logical_difference": [
+      1
+    ],
+    "source_sha256": "04003bb383b3bfd51aa8a8e72439638904e3abc6556d40a42ef0bbd0ac2eccac",
+    "explanation": "Every physical single-fault response was enumerated; none has D=0,L!=0; an equal-D unequal-L pair exists"
+  },
+  {
+    "instance": "holdout-hgp-3x4",
+    "order": "forward",
+    "exact_fault_distance": 2,
+    "one_fault_zero_detector_logical_count": 0,
+    "pair_signature_indices": [
+      96,
+      128
+    ],
+    "common_detectors": [
+      3
+    ],
+    "logical_difference": [
+      1
+    ],
+    "source_sha256": "7608189921bc193f687cb847e6769642fe26c297c1beed8734d8caa1917e2a8c",
+    "explanation": "Every physical single-fault response was enumerated; none has D=0,L!=0; an equal-D unequal-L pair exists"
+  },
+  {
+    "instance": "holdout-hgp-3x4",
+    "order": "macro_reverse",
+    "exact_fault_distance": 2,
+    "one_fault_zero_detector_logical_count": 0,
+    "pair_signature_indices": [
+      95,
+      125
+    ],
+    "common_detectors": [
+      3
+    ],
+    "logical_difference": [
+      1
+    ],
+    "source_sha256": "a065e1f44a830103663b0e4448d04ff9e81df084349155f1a3a3e50b6ab49f58",
+    "explanation": "Every physical single-fault response was enumerated; none has D=0,L!=0; an equal-D unequal-L pair exists"
+  },
+  {
+    "instance": "holdout-hgp-3x4",
+    "order": "check_reverse",
+    "exact_fault_distance": 2,
+    "one_fault_zero_detector_logical_count": 0,
+    "pair_signature_indices": [
+      283,
+      306
+    ],
+    "common_detectors": [
+      12
+    ],
+    "logical_difference": [
+      1
+    ],
+    "source_sha256": "320dd49e93a94a91e26220715d835c91c00f9a3ae8131691b713077ea3093346",
+    "explanation": "Every physical single-fault response was enumerated; none has D=0,L!=0; an equal-D unequal-L pair exists"
+  },
+  {
+    "instance": "native-d3",
+    "graphlike_distance": 3,
+    "R_star": 0.0,
+    "source_sha256": "e1a2ffda3a5b0f2ededd8f4c001e3315f4ebba498b5dc38c7e392a0a7e190a76",
+    "explanation": "Stim graphlike search; general hyperedge distance kept distinct"
+  },
+  {
+    "instance": "native-d5",
+    "graphlike_distance": 5,
+    "R_star": 0.0,
+    "source_sha256": "bb607403899f4a0dea57a5583a3eddc1b9db4974d5432cf2fbf7c7116fa427ab",
+    "explanation": "Stim graphlike search; general hyperedge distance kept distinct"
+  }
+]

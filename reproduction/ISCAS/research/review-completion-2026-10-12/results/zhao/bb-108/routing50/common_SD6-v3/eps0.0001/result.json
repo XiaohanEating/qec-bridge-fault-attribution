@@ -1,0 +1,79 @@
+{
+  "task": {
+    "kind": "zhao",
+    "instance": "bb-108",
+    "order": "routing50",
+    "noise": "common_SD6",
+    "eps": 0.0001,
+    "shots": 32768,
+    "id": "batch5-0024-zhao",
+    "seed": 920285012,
+    "initial_noisy": true,
+    "revision": "-v3"
+  },
+  "R_star": 0.0,
+  "decoder": {
+    "full_joint_original": {
+      "R_delta": 0.0,
+      "E": 0.0,
+      "failures": 0,
+      "shots": 32768,
+      "interval": [
+        0.0,
+        0.00011256933053201362
+      ]
+    },
+    "full_joint_strong": {
+      "R_delta": 0.0,
+      "E": 0.0,
+      "failures": 0,
+      "shots": 32768,
+      "interval": [
+        0.0,
+        0.00011256933053201362
+      ]
+    },
+    "single_fault_lookup": {
+      "R_delta": 0.0,
+      "E": 0.0,
+      "failures": 0,
+      "shots": 32768,
+      "interval": [
+        0.0,
+        0.00011256933053201362
+      ]
+    }
+  },
+  "resources": {
+    "CX": 3888,
+    "TICK": 80
+  },
+  "noise_channels": {
+    "total_physical_branches": 83160,
+    "total_physical_coefficient": 13392.0,
+    "invisible_branches": 27324,
+    "invisible_coefficient": 5335.200000003697
+  },
+  "source": {
+    "repository": "Guangqi-Phys/Routing-Circuit",
+    "commit": "295adf67633f223e1cc543d972cd34012c10a4e8",
+    "n": 108,
+    "k": 8,
+    "parameters": [
+      9,
+      6,
+      3,
+      -1,
+      -1,
+      3
+    ],
+    "rounds_parameter": 3,
+    "total_extraction_rounds": 4,
+    "noisy_rounds": 4,
+    "noise": "common SD6; all four extraction blocks and preparation noisy, final data readout noiseless; conflicting operations split into distinct TICK slots",
+    "geometry": "author periodic checkerboard and reduced long-range couplers; hardware difference separately reported"
+  },
+  "sample_sha256": "c5ce3825715474293916a29bde373704320b1fba19d09a91a4daecb19f2768ee",
+  "decoded_sha256": "d1eb8088a0a9d5ec568fb72ce8e6dcb33f34a63f5865138266e72796c7185b99",
+  "detector_columns": "separate complete (D,L) signatures; no first-logical-label merging"
+}

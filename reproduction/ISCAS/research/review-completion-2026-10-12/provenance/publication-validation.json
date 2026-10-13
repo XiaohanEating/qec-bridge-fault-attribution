@@ -1,0 +1,9 @@
+{
+  "concurrent_attempts": 32,
+  "workers": 8,
+  "all_arrays_equal": true,
+  "mismatch_rejected": true,
+  "original_bytes_preserved": true,
+  "temporary_cleanup": true,
+  "volume": "G:"
+}
